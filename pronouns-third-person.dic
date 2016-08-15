@@ -1,13 +1,13 @@
-#version 3
 #name pron
 #subs acc nom self poss s
+#hidden nsfw
 
 > her/she/herself/her/hers
-  | pron h"3`/S"i/h3`s"Elf/h"3`/h"3`z
+  | pron h"3`/S"i/h3`-s"Elf/h"3`/h"3`z
   | class female
 > him/he/himself/his/his
-  | pron Im/h"i/hIms"Elf/hIz/hIz
+  | pron Im/h"i/hIm-s"Elf/hIz/hIz
   | class male
 > it/it/itself/its/its
-  | pron It/It/%Its"Elf/Its/Its
+  | pron It/It/It-s"Elf/Its/Its
   | class neutral

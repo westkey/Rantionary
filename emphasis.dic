@@ -1,32 +1,31 @@
-#version 3
 #name em
 #subs default
+#hidden nsfw
 
 > absolutely
-  | pron %{bsVl"utli
+  | pron %{b-sV-l"ut-li
 > extremely
-  | pron Ikstr"imli
+  | pron Ik-str"im-li
 > incredibly
-  | pron %Inkr"EdVbli
+  | pron In-kr"E-dV-bli
 > majorly
-  | pron IY AH S IY AH S IY
 > most
   | pron m"oUs
 > oh so
   | pron "oU s"oU
 > positively
-  | pron p"AzVtIvli
+  | pron p"A-zV-tIv-li
 > quite
   | pron kw"aIt
 > rather
-  | pron r"VD3`
+  | pron r"V-D3`
 > really
-  | pron r"ili
+  | pron r"i-li
 > super
-  | pron s"up3`
+  | pron s"u-p3`
 > thoroughly
-  | pron T"3`oUli
+  | pron T"3`-oU-li
 > unbelievably
-  | pron %VnbVl"ivVbli
+  | pron %Vn-bV-l"i-vV-bli
 > very
-  | pron v"erri
+  | pron v"E-ri

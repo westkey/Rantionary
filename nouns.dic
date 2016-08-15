@@ -1,76 +1,67 @@
-#version 3
 #name noun
 #subs singular s
+#hidden nsfw
 
 #class add ball
-  > baseball/baseballs
-    | pron b"eIsb"Ol/b"eIsb"Olz
-  > basketball/basketballs
-    | pron b"{skVtb%Ol/b"{skVtb%Olz
-  > beach ball/beach balls
+  >> baseball/s
+    | pron b"eIs-b"Ol/b"eIs-b"Olz
+  >> basketball/s
+    | pron b"{-skVt-b%Ol/b"{-skVt-b%Olz
+  >> beach ball/s
     | pron b"itS b"Ol/b"itS b"Olz
-  > boulder/boulders
-    | pron b"oUld3`/b"oUld3`z
-  > golf ball/golf balls
+  >> boulder/s
+    | pron b"oUl-d3`/b"oUl-d3`z
+  >> golf ball/s
     | pron g"Olf b"Ol/g"Olf b"Olz
     | class round white
-  > meatball/meatballs
-    | pron m"itb%Ol/m"itb%Olz
+  >> meatball/s
+    | pron m"it-b%Ol/m"it-b%Olz
     | class food
-  > tennis ball/tennis balls
-    | pron t"EnIs b"Ol/t"EnIs b"Olz
+  >> tennis ball/s
+    | pron t"E-nIs b"Ol/t"E-nIs b"Olz
     | class green
 #class remove ball
 
 #class add body
   #class add head
     #class add face
-      > beak/beaks
-        | pron b"ik/AH L AH S IY
-      > goatee/goatees
-        | pron g"oUt"i/IY AH S IY AH S IY
+      >> beak/s
+      >> goatee/s
         | class hair
-      > jowl/jowls
+      >> jowl/s
         | pron dZ"aUl/dZ"aUlz
-      > lip/lips
+      >> lip/s
         | pron l"Ip/l"Ips
         | class mouth
-      > mustache/mustaches
-        | pron m"Vst%{S/m"Vst%{SIz
+      >> mustache/s
+        | pron m"V-st%{S/m"V-st%{-SIz
         | class hair
-      > nose/noses
-        | pron n"oUz/n"oUzIz
-      > nostril/nostrils
-        | pron n"AstrIl/n"AstrVlz
+      >> nose/s
+        | pron n"oUz/n"oU-zIz
+      >> nostril/s
+        | pron n"As-trIl/n"As-trVlz
         | class nose
-      > snout/snouts
-        | pron sn"aUt/sn"aUts
-      > unibrow/unibrows
-        | pron IY AH S IY AH S IY/AH L AH S IY AH S IY
+      >> snout/s
+      >> unibrow/s
     #class remove face
 
-    > afro/afros
-      | pron "{froU/AH L AH S IY
-    > chin/chins
-      | pron tS"In/AH L AH S IY
-    > face/faces
-      | pron f"eIs/f"eIsIz
-    > false teeth/false teeth
-      | pron f"Ols t"iT/f"Ols t"iT
-    > head/heads
+    >> afro/s
+    >> chin/s
+    >> face/s
+      | pron f"eIs/f"eI-sIz
+    >> false teeth/
+    >> head/s
       | pron h"Ed/h"Edz
-    > horn/horns
+    >> horn/s
       | pron h"Orrn/h"Orrnz
-    > mandible/mandibles
-      | pron m"{ndIbVl/AH S IY AH S IY AH S IY
-    > mouth/mouths
+    >> mandible/s
+    >> mouth/s
       | pron m"aUT/m"aUDz
       | class hole
-    > tongue/tongues
+    >> tongue/s
       | pron t"VN/t"VNz
       | class long mouth
-    > uvula/uvulas
-      | pron AH L AH S IY/AH S IY AH S IY
+    >> uvula/s
       | class mouth
   #class remove head
 
@@ -81,147 +72,127 @@
   #class remove nsfw
 
   #class add organ
-    > gallbladder/gallbladders
-      | pron g"Olbl%{d3`/AH S IY AH S IY AH S IY AH S IY
-    > heart/hearts
+    >> gallbladder/s
+    >> heart/s
       | pron h"Arrt/h"Arrts
-    > kidney/kidneys
-      | pron k"Idni/k"Idniz
+    >> kidney/s
+      | pron k"Id-ni/k"Id-niz
       | class round
-    > lung/lungs
-      | pron l"VN/l"VNz
-    > pancreas/pancreases
-      | pron p"{nkriVs/IY AH S IY AH S IY AH S IY
+    >> lung/s
+    >> pancreas/es
   #class remove organ
 
-  > armpit/armpits
-    | pron "Arrmp%It/"Arrmp%Its
-  > body/bodies
-    | pron b"Adi/b"Adiz
-  > bone/bones
+  >> armpit/s
+    | pron "Arrm-p%It/"Arrm-p%Its
+  >> body/-ies
+    | pron b"A-di/b"A-diz
+  >> bone/s
     | pron b"oUn/b"oUnz
-  > cornea/corneas
-    | pron k"OrrniV/k"OrrniVz
-  > dimple/dimples
-    | pron d"ImpVl/d"ImpVlz
-  > duodenum/duodenums
-    | pron du"AdVnVm/AH S IY AH S IY AH S IY
-  > elbow/elbows
-    | pron "Elb%oU/"Elb%oUz
-  > epidermis/epidermises
-    | pron %EpId"3`mVs/AH L AH S IY AH S IY AH S IY
-  > esophagus/esophaguses
-    | pron Is"AfVgVs/AH L AH S IY AH S IY AH S IY
-  > fanny/fannies
-    | pron f"{ni/IY AH S IY AH S IY
-  > femur/femurs
-    | pron f"im3`/AH S IY AH S IY
+  >> cornea/s
+    | pron k"Orr-ni-V/k"Orr-ni-Vz
+  >> dimple/s
+  >> duodenum/s
+  >> elbow/s
+    | pron "El-b%oU/"El-b%oUz
+  >> epidermis/es
+  >> esophagus/es
+  >> fanny/-ies
+  >> femur/s
     | class bone
-  > fibula/fibulas
-    | pron f"IbjVlV/IY AH S IY AH S IY
+  >> fibula/s
     | class bone
-  > finger/fingers
-    | pron f"INg3`/f"INg3`z
+  >> finger/s
+    | pron f"IN-g3`/f"IN-g3`z
     | class hand long
-  > fingernail/fingernails
-    | pron f"INg3`n%eIl/f"INg3`n%eIlz
-  > foot/feet
-    | pron f"Ut/f"it
-  > kneecap/kneecaps
-    | pron n"ik%{p/n"ik%{ps
-  > knuckle/knuckles
-    | pron n"VkVl/n"VkVlz
-  > leg/legs
+  >> fingernail/s
+  >> foot/---eet
+  >> kneecap/s
+    | pron n"i-k%{p/n"i-k%{ps
+  >> knuckle/s
+    | pron n"V-kVl/n"V-kVlz
+  >> leg/s
     | pron l"Eg/l"Egz
     | class long
-  > loin/loins
-    | pron l"OIn/AH L AH S IY
-  > navel/navels
-    | pron n"eIvVl/AH S IY AH S IY
-  > neck/necks
+  >> loin/s
+  >> navel/s
+  >> neck/s
     | pron n"Ek/n"Eks
-  > rump/rumps
-    | pron r"Vmp/AH L AH S IY
-  > scapula/scapulas
-    | pron sk"{pjVlV/AH L AH S IY AH S IY
-  > skin/skin
+  >> rump/s
+  >> scapula/s
+  >> skin/
     | pron sk"In/sk"In
-  > stinger/stingers
-    | pron st"IN3`/st"IN3`z
-  > tentacle/tentacles
-    | pron t"EntVkVl/t"EntVkVlz
+  >> stinger/s
+    | pron st"I-N3`/st"I-N3`z
+  >> tentacle/s
+    | pron t"En-tV-kVl/t"En-tV-kVlz
     | class long
-  > throat/throats
+  >> throat/s
     | pron Tr"oUt/Tr"oUts
-  > toe/toes
+  >> toe/s
     | pron t"oU/t"oUz
     | class foot
-  > toenail/toenails
-    | pron t"oUn%eIl/t"oUn%eIlz
+  >> toenail/s
+    | pron t"oU-n%eIl/t"oU-n%eIlz
     | class foot
-  > tooth/teeth
+  >> tooth/----eeth
     | pron t"uT/t"iT
-  > umbilical cord/umbilical cords
-    | pron Vmb"IlIkVl k"Orrd/Vmb"IlIkVl k"Orrdz
+  >> umbilical cord/s
+    | pron Vm-b"I-lI-kVl k"Orrd/Vm-b"I-lI-kVl k"Orrdz
     | class long
-  > whisker/whiskers
-    | pron hw"Isk3`/hw"Isk3`z
+  >> whisker/s
+    | pron hw"I-sk3`/hw"I-sk3`z
     | class face hair
 #class remove body
 
 #class add clothing
-  > Bavarian hat/Bavarian hats
-    | pron bVv"erriVn h"{t/bVv"erriVn h"{ts
+  >> Bavarian hat/s
     | class hat
-  > belt/belts
+  >> belt/s
     | pron b"Elt/b"Elts
-  > boot/boots
+  >> boot/s
     | pron b"ut/b"uts
-  > boxers/boxers
-    | pron b"Aks3`z/b"Aks3`z
-  > bra/bras
+  >> boxers/
+    | pron b"Ak-s3`z/b"Ak-s3`z
+  >> bra/s
     | pron br"A/br"As
-  > dress/dresses
-    | pron dr"Es/dr"EsIz
-  > fedora/fedoras
-    | pron fId"OrrV/IY AH S IY AH S IY
+  >> dress/es
+    | pron dr"Es/dr"E-sIz
+  >> fedora/s
     | class hat
-  > girdle/girdles
-    | pron g"3`dVl/IY AH S IY AH S IY
-  > hat/hats
+  >> girdle/s
+  >> hat/s
     | pron h"{t/h"{ts
-  > jacket/jackets
-    | pron dZ"{kIt/dZ"{kIts
-  > kilt/kilts
+  >> jacket/s
+    | pron dZ"{-kIt/dZ"{-kIts
+  >> kilt/s
     | pron k"Ilt/k"Ilts
-  > pantaloons/pantaloons
-    | pron p"{ntVl%unz/p"{ntVl%unz
-  > pants/pants
+  >> pantaloons/
+    | pron p"{n-tV-l%unz/p"{n-tV-l%unz
+  >> pants/
     | pron p"{nts/p"{nts
-  > shirt/shirts
+  >> shirt/s
     | pron S"3`t/S"3`ts
-  > shoe/shoes
+  >> shoe/s
     | pron S"u/S"uz
-  > skirt/skirts
+  >> skirt/s
     | pron sk"3`t/sk"3`ts
-  > slipper/slippers
-    | pron sl"Ip3`/sl"Ip3`z
-  > sock/socks
+  >> slipper/s
+    | pron sl"I-p3`/sl"I-p3`z
+  >> sock/s
     | pron s"Ak/s"Aks
-  > suit/suits
+  >> suit/s
     | pron s"ut/s"uts
-  > sweatshirt/sweatshirts
-    | pron sw"EtS%3`t/sw"EtS%3`ts
-  > top hat/top hats
+  >> sweatshirt/s
+    | pron sw"Et-S%3`t/sw"Et-S%3`ts
+  >> top hat/s
     | pron t"Op h"{t/t"Op h"{ts
-  > tuxedo/tuxedoes
-    | pron t%Vks"idoU/AH L AH S IY AH S IY
-  > underwear/underwear
-    | pron "Vnd3`w%err/"Vnd3`w%err
-  > vest/vests
+  >> tuxedo/es
+  >> underwear/
+    | pron "Vn-d3`-w%err/"Vn-d3`-w%err
+  >> vest/s
     | pron v"Est/v"Ests
-  > zipper/zippers
-    | pron z"Ip3`/z"Ip3`z
+  >> zipper/s
+    | pron z"I-p3`/z"I-p3`z
 #class remove clothing
 
 #class add container
@@ -229,962 +200,797 @@
     #class add appliance
     #class remove appliance
 
-    > teapot/teapots
-      | pron t"ip%At/IY AH S IY AH S IY
+    >> teapot/s
   #class remove household
 
-  > bag/bags
+  >> bag/s
     | pron b"{g/b"{gz
-  > balloon/balloons
-    | pron bVl"un/bVl"unz
-  > barrel/barrels
-    | pron b"errVl/b"errVlz
-  > basket/baskets
-    | pron b"{skVt/b"{skVts
-  > basket/baskets
-    | pron b"{skVt/b"{skVts
-  > bong/bongs
-    | pron b"AN/AH L AH S IY
-  > bottle/bottles
-    | pron b"AtVl/b"AtVlz
+  >> balloon/s
+    | pron bV-l"un/bV-l"unz
+  >> barrel/s
+    | pron b"E-rVl/b"E-rVlz
+  >> basket/s
+    | pron b"{-skVt/b"{-skVts
+  >> basket/s
+    | pron b"{-skVt/b"{-skVts
+  >> bong/s
+  >> bottle/s
+    | pron b"A-tVl/b"A-tVlz
     | class weapon
-  > bottle/bottles
-    | pron b"AtVl/b"AtVlz
-  > bowl/bowls
+  >> bottle/s
+    | pron b"A-tVl/b"A-tVlz
+  >> bowl/s
     | pron b"oUl/b"oUlz
-  > box/boxes
-    | pron b"Aks/b"AksIz
-  > carton/cartons
-    | pron k"ArrtVn/k"ArrtVnz
-  > case/cases
-    | pron k"eIs/k"eIsIz
-  > cell/cells
+  >> box/es
+    | pron b"Aks/b"Ak-sIz
+  >> carton/s
+    | pron k"Arr-tVn/k"Arr-tVnz
+  >> case/s
+    | pron k"eIs/k"eI-sIz
+  >> cell/s
     | pron s"El/s"Elz
-  > cesspool/cesspools
-    | pron s"Esp%ul/AH S IY AH S IY AH S IY
-  > chest/chests
+  >> cesspool/s
+  >> chest/s
     | pron tS"Est/tS"Ests
-  > coffin/coffins
-    | pron k"OfIn/k"OfInz
-  > container/containers
-    | pron kVnt"eIn3`/kVnt"eIn3`z
-  > cup/cups
+  >> coffin/s
+    | pron k"O-fIn/k"O-fInz
+  >> container/s
+    | pron kVn-t"eI-n3`/kVn-t"eI-n3`z
+  >> cup/s
     | pron k"Vp/k"Vps
-  > drawer/drawers
+  >> drawer/s
     | pron dr"Orr/dr"Orrz
-  > duffel bag/duffel bags
-    | pron d"VfVl b"{g/d"VfVl b"{gz
-  > fanny pack/fanny packs
-    | pron f"{ni p"{k/f"{ni p"{ks
+  >> duffel bag/s
+  >> fanny pack/s
     | class accessory wearable
-  > flask/flasks
+  >> flask/s
     | pron fl"{sk/fl"{sks
-  > flowerpot/flowerpots
-    | pron fl"aU3`p%At/IY AH S IY AH S IY AH S IY
-  > footlocker/footlockers
-    | pron IY AH S IY AH S IY AH S IY/AH L AH S IY AH S IY AH S IY
-  > freezer/freezers
-    | pron fr"iz3`/fr"iz3`z
-  > garbage can/garbage cans
-    | pron g"ArrbIdZ kVn/g"ArrbIdZ k"{nz
-  > glass/glasses
-    | pron gl"{s/gl"{sIz
-  > jar/jars
+  >> flowerpot/s
+  >> footlocker/s
+  >> freezer/s
+    | pron fr"i-z3`/fr"i-z3`z
+  >> garbage can/s
+    | pron g"Arr-bIdZ kVn/g"Arr-bIdZ k"{nz
+  >> glass/es
+    | pron gl"{s/gl"{-sIz
+  >> jar/s
     | pron dZ"Arr/dZ"Arrz
-  > kettle/kettles
-    | pron k"EtVl/k"EtVlz
-  > oven/ovens
-    | pron "VvVn/"VvVnz
-  > package/packages
-    | pron p"{kIdZ/p"{kIdZIz
-  > package/packages
-    | pron p"{kIdZ/p"{kIdZIz
-  > packet/packets
-    | pron p"{kIt/p"{kIts
-  > pencil case/pencil cases
-    | pron p"EnsVl k"eIs/p"EnsVl k"eIsIz
-  > pickle jar/pickle jars
-    | pron p"IkVl dZ"Arr/p"IkVl dZ"Arrz
-  > pipe/pipes
+  >> kettle/s
+    | pron k"E-tVl/k"E-tVlz
+  >> oven/s
+    | pron "V-vVn/"V-vVnz
+  >> package/s
+    | pron p"{-kIdZ/p"{-kI-dZIz
+  >> package/s
+    | pron p"{-kIdZ/p"{-kI-dZIz
+  >> packet/s
+    | pron p"{-kIt/p"{-kIts
+  >> pencil case/s
+  >> pickle jar/s
+    | pron p"I-kVl dZ"Arr/p"I-kVl dZ"Arrz
+  >> pipe/s
     | pron p"aIp/p"aIps
-  > pitcher/pitchers
-    | pron p"ItS3`/p"ItS3`z
-  > pocket/pockets
-    | pron p"AkVt/p"AkVts
-  > pot/pots
+  >> pitcher/s
+    | pron p"I-tS3`/p"I-tS3`z
+  >> pocket/s
+    | pron p"A-kVt/p"A-kVts
+  >> pot/s
     | pron p"At/p"Ats
-  > pouch/pouches
-    | pron p"aUtS/p"aUtSVz
-  > purse/purses
-    | pron p"3`s/p"3`sIz
-  > sack/sacks
+  >> pouch/es
+    | pron p"aUtS/p"aU-tSVz
+  >> purse/s
+    | pron p"3`s/p"3`-sIz
+  >> sack/s
     | pron s"{k/s"{ks
-  > shot glass/shot glasses
-    | pron S"At gl"{s/S"At gl"{sIz
-  > skillet/skillets
-    | pron sk"IlVt/AH L AH S IY AH S IY
-  > suitcase/suitcases
-    | pron s"utk%eIs/s"utk%eIsIz
-  > test tube/test tubes
+  >> shot glass/es
+    | pron S"At gl"{s/S"At gl"{-sIz
+  >> skillet/s
+  >> suitcase/s
+    | pron s"ut-k%eIs/s"ut-k%eI-sIz
+  >> test tube/s
     | pron t"Est tj"ub/t"Est t"ubz
-  > toilet/toilets
-    | pron t"OIlVt/t"OIlVts
-  > toolbox/toolboxes
-    | pron t"ulb%Oks/AH S IY AH S IY AH S IY
-  > trashcan/trashcans
-    | pron AH L AH S IY AH S IY/AH S IY AH S IY AH S IY
-  > trunk/trunks
+  >> toilet/s
+    | pron t"OI-lVt/t"OI-lVts
+  >> toolbox/es
+  >> trashcan/s
+  >> trunk/s
     | pron tr"VNk/tr"VNks
-  > tub/tubs
+  >> tub/s
     | pron t"Vb/t"Vbz
-  > turkey baster/turkey basters
-    | pron t"3`ki  AH S IY AH S IY/t"3`ki  IY AH S IY AH S IY
-  > vat/vats
+  >> turkey baster/s
+    | pron t"3`-ki/t"3`-ki
+  >> vat/s
     | pron v"{t/v"{ts
-  > vial/vials
-    | pron v"aIVl/v"aIVlz
-  > wallet/wallets
-    | pron w"OlVt/w"OlVts
-  > well/wells
+  >> vial/s
+    | pron v"aI-Vl/v"aI-Vlz
+  >> wallet/s
+    | pron w"O-lVt/w"O-lVts
+  >> well/s
     | pron w"El/w"Elz
 #class remove container
 
 #class add currency
   #class add american
-    > dime/dimes
+    >> dime/s
       | pron d"aIm/d"aImz
       | class coin
-    > dollar bill/dollar bills
-      | pron d"Ol3` b"Il/d"Ol3` b"Ilz
+    >> dollar bill/s
+      | pron d"O-l3` b"Il/d"O-l3` b"Ilz
       | class green
-    > penny/pennies
-      | pron p"Eni/p"Eniz
+    >> penny/-ies
+      | pron p"E-ni/p"E-niz
       | class coin
-    > quarter/quarters
-      | pron kw"Orrt3`/kw"Orrt3`z
+    >> quarter/s
       | class coin
   #class remove american
 
-  > euro/euros
-    | pron j"UrrV/j"ur%oUz
+  >> euro/s
     | class european
 #class remove currency
 
 #class add drug
-  > bath salts/bath salts
+  >> bath salts/
     | pron b"{T s"Olts/b"{T s"Olts
-  > cocaine/cocaine
-    | pron koUk"eIn/koUk"eIn
+  >> cocaine/
+    | pron koU-k"eIn/koU-k"eIn
     | class white
-  > crack/crack
+  >> crack/
     | pron kr"{k/kr"{k
-  > extacy/extacy
-    | pron AH S IY AH S IY/AH S IY AH S IY
-  > heroin/heroin
-    | pron h"erroUVn/h"erroUVn
-  > LSD/LSD
-    | pron %El%Esd"i/%El%Esd"i
-  > marijuana/marijuana
-    | pron m%errVw"AnV/m%errVw"AnV
-  > mescaline/mescaline
-    | pron m"EskVl%in/m"EskVl%in
-  > meth/meth
+  >> extacy/
+  >> heroin/
+    | pron h"E-roU-Vn/h"E-roU-Vn
+  >> LSD/
+  >> marijuana/
+    | pron m%E-rVw-"A-nV/m%E-rVw-"A-nV
+  >> mescaline/
+    | pron m"Es-kV-l%in/m"Es-kV-l%in
+  >> meth/
     | pron m"ET/m"ET
-  > PCP/PCP
-    | pron AH S IY/AH S IY
-  > roofie/roofies
-    | pron AH S IY AH S IY/IY AH S IY AH S IY
-  > shroom/shrooms
-    | pron AH S IY AH S IY/IY AH S IY AH S IY
-  > smack/smack
+  >> PCP/
+  >> roofie/s
+  >> shroom/s
+  >> smack/
     | pron sm"{k/sm"{k
-  > vaccine/vaccines
-    | pron v%{ks"in/v%{ks"inz
+  >> vaccine/s
     | class medical
 #class remove drug
 
 #class add food
   #class add fruit
     #class add red
-      > apple/apples
-        | pron "{pVl/"{pVlz
+      >> apple/s
+        | pron "{-pVl/"{-pVlz
         | class green yellow
-      > raspberry/raspberries
-        | pron r"{zb%erri/r"{zb%erriz
-      > strawberry/strawberries
-        | pron str"Ob%erri/str"Ob%erriz
-      > tomato/tomatoes
-        | pron tVm"At%oU/tVm"AtoUz
-      > watermelon/watermelons
-        | pron w"Ot3`m%ElVn/w"Ot3`m%ElVnz
+      >> raspberry/-ies
+        | pron r"{z-b%E-ri/r"{z-b%E-riz
+      >> strawberry/-ies
+        | pron str"O-b%E-ri/str"O-b%E-riz
+      >> tomato/es
+        | pron tV-m"A-t%oU/tV-m"A-toUz
+      >> watermelon/s
+        | pron w"O-t3`-m%E-lVn/w"O-t3`-m%E-lVnz
         | class green
     #class remove red
 
-    > apricot/apricots
-      | pron "eIprVk%At/"{prVk%Ats
-    > blueberry/blueberries
-      | pron bl"ub%erri/bl"ub%erriz
+    >> apricot/s
+      | pron "eI-prV-k%At/"{-prV-k%Ats
+    >> blueberry/-ies
+      | pron bl"u-b%E-ri/bl"u-b%E-riz
       | class blue
-    > coconut/coconuts
-      | pron k"oUkVn%Vt/k"oUkVn%Vts
-    > grape/grapes
+    >> coconut/s
+      | pron k"oU-kV-n%Vt/k"oU-kV-n%Vts
+    >> grape/s
       | pron gr"eIp/gr"eIps
-    > grapefruit/grapefruits
-      | pron gr"eIpfr%ut/gr"eIpfr%uts
-    > kiwi/kiwis
-      | pron k"iwi/k"iwiz
-    > kumquat/kumquats
-      | pron k"VmkwAt/AH L AH S IY AH S IY
-    > lemon/lemons
-      | pron l"EmVn/l"EmVnz
+    >> grapefruit/s
+      | pron gr"eIp-fr%ut/gr"eIp-fr%uts
+    >> kiwi/s
+      | pron k"i-wi/k"i-wiz
+    >> kumquat/s
+    >> lemon/s
+      | pron l"E-mVn/l"E-mVnz
       | class yellow
-    > lime/limes
+    >> lime/s
       | pron l"aIm/l"aImz
       | class green
-    > nectarine/nectarines
-      | pron AH S IY AH S IY AH S IY/IY AH S IY AH S IY AH S IY
+    >> nectarine/s
       | class orange
-    > orange/oranges
-      | pron "OrrIndZ/"OrrIndZIz
+    >> orange/s
+      | pron "O-rIndZ/"O-rIn-dZIz
       | class orange
-    > pineapple/pineapples
-      | pron p"aIn%{pVl/p"aIn%{pVlz
+    >> pineapple/s
+      | pron p"aIn-%{-pVl/p"aIn-%{-pVlz
       | class yellow
-    > prune/prunes
+    >> prune/s
       | pron pr"un/pr"unz
-    > tangerine/tangerines
-      | pron t%{ndZ3`"in/t"{ndZ3`%inz
+    >> tangerine/s
+      | pron t%{n-dZ3`-"in/t"{n-dZ3`-%inz
       | class orange
   #class remove fruit
 
   #class add sweet
     #class add confection
       #class add candy
-        > bonbon/bonbons
-          | pron AH S IY AH S IY/IY AH S IY AH S IY
-        > butterscotch/butterscotches
-          | pron b"Vt3`sk%AtS/AH L AH S IY AH S IY AH S IY AH S IY
-        > gumdrop/gumdrops
-          | pron IY AH S IY AH S IY/AH L AH S IY AH S IY
-        > peppermint/peppermints
-          | pron p"Ep3`m%Int/AH L AH S IY AH S IY AH S IY
-        > sugarplum/sugarplums
-          | pron AH S IY AH S IY AH S IY/IY AH S IY AH S IY AH S IY
-        > taffy/taffies
-          | pron t"{fi/IY AH S IY AH S IY
-        > truffle/truffles
-          | pron tr"VfVl/tr"VfVlz
+        >> bonbon/s
+        >> butterscotch/es
+        >> gumdrop/s
+        >> peppermint/s
+        >> sugarplum/s
+        >> taffy/-ies
+        >> truffle/s
+          | pron tr"V-fVl/tr"V-fVlz
           | class chocolate
-        > Turkish Delight/Turkish Delights
-          | pron t"3`kIS dIl"aIt/t"3`kIS dIl"aIts
+        >> Turkish Delight/s
       #class remove candy
 
-      > sweetmeat/sweetmeats
-        | pron AH S IY AH S IY AH S IY/IY AH S IY AH S IY AH S IY
+      >> sweetmeat/s
     #class remove confection
 
   #class remove sweet
 
   #class add vegetable
-    > avocado/avocados
-      | pron %{vVk"AdoU/%{vVk"AdoUz
+    >> avocado/s
+      | pron %{-vV-k"A-doU/%{-vV-k"A-doUz
       | class green
-    > onion/onions
-      | pron "VnjVn/"VnjVnz
-    > potato/potatoes
-      | pron pVt"eIt%oU/pVt"eItoUz
-    > spinach/spinach
-      | pron sp"InVtS/sp"InVtS
+    >> onion/s
+      | pron "V-njVn/"V-njVnz
+    >> potato/es
+      | pron pV-t"eI-t%oU/pV-t"eI-toUz
+    >> spinach/
+      | pron sp"I-nVtS/sp"I-nVtS
       | class green
-    > turnip/turnips
-      | pron t"3`nVp/t"3`nVps
+    >> turnip/s
   #class remove vegetable
 
-  > almond/almonds
-    | pron "AmVnd/"AlmVndz
-  > biscuit/biscuits
-    | pron b"IskVt/b"IskVts
-  > bread/bread
+  >> almond/s
+    | pron "A-mVnd/"Al-mVndz
+  >> biscuit/s
+    | pron b"I-skVt/b"I-skVts
+  >> bread/
     | pron br"Ed/br"Ed
-  > bun/buns
-    | pron b"Vn/b"Vnz
+  >> bun/s
     | class hairstyle
-  > cabbage/cabbages
-    | pron k"{bIdZ/k"{bIdZIz
+  >> cabbage/s
+    | pron k"{-bIdZ/k"{-bI-dZIz
     | class green
-  > cheeseburger/cheeseburgers
-    | pron tS"izb3`g3`/tS"izb3`g3`z
-  > chicken wing/chicken wings
-    | pron tS"IkVn w"IN/tS"IkVn w"INz
-  > corn/corns
+  >> cheeseburger/s
+    | pron tS"iz-b3`-g3`/tS"iz-b3`-g3`z
+  >> chicken wing/s
+    | pron tS"I-kVn w"IN/tS"I-kVn w"INz
+  >> corn/s
     | pron k"Orrn/k"Orrnz
-  > cornflake/cornflakes
-    | pron AH S IY AH S IY AH S IY/IY AH S IY AH S IY AH S IY
-  > fudge/fudge
+  >> cornflake/s
+  >> fudge/
     | pron f"VdZ/f"VdZ
-  > hazelnut/hazelnuts
-    | pron h"eIzVln%Vt/h"eIzVln%Vts
-  > horseradish/horseradishes
-    | pron h"Orrsr%{dIS/IY AH S IY AH S IY AH S IY AH S IY
-  > kidney bean/kidney beans
-    | pron k"Idni b"in/k"Idni b"inz
-  > marshmallow/marshmallows
-    | pron m"ArrSm%EloU/m"ArrSm%EloUz
-  > meat/meats
+  >> hazelnut/s
+  >> horseradish/es
+  >> kidney bean/s
+  >> marshmallow/s
+    | pron m"ArrS-m%E-loU/m"ArrS-m%E-loUz
+  >> meat/s
     | pron m"it/m"its
     | weight 10
-  > meatloaf/meatloaves
-    | pron m"itloUf/IY AH S IY AH S IY AH S IY
-  > muffin/muffins
-    | pron m"VfVn/m"VfVnz
+  >> meatloaf/-ves
+  >> muffin/s
+    | pron m"V-fVn/m"V-fVnz
     | class baked
-  > mushroom/mushrooms
-    | pron m"VSrum/m"VSrumz
+  >> mushroom/s
     | class fungus
-  > omelet/omelets
-    | pron "AmlVt/"AmlVts
+  >> omelet/s
     | class breakfast
-  > peanut/peanuts
-    | pron p"in%Vt/p"in%Vts
-  > popsicle/popsicles
-    | pron p"ApsIkVl/AH S IY AH S IY AH S IY
+  >> peanut/s
+    | pron p"i-n%Vt/p"i-n%Vts
+  >> popsicle/s
     | class frozen
-  > pretzel/pretzels
-    | pron pr"EtzVl/pr"EtzVlz
-  > salad/salads
-    | pron s"{lVd/s"{lVdz
-  > sugar cube/sugar cubes
-    | pron S"Ug3` kj"ub/S"Ug3` kj"ubz
-  > waffle/waffles
-    | pron w"AfVl/w"AfVlz
-  > walnut/walnuts
-    | pron w"Oln%Vt/w"Oln%Vts
+  >> pretzel/s
+    | pron pr"Et-zVl/pr"Et-zVlz
+  >> salad/s
+  >> sugar cube/s
+  >> waffle/s
+    | pron w"A-fVl/w"A-fVlz
+  >> walnut/s
+    | pron w"Ol-n%Vt/w"Ol-n%Vts
 #class remove food
 
 #class add furniture
-  > bed/beds
+  >> bed/s
     | pron b"Ed/b"Edz
     | class bed surface
-  > bench/benches
-    | pron b"EntS/b"EntSIz
-  > chair/chairs
+  >> bench/es
+    | pron b"EntS/b"En-tSIz
+  >> chair/s
     | pron tS"err/tS"errz
-  > chair/chairs
+  >> chair/s
     | pron tS"err/tS"errz
     | class surface
-  > coffee table/coffee tables
-    | pron k"Ofi t"eIbVl/k"Ofi t"eIbVlz
-  > couch/couches
-    | pron k"aUtS/k"aUtSIz
-  > desk/desks
+  >> coffee table/s
+    | pron k"O-fi t"eI-bVl/k"O-fi t"eI-bVlz
+  >> couch/es
+    | pron k"aUtS/k"aU-tSIz
+  >> desk/s
     | pron d"Esk/d"Esks
     | class surface
-  > four-poster/four-posters
-    | pron f"Orr p"oUst3`/f"Orr p"oUst3`z
+  >> four-poster/s
     | class bed
-  > lawn chair/lawn chairs
+  >> lawn chair/s
     | pron l"On tS"err/l"On tS"errz
-  > nightstand/nightstands
-    | pron n"aItst%{nd/n"aItst%{ndz
-  > recliner/recliners
-    | pron rIkl"aIn3`/AH S IY AH S IY AH S IY
-  > rocking chair/rocking chairs
-    | pron r"AkIN tS"err/r"AkIN tS"errz
-  > stool/stools
-    | pron st"ul/st"ulz
-  > table/tables
-    | pron t"eIbVl/t"eIbVlz
+  >> nightstand/s
+  >> recliner/s
+  >> rocking chair/s
+    | pron r"A-kIN tS"err/r"A-kIN tS"errz
+  >> stool/s
+  >> table/s
     | class surface
 #class remove furniture
 
 #class add household
   #class add appliance
     #class add kitchen
-      > broiler/broilers
-        | pron br"OIl3`/br"OIl3`z
-      > coffee maker/coffee makers
-        | pron k"Ofi m"eIk3`/k"Ofi m"eIk3`z
+      >> broiler/s
+      >> coffee maker/s
         | class container
-      > dishwasher/dishwashers
-        | pron d"ISw%AS3`/d"ISw%AS3`z
-      > Dutch oven/Dutch ovens
-        | pron d"VtS "VvVn/d"VtS "VvVnz
-      > espresso maker/espresso makers
-        | pron %Ekspr"Es%oU m"eIk3`/%Ekspr"Es%oU m"eIk3`z
-      > food processor/food processors
-        | pron f"ud pr"As%Es3`/f"ud pr"As%Es3`z
+      >> dishwasher/s
+      >> Dutch oven/s
+      >> espresso maker/s
+      >> food processor/s
         | class container
-      > microwave/microwaves
-        | pron m"aIkrVw%eIv/m"aIkroUw%eIvz
+      >> microwave/s
         | class container
-      > oven/ovens
-        | pron "VvVn/"VvVnz
+      >> oven/s
         | class container
-      > refrigerator/refrigerators
-        | pron rIfr"IdZ3`%eIt3`/rIfr"IdZ3`%eIt3`z
-      > stove/stoves
-        | pron st"oUv/st"oUvz
-      > toaster/toasters
-        | pron t"oUst3`/t"oUst3`z
-      > waffle iron/waffle irons
-        | pron w"AfVl "aI3`n/w"AfVl "aI3`nz
+      >> refrigerator/s
+      >> stove/s
+      >> toaster/s
+      >> waffle iron/s
     #class remove kitchen
 
-    > curling iron/curling irons
-      | pron k"3`lIN "aI3`n/k"3`lIN "aI3`nz
-    > flatiron/flatirons
-      | pron AH L AH S IY AH S IY/AH S IY AH S IY AH S IY
-    > sewing machine/sewing machines
-      | pron s"oUIN mVS"in/s"oUIN mVS"inz
+    >> curling iron/s
+    >> flatiron/s
+    >> sewing machine/s
   #class remove appliance
 
-  > butter dish/butter dishes
-    | pron b"Vt3` d"IS/b"Vt3` d"ISIz
-  > doorknob/doorknobs
-    | pron d"urnAb/d"urnAbz
+  >> butter dish/es
+  >> doorknob/s
 #class remove household
 
 #class add living
   #class add animal
     #class add bird
       #class add penguin
-        > adelie penguin/adelie penguins
-          | pron AH S IY AH S IY p"ENgwVn/AH S IY AH S IY p"ENgwVnz
-        > African penguin/African penguins
-          | pron "{frIkAn p"ENgwVn/"{frIkAn p"ENgwVnz
-        > chinstrap penguin/chinstrap penguins
-          | pron tS"eI AH S IY p"ENgwVn/tS"eI AH S IY p"ENgwVnz
-        > emperor penguin/emperor penguins
-          | pron "Emp3`3` p"ENgwVn/"Emp3`3` p"ENgwVnz
-        > erect-crested penguin/erect-crested penguins
-          | pron Irr"Ekt kr"EstId p"ENgwVn/Irr"Ekt kr"EstId p"ENgwVnz
-        > fairy penguin/fairy penguins
-          | pron f"erri p"ENgwVn/f"erri p"ENgwVnz
-        > gentoo penguin/gentoo penguins
-          | pron AH S IY AH S IY p"ENgwVn/AH S IY AH S IY p"ENgwVnz
-        > Humboldt penguin/Humboldt penguins
-          | pron h"Vmb%oUlt p"ENgwVn/h"Vmb%oUlt p"ENgwVnz
-        > king penguin/king penguins
-          | pron k"IN p"ENgwVn/k"IN p"ENgwVnz
-        > macaroni penguin/macaroni penguins
-          | pron m%{k3`"oUni p"ENgwVn/m%{k3`"oUni p"ENgwVnz
-        > Magellanic penguin/Magellanic penguins
-          | pron m%{dZVl"{nIk p"ENgwVn/m%{dZVl"{nIk p"ENgwVnz
-        > penguin/penguins
-          | pron p"ENgwVn/p"ENgwVnz
-        > rockhopper penguin/rockhopper penguins
-          | pron IY AH S IY AH S IY AH S IY p"ENgwVn/IY AH S IY AH S IY AH S IY p"ENgwVnz
-        > yellow-eyed penguin/yellow-eyed penguins
-          | pron j"EloU "aId p"ENgwVn/j"EloU "aId p"ENgwVnz
+        >> adelie penguin/s
+        >> African penguin/s
+        >> chinstrap penguin/s
+        >> emperor penguin/s
+        >> erect-crested penguin/s
+        >> fairy penguin/s
+        >> gentoo penguin/s
+        >> Humboldt penguin/s
+        >> king penguin/s
+        >> macaroni penguin/s
+        >> Magellanic penguin/s
+        >> penguin/s
+        >> rockhopper penguin/s
+        >> yellow-eyed penguin/s
       #class remove penguin
 
-      > bird/birds
-        | pron b"3`d/b"3`dz
-      > bluebird/bluebirds
-        | pron bl"ub%3`d/bl"ub%3`dz
+      >> bird/s
+      >> bluebird/s
         | class blue
-      > chickadee/chickadees
-        | pron tS"eI AH S IY/IY AH S IY AH S IY AH S IY
-      > chicken/chickens
-        | pron tS"IkVn/tS"IkVnz
-      > crow/crows
-        | pron kr"oU/kr"oUz
-      > dove/doves
-        | pron d"oUv/d"Vvz
-      > eagle/eagles
-        | pron "igVl/"igVlz
-      > finch/finches
-        | pron f"IntS/f"IntSIz
-      > flamingo/flamingos
-        | pron flVm"INgoU/flVm"INgoUz
-      > goldfinch/goldfinches
-        | pron g"oUldf%IntS/g"oUldf%IntSIz
-      > goose/geese
-        | pron g"us/g"is
-      > grouse/grouse
-        | pron gr"aUs/gr"aUs
-      > hawk/hawks
-        | pron h"Ok/h"Oks
-      > hummingbird/hummingbirds
-        | pron h"VmINb%3`d/h"VmINb%3`dz
-      > magpie/magpies
-        | pron m"{gp%aI/m"{gp%aIz
-      > owl/owls
-        | pron "aUl/"aUlz
-      > parrot/parrots
-        | pron p"errVt/p"errVts
-      > peacock/peacocks
-        | pron p"ik%Ak/p"ik%Aks
-      > pelican/pelicans
-        | pron p"ElVkVn/p"ElIkVnz
-      > pigeon/pigeons
-        | pron p"IdZIn/p"IdZVnz
-      > raven/ravens
-        | pron r"eIvVn/r"eIvVnz
-      > rooster/roosters
-        | pron r"ust3`/r"ust3`z
-      > seagull/seagulls
-        | pron s"ig%Vl/s"ig%Vlz
-      > swan/swans
-        | pron sw"On/sw"Onz
-      > turkey/turkeys
-        | pron t"3`ki/t"3`kiz
-      > vulture/vultures
-        | pron v"VltS3`/v"VltS3`z
-      > woodpecker/woodpeckers
-        | pron w"Udp%Ek3`/w"Udp%Ek3`z
+      >> chickadee/s
+      >> chicken/s
+        | pron tS"I-kVn/tS"I-kVnz
+      >> crow/s
+      >> dove/s
+        | pron doUv/dVvz
+      >> eagle/s
+      >> finch/es
+      >> flamingo/s
+        | pron flV-m"IN-goU/flV-m"IN-goUz
+      >> goldfinch/es
+      >> goose/----eese
+      >> grouse/
+      >> hawk/s
+      >> hummingbird/s
+      >> magpie/s
+      >> owl/s
+        | pron aUl/aUlz
+      >> parrot/s
+        | pron pE-rVt/pE-rVts
+      >> peacock/s
+        | pron pi-kAk/pi-kAks
+      >> pelican/s
+      >> pigeon/s
+      >> raven/s
+      >> rooster/s
+      >> seagull/s
+        | pron si-gVl/si-gVlz
+      >> swan/s
+      >> turkey/s
+      >> vulture/s
+      >> woodpecker/s
     #class remove bird
 
     #class add dog
-      > basset hound/basset hounds
-        | pron b"{sIt h"aUnd/b"{sIt h"aUndz
-      > beagle/beagles
-        | pron b"igVl/b"igVlz
-      > boarhound/boarhounds
-        | pron AH S IY AH S IY AH S IY/IY AH S IY AH S IY AH S IY
-      > bulldog/bulldogs
-        | pron b"Uld%Og/b"Uld%Ogz
-      > chihuahua/chihuahuas
-        | pron tS%iw"AwV/IY AH S IY AH S IY AH S IY
-      > dachshund/dachshunds
-        | pron d"Aksh%Und/d"Aksh%Unts
-      > dog/dogs
+      >> basset hound/s
+      >> beagle/s
+        | pron b"i-gVl/b"i-gVlz
+      >> boarhound/s
+      >> bulldog/s
+        | pron b"Ul-d%Og/b"Ul-d%Ogz
+      >> chihuahua/s
+      >> dachshund/s
+      >> dog/s
         | pron d"Og/d"Ogz
-      > greyhound/greyhounds
-        | pron gr"eIh%aUnd/IY AH S IY AH S IY AH S IY
-      > labrador/labradors
-        | pron l"{brVd%Orr/AH S IY AH S IY AH S IY
-      > pomeranian/pomeranians
-        | pron p%Am3`"eIniVn/AH L AH S IY AH S IY AH S IY
-      > poodle/poodles
-        | pron p"udVl/p"udVlz
-      > pug/pugs
-        | pron p"Vg/IY AH S IY
-      > Rhodesian ridgeback/Rhodesian ridgebacks
-        | pron roUd"iZVn  AH S IY AH S IY AH S IY/roUd"iZVn  IY AH S IY AH S IY AH S IY
-      > rottweiler/rottweilers
-        | pron IY AH S IY AH S IY AH S IY/AH L AH S IY AH S IY AH S IY
-      > schnauzer/schnauzers
-        | pron Sn"aUz3`/IY AH S IY AH S IY AH S IY
-      > scottie/scotties
-        | pron sk"Ati/AH L AH S IY AH S IY
-      > Shih-Tzu/Shih-Tzus
-        | pron S"i  AH S IY/S"i  IY AH S IY
-      > terrier/terriers
-        | pron t"erri3`/t"erri3`z
+      >> greyhound/s
+      >> labrador/s
+      >> pomeranian/s
+      >> poodle/s
+        | pron p"u-dVl/p"u-dVlz
+      >> pug/s
+      >> Rhodesian ridgeback/s
+      >> rottweiler/s
+      >> schnauzer/s
+      >> scottie/s
+      >> Shih-Tzu/s
+      >> terrier/s
     #class remove dog
 
     #class add fish
-      > bass/basses
-        | pron b"eIs/b"eIsIz
-      > blowfish/blowfish
-        | pron bl"oUfIS/bl"oUfIS
-      > fish/fish
-        | pron f"IS/f"IS
-      > octopus/octopi
-        | pron "AktVp%Us/"AktVpaI
-      > squid/squids
-        | pron skw"Id/AH S IY AH S IY
-      > whale/whales
-        | pron hw"eIl/hw"eIlz
+      >> bass/es
+        | pron b"eIs/b"eI-sIz
+      >> blowfish/
+        | pron bl"oU-fIS/bl"oU-fIS
+      >> fish/
+        | pron f"IS/f"I-SIz
+      >> octopus/--i
+        | pron "Ak-tV-p%Us/"Ak-tV-paI
+      >> squid/s
+      >> whale/s
     #class remove fish
 
     #class add insect
-      > ant/ants
+      >> ant/s
         | pron "{nt/"{nts
-      > beetle/beetles
-        | pron b"itVl/b"itVlz
-      > centipede/centipedes
-        | pron s"EntIp%id/IY AH S IY AH S IY AH S IY
+      >> beetle/s
+        | pron b"i-tVl/b"i-tVlz
+      >> centipede/s
         | class long
-      > cockroach/cockroaches
-        | pron k"Akr%oUtS/k"Akr%oUtSIz
-      > cricket/crickets
-        | pron kr"IkIt/kr"IkIts
-      > earwig/earwigs
-        | pron AH S IY AH S IY/IY AH S IY AH S IY
-      > grasshopper/grasshoppers
-        | pron gr"{sh%Ap3`/gr"{sh%Ap3`z
-      > ladybug/ladybugs
-        | pron l"eIdib%Vg/l"eIdib%Vgz
-      > locust/locusts
-        | pron l"oUkVst/l"oUkVsts
-      > scarab beetle/scarab beetles
-        | pron AH S IY AH S IY b"itVl/AH S IY AH S IY b"itVlz
+      >> cockroach/es
+        | pron k"Ak-r%oUtS/k"Ak-r%oU-tSIz
+      >> cricket/s
+        | pron kr"I-kIt/kr"I-kVts
+      >> earwig/s
+      >> grasshopper/s
+        | pron gr"{s-h%A-p3`/gr"{s-h%A-p3`z
+      >> ladybug/s
+      >> locust/s
+        | pron l"oU-kVst/l"oU-kVs
+      >> scarab beetle/s
     #class remove insect
 
     #class add mammal
-      > baboon/baboons
-        | pron bVb"un/bVb"unz
-      > bat/bats
+      >> baboon/s
+        | pron bV-b"un/bV-b"unz
+      >> bat/s
         | pron b"{t/b"{ts
-      > bull/bulls
+      >> bull/s
         | pron b"Ul/b"Ulz
-      > cat/cats
+      >> cat/s
         | pron k"{t/k"{ts
-      > deer/deer
+      >> deer/
         | pron d"Irr/d"Irr
-      > donkey/donkeys
-        | pron d"ONki/d"ANkiz
-      > goat/goats
+      >> donkey/s
+        | pron d"ON-ki/d"AN-kiz
+      >> goat/s
         | pron g"oUt/g"oUts
-      > gorilla/gorillas
-        | pron g3`"IlV/g3`"IlVz
-      > hedgehog/hedgehogs
-        | pron h"EdZh%Ag/h"EdZh%Agz
+      >> gorilla/s
+        | pron g3`-"I-lV/g3`-"I-lVz
+      >> hedgehog/s
+        | pron h"EdZ-h%Ag/h"EdZ-h%Agz
         | class fast
-      > horse/horses
-        | pron h"Orrs/h"OrrsIz
-      > hyena/hyenas
-        | pron haI"inV/haI"inVz
-      > jaguar/jaguars
-        | pron dZ"{gw%Arr/dZ"{gw%Arrz
-      > lemur/lemurs
-        | pron l"im3`/l"im3`z
-      > leopard/leopards
-        | pron l"Ep3`d/l"Ep3`dz
+      >> horse/s
+        | pron h"Orrs/h"Orr-sIz
+      >> hyena/s
+        | pron haI-"i-nV/haI-"i-nVz
+      >> jaguar/s
+        | pron dZ"{-gw%Arr/dZ"{-gw%Arrz
+      >> lemur/s
+        | pron l"i-m3`/l"i-m3`z
+      >> leopard/s
         | class cat wild
-      > liger/ligers
-        | pron l"aI/AH S IY AH S IY
+      >> liger/s
         | class cat wild
-      > lion/lions
-        | pron l"aIVn/l"aIVnz
-      > llama/llamas
-        | pron l"AmV/l"AmVz
-      > moose/moose
+      >> lion/s
+        | pron l"aI-Vn/l"aI-Vnz
+      >> llama/s
+        | pron l"A-mV/l"A-mVz
+      >> moose/
         | pron m"us/m"us
-      > pony/ponies
-        | pron p"oUn%i/p"oUniz
-      > porcupine/porcupines
-        | pron p"OrrkjVp%aIn/p"OrrkjVp%aInz
-      > rat/rats
+      >> pony/-ies
+        | pron p"oU-ni/p"oU-niz
+      >> porcupine/s
+        | pron p"Orr-kjV-p%aIn/p"Orr-kjV-p%aInz
+      >> rat/s
         | pron r"{t/r"{ts
-      > skunk/skunks
+      >> skunk/s
         | pron sk"VNk/sk"VNks
-      > squirrel/squirrels
-        | pron skw"3`Vl/skw"3`Vlz
-      > tiger/tigers
-        | pron t"aIg3`/t"aIg3`z
-      > weasel/weasels
-        | pron w"izVl/w"izVlz
-      > yak/yaks
-        | pron j"{k/IY AH S IY
-      > zebra/zebras
-        | pron z"ibrV/z"ibrVz
+      >> squirrel/s
+        | pron skw"3`-Vl/skw"3`-Vlz
+      >> tiger/s
+        | pron t"aI-g3`/t"aI-g3`z
+      >> weasel/s
+      >> yak/s
+      >> zebra/s
+        | pron z"i-brV/z"i-brVz
     #class remove mammal
 
     #class add mythical
-      > demon/demons
-        | pron d"imVn/d"imVnz
-      > devil/devils
-        | pron d"EvVl/d"EvVlz
-      > gargoyle/gargoyles
-        | pron g"Arrg%OIl/g"Arrg%OIlz
-      > ogre/ogres
-        | pron "oUg3`/AH L AH S IY
+      >> demon/s
+        | pron d"i-mVn/d"i-mVnz
+      >> devil/s
+        | pron d"E-vVl/d"E-vVlz
+      >> gargoyle/s
+      >> ogre/s
         | class green
-      > sphinx/sphinxes
-        | pron sf"INks/AH L AH S IY AH S IY
-      > titan/titans
-        | pron t"aItVn/t"aItVnz
+      >> sphinx/es
+      >> titan/s
+        | pron t"aI-tVn/t"aI-tVnz
     #class remove mythical
 
     #class add reptile
-      > anaconda/anacondas
-        | pron %{nVk"AndV/AH S IY AH S IY AH S IY
-      > lizard/lizards
-        | pron l"Iz3`d/l"Iz3`dz
-      > turtle/turtles
-        | pron t"3`tVl/t"3`tVlz
-      > velociraptor/velociraptors
-        | pron vVl"OsVr%{pt3`/IY AH S IY AH S IY AH S IY AH S IY
+      >> anaconda/s
+      >> lizard/s
+        | pron l"I-z3`d/l"I-z3`dz
+      >> turtle/s
+        | pron t"3`-tVl/t"3`-tVlz
+      >> velociraptor/s
     #class remove reptile
 
-    > butler/butlers
-      | pron b"Vtl3`/b"Vtl3`z
-    > frog/frogs
+    >> butler/s
+      | pron b"Vt-l3`/b"Vt-l3`z
+    >> frog/s
       | pron fr"Ag/fr"Agz
       | class amphibian green
-    > landlord/landlords
-      | pron l"{ndl%Orrd/l"{ndl%Orrdz
-    > leech/leeches
-      | pron l"itS/l"itSIz
-    > mammoth/mammoths
-      | pron m"{mVT/m"{mVTs
-    > mayor/mayors
-      | pron m"eI3`/m"eI3`z
-    > mountain goat/mountain goats
-      | pron m"aUntVn g"oUt/m"aUntVn g"oUts
+    >> landlord/s
+      | pron l"{nd-l%Orrd/l"{nd-l%Orrdz
+    >> leech/es
+      | pron l"itS/l"i-tSIz
+    >> mammoth/s
+      | pron m"{-mVT/m"{-mVTs
+    >> mayor/s
+      | pron m"eI-3`/m"eI-3`z
+    >> mountain goat/s
       | class goat
-    > mouse/mice
-      | pron m"aUs/m"aIs
+    >> mouse/----ice
       | class rodent
-    > newt/newts
+    >> newt/s
       | pron n"ut/n"uts
-    > otter/otters
-      | pron "At3`/"At3`z
-    > quokka/quokkas
-      | pron AH S IY AH S IY/IY AH S IY AH S IY
-    > tadpole/tadpoles
-      | pron t"{dp%oUl/t"{dp%oUlz
-    > toad/toads
+    >> otter/s
+      | pron "A-t3`/"A-t3`z
+    >> quokka/s
+    >> tadpole/s
+      | pron t"{d-p%oUl/t"{d-p%oUlz
+    >> toad/s
       | pron t"oUd/t"oUdz
       | class amphibian yellow
-    > tyrannosaurus rex/tyrannosaurus rexes
-      | pron tIrr{nVs"OrrVs r"Eks/tIrr{nVs"OrrVs  AH L AH S IY
-    > viking/vikings
-      | pron v"aIkIN/v"aIkINz
-    > wolf/wolves
+    >> tyrannosaurus rex/es
+      | pron tI-r{-nV-s"O-rVs r"Eks/tI-r{-nV-s"O-rVs
+    >> viking/s
+      | pron v"aI-kIN/v"aI-kINz
+    >> wolf/-ves
       | pron w"Ulf/w"Ulvz
-    > xerus/xeruses
-      | pron AH L AH S IY/IY AH S IY AH S IY
-    > yeti/yetis
-      | pron j"Eti/AH L AH S IY
+    >> xerus/es
+    >> yeti/s
   #class remove animal
 
   #class add job
-    > accountant/accountants
-      | pron Vk"aUntVnt/Vk"aUntVnts
-    > actor/actors
-      | pron "{kt3`/"{kt3`z
-    > archaeologist/archaeologists
-      | pron %Arrki"AlVdZIst/%Arrki"AlVdZIsts
-    > armorer/armorers
-      | pron IY AH S IY AH S IY/AH L AH S IY AH S IY
-    > artist/artists
-      | pron "ArrtIst/"ArrtIsts
-    > assassin/assassins
-      | pron Vs"{sVn/Vs"{sVnz
-    > athlete/athletes
-      | pron "{Tl%it/"{Tl%its
-    > babysitter/babysitters
-      | pron b"eIbis%It3`/b"eIbis%It3`z
-    > bachelor/bachelors
-      | pron b"{tSl3`/b"{tSl3`z
-    > banker/bankers
-      | pron b"{Nk3`/b"{Nk3`z
-    > bartender/bartenders
-      | pron b"Arrt%End3`/b"Arrt%End3`z
-    > biologist/biologists
-      | pron baI"AlVdZIst/baI"AlVdZIsts
-    > burglar/burglars
-      | pron b"3`gl3`/b"3`gl3`z
-    > busboy/busboys
-      | pron b"Vsb%OI/b"Vsb%OIz
-    > butler/butlers
-      | pron b"Vtl3`/b"Vtl3`z
-    > cake decorator/cake decorators
-      | pron k"eIk d"Ek3`%eIt3`/k"eIk d"Ek3`%eIt3`z
-    > carpenter/carpenters
-      | pron k"ArrpVnt3`/k"ArrpVnt3`z
-    > celebrity/celebrities
-      | pron sVl"EbrIti/sVl"EbrItiz
-    > chef/chefs
+    >> accountant/s
+      | pron V-k"aUn-tVnt/V-k"aUn-tVnts
+    >> actor/s
+      | pron "{k-t3`/"{k-t3`z
+    >> archaeologist/s
+      | pron %Arr-ki-"A-lV-dZIst/%Arr-ki-"A-lV-dZIs
+    >> armorer/s
+    >> artist/s
+      | pron "Arr-tIst/"Arr-tIs
+    >> assassin/s
+      | pron V-s"{-sVn/V-s"{-sVnz
+    >> athlete/s
+      | pron "{T-l%it/"{T-l%its
+    >> babysitter/s
+      | pron b"eI-bi-s%I-t3`/b"eI-bi-s%I-t3`z
+    >> bachelor/s
+      | pron b"{tS-l3`/b"{tS-l3`z
+    >> banker/s
+      | pron b"{N-k3`/b"{N-k3`z
+    >> bartender/s
+      | pron b"Arr-t%En-d3`/b"Arr-t%En-d3`z
+    >> biologist/s
+      | pron baI-"A-lV-dZVst/baI-"A-lV-dZVs
+    >> burglar/s
+      | pron b"3`-gl3`/b"3`-gl3`z
+    >> busboy/s
+    >> butler/s
+      | pron b"Vt-l3`/b"Vt-l3`z
+    >> cake decorator/s
+    >> carpenter/s
+      | pron k"Arr-pVn-t3`/k"Arr-pVn-t3`z
+    >> celebrity/-ies
+      | pron sV-l"E-brI-ti/sV-l"E-brI-tiz
+    >> chef/s
       | pron S"Ef/S"Efs
-    > circus performer/circus performers
-      | pron s"3`kVs p3`f"Orrm3`/s"3`kVs p3`f"Orrm3`z
-    > clown/clowns
+    >> circus performer/s
+      | pron s"3`-kVs p3`-f"Orr-m3`/s"3`-kVs p3`-f"Orr-m3`z
+    >> clown/s
       | pron kl"aUn/kl"aUnz
-    > Communist/Communists
-      | pron k"AmjVnVst/k"AmjVnVsts
-    > constable/constables
-      | pron k"AnstVbVl/k"AnstVbVlz
-    > construction worker/construction workers
-      | pron kVnstr"VkSVn w"3`k3`/kVnstr"VkSVn w"3`k3`z
-    > cop/cops
+    >> Communist/s
+    >> constable/s
+      | pron k"An-stV-bVl/k"An-stV-bVlz
+    >> construction worker/s
+      | pron kVn-str"Vk-SVn w"3`-k3`/kVn-str"Vk-SVn w"3`-k3`z
+    >> cop/s
       | pron k"Ap/k"Aps
-    > deliveryman/deliverymen
-      | pron AH L AH S IY AH S IY AH S IY/AH L AH S IY AH S IY AH S IY
-    > dentist/dentists
-      | pron d"EntIst/d"EntIsts
-    > dispatcher/dispatchers
-      | pron d"Isp%{tS3`/dIsp"{tS3`z
-    > doctor/doctors
-      | pron d"Okt3`/d"Akt3`z
-    > electrician/electricians
-      | pron IlEktr"ISVn/IlEktr"ISVnz
-    > executive producer/executive producers
-      | pron Igz"EkjVtIv prVd"us3`/Igz"EkjVtIv prVd"us3`z
-    > explorer/explorers
-      | pron Ikspl"Orr3`/Ikspl"Orr3`z
-    > FBI agent/FBI agents
-      | pron "Efb"i"aI "eIdZVnt/"Efb"i"aI "eIdZVnts
-    > fireman/firemen
-      | pron f"aIrmVn/f"aIrmVn
-    > fortune teller/fortune tellers
-      | pron f"OrrtSun t"El3`/f"OrrtSun t"El3`z
-    > foundation repair specialist/foundation repair specialists
-      | pron faUnd"eISVn rIp"err sp"ESVlIst/faUnd"eISVn rIp"err sp"ESVlIsts
-    > gambler/gamblers
-      | pron g"{mbl3`/g"{mbl3`z
-    > gangster/gangsters
-      | pron g"{Nst3`/g"{Nst3`z
-    > gardener/gardeners
-      | pron g"ArrdVn3`/g"Arrdn3`z
-    > gasman/gasmen
-      | pron AH S IY AH S IY/AH S IY AH S IY
-    > golfer/golfers
-      | pron g"Alf3`/g"Alf3`z
-    > guitarist/guitarists
-      | pron g%It"ArrIst/g%It"ArrIsts
-    > haberdasher/haberdashers
-      | pron AH L AH S IY AH S IY AH S IY/AH S IY AH S IY AH S IY AH S IY
-    > hippie/hippies
-      | pron h"Ipi/h"Ipiz
-    > hobbit/hobbits
-      | pron h"ObIt/h"ObIts
-    > hunter/hunters
-      | pron h"Vnt3`/h"Vnt3`z
-    > journalist/journalists
-      | pron dZ"3`nVlIst/dZ"3`nVlIsts
-    > juggler/jugglers
-      | pron dZ"Vgl3`/dZ"Vgl3`z
-    > lawyer/lawyers
-      | pron l"OI3`/l"OI3`z
-    > magician/magicians
-      | pron mVdZ"ISVn/mVdZ"ISVnz
-    > mailman/mailmen
-      | pron m"eIlm%{n/m"eIlm%En
-    > mechanic/mechanics
-      | pron mIk"{nIk/mVk"{nIks
-    > movie star/movie stars
-      | pron m"uvi st"Arr/m"uvi st"Arrz
-    > ninja/ninjas
-      | pron n"IndZV/n"IndZVz
-    > nurse/nurses
-      | pron n"3`s/n"3`sIz
-    > paramedic/paramedics
-      | pron p%errVm"EdIk/p%errVm"EdIks
-    > pediatrician/pediatricians
-      | pron p%idiVtr"ISVn/p%idiVtr"ISVnz
-    > physician/physicians
-      | pron fVz"ISVn/fIz"ISVnz
-    > pianist/pianists
-      | pron p"iVnIst/p"iVnIs
-    > pirate/pirates
-      | pron p"aIrVt/p"aIrVts
-    > plumber/plumbers
-      | pron pl"Vm3`/pl"Vm3`z
-    > policeman/policemen
-      | pron pVl"ismVn/pVl"ismIn
-    > politician/politicians
-      | pron p%AlVt"ISVn/p%AlVt"ISVnz
-    > pope/popes
+    >> deliveryman/--en
+    >> dentist/s
+      | pron d"E-nIst/d"E-nIs
+    >> dispatcher/s
+    >> doctor/s
+      | pron d"Ok-t3`/d"Ak-t3`z
+    >> electrician/s
+    >> executive producer/s
+    >> explorer/s
+      | pron Ik-spl"O-r3`/Ik-spl"O-r3`z
+    >> FBI agent/s
+      | pron "eI-dZVnt/"eI-dZVnts
+    >> fireman/--en
+      | pron f"aIr-mVn/f"aIr-mVn
+    >> fortune teller/s
+      | pron f"Orr-tSun t"E-l3`/f"Orr-tSun t"E-l3`z
+    >> foundation repair specialist/s
+    >> gambler/s
+      | pron g"{m-bl3`/g"{m-bl3`z
+    >> gangster/s
+      | pron g"{N-st3`/g"{N-st3`z
+    >> gardener/s
+    >> gasman/--en
+    >> golfer/s
+      | pron g"Al-f3`/g"Al-f3`z
+    >> guitarist/s
+      | pron g%I-t"A-rVst/g%I-t"A-rVs
+    >> haberdasher/s
+    >> hippie/s
+      | pron h"I-pi/h"I-piz
+    >> hobbit/s
+    >> hunter/s
+      | pron h"Vn-t3`/h"Vn-t3`z
+    >> journalist/s
+      | pron dZ"3`-nV-lIst/dZ"3`-nV-lIs
+    >> juggler/s
+      | pron dZ"Vg-l3`/dZ"Vg-l3`z
+    >> lawyer/s
+      | pron l"OI-3`/l"OI-3`z
+    >> magician/s
+      | pron mV-dZ"I-SVn/mV-dZ"I-SVnz
+    >> mailman/--en
+    >> mechanic/s
+      | pron mI-k"{-nIk/mV-k"{-nIks
+    >> movie star/s
+      | pron m"u-vi st"Arr/m"u-vi st"Arrz
+    >> ninja/s
+      | pron n"In-dZV/n"In-dZVz
+    >> nurse/s
+      | pron n"3`s/n"3`-sIz
+    >> paramedic/s
+      | pron p%E-rV-m"E-dIk/p%E-rV-m"E-dIks
+    >> pediatrician/s
+    >> physician/s
+      | pron fV-z"I-SVn/fI-z"I-SVnz
+    >> pianist/s
+      | pron p"i-V-nIst/p"i-V-nIs
+    >> pirate/s
+      | pron p"aI-rVt/p"aI-rVts
+    >> plumber/s
+      | pron pl"V-m3`/pl"V-m3`z
+    >> policeman/--en
+      | pron pV-l"is-mVn/pV-l"is-mIn
+    >> politician/s
+      | pron p%A-lV-t"I-SVn/p%A-lV-t"I-SVnz
+    >> pope/s
       | pron p"oUp/p"oUpz
-    > president/presidents
-      | pron pr"EzIdVnt/pr"EzIdEnts
-    > president/presidents
-      | pron pr"EzIdVnt/pr"EzIdEnts
+    >> president/s
+      | pron pr"E-zI-dVnt/pr"E-zI-dVns
+    >> president/s
+      | pron pr"E-zI-dVnt/pr"E-zI-dVns
       | class political
-    > prince/princes
-      | pron pr"Ins/pr"InsIz
-    > princess/princesses
-      | pron pr"InsEs/pr"InsEsIz
-    > principal/principals
-      | pron pr"InsVpVl/pr"InsVpVlz
-    > private military contractor/private military contractors
-      | pron pr"aIvVt m"IlIt%erri k"Antr%{kt3`/pr"aIvVt m"IlIt%erri k"Antr%{kt3`z
-    > professor/professors
-      | pron prVf"Es3`/prVf"Es3`z
-    > rapper/rappers
-      | pron r"{p3`/r"{p3`z
-    > registrar/registrars
-      | pron r"EdZIstr%Arr/r"EdZIstr%Arrz
-    > reporter/reporters
-      | pron rIp"Orrt3`/rIp"Orrt3`z
-    > sales representative/sales representatives
-      | pron s"eIlz r%EprIz"EnVtIv/s"eIlz r%EprIz"EnVtIvz
-    > salesman/salesmen
-      | pron s"eIlzmVn/s"eIlzmIn
-    > sandwichman/sandwichmen
-      | pron AH L AH S IY AH S IY AH S IY/AH L AH S IY AH S IY AH S IY
-    > scientist/scientists
-      | pron s"aIVntIst/s"aIVntIs
-    > scribe/scribes
-      | pron skr"aIb/skr"aIbz
-    > senator/senators
-      | pron s"EnVt3`/s"EnVt3`z
-    > serial killer/serial killers
-      | pron s"Irr%iVl k"Il3`/s"Irr%iVl k"Il3`z
-    > server/servers
-      | pron s"3`v3`/s"3`v3`z
-    > singer/singers
-      | pron s"IN3`/s"IN3`z
-    > sky diver/sky divers
-      | pron sk"aI d"aIv3`/sk"aI d"aIv3`z
-    > snake charmer/snake charmers
-      | pron sn"eIk tS"Arrm3`/sn"eIk tS"Arrm3`z
-    > spelunker/spelunkers
-      | pron spVl"VNk3`/spVl"VNk3`z
-    > stagehand/stagehands
-      | pron st"eIdZh%{nd/st"eIdZh%{ndz
-    > stock broker/stock brokers
-      | pron st"Ak br"oUk3`/st"Ak br"oUk3`z
-    > stunt double/stunt doubles
-      | pron st"Vnt d"VbVl/st"Vnt d"VbVlz
-    > surgeon/surgeons
-      | pron s"3`dZIn/s"3`dZVnz
-    > sweeper/sweepers
-      | pron sw"ip3`/sw"ip3`z
-    > tanner/tanners
-      | pron t"{n3`/IY AH S IY AH S IY
-    > taxi driver/taxi drivers
-      | pron t"{ksi dr"aIv3`/t"{ksi dr"aIv3`z
-    > taxidermist/taxidermists
-      | pron t"{ksVd%3`mVst/t"{ksVd%3`mVs
-    > teacher/teachers
-      | pron t"itS3`/t"itS3`z
-    > turncock/turncocks
-      | pron AH L AH S IY AH S IY/AH S IY AH S IY AH S IY
-    > urologist/urologists
-      | pron j3`"AlVdZVst/j3`"AlVdZVsts
-    > vampire/vampires
-      | pron v"{mpaIr/v"{mpaIrz
-    > waiter/waiters
-      | pron w"eIt3`/w"eIt3`z
-    > waitress/waitresses
-      | pron w"eItrVs/w"eItrVsIz
-    > window washer/window washers
-      | pron w"IndoU w"AS3`/w"IndoU w"AS3`z
-    > wizard/wizards
-      | pron w"Iz3`d/w"Iz3`dz
+    >> prince/s
+      | pron pr"Ins/pr"In-sIz
+    >> princess/es
+      | pron pr"In-sEs/pr"In-sE-sIz
+    >> principal/s
+      | pron pr"In-sV-pVl/pr"In-sV-pVlz
+    >> private military contractor/s
+    >> professor/s
+    >> rapper/s
+      | pron r"{-p3`/r"{-p3`z
+    >> registrar/s
+    >> reporter/s
+      | pron rI-p"Orr-t3`/rI-p"Orr-t3`z
+    >> sales representative/s
+    >> salesman/--en
+      | pron s"eIlz-mVn/s"eIlz-mIn
+    >> sandwichman/--en
+    >> scientist/s
+      | pron s"aI-Vn-tIst/s"aI-Vn-tIs
+    >> scribe/s
+    >> senator/s
+      | pron s"E-nV-t3`/s"E-nV-t3`z
+    >> serial killer/s
+      | pron s"I-ri-Vl k"I-l3`/s"I-ri-Vl k"I-l3`z
+    >> server/s
+    >> singer/s
+      | pron s"I-N3`/s"I-N3`z
+    >> sky diver/s
+      | pron sk"aI d"aI-v3`/sk"aI d"aI-v3`z
+    >> snake charmer/s
+      | pron sn"eIk tS"Arr-m3`/sn"eIk tS"Arr-m3`z
+    >> spelunker/s
+    >> stagehand/s
+    >> stock broker/s
+      | pron st"Ak br"oU-k3`/st"Ak br"oU-k3`z
+    >> stunt double/s
+    >> surgeon/s
+      | pron s"3`-dZIn/s"3`-dZVnz
+    >> sweeper/s
+    >> tanner/s
+    >> taxi driver/s
+    >> taxidermist/s
+    >> teacher/s
+      | pron t"i-tS3`/t"i-tS3`z
+    >> turncock/s
+    >> urologist/s
+      | pron j3`-"A-lV-dZVst/j3`-"A-lV-dZVsts
+    >> vampire/s
+      | pron v"{m-paIr/v"{m-paIrz
+    >> waiter/s
+      | pron w"eI-t3`/w"eI-t3`z
+    >> waitress/es
+      | pron w"eI-trVs/w"eI-trV-sIz
+    >> window washer/s
+    >> wizard/s
+      | pron w"I-z3`d/w"I-z3`dz
   #class remove job
 
   #class add person
     #class add adult
-      > dude/dudes
+      >> dude/s
         | pron d"ud/dj"udz
         | class male
-      > lady/ladies
-        | pron l"eIdi/l"eIdiz
+      >> lady/-ies
+        | pron l"eI-di/l"eI-diz
         | class female
-      > man/men
+      >> man/--en
         | pron m"{n/m"En
         | class male
-      > woman/women
-        | pron w"UmVn/w"ImVn
+      >> woman/--en
+        | pron w"U-mVn/w"I-mVn
         | class female
     #class remove adult
 
-    > baby/babies
-      | pron b"eIbi/b"eIbiz
+    >> baby/-ies
+      | pron b"eI-bi/b"eI-biz
       | class fruit
-    > child/children
-      | pron tS"aIld/tS"IldrVn
-    > elf/elves
+    >> child/ren
+      | pron tS"aIld/tS"Il-drVn
+    >> elf/-ves
       | pron "Elf/"Elvz
-    > teen/teens
+    >> teen/s
       | pron t"in/t"inz
   #class remove person
 
-  > Democrat/Democrats
-    | pron d"EmVkr%{t/d"EmVkr%{ts
+  >> Democrat/s
     | class blue party political
-  > Republican/Republicans
-    | pron rip"VblIkVn/rip"VblIkVnz
+  >> Republican/s
     | class party political red
-  > zygote/zygotes
-    | pron z"aIgoUt/IY AH S IY AH S IY
+  >> zygote/s
 #class remove living
 
 #class add long
@@ -1197,942 +1003,786 @@
   #class add tool
     #class add drawing
       #class add writing
-        > ballpoint pen/ballpoint pens
-          | pron b"OlpOInt p"En/b"OlpOInt p"Enz
+        >> ballpoint pen/s
           | class pen
-        > charcoal pencil/charcoal pencils
-          | pron tS"Arrk%oUl p"EnsVl/tS"Arrk%oUl p"EnsVlz
+        >> charcoal pencil/s
           | class pencil
-        > felt-tip pen/felt-tip pens
-          | pron f"Elt t"Ip p"En/f"Elt t"Ip p"Enz
+        >> felt-tip pen/s
           | class pen
-        > sharpie/sharpies
-          | pron S"Arrpi/S"Arrpiz
+        >> sharpie/s
           | class marker
       #class remove writing
 
-      > oil pastel/oil pastels
-        | pron "OIl p{st"El/"OIl p{st"Elz
+      >> oil pastel/s
         | class pastel
-      > paintbrush/paintbrushes
-        | pron p"eIntbr%VS/p"eIntbr%VSIs
+      >> paintbrush/es
         | class brush painting
     #class remove drawing
 
-    > blowtorch/blowtorches
-      | pron bl"oUt%OrrtS/bl"oUt%OrrtSVz
-    > bunsen burner/bunsen burners
-      | pron AH S IY AH S IY b"3`n3`/AH S IY AH S IY b"3`n3`z
-    > dry-erase marker/dry-erase markers
-      | pron dr"aI Irr"eIs m"Arrk3`/dr"aI Irr"eIs m"Arrk3`z
-    > fountain pen/fountain pens
-      | pron f"aUntVn p"En/f"aUntVn p"Enz
-    > hammer/hammers
-      | pron h"{m3`/h"{m3`z
-    > jackhammer/jackhammers
-      | pron dZ"{kh%{m3`/dZ"{kh%{m3`z
-    > quill/quills
-      | pron kw"Il/kj"u
+    >> blowtorch/es
+    >> bunsen burner/s
+      | pron b"3`-n3`/b"3`-n3`z
+    >> dry-erase marker/s
+    >> fountain pen/s
+    >> hammer/s
+      | pron h"{-m3`/h"{-m3`z
+    >> jackhammer/s
+      | pron dZ"{k-h%{-m3`/dZ"{k-h%{-m3`z
+    >> quill/s
       | class sharp
-    > screwdriver/screwdrivers
-      | pron skr"udr%aIv3`/skr"udr%aIv3`z
-    > spoon/spoons
+    >> screwdriver/s
+      | pron skr"u-dr%aI-v3`/skr"u-dr%aI-v3`z
+    >> spoon/s
       | pron sp"un/sp"unz
-    > wand/wands
+    >> wand/s
       | pron w"And/w"Andz
-    > wrench/wrenches
-      | pron r"EntS/r"EntSIz
+    >> wrench/es
+      | pron r"EntS/r"En-tSIz
   #class remove tool
 
   #class add weapon
-    > arrow/arrows
-      | pron "erroU/"erroUz
+    >> arrow/s
+      | pron "E-roU/"E-roUz
       | class tool
-    > baton/batons
-      | pron b"{tVn/b{t"Anz
-    > bayonet/bayonets
-      | pron b"eIVn%Et/b"eIVn%Ets
+    >> baton/s
+      | pron b"{-tVn/b{-t"Anz
+    >> bayonet/s
       | class metal sharp
-    > broomstick/broomsticks
-      | pron br"umst%Ik/br"umst%Iks
-    > dart/darts
+    >> broomstick/s
+      | pron br"um-st%Ik/br"um-st%Iks
+    >> dart/s
       | pron d"Arrt/d"Arrts
-    > drill/drills
+    >> drill/s
       | pron dr"Il/dr"Ilz
       | class tool
-    > harpoon/harpoons
-      | pron hArrp"un/hArrp"unz
-    > leather horsewhip/leather horsewhips
-      | pron l"ED3`  AH S IY AH S IY AH S IY/l"ED3`  IY AH S IY AH S IY AH S IY
+    >> harpoon/s
+      | pron hArr-p"un/hArr-p"unz
+    >> leather horsewhip/s
       | class flexible leather tool
-    > pencil/pencils
-      | pron p"EnsVl/p"EnsVlz
+    >> pencil/s
+      | pron p"En-sVl/p"En-sVlz
       | class tool yellow
-    > shovel/shovels
-      | pron S"VvVl/S"VvVlz
+    >> shovel/s
+      | pron S"V-vVl/S"V-vVlz
       | class tool
-    > telephone pole/telephone poles
-      | pron t"ElVf%oUn p"oUl/t"ElVf%oUn p"oUlz
-    > torch/torches
-      | pron t"OrrtS/t"OrrtSIz
+    >> telephone pole/s
+      | pron t"E-lV-f%oUn p"oUl/t"E-lV-f%oUn p"oUlz
+    >> torch/es
+      | pron t"OrrtS/t"Orr-tSIz
   #class remove weapon
 
-  > banana/bananas
-    | pron bVn"{nV/bVn"{nVz
+  >> banana/s
+    | pron bV-n"{-nV/bV-n"{-nVz
     | class food fruit yellow
-  > banister/banisters
-    | pron b"{nIst3`/AH S IY AH S IY AH S IY
-  > broom/brooms
+  >> banister/s
+  >> broom/s
     | pron br"um/br"umz
-  > candle/candles
-    | pron k"{ndVl/k"{ndVlz
-  > cannon/cannons
-    | pron k"{nVn/k"{nVnz
-  > chain/chains
+  >> candle/s
+    | pron k"{n-dVl/k"{n-dVlz
+  >> cannon/s
+    | pron k"{-nVn/k"{-nVnz
+  >> chain/s
     | pron tS"eIn/tS"eInz
-  > cigarette/cigarettes
-    | pron s%IgVr"Et/s%IgVr"Ets
-  > clarinet/clarinets
-    | pron kl%errVn"Et/AH S IY AH S IY AH S IY
+  >> cigarette/s
+    | pron s%I-g3`-"Et/s%I-g3`-"Ets
+  >> clarinet/s
     | class instrument
-  > crack pipe/crack pipes
+  >> crack pipe/s
     | pron kr"{k p"aIp/kr"{k p"aIps
-  > cucumber/cucumbers
-    | pron kj"ukVmb3`/kj"ukVmb3`z
+  >> cucumber/s
+    | pron kj"u-kVm-b3`/kj"u-kVm-3`z
     | class vegetable
-  > elephant tusk/elephant tusks
-    | pron "ElVfVnt t"Vsk/"ElVfVnt t"Vsks
+  >> elephant tusk/s
     | class hard tusk
-  > extension cord/extension cords
-    | pron Ikst"EnSVn k"Orrd/Ikst"EnSVn k"Orrdz
-  > French horn/French horns
-    | pron fr"EntS h"Orrn/fr"EntS h"Orrnz
+  >> extension cord/s
+    | pron Ik-st"En-SVn k"Orrd/Ik-st"En-SVn k"Orrdz
+  >> French horn/s
     | class instrument music
-  > glowstick/glowsticks
-    | pron AH S IY AH S IY AH S IY/IY AH S IY AH S IY AH S IY
+  >> glowstick/s
     | class light
-  > grandfather clock/grandfather clocks
-    | pron gr"{nf%AD3` kl"Ak/gr"{nf%AD3` kl"Aks
+  >> grandfather clock/s
     | class clock machine
-  > jalapeno/jalapenos
-    | pron h%{lVp"injoU/h%{lVp"injoUz
+  >> jalapeno/s
     | class green pepper
-  > kazoo/kazoos
-    | pron kVz"u/AH S IY AH S IY
+  >> kazoo/s
     | class instrument
-  > knife/knives
+  >> knife/--ves
     | pron n"aIf/n"aIvz
-  > lightbulb/lightbulbs
-    | pron l"aItb%Vlb/l"aItb%Vlbz
-  > panhandle/panhandles
-    | pron p"{nh%{ndVl/IY AH S IY AH S IY AH S IY
-  > pickle/pickles
-    | pron p"IkVl/p"IkVlz
+  >> lightbulb/s
+    | pron l"aIt-b%Vlb/l"aIt-b%Vlbz
+  >> panhandle/s
+  >> pickle/s
+    | pron p"I-kVl/p"I-kVlz
     | class green
-  > plunger/plungers
-    | pron pl"VndZ3`/AH L AH S IY AH S IY
-  > pole/poles
+  >> plunger/s
+  >> pole/s
     | pron p"oUl/p"oUlz
-  > ram horn/ram horns
-    | pron r"{m h"Orrn/r"{m h"Orrnz
+  >> ram horn/s
     | class hard horn
-  > rhino horn/rhino horns
-    | pron r"aIn%oU h"Orrn/r"aIn%oU h"Orrnz
+  >> rhino horn/s
     | class hard horn
-  > rocket/rockets
-    | pron r"AkVt/r"AkVts
-  > ruler/rulers
-    | pron r"ul3`/r"ul3`z
-  > sausage/sausages
-    | pron s"OsIdZ/s"OsIdZIz
-  > silo/silos
-    | pron s"aIloU/s"aIl%oUz
-  > spork/sporks
-    | pron AH L AH S IY/AH S IY AH S IY
+  >> rocket/s
+    | pron r"A-kVt/r"A-kVts
+  >> ruler/s
+    | pron r"u-l3`/r"u-l3`z
+  >> sausage/s
+    | pron s"O-sIdZ/s"O-sI-dZIz
+  >> silo/s
+    | pron s"aI-loU/s"aI-l%oUz
+  >> spork/s
   > spray nozzle
-    | pron spr"eI n"AzVl
     | class hole
-  > staple/staples
-    | pron st"eIpVl/st"eIpVlz
-  > toothbrush/toothbrushes
-    | pron t"uTbrVS/t"uTbr%VSIz
-  > toothpick/toothpicks
-    | pron t"uTp%Ik/t"uTp%Iks
-  > tree/trees
+  >> staple/s
+    | pron st"eI-pVl/st"eI-pVlz
+  >> toothbrush/es
+    | pron t"uT-brVS/t"uT-br%V-SIz
+  >> toothpick/s
+    | pron t"uT-p%Ik/t"uT-p%Iks
+  >> tree/s
     | pron tr"i/tr"iz
-  > turd/turds
-    | pron IY AH S IY/AH L AH S IY
-  > umbrella/umbrellas
-    | pron "Vmbr%ElV/Vmbr"ElVz
+  >> turd/s
+  >> umbrella/s
+    | pron "Vm-br%E-lV/Vm-br"E-lVz
 #class remove long
 
 #class add machine
-  > copy machine/copy machines
-    | pron k"Api mVS"in/k"Api mVS"inz
+  >> copy machine/s
     | class copying office printing
-  > gearshift/gearshifts
-    | pron AH S IY AH S IY AH S IY/IY AH S IY AH S IY AH S IY
-  > mouse/mice
-    | pron m"aUs/m"aIs
+  >> gearshift/s
+  >> mouse/----ice
     | class computer office pointing
-  > printer/printers
-    | pron pr"In3`/pr"In3`z
+  >> printer/s
     | class office printing
 #class remove machine
 
 #class add nsfw
   #class add sex
-    > anus/anuses
-      | pron "eInVs/AH S IY AH S IY
+    >> anus/es
       | class body hole
-    > ballsack/ballsacks
-      | pron AH L AH S IY AH S IY/AH S IY AH S IY AH S IY
+    >> ballsack/s
       | class body
-    > blue waffle/blue waffles
-      | pron bl"u w"AfVl/bl"u w"AfVlz
-    > boner/boners
-      | pron b"oUn3`/AH S IY AH S IY
+    >> blue waffle/s
+    >> boner/s
       | class body long
-    > boob/boobs
-      | pron b"ub/b"ubz
+    >> boob/s
       | class body round
-    > cock/cocks
-      | pron k"Ak/k"Aks
+    >> cock/s
       | class body long
-    > cunt/cunts
-      | pron k"Vnt/AH L AH S IY
+    >> cunt/s
+      | pron k unt/k unts
       | class body
-    > cuntflap/cuntflaps
-      | pron AH L AH S IY AH S IY/AH S IY AH S IY AH S IY
+    >> cuntflap/s
       | class body
-    > cuntrocket/cuntrockets
-      | pron IY AH S IY AH S IY AH S IY/AH L AH S IY AH S IY AH S IY
-    > cuntwaffle/cuntwaffles
-      | pron IY AH S IY AH S IY AH S IY/AH L AH S IY AH S IY AH S IY
-    > dick/dicks
-      | pron d"Ik/d"Iks
+    >> cuntrocket/s
+    >> cuntwaffle/s
+    >> dick/s
+      | pron d ik/d iks
       | class body long
-    > dildo/dildos
-      | pron d"Ild%oU/d"Ild%oUz
-    > dinocock/dinococks
-      | pron dV AH S IY/AH S IY AH S IY AH S IY
-    > double dildo/double dildos
-      | pron d"VbVl d"Ild%oU/d"VbVl d"Ild%oUz
+    >> dildo/s
+    >> dinocock/s
+    >> double dildo/s
       | class long
-    > foreskin/foreskins
-      | pron f"oUrsk%In/AH S IY AH S IY AH S IY
+    >> foreskin/s
       | class body
-    > goatse/goatses
-      | pron AH S IY AH S IY/IY AH S IY AH S IY
+    >> goatse/s
       | class hole
-    > manhood/manhoods
-      | pron m"{nh%Ud/AH L AH S IY AH S IY
+    >> manhood/s
       | class body long
-    > micropenis/micropenises
-      | pron IY AH S IY AH S IY AH S IY/AH S IY AH S IY AH S IY AH S IY
+    >> micropenis/es
       | class body
-    > penis/penises
-      | pron p"inIs/p"inIsIz
+    >> penis/es
       | class body long
-    > prick/pricks
-      | pron pr"Ik/pr"Iks
+    >> prick/s
+      | pron p r ik/p r iks
       | class body long
-    > pussy/pussies
-      | pron p"Usi/p"Usiz
+    >> pussy/-ies
       | class body hole
-    > pussy/pussies
-      | pron p"Usi/p"Usiz
+    >> pussy/-ies
       | class body
-    > scrotum/scrotums
-      | pron IY AH S IY AH S IY/AH L AH S IY AH S IY
+    >> scrotum/s
       | class body
-    > sphincter/sphincters
-      | pron AH S IY AH S IY AH S IY/IY AH S IY AH S IY AH S IY
+    >> sphincter/s
       | class body hole
-    > taint/taints
-      | pron t"eInt/t"eInts
+    >> taint/s
       | class body
-    > testicle/testicles
-      | pron t"Est%IkVl/t"Est%IkVlz
+    >> testicle/s
       | class body
-    > tit/tits
-      | pron t"It/t"Its
+    >> tit/s
       | class body round
-    > vagflap/vagflaps
-      | pron IY AH S IY AH S IY/AH L AH S IY AH S IY
+    >> vagflap/s
       | class body
-    > vagina/vaginas
-      | pron vVdZ"aInV/IY AH S IY AH S IY
+    >> vagina/s
       | class body hole
-    > willy/willies
-      | pron w"Ili/IY AH S IY AH S IY
+    >> willy/-ies
       | class body long
   #class remove sex
 
-  > asshole/assholes
-    | pron "{shoUl/"{shoUlz
+  >> asshole/s
     | class body hole
-  > battering ram/battering rams
-    | pron b"{t3`IN r"{m/b"{t3`IN r"{mz
+  >> battering ram/s
     | class long tool weapon
-  > bitch/bitches
-    | pron b"ItS/b"ItSIz
+  >> bitch/es
     | class animal
-  > butthair/butthairs
-    | pron AH L AH S IY AH S IY/AH S IY AH S IY AH S IY
+  >> butthair/s
     | class tool
-  > chesticle/chesticles
-    | pron AH S IY AH S IY AH S IY/IY AH S IY AH S IY AH S IY
+  >> chesticle/s
     | class body
-  > motherfucker/motherfuckers
-    | pron m"VD3`f%Vk3`/m"VD3`f%Vk3`z
-  > nipple clamp/nipple clamps
-    | pron n"IpVl kl"{mp/n"IpVl kl"{mps
+  >> motherfucker/s
+    | pron muhth-er-fuhk-er/muhth-er-fuhk-ers
+  >> nipple clamp/s
     | class tool
-  > panties/panties
-    | pron p"{ntiz/p"{ntiz
+  >> panties/
     | class clothing
-  > poop/poops
-    | pron p"up/p"ups
-  > poo-poo/poo-poos
-    | pron p"u p"u/p"u  IY AH S IY
-  > pube/pubes
-    | pron IY AH S IY/AH L AH S IY
+  >> poop/s
+    | pron p oop/p oops
+  >> poo-poo/s
+  >> pube/s
     | class body
-  > shit/shits
-    | pron S"It/S"It
+  >> shit/s
     | class uncountable
-  > thong/thongs
-    | pron T"ON/AH S IY AH S IY
+  >> thong/s
     | class article
-  > yeast/yeastinfections
-    | pron j"ist/AH S IY AH S IY AH S IY AH S IY AH S IY
+  >> yeast/infections
 #class remove nsfw
 
 #class add plant
-  > clover/clovers
-    | pron kl"oUv3`/IY AH S IY AH S IY
+  >> clover/s
     | class green
-  > daisy/daisies
-    | pron d"eIzi/d"eIziz
-  > dandelion/dandelions
-    | pron d"{ndVl%aIVn/d"{ndVl%aIVnz
+  >> daisy/-ies
+    | pron d"eI-zi/d"eI-ziz
+  >> dandelion/s
+    | pron d"{n-dV-l%aI-Vn/d"{n-dV-l%aI-Vnz
     | class yellow
-  > fern/ferns
+  >> fern/s
     | pron f"3`n/f"3`nz
-  > grass/grasses
-    | pron gr"{s/gr"{sIz
+  >> grass/es
+    | pron gr"{s/gr"{-sIz
     | class green
-  > hedge/hedges
-    | pron h"EdZ/h"EdZIz
-  > maple tree/maple trees
-    | pron m"eIpVl tr"i/m"eIpVl tr"iz
-  > marigold/marigolds
-    | pron m"errVg%oUld/m"errVg%oUldz
+  >> hedge/s
+    | pron h"EdZ/h"E-dZIz
+  >> maple tree/s
+    | pron m"eI-pVl tr"i/m"eI-pVl tr"iz
+  >> marigold/s
+    | pron m"E-rV-g%oUld/m"E-rV-g%oUldz
     | class orange
-  > pumpkin/pumpkins
-    | pron p"VmkIn/p"VmkVnz
+  >> pumpkin/s
+    | pron p"Vm-kIn/p"Vm-kVnz
     | class orange
-  > stinging nettle/stinging nettles
-    | pron st"ININ n"EtVl/st"ININ n"EtVlz
-  > thistle/thistles
-    | pron T"IsVl/T"IsVlz
-  > tuber/tubers
-    | pron AH L AH S IY/AH S IY AH S IY
-  > tulip/tulips
-    | pron t"ulIp/t"ulIps
+  >> stinging nettle/s
+    | pron st"I-NIN n"E-tVl/st"I-NIN n"E-tVlz
+  >> thistle/s
+    | pron T"I-sVl/T"I-sVlz
+  >> tuber/s
+  >> tulip/s
+    | pron t"u-lVp/t"u-lVps
 #class remove plant
 
 #class add shape
-  > circle/circles
-    | pron s"3`kVl/s"3`kVlz
-  > globe/globes
+  >> circle/s
+    | pron s"3`-kVl/s"3`-kVlz
+  >> globe/s
     | pron gl"oUb/gl"oUbz
-  > great-stellated dodecahedron/great-stellated dodecahedrons
-    | pron gr"eIt  AH S IY AH S IY AH S IY  AH S IY AH S IY AH S IY AH S IY/gr"eIt  AH S IY AH S IY AH S IY  IY AH S IY AH S IY AH S IY AH S IY
-  > oval/ovals
-    | pron "oUvVl/AH L AH S IY
-  > square/squares
+  >> great-stellated dodecahedron/s
+  >> oval/s
+  >> square/s
     | pron skw"err/skw"errz
-  > triangle/triangles
-    | pron tr"aI%{NgVl/tr"aI%{NgVlz
+  >> triangle/s
+    | pron tr"aI-%{N-gVl/tr"aI-%{N-gVlz
 #class remove shape
 
 #class add surface
-  > bedsheet/bedsheets
-    | pron AH L AH S IY AH S IY/AH S IY AH S IY AH S IY
-  > carpet/carpets
-    | pron k"ArrpVt/k"ArrpVts
-  > ceiling/ceilings
-    | pron s"ilIN/s"ilINz
-  > door/doors
+  >> bedsheet/s
+  >> carpet/s
+    | pron k"Arr-pVt/k"Arr-pVts
+  >> ceiling/s
+    | pron s"i-lIN/s"i-lINz
+  >> door/s
     | pron d"Orr/d"Orrz
-  > facade/facades
-    | pron fVs"Ad/fVs"Adz
-  > floor/floors
+  >> facade/s
+  >> floor/s
     | pron fl"Orr/fl"Orrz
-  > patio/patios
-    | pron p"{ti%oU/p"{ti%oUz
-  > roof/roofs
-    | pron r"Uf/r"ufs
-  > tabletop/tabletops
-    | pron t"eIbVlt%Ap/AH S IY AH S IY AH S IY
-  > wall/walls
+  >> patio/s
+    | pron p"{-ti-%oU/p"{-ti-%oUz
+  >> roof/s
+    | pron r"uf/r"ufs
+  >> tabletop/s
+  >> wall/s
     | pron w"Ol/w"Olz
-  > wall/walls
+  >> wall/s
     | pron w"Ol/w"Olz
     | class architecture vertical
-  > window/windows
-    | pron w"IndoU/w"IndoUz
+  >> window/s
+    | pron w"In-doU/w"In-doUz
 #class remove surface
 
 #class add tool
   #class add weapon
-    > bomb/bombs
+    >> bomb/s
       | pron b"Om/b"Amz
-    > chainsaw/chainsaws
-      | pron tS"eIns%O/tS"eIns%Oz
-    > crosscut saw/crosscut saws
-      | pron AH L AH S IY AH S IY s"O/AH L AH S IY AH S IY s"Oz
-    > flamethrower/flamethrowers
-      | pron AH S IY AH S IY AH S IY AH S IY/IY AH S IY AH S IY AH S IY AH S IY
+    >> chainsaw/s
+      | pron tS"eIn-s%O/tS"eIn-s%Oz
+    >> crosscut saw/s
+    >> flamethrower/s
       | class long
-    > fork/forks
+    >> fork/s
       | pron f"Orrk/f"Orrks
       | class long
-    > lawn mower/lawn mowers
-      | pron l"On m"oU3`/l"On m"oU3`z
-    > machete/machetes
-      | pron mVtS"Et%i/mVtS"Et%iz
+    >> lawn mower/s
+      | pron l"On m"oU-3`/l"On m"oU-3`z
+    >> machete/s
+      | pron mV-tS"E-t%i/mV-tS"E-t%iz
       | class long
-    > pickaxe/pickaxes
-      | pron IY AH S IY AH S IY/AH L AH S IY AH S IY
-    > pike/pikes
-      | pron p"aIk/p"aIks
-    > pistol/pistols
-      | pron p"IstVl/p"IstVlz
-    > pitchfork/pitchforks
-      | pron p"ItSf%Orrk/p"ItSf%Orrks
+    >> pickaxe/s
+    >> pike/s
+    >> pistol/s
+      | pron p"I-stVl/p"I-stVlz
+    >> pitchfork/s
+      | pron p"ItS-f%Orrk/p"ItS-f%Orrks
       | class long
-    > spear/spears
+    >> spear/s
       | pron sp"Irr/sp"Irrz
       | class long
-    > stapler/staplers
-      | pron st"eIpl3`/st"eIpl3`z
-    > stun gun/stun guns
+    >> stapler/s
+      | pron st"eIp-l3`/st"eIp-l3`z
+    >> stun gun/s
       | pron st"Vn g"Vn/st"Vn g"Vnz
-    > sword/swords
+    >> sword/s
       | pron s"Orrd/s"Orrdz
       | class long
   #class remove weapon
 
-  > allen wrench/allen wrenches
-    | pron "{lVn r"EntS/"{lVn r"EntSIz
+  >> allen wrench/es
     | class long
-  > bicycle pump/bicycle pumps
-    | pron b"aIsIkVl p"Vmp/b"aIsIkVl p"Vmps
+  >> bicycle pump/s
     | class long
-  > blender/blenders
-    | pron bl"End3`/bl"End3`z
-  > camera/cameras
-    | pron k"{mrV/k"{mrVz
-  > can opener/can openers
-    | pron kVn "oUpVn3`/kVn "oUpVn3`z
-  > cattle prod/cattle prods
-    | pron k"{tVl pr"Ad/k"{tVl pr"Adz
-  > Chemnitzer concertina/Chemnitzer concertinas
-    | pron IY AH S IY AH S IY AH S IY kAns3`t"inV/IY AH S IY AH S IY AH S IY  AH L AH S IY AH S IY AH S IY
+  >> blender/s
+    | pron bl"En-d3`/bl"En-d3`z
+  >> camera/s
+  >> can opener/s
+    | pron kVn "oU-pVn-3`/kVn "oU-pVn-3`z
+  >> cattle prod/s
+    | pron k"{-tVl pr"Ad/k"{-tVl pr"Adz
+  >> Chemnitzer concertina/s
     | class instrument
-  > cosmotron/cosmotrons
-    | pron AH S IY AH S IY AH S IY/IY AH S IY AH S IY AH S IY
-  > crucible/crucibles
-    | pron kr"usVbVl/AH S IY AH S IY AH S IY
+  >> cosmotron/s
+  >> crucible/s
     | class container
-  > drug/drugs
+  >> drug/s
     | pron dr"Vg/dr"Vgz
-  > firecracker/firecrackers
-    | pron f"aI3`kr%{k3`/f"aI3`kr%{k3`z
-  > hacksaw/hacksaws
-    | pron h"{ks%O/AH L AH S IY AH S IY
-  > hair dryer/hair driers
-    | pron h"err dr"aI3`/h"err dr"aI
+  >> firecracker/s
+    | pron f"aI-3`-kr%{-k3`/f"aI-3`-kr%{-k3`z
+  >> hacksaw/s
+  >> hair dryer/---iers
     | class grooming machine
-  > hairbrush/hairbrushes
-    | pron h"eI AH S IY/AH L AH S IY AH S IY AH S IY
+  >> hairbrush/es
     | class grooming
-  > iron maiden/iron maidens
-    | pron "aI3`n m"eIdVn/"aI3`n m"eIdVnz
-  > jockstrap/jockstraps
-    | pron AH S IY AH S IY AH S IY/IY AH S IY AH S IY AH S IY
-  > ladder/ladders
-    | pron l"{d3`/l"{d3`z
-  > leaf blower/leaf blowers
-    | pron l"if bl"oU3`/l"if bl"oU3`z
-  > loincloth/loincloths
-    | pron l"OInkl%OT/IY AH S IY AH S IY AH S IY
-  > microscope/microscopes
-    | pron m"aIkrVsk%oUp/m"aIkrVsk%oUps
-  > nutcracker/nutcrackers
-    | pron n"Vtkr%{k3`/n"Vtkr%{k3`z
-  > pan/pans
+  >> iron maiden/s
+    | pron "aI-3`n m"eI-dVn/"aI-3`n m"eI-dVnz
+  >> jockstrap/s
+  >> ladder/s
+    | pron l"{-d3`/l"{-d3`z
+  >> leaf blower/s
+    | pron l"if bl"oU-3`/l"if bl"oU-3`z
+  >> loincloth/s
+  >> microscope/s
+    | pron m"aI-krVs-k%oUp/m"aI-krVs-k%oUps
+  >> nutcracker/s
+  >> pan/s
     | pron p"{n/p"{nz
-  > phone/phones
+  >> phone/s
     | pron f"oUn/f"oUnz
-  > pot/pots
+  >> pot/s
     | pron p"At/p"Ats
-  > robot/robots
-    | pron r"oUb%Vt/r"oUb%Vts
-  > rumpus/rumpuses
-    | pron AH S IY AH S IY/AH L AH S IY AH S IY
-  > shopping cart/shopping carts
-    | pron S"ApIN k"Arrt/S"ApIN k"Arrts
-  > sledgehammer/sledgehammers
-    | pron sl"EdZh%{m3`/IY AH S IY AH S IY AH S IY AH S IY
-  > squeegee/squeegees
-    | pron skw"idZi/AH S IY AH S IY AH S IY
-  > thermometer/thermometers
-    | pron T3`m"AmVt3`/T3`m"AmVt3`z
+  >> robot/s
+    | pron r"oU-b%Vt/r"oU-b%Vts
+  >> rumpus/es
+  >> shopping cart/s
+    | pron S"A-pIN k"Arrt/S"A-pIN k"Arrts
+  >> sledgehammer/s
+  >> squeegee/s
+  >> thermometer/s
     | class long
-  > vacuum/vacuums
-    | pron v"{kjum/v"{kjumz
+  >> vacuum/s
+    | pron v"{-kjum/v"{-kjumz
 #class remove tool
 
 #class add uncountable
   #class add liquid
-    > acid/acids
-      | pron "{sVd/"{sVdz
-    > beer/beers
+    >> acid/s
+      | pron "{-sVd/"{-sVdz
+    >> beer/s
       | pron b"Irr/b"Irrz
       | class alcoholic
-    > bleach/bleaches
-      | pron bl"itS/AH L AH S IY AH S IY
-    > cream/creams
+    >> bleach/es
+      | pron bl"itS/bl"itS
+    >> cream/s
       | pron kr"im/kr"imz
-    > diarrhea/diarrhea
-      | pron d%aI3`"iV/d%aI3`"iV
-    > earwax/earwax
-      | pron "Irrw%{ks/"Irrw%{ks
+    >> diarrhea/
+      | pron d%aI-3`-"i-V/d%aI-3`-"i-V
+    >> earwax/
+      | pron "Irr-w%{ks/"Irr-w%{ks
       | class yellow
-    > grease/greases
-      | pron gr"is/IY AH S IY AH S IY
-    > lotion/lotions
-      | pron l"oUSVn/l"oUSVnz
-    > oil/oils
+    >> grease/s
+      | pron gr"is/gr"is
+    >> lotion/s
+      | pron l"oU-SVn/l"oU-SVnz
+    >> oil/s
       | pron "OIl/"OIlz
-    > olive oil/olive oil
-      | pron "AlIv "OIl/"AlIv "OIl
-    > pudding/puddings
-      | pron p"UdIN/p"UdINz
-    > rain/rains
+    >> olive oil/
+      | pron "A-lIv "OIl/"A-lIv "OIl
+    >> pudding/s
+      | pron p"U-dIN/p"U-dINz
+    >> rain/s
       | pron r"eIn/r"eInz
-    > saliva/saliva
-      | pron sVl"aIvV/sVl"aIvV
-    > sauce/sauces
-      | pron s"Os/s"OsIz
-    > slime/slime
+    >> saliva/
+      | pron sV-l"aI-vV/sV-l"aI-vV
+    >> sauce/s
+      | pron s"Os/s"O-sIz
+    >> slime/
       | pron sl"aIm/sl"aIm
-    > snot/snots
-      | pron sn"Ot/AH L AH S IY
-    > soap/soaps
+    >> snot/s
+    >> soap/s
       | pron s"oUp/s"oUps
-    > soup/soups
+    >> soup/s
       | pron s"up/s"ups
-    > sweat/sweats
+    >> sweat/s
       | pron sw"Et/sw"Ets
-    > tar/tar
+    >> tar/
       | pron t"Arr/t"Arr
-    > toothpaste/toothpastes
-      | pron t"uTp%eIst/t"uTp%eIsts
-    > urine/urine
-      | pron j"UrrVn/j"UrrVn
+    >> toothpaste/s
+      | pron t"uT-p%eIst/t"uT-p%eIsts
+    >> urine/
+      | pron j"U-rVn/j"U-rVn
       | class yellow
-    > vodka/vodka
-      | pron v"AdkV/v"AdkV
+    >> vodka/
+      | pron v"Ad-kV/v"Ad-kV
       | class alcoholic
-    > water/water
-      | pron w"Ot3`/w"Ot3`
-    > wine/wines
+    >> water/
+      | pron w"O-t3`/w"O-t3`
+    >> wine/s
       | pron w"aIn/w"aInz
       | class alcoholic
-    > yogurt/yogurts
-      | pron j"oUg3`t/IY AH S IY AH S IY
+    >> yogurt/s
   #class remove liquid
 
-  > lemonade/lemonades
-    | pron l"EmVn"eId/AH S IY AH S IY AH S IY
+  >> lemonade/s
     | class beverage
-  > manure/manure
-    | pron mVn"Urr/mVn"Urr
+  >> manure/
+    | pron mV-n"Urr/mV-n"Urr
 #class remove uncountable
 
 #class add vehicle
-  > aircraft carrier/aircraft carriers
-    | pron "errkr%{ft k"erri3`/"errkr%{ft k"erri3`z
-  > airplane/airplanes
-    | pron "errpl%eIn/"errpleInz
-  > articulated bus/articulated buses
-    | pron Arrt"IkjVl%eItVd b"Vs/Arrt"IkjVl%eItVd b"VsIz
+  >> aircraft carrier/s
+    | pron "err-kr%{ft k"E-ri-3`/"err-kr%{ft k"E-ri-3`z
+  >> airplane/s
+    | pron "err-pl%eIn/"err-pleInz
+  >> articulated bus/es
     | class articulated bus flexible long
-  > bicycle/bicycles
-    | pron b"aIsIkVl/b"aIsIkVlz
-  > blimp/blimps
+  >> bicycle/s
+  >> blimp/s
     | pron bl"Imp/bl"Imps
-  > boat/boats
+  >> boat/s
     | pron b"oUt/b"oUts
-  > car/cars
+  >> car/s
     | pron k"Arr/k"Az
-  > fire engine/fire engines
-    | pron f"aIr "IndZVn/f"aIr "EndZVnz
+  >> fire engine/s
     | class red
-  > hot rod/hot rods
+  >> hot rod/s
     | pron h"At r"Ad/h"At r"Adz
-  > minivan/minivans
-    | pron m"Iniv"{n/m"Iniv"{nz
-  > motorcycle/motorcycles
-    | pron m"oUt3`s%aIkVl/m"oUt3`s%aIkVlz
-  > semi/semis
-    | pron s"EmaI/s"EmaIz
-  > submarine/submarines
-    | pron s%Vbm3`"in/sVbm3`"inz
-  > train/trains
+  >> minivan/s
+    | pron m"I-ni-v"{n/m"I-ni-v"{nz
+  >> motorcycle/s
+    | pron m"oU-t3`-s%aI-kVl/m"oU-t3`-s%aI-kVlz
+  >> semi/s
+    | pron s"E-maI/s"E-maIz
+  >> submarine/s
+    | pron s%Vb-m3`-"in/sVb-m3`-"inz
+  >> train/s
     | pron tr"eIn/tr"eInz
-  > truck/trucks
+  >> truck/s
     | pron tr"Vk/tr"Vks
 #class remove vehicle
 
 #class add weapon
-  > brick/bricks
+  >> brick/s
     | pron br"Ik/br"Iks
-  > bullet/bullets
-    | pron b"UlVt/b"UlVts
-  > cleat/cleats
+  >> bullet/s
+    | pron b"U-lVt/b"U-lVts
+  >> cleat/s
     | pron kl"it/kl"its
-  > dagger/daggers
-    | pron d"{g3`/d"{g3`z
-  > dynamite/dynamites
-    | pron d"aInVm%aIt/AH S IY AH S IY AH S IY
+  >> dagger/s
+    | pron d"{-g3`/d"{-g3`z
+  >> dynamite/s
     | class bomb explosive long
-  > horsewhip/horsewhips
-    | pron AH S IY AH S IY AH S IY/IY AH S IY AH S IY AH S IY
+  >> horsewhip/s
     | class tool
-  > lampstand/lampstands
-    | pron AH S IY AH S IY AH S IY/IY AH S IY AH S IY AH S IY
-  > musket/muskets
-    | pron m"VskVt/IY AH S IY AH S IY
-  > nail/nails
+  >> lampstand/s
+  >> musket/s
+  >> nail/s
     | pron n"eIl/n"eIlz
-  > needle/needles
-    | pron n"idVl/n"idVlz
-  > pipe/pipes
+  >> needle/s
+    | pron n"i-dVl/n"i-dVlz
+  >> pipe/s
     | pron p"aIp/p"aIps
-  > razor/razors
-    | pron r"eIz3`/r"eIz3`z
+  >> razor/s
+    | pron r"eI-z3`/r"eI-z3`z
     | class tool
-  > shotgun/shotguns
-    | pron S"Atg%Vn/S"Atg%Vnz
+  >> shotgun/s
+    | pron S"At-g%Vn/S"At-g%Vnz
     | class long
-  > wheelbarrow/wheelbarrows
-    | pron hw"ilb%erroU/hw"ilb%erroUz
+  >> wheelbarrow/s
+    | pron hw"il-b%E-roU/hw"il-b%E-roUz
     | class tool
 #class remove weapon
 
-> aileron/ailerons
-  | pron "eIl3`%An/"eIl3`%Anz
+>> aileron/s
   | class articulated aviation
-> anthill/anthills
-  | pron "{nth%Il/"{nth%Ilz
-> asymptote/asymptotes
-  | pron "{sImpt%oUt/"{sImpt%oUts
-> bald eagle/bald eagles
-  | pron b"Old "igVl/b"Old "igVlz
+>> anthill/s
+  | pron "{nt-h%Il/"{nt-h%Ilz
+>> asymptote/s
+  | pron "{-sImp-t%oUt/"{-sImp-t%oUts
+>> bald eagle/s
   | class bird eagle
-> banjo/banjos
-  | pron b"{ndZ%oU/AH S IY AH S IY
+>> banjo/s
   | class instrument music
-> battery/batteries
-  | pron b"{t3`i/b"{t3`iz
-> bingo/bingos
-  | pron b"INgoU/AH S IY AH S IY
-> booger/boogers
-  | pron AH S IY AH S IY/IY AH S IY AH S IY
+>> battery/-ies
+  | pron b"{-t3`-i/b"{-t3`-iz
+>> bingo/s
+>> booger/s
   | class green
-> book/books
+>> book/s
   | pron b"Uk/b"Uks
-> boxcar/boxcars
-  | pron b"Aksk%Arr/b"Aksk%Arrz
+>> boxcar/s
   | class train
-> bulge/bulges
-  | pron b"VldZ/b"VldZIz
-> butt joint/butt joints
-  | pron b"Vt dZ"OInt/b"Vt dZ"OInts
-> button/buttons
-  | pron b"VtVn/b"VtVnz
-> buttonhole/buttonholes
-  | pron b"VtVnh%oUl/b"VtVnh%oUlz
-> caboose/cabooses
-  | pron kVb"us/kVb"usIz
-> candy cane/candy canes
-  | pron k"{ndi k"eIn/k"{ndi k"eInz
-> canister/canisters
-  | pron k"{nIst3`/k"{nIst3`z
-> carcass/carcasses
-  | pron k"ArrkVs/k"ArrkVsIz
-> card/cards
+>> bulge/s
+  | pron b"VldZ/b"Vl-dZIz
+>> butt joint/s
+>> button/s
+  | pron b"V-tVn/b"V-tVnz
+>> buttonhole/s
+>> caboose/s
+  | pron kV-b"us/kV-b"u-sIz
+>> candy cane/s
+  | pron k"{n-di k"eIn/k"{n-di k"eInz
+>> canister/s
+  | pron k"{-nI-st3`/k"{-nI-st3`z
+>> carcass/es
+  | pron k"Arr-kVs/k"Arr-kV-sIz
+>> card/s
   | pron k"Arrd/k"Arrdz
-> carpet/carpets
-  | pron k"ArrpVt/k"ArrpVts
-> cassette tape/cassette tapes
-  | pron kVs"Et t"eIp/kVs"Et t"eIps
-> cement/cement
-  | pron sIm"Ent/sIm"Ent
-> cinder block/cinder blocks
-  | pron s"Ind3` bl"Ak/s"Ind3` bl"Aks
+>> carpet/s
+  | pron k"Arr-pVt/k"Arr-pVts
+>> cassette tape/s
+>> cement/
+  | pron sI-m"Ent/sI-m"Ent
+>> cinder block/s
   | class hard
-> clock/clocks
+>> clock/s
   | pron kl"Ak/kl"Aks
-> coaster/coasters
-  | pron k"oUst3`/k"oUst3`z
-> cockade/cockades
-  | pron IY AH S IY AH S IY/AH L AH S IY AH S IY
-> cocktail/cocktails
-  | pron k"Akt%eIl/k"Akt%eIlz
+>> coaster/s
+>> cockade/s
+>> cocktail/s
+  | pron k"Ak-t%eIl/k"Ak-t%eIlz
   | class alcoholic beverage
-> constitution/constitutions
-  | pron k%AnstVt"uSVn/k%AnstIt"uSVnz
-> cork/corks
+>> constitution/s
+  | pron k%An-stV-t"u-SVn/k%An-stI-t"u-SVnz
+>> cork/s
   | pron k"Orrk/k"Orrks
-> county/counties
-  | pron k"aUni/k"aUntiz
+>> county/-ies
   | class geo
-> cramp/cramps
+>> cramp/s
   | pron kr"{mp/kr"{mps
-> credit card/credit cards
-  | pron kr"EdIt k"Arrd/kr"EdIt k"Arrdz
-> cuckoo/cuckoos
-  | pron k"uk%u/k"ukuz
-> delicacy/delicacies
-  | pron d"ElIkVsi/d"ElIkVsiz
-> diaper/diapers
-  | pron d"aIp3`/d"aIp3`z
-> dictionary/dictionaries
-  | pron d"IkSVn%erri/d"IkSVn%erriz
-> dingleberry/dingleberries
-  | pron dV AH S IY AH S IY/IY AH S IY AH S IY AH S IY AH S IY
-> diode/diodes
-  | pron d"aI%oUd/d"aI%oUdz
-> disco ball/disco balls
-  | pron d"IskoU b"Ol/d"IskoU b"Olz
-> dishrag/dishrags
-  | pron IY AH S IY AH S IY/dV AH S IY
-> doll/dolls
+>> credit card/s
+  | pron kr"E-dIt k"Arrd/kr"E-dIt k"Arrdz
+>> cuckoo/s
+  | pron k"u-k%u/k"u-kuz
+>> delicacy/-ies
+>> diaper/s
+  | pron d"aI-p3`/d"aI-p3`z
+>> dictionary/-ies
+  | pron d"Ik-SV-n%E-ri/d"Ik-SV-n%E-riz
+>> dingleberry/-ies
+>> diode/s
+>> disco ball/s
+  | pron d"I-skoU b"Ol/d"I-skoU b"Olz
+>> dishrag/s
+>> doll/s
   | pron d"Al/d"Alz
   | class toy
-> doodle/doodles
-  | pron d"udVl/d"udVlz
-> duct tape/duct tape
+>> doodle/s
+  | pron d"u-dVl/d"u-dVlz
+>> duct tape/
   | pron d"Vkt t"eIp/d"Vkt t"eIp
-> earwax/earwax
-  | pron "Irrw%{ks/"Irrw%{ks
-> enigma/enigmas
-  | pron In"IgmV/IY AH S IY AH S IY
-> eraser/erasers
-  | pron Irr"eIs3`/Irr"eIs3`z
-> facet/facets
-  | pron f"{sVt/f"{sVts
-> fan/fans
+>> earwax/
+  | pron "Irr-w%{ks/"Irr-w%{ks
+>> enigma/s
+>> eraser/s
+  | pron i-r"eI-s3`/i-r"eI-s3`z
+>> facet/s
+>> fan/s
   | pron f"{n/f"{nz
-> fart/farts
-  | pron f"Arrt/AH L AH S IY
-> feces/feces
-  | pron f"is%iz/f"is%iz
-> fetus/fetuses
-  | pron f"itVs/f"itVsIz
-> fissure/fissures
-  | pron f"IS3`/f"IS3`z
+>> fart/s
+>> feces/
+  | pron f"i-s%iz/f"i-s%iz
+>> fetus/es
+  | pron f"i-tVs/f"i-tV-sIz
+>> fissure/s
   | class feature hole
-> flapjack/flapjacks
-  | pron fl"{pdZ%{k/fl"{pdZ%{ks
-> fog/fogs
-  | pron f"Og/f"Ogz
-> football/footballs
-  | pron f"Utb%Ol/f"Utb%Olz
-> frosting/frostings
-  | pron fr"OstIN/fr"OstINz
-> fulcrum/fulcrums
-  | pron f"UlkrVm/AH L AH S IY AH S IY
-> garden/gardens
-  | pron g"ArrdVn/g"ArrdVnz
-> gas giant/gas giants
-  | pron g"{s dZ"aIVnt/g"{s dZ"aIVnts
+>> flapjack/s
+>> fog/s
+>> football/s
+  | pron f"Ut-b%Ol/f"Ut-b%Olz
+>> frosting/s
+  | pron fr"O-stIN/fr"O-stINz
+>> fulcrum/s
+>> garden/s
+  | pron g"Arr-dVn/g"Arr-dVnz
+>> gas giant/s
   | class astronomy
-> ghost/ghosts
-  | pron g"oUst/g"oUsts
-> giblet/giblets
-  | pron dZ"IblVt/IY AH S IY AH S IY
-> goiter/goiters
-  | pron g"OIt3`/IY AH S IY AH S IY
+>> ghost/s
+  | pron g"oUst/g"oUs
+>> giblet/s
+>> goiter/s
   | class growth
-> hematoma/hematomas
-  | pron AH L AH S IY AH S IY/AH S IY AH S IY AH S IY
+>> hematoma/s
   | class growth
-> hemorroid/hemorroids
-  | pron AH S IY AH S IY AH S IY/IY AH S IY AH S IY AH S IY
-> hole/holes
+>> hemorroid/s
+>> hole/s
   | pron h"oUl/h"oUlz
-> hubcap/hubcaps
-  | pron h"Vbk%{p/h"Vbk%{ps
-> jelly bean/jelly beans
-  | pron dZ"Eli b"in/dZ"Eli b"inz
-> joint/joints
+>> hubcap/s
+  | pron h"Vb-k%{p/h"Vb-k%{ps
+>> jelly bean/s
+  | pron dZ"E-li b"in/dZ"E-li b"inz
+>> joint/s
   | pron dZ"OInt/dZ"OInts
-> kettle/kettles
-  | pron k"EtVl/k"EtVlz
-> keyboard/keyboards
-  | pron k"ib%Orrd/k"ib%Orrdz
-> kite/kites
+>> kettle/s
+  | pron k"E-tVl/k"E-tVlz
+>> keyboard/s
+  | pron k"i-b%Orrd/k"i-b%Orrdz
+>> kite/s
   | pron k"aIt/k"aIts
-> laptop/laptops
-  | pron l"{pt%Ap/l"{pt%Aps
-> leaf/leaves
+>> laptop/s
+  | pron l"{p-t%Ap/l"{p-t%Aps
+>> leaf/-ves
   | pron l"if/l"ivz
-> loaf/loaves
+>> loaf/-ves
   | pron l"oUf/l"oUvz
-> log/logs
+>> log/s
   | pron l"Og/l"Ogz
-> lube/lubes
-  | pron l"ub/AH L AH S IY
-> lump/lumps
+>> lube/s
+>> lump/s
   | pron l"Vmp/l"Vmps
-> magnifying glass/magnifying glasses
-  | pron m"{gnVf%aIIN gl"{s/m"{gnVf%aIIN gl"{sIz
-> manhole/manholes
-  | pron m"{nh%oUl/AH L AH S IY AH S IY
+>> magnifying glass/es
+  | pron m"{g-nV-f%aI-IN gl"{s/m"{g-nV-f%aI-IN gl"{-sIz
+>> manhole/s
   | class hole
-> mask/masks
+>> mask/s
   | pron m"{sk/m"{sks
-> meme/memes
-  | pron m"im/m"imz
+>> meme/s
   | class culture dank internet
-> mirror/mirrors
-  | pron m"Irr3`/m"Irr3`z
-> mohawk/mohawks
-  | pron m"oUh%Ok/m"oUh%Oks
+>> mirror/s
+  | pron m"I-r3`/m"I-r3`z
+>> mohawk/s
+  | pron m"oU-h%Ok/m"oU-h%Oks
   | class hair hairstyle
-> moist towelette/moist towelettes
-  | pron m"OIst  AH S IY AH S IY AH S IY/m"OIst  IY AH S IY AH S IY AH S IY
-> money/money
-  | pron m"Vni/m"Vni
-> monster/monsters
-  | pron m"Anst3`/m"Anst3`z
-> mortgage/mortgages
-  | pron m"OrrgIdZ/m"OrrgIdZIz
+>> moist towelette/s
+  | pron m"OIst/m"OIst
+>> money/
+  | pron m"V-ni/m"V-ni
+>> monster/s
+  | pron m"An-st3`/m"An-st3`z
+>> mortgage/s
   | class finance
-> nerd/nerds
+>> nerd/s
   | pron n"3`d/n"3`dz
-> nickel/nickels
-  | pron n"IkVl/n"IkVlz
-> notebook/notebooks
-  | pron n"oUtb%Uk/n"oUtb%Uks
+>> nickel/s
+  | pron n"I-kVl/n"I-kVlz
+>> notebook/s
   | class paper
-> ointment/ointments
-  | pron "OIntmVnt/AH S IY AH S IY AH S IY
-> papaya/papayas
-  | pron pVp"aIV/pVp"aIVz
+>> ointment/s
+>> papaya/s
+  | pron pV-p"aI-V/pV-p"aI-Vz
   | class fruit
-> pedestrian/pedestrians
-  | pron pVd"EstriVn/pVd"EstriVnz
-> peninsula/peninsulas
-  | pron pVn"InsVlV/IY AH S IY AH S IY AH S IY
+>> pedestrian/s
+  | pron pV-d"Es-tri-Vn/pV-d"Es-tri-Vnz
+>> peninsula/s
   | class geographical
-> pizza/pizzas
-  | pron p"itsV/p"itsVz
-> plug/plugs
+>> pizza/s
+  | pron p"it-sV/p"it-sVz
+>> plug/s
   | pron pl"Vg/pl"Vgz
-> pope/popes
+>> pope/s
   | pron p"oUp/p"oUpz
-> proxy/proxies
-  | pron pr"Aksi/pr"Aksiz
-> puppet/puppets
-  | pron p"VpIt/p"VpIts
+>> proxy/-ies
+>> puppet/s
+  | pron p"V-pIt/p"V-pIts
   | class toy
-> pylon/pylons
-  | pron p"aIl%An/p"aIl%Anz
-> rabies/rabies
-  | pron r"eIbiz/r"eIbiz
+>> pylon/s
+  | pron p"aI-l%An/p"aI-l%Anz
+>> rabies/
+  | pron r"eI-biz/r"eI-biz
   | class disease
-> radish/radishes
-  | pron r"{dIS/r"{dISIz
+>> radish/es
+  | pron r"{-dIS/r"{-dI-SIz
   | class red vegetable
-> ragamuffin/ragamuffins
-  | pron IY AH S IY AH S IY AH S IY/AH L AH S IY AH S IY AH S IY
-> raisin/raisins
-  | pron r"eIzIn/r"eIzInz
-> ridge/ridges
-  | pron r"IdZ/r"IdZIz
-> rock/rocks
+>> ragamuffin/s
+>> raisin/s
+  | pron r"eI-zIn/r"eI-zInz
+>> ridge/s
+  | pron r"IdZ/r"I-dZIz
+>> rock/s
   | pron r"Ak/r"Aks
   | class natural
-> rotisserie/rotisseries
-  | pron r%oUt"Is3`i/AH L AH S IY AH S IY AH S IY
-> rubber/rubbers
-  | pron r"Vb3`/r"Vb3`z
-> scab/scabs
+>> rotisserie/s
+>> rubber/s
+  | pron r"V-b3`/r"V-b3`z
+>> scab/s
   | pron sk"{b/sk"{bz
-> scuba/scubas
-  | pron sk"ubV/AH S IY AH S IY
-> shrub/shrubs
+>> scuba/s
+>> shrub/s
   | pron Sr"Vb/Sr"Vbz
-> shuttlecock/shuttlecocks
-  | pron AH L AH S IY AH S IY AH S IY/AH S IY AH S IY AH S IY AH S IY
-> snorkel/snorkels
-  | pron sn"OrrkVl/AH L AH S IY AH S IY
+>> shuttlecock/s
+>> snorkel/s
   | class diving equipment
-> sofa/sofas
-  | pron s"oUfV/s"oUfVz
-> sponge/sponges
-  | pron sp"VndZ/sp"VndZIz
-> stone/stones
+>> sofa/s
+  | pron s"oU-fV/s"oU-fVz
+>> sponge/s
+  | pron sp"VndZ/sp"Vn-dZVz
+>> stone/s
   | pron st"oUn/st"oUnz
-> stop sign/stop signs
-  | pron st"Ap s"aIn/st"Ap s"aInz
+>> stop sign/s
   | class regulatory sign traffic
-> swag/swag
-  | pron IY AH S IY/IY AH S IY
+>> swag/
   | class culture
-> tampon/tampons
-  | pron t"{mpAn/t"{mpAnz
-> tea bag/tea bags
+>> tampon/s
+  | pron t"{m-pAn/t"{m-pAnz
+>> tea bag/s
   | pron t"i b"{g/t"i b"{gz
-> teddy bear/teddy bears
-  | pron t"Edi b"err/t"Edi b"errz
+>> teddy bear/s
+  | pron t"E-di b"err/t"E-di b"errz
   | class toy
-> tire/tires
-  | pron t"aI3`/t"aI3`z
-> towel/towels
+>> tire/s
+  | pron t"aI-3`/t"aI-3`z
+>> towel/s
   | pron t"aUl/t"aUlz
-> towelette/towelettes
-  | pron AH S IY AH S IY AH S IY/IY AH S IY AH S IY AH S IY
-> treasure/treasures
-  | pron tr"EZ3`/tr"EZ3`z
-> truth/truths
+>> towelette/s
+>> treasure/s
+  | pron tr"E-Z3`/tr"E-Z3`z
+>> truth/s
   | pron tr"uT/tr"uTs
   | class abstract
-> tuba/tubas
-  | pron t"ubV/AH L AH S IY
+>> tuba/s
   | class brass instrument
-> urinal/urinals
-  | pron j"3`i/IY AH S IY AH S IY
+>> urinal/s
   | class white
-> ventricle/ventricles
-  | pron v"Ent3`/IY AH S IY AH S IY AH S IY
-> wedgie/wedgies
-  | pron AH S IY AH S IY/IY AH S IY AH S IY
+>> ventricle/s
+>> wedgie/s
   | class act violent
-> wig/wigs
+>> wig/s
   | pron w"Ig/w"Igz
   | class artificial hair
-> wool/wool
+>> wool/
   | pron w"Ul/w"Ul
-> wrinkle/wrinkles
-  | pron r"INkVl/r"INkVlz
+>> wrinkle/s
+  | pron r"IN-kVl/r"IN-kVlz
   | class feature

@@ -1,73 +1,64 @@
-#version 3
 #name substance
 #subs default
+#hidden nsfw
 
 #class add liquid
   #class add nsfw
     > crotch juice
-      | pron kr"AtS dZ"us
     > cum
-      | pron k"Vm
     > diarrhea
-      | pron d%aI3`"iV
     > jizz
-      | pron IY AH S IY
     > lube
-      | pron l"ub
     > pee
-      | pron p"i
     > piss
-      | pron p"Is
     > pisswater
-      | pron AH S IY AH S IY AH S IY
     > urine
-      | pron j"UrrVn
   #class remove nsfw
 
   > acid
-    | pron "{sVd
+    | pron "{-sVd
   > beer
     | pron b"Irr
   > blood
     | pron bl"Vd
   > earwax
-    | pron "Irrw%{ks
+    | pron "Irr-w%{ks
   > extra-virgin olive oil
-    | pron "EkstrV v"3`dZIn "AlIv "OIl
+    | pron "A-lIv "OIl
   > gasoline
-    | pron g"{sVl%in
+    | pron g"{-sV-l%in
   > grease
     | pron gr"is
   > ink
     | pron "INk
   > ketchup
-    | pron k"EtSVp
+    | pron k"E-tSVp
   > lava
-    | pron l"AvV
+    | pron l"A-vV
   > lemonade
-    | pron l"EmVn"eId
+    | pron l"E-mV-n"eId
   > liquid nitrogen
-    | pron l"IkwId n"aItrVdZVn
+    | pron l"I-kwId n"aI-trV-dZVn
   > magma
-    | pron m"{gmV
+    | pron m"{g-mV
   > mayonnaise
-    | pron m"eIVn%eIz
+    | pron m"eI-V-n%eIz
   > molten iron
-    | pron m"oUltVn "aI3`n
+    | pron m"oUl-tVn "aI-3`n
   > mud
     | pron m"Vd
   > mustard
-    | pron m"Vst3`d
+    | pron m"V-st3`d
   > oil
     | pron "OIl
   > olive oil
-    | pron "AlIv "OIl
+    | pron "A-lIv "OIl
   > orange juice
-    | pron "OrrIndZ dZ"us
+    | pron "O-rIndZ dZ"us
   > paint
     | pron p"eInt
   > plasma
-    | pron pl"{zmV
+    | pron pl"{z-mV
   > sap
     | pron s"{p
   > soy sauce
@@ -77,39 +68,36 @@
   > tears
     | pron t"Irrz
   > tomato sauce
-    | pron tVm"At%oU s"Os
+    | pron tV-m"A-t%oU s"Os
   > vinegar
-    | pron v"InVg3`
+    | pron v"I-nV-g3`
   > vodka
-    | pron v"AdkV
+    | pron v"Ad-kV
   > vomit
-    | pron v"AmVt
+    | pron v"A-mVt
   > water
-    | pron w"Ot3`
+    | pron w"O-t3`
   > wine
     | pron w"aIn
 #class remove liquid
 
 > antimatter
-  | pron {taIm"{t3`
+  | pron "{n-tI-m{-t3`
 > corn
   | pron k"Orrn
 > dark matter
-  | pron d"Arrk m"{t3`
+  | pron d"Arrk m"{-t3`
 > dick cheese
-  | pron d"Ik tS"iz
   | class nsfw
 > flour
   | pron fl"^rr
 > hamburger
-  | pron h"{mb3`g3`
 > happiness
-  | pron h"{pinVs
 > oatmeal
-  | pron "oUtm%il
+  | pron "oUt-m%il
 > sand
   | pron s"{nd
 > snow
   | pron sn"oU
 > spaghetti
-  | pron spVg"Eti
+  | pron spV-g"E-ti

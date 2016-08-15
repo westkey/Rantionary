@@ -1,265 +1,162 @@
-#version 3
 #name element
 #subs name symbol
+#hidden nsfw
 
 #class add metal
   #class add alkali
     > cesium/Cs
-      | pron s"iziVm/AH L
     > francium/Fr
-      | pron AH L AH S IY AH S IY/AH L
       | class radioactive
     > lithium/Li
-      | pron l"ITiVm/l"i
     > potassium/K
-      | pron pVt"{siVm/k"eI
     > rubidium/Rb
-      | pron AH L AH S IY AH S IY/AH L
     > sodium/Na
-      | pron s"oUdiVm/n"A
   #class remove alkali
 
   #class add alkaline_earth
     #class add earth
       > barium/Ba
-        | pron b"erriVm/b"A
       > beryllium/Be
-        | pron b3`"IliVm/bi
       > calcium/Ca
-        | pron k"{lsiVm/k"A
       > magnesium/Mg
-        | pron m{gn"iziVm/AH L
       > radium/Ra
-        | pron r"eIdiVm/r"A
         | class radioactive
       > strontium/Sr
-        | pron str"AntiVm/s"Ist3`
     #class remove earth
 
   #class remove alkaline_earth
 
   #class add lanthanoid
     > cerium/Ce
-      | pron AH S IY AH S IY/AH L
     > dysprosium/Dy
-      | pron IY AH S IY AH S IY AH S IY/AH L
     > erbium/Er
-      | pron AH S IY AH S IY/3`
     > europium/Eu
-      | pron jUrr"oUpiVm/AH L
     > gadolinium/Gd
-      | pron IY AH S IY AH S IY AH S IY/AH L
     > holmium/Ho
-      | pron h"oUlmiVm/h"oU
     > lanthanum/La
-      | pron l"{nTVnVm/l"A
     > lutetium/Lu
-      | pron AH L AH S IY AH S IY/l"u
     > neodymium/Nd
-      | pron AH S IY AH S IY AH S IY/AH L
     > praseodymium/Pr
-      | pron AH S IY AH S IY AH S IY AH S IY/AH L
     > promethium/Pm
-      | pron prVm"iT%iVm/p"i"Em
     > samarium/Sm
-      | pron AH L AH S IY AH S IY/AH L
     > terbium/Tb
-      | pron IY AH S IY AH S IY/t"ib"i
     > thulium/Tm
-      | pron IY AH S IY AH S IY/AH L
     > ytterbium/Yb
-      | pron AH S IY AH S IY AH S IY/AH L
   #class remove lanthanoid
 
   #class add post_transition
     > aluminum/Al
-      | pron Vl"umVnVm/"{l
     > bismusth/Bi
-      | pron b"aI AH S IY/b"aI
     > gallium/Ga
-      | pron g"{liVm/dZ"OrrdZV
     > indium/In
-      | pron "IndiVm/"In
     > lead/Pb
-      | pron l"id/AH L
     > thallium/Tl
-      | pron T"{liVm/AH L
     > tin/Sn
-      | pron t"In/AH L
   #class remove post_transition
 
   #class add radioactive
     #class add actinoid
       > actinium/Ac
-        | pron AH L AH S IY AH S IY/"eIs"i
       > americium/Am
-        | pron AH S IY AH S IY AH S IY/"eI"Em
       > berkelium/Bk
-        | pron AH S IY AH S IY AH S IY/AH L
       > californium/Cf
-        | pron AH L AH S IY AH S IY AH S IY/AH L
       > curium/Cm
-        | pron AH S IY AH S IY/AH L
       > einsteinium/Es
-        | pron "i AH S IY AH S IY/"Es
       > fermium/Fm
-        | pron f"errmiVm/"Ef"Em
       > lawrencium/Lr
-        | pron lOrr"EnsiVm/AH L
       > mendelevium/Md
-        | pron AH L AH S IY AH S IY AH S IY/AH L
       > neptunium/Np
-        | pron nEpt"uniVm/AH L
       > nobelium/No
-        | pron noUb"EliVm/n"oU
       > plutonium/Pu
-        | pron plut"oUniVm/p"u
       > protactinium/Pa
-        | pron AH S IY AH S IY AH S IY AH S IY/p"A
       > thorium/Th
-        | pron T"ArriVm/t"i"eItS
       > uranium/U
-        | pron j3`"eIniVm/j"u
     #class remove actinoid
 
   #class remove radioactive
 
   #class add transition
     > cadmium/Cd
-      | pron k"{dmiVm/s"id"i
     > chromium/Cr
-      | pron kr"oUmiVm/AH L
     > cobalt/Co
-      | pron k"oUb%Olt/k"oU
     > copper/Cu
-      | pron k"Ap3`/AH L
     > gold/Au
-      | pron g"oUld/"oU
     > hafnium/Hf
-      | pron h"{fniVm/AH L
     > iridium/Ir
-      | pron %Irr"IdiVm/AH L
     > iron/Fe
-      | pron "aI3`n/f"eI
     > manganese/Mn
-      | pron m"{NgVn%iz/AH L
     > mercury/Hg
-      | pron m"3`kj3`i/AH L
       | class liquid
     > molybdenum/Mo
-      | pron mVl"IbdInVm/m"oU
     > nickel/Ni
-      | pron n"IkVl/n"i
     > niobium/Nb
-      | pron n%aI"oUbiVm/AH L
     > osmium/Os
-      | pron "AzmiVm/"As
     > palladium/Pd
-      | pron pVl"eIdiVm/AH L
     > platinum/Pt
-      | pron pl"{tVnVm/AH L
     > rhenium/Re
-      | pron IY AH S IY AH S IY/r"i
     > rhodium/Rh
-      | pron r"oUdiVm/AH L
     > ruthenium/Ru
-      | pron AH S IY AH S IY AH S IY/"Arrj"u
     > scandium/Sc
-      | pron AH L AH S IY AH S IY/AH L
     > silver/Ag
-      | pron s"Ilv3`/"eIg"i
     > tantalum/Ta
-      | pron t"{ntVlVm/t"A
     > technetium/Tc
-      | pron IY AH S IY AH S IY AH S IY/AH L
     > titanium/Ti
-      | pron taIt"eIniVm/t"i
     > tungsten/W
-      | pron t"VNstVn/d"VbVlju
     > vanadium/V
-      | pron vVn"eIdiVm/v"i
     > yttrium/Y
-      | pron "ItriVm/w"aI
     > zinc/Zn
-      | pron z"INk/AH L
     > zircomium/Zr
-      | pron AH S IY AH S IY AH S IY/AH L
   #class remove transition
 
 #class remove metal
 
 #class add metalloid
   > antimony/Sb
-    | pron AH L AH S IY AH S IY/AH L
   > arsenic/As
-    | pron "ArrsVnIk/"Ez
   > boron/B
-    | pron b"Orr%An/b"i
   > germanium/Ge
-    | pron AH S IY AH S IY AH S IY/AH L
   > polonium/Po
-    | pron pVl"oUniVm/p"oU
     | class radioactive
   > silicon/Si
-    | pron s"IlVkVn/s"i
   > tellurium/Te
-    | pron tEl"UrriVm/t"i
 #class remove metalloid
 
 #class add nonmetal
   #class add gas
     #class add diatomic
       > chlorine/Cl
-        | pron kl"Orrin/AH L
         | class halogen
       > fluorine/F
-        | pron fl"Orr%in/"Ef
         | class halogen
       > hydrogen/H
-        | pron h"aIdrVdZVn/"eItS
       > nitrogen/N
-        | pron n"aItrVdZVn/"En
       > oxygen/O
-        | pron "AksIdZVn/"oU
     #class remove diatomic
 
     #class add noble_gas
       > argon/Ar
-        | pron "Arrg%An/"Arr
       > helium/He
-        | pron h"iliVm/h"i
       > krypton/Kr
-        | pron kr"IptOn/AH L
       > neon/Ne
-        | pron n"iAn/n"eI
       > radon/Rn
-        | pron r"eId%An/AH L
         | class radioactive
       > xenon/Xe
-        | pron z"inAn/AH L
     #class remove noble_gas
 
   #class remove gas
 
   #class add polyatomic
     > carbon/C
-      | pron k"ArrbVn/s"i
     > phosphorus/P
-      | pron f"Asf3`Vs/p"i
     > selenium/Se
-      | pron sVl"iniVm/s"eI
     > sulfur/S
-      | pron s"Vlf3`/"Es
   #class remove polyatomic
 
   > astatine/At
-    | pron AH L AH S IY AH S IY/"{t
     | class diatomic halogen radioactive
   > bromine/Br
-    | pron br"oUm%in/AH L
     | class diatomic halogen liquid
   > iodine/I
-    | pron "aIVd%aIn/"aI
     | class diatomic halogen
 #class remove nonmetal
 

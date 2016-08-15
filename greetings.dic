@@ -1,50 +1,45 @@
-#version 3
 #name greet
 #subs default
+#hidden nsfw
 
 > ahoy
-  | pron Vh"OI
 > aloha
-  | pron Vl"oUhA
+  | pron V-l"oU-hA
 > good afternoon
-  | pron gId %{ft3`n"un
+  | pron gId %{f-t3`-n"un
 > good day
   | pron gId d"eI
 > good evening
-  | pron gId "ivnIN
+  | pron gId "iv-nIN
 > good morning
-  | pron gId m"OrrnIN
+  | pron gId m"Orr-nIN
 > good night
   | pron gId n"aIt
 > greetings
-  | pron gr"itINz
+  | pron gr"i-tINz
 > guten Tag
-  | pron AH L AH S IY t"{g
 > hello
-  | pron hEl"oU
+  | pron hE-l"oU
 > hey
   | pron h"eI
 > hey buddy
-  | pron h"eI b"Vdi
+  | pron h"eI b"V-di
 > hola
-  | pron h"oUlV
 > how's it going
-  | pron h"aUz It g"oUIn
+  | pron h"aUz It g"oU-In
 > how's it hanging
-  | pron h"aUz It h"{NgIN
+  | pron h"aUz It h"{-NgIN
 > konichi wa
-  | pron IY AH S IY AH S IY w"A
+  | pron w"A
 > salutations
-  | pron AH L AH S IY AH S IY AH S IY
 > sup
   | pron s"Vp
 > what's happening
-  | pron hw"Vts h"{pnIN
+  | pron hw"Vts h"{p-nIN
 > what's new
   | pron hw"Vts nj"u
 > what's up
   | pron hw"Vts "Vp
 > whazzup
-  | pron IY AH S IY AH S IY
 > yo
   | pron j"oU

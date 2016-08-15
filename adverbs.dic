@@ -1,432 +1,394 @@
-#version 3
 #name adv
 #subs default
+#hidden nsfw
 
 #class add emotion
   > angrily
-    | pron "{NgrVli
+    | pron "{N-grV-li
   > anxiously
-    | pron "{NkSVsli
+    | pron "{Nk-SVs-li
   > arrogantly
-    | pron "errVgVntli
+    | pron "E-rV-gVnt-li
   > cautiously
-    | pron k"OSVsli
+    | pron k"O-SVs-li
   > enviously
-    | pron "EnviVsli
+    | pron "En-vi-Vs-li
   > evilly
-    | pron "iv
   > frantically
-    | pron fr"{nVkli
+    | pron fr"{-nVk-li
   > gladly
-    | pron gl"{dli
+    | pron gl"{d-li
   > gleefully
-    | pron gl"ifVli
+    | pron gl"i-fV-li
   > greedily
-    | pron gr"idVli
+    | pron gr"i-dV-li
   > grudgingly
-    | pron gr"VdZINgli
+    | pron gr"V-dZIN-gli
   > grumpily
-    | pron AH L AH S IY AH S IY
   > happily
-    | pron h"{pVli
+    | pron h"{-pV-li
   > hollowly
-    | pron AH L AH S IY AH S IY
   > patiently
-    | pron p"eISVntli
+    | pron p"eI-SVnt-li
   > regretfully
-    | pron rIgr"EtfVli
+    | pron rI-gr"Et-fV-li
   > sadly
-    | pron s"{dli
+    | pron s"{d-li
   > shamefully
-    | pron IY AH S IY AH S IY AH S IY
   > terrifyingly
-    | pron AH S IY AH S IY AH S IY AH S IY
   > warily
-    | pron w"errVli
+    | pron w"E-rV-li
 #class remove emotion
 
 #class add sexy
   > delightedly
-    | pron AH L AH S IY AH S IY AH S IY
   > forcibly
-    | pron f"OrrsVbli
+    | pron f"Orr-sV-bli
   > hungrily
-    | pron h"VNgrVli
+    | pron h"VN-grV-li
   > lovingly
-    | pron l"VvINli
+    | pron l"V-vIN-li
   > romantically
-    | pron roUm"{ntIkli
+    | pron roU-m"{n-tIk-li
   > roughly
-    | pron r"Vfli
+    | pron r"Vf-li
   > side to side
     | pron s"aId tV s"aId
   > slowly
-    | pron sl"oUli
+    | pron sl"oU-li
   > smoothly
-    | pron sm"uDli
+    | pron sm"uD-li
   > sweetly
-    | pron sw"itli
+    | pron sw"it-li
   > up and down
-    | pron "Vp "{nd d"aUn
+    | pron "Vp Vnd d"aUn
 #class remove sexy
 
 > absentmindedly
-  | pron AH L AH S IY AH S IY AH S IY AH S IY
 > accidentally
-  | pron %{ksVd"EnVli
+  | pron %{k-sV-d"E-nV-li
 > actively
-  | pron "{ktIvli
+  | pron "{k-tIv-li
 > adventurously
-  | pron IY AH S IY AH S IY AH S IY AH S IY
 > anally
-  | pron AH S IY AH S IY
 > animatedly
-  | pron IY AH S IY AH S IY AH S IY
 > appreciatively
-  | pron Vpr"iSjVtIvli
+  | pron V-pr"i-SjV-tIv-li
 > ardently
-  | pron "ArrdVntli
+  | pron "Arr-dVnt-li
 > artfully
-  | pron "ArrtfVli
+  | pron "Arrt-fV-li
 > awkwardly
-  | pron "Okw3`dli
+  | pron "O-kw3`d-li
 > beautifully
-  | pron bj"utVfli
+  | pron bj"u-tV-fli
 > bitterly
-  | pron b"It3`li
+  | pron b"I-t3`-li
 > blissfully
-  | pron bl"IsfVli
+  | pron bl"Is-fV-li
 > boldly
-  | pron b"oUldli
+  | pron b"oUld-li
 > bravely
-  | pron br"eIvli
+  | pron br"eIv-li
 > brightly
-  | pron br"aItli
+  | pron br"aIt-li
 > briskly
-  | pron br"Iskli
+  | pron br"Isk-li
 > buoyantly
-  | pron AH S IY AH S IY AH S IY
 > busily
-  | pron b"IzVli
+  | pron b"I-zV-li
 > calmly
-  | pron k"Almli
+  | pron k"Alm-li
 > carefully
-  | pron k"errfVli
+  | pron k"err-fV-li
 > carelessly
-  | pron k"errlEsli
+  | pron k"err-lVs-li
 > casually
-  | pron k"{ZVwVli
+  | pron k"{-ZwV-li
 > closely
-  | pron kl"oUsli
+  | pron kl"oUs-li
 > coaxingly
-  | pron AH S IY AH S IY AH S IY
 > coldly
-  | pron k"oUldli
+  | pron k"oUld-li
 > comfortably
-  | pron k"Vmf3`tVbli
+  | pron k"Vm-f3`-tV-bli
 > continually
-  | pron kVnt"Injuli
+  | pron kVn-t"I-nju-li
 > cooly
-  | pron AH L AH S IY
 > correctly
-  | pron k3`"Ektli
+  | pron k3`-"Ekt-li
 > courageously
-  | pron k3`"eIdZVsli
+  | pron k3`-"eI-dZVs-li
 > crossly
-  | pron IY AH S IY AH S IY
 > crunchily
-  | pron AH S IY AH S IY AH S IY
 > curiously
-  | pron kj"UrriVsli
+  | pron kj"U-ri-Vs-li
 > daintily
-  | pron AH L AH S IY AH S IY
 > deeply
-  | pron d"ipli
+  | pron d"ip-li
 > defiantly
-  | pron dIf"aIVntli
+  | pron dI-f"aI-Vnt-li
 > deliberately
-  | pron dIl"IbrVtli
+  | pron dI-l"I-brVt-li
 > delicately
-  | pron d"ElVkVtli
+  | pron d"E-lV-kVt-li
 > deliciously
-  | pron dIl"ISVSli
+  | pron dI-l"I-SVS-li
 > densely
-  | pron d"Ensli
+  | pron d"Ens-li
 > determinedly
-  | pron dVt"3`mVndli
+  | pron dV-t"3`-mVnd-li
 > diligently
-  | pron d"IlVdZVntli
+  | pron d"I-lV-dZVnt-li
 > discreetly
-  | pron dIskr"itli
+  | pron dI-skr"it-li
 > dreamily
-  | pron AH L AH S IY AH S IY
 > eagerly
-  | pron "ig3`li
+  | pron "i-g3`-li
 > earnestly
-  | pron "3`nVstli
+  | pron "3`-nVst-li
 > efficiently
-  | pron If"ISVntli
+  | pron I-f"I-SVnt-li
 > effortlessly
-  | pron "Ef3`tlVsli
+  | pron "E-f3`t-lVs-li
 > elegantly
-  | pron "ElIgVntl%i
+  | pron "E-lI-gVnt-li
 > energetically
-  | pron %En3`dZ"EtIkli
+  | pron %E-n3`-dZ"E-tIk-li
 > enthusiastically
-  | pron InT%uzi"{stIkli
+  | pron In-T%u-zi-"{-stIk-li
 > excitedly
-  | pron Iks"aItVdli
+  | pron Ik-s"aI-tVd-li
 > expertly
-  | pron "Eksp3`tli
+  | pron "Ek-sp3`t-li
 > explosively
-  | pron %Ekspl"oUsIvli
+  | pron %Ek-spl"oU-sIv-li
 > faithfully
-  | pron f"eITfVli
+  | pron f"eIT-fV-li
 > fearlessly
-  | pron IY AH S IY AH S IY AH S IY
 > ferociously
-  | pron f3`"oUSIsli
+  | pron f3`-"oU-SIs-li
 > fervently
-  | pron f"3`vVntli
+  | pron f"3`-vVnt-li
 > fiercely
-  | pron f"Irrsli
+  | pron f"Irrs-li
 > firmly
-  | pron f"3`mli
+  | pron f"3`m-li
 > fleetingly
-  | pron fl"itINli
+  | pron fl"i-tIN-li
 > fluidly
-  | pron fl"u
 > forgivingly
-  | pron f"OrrdZi AH S IY
 > formally
-  | pron f"OrrmVli
+  | pron f"Orr-mV-li
 > generously
-  | pron dZ"En3`Vsli
+  | pron dZ"E-n3`-Vs-li
 > genuinely
-  | pron dZ"Enju%aInli
+  | pron dZ"E-nj"u-w%aIn-li
 > gloriously
-  | pron gl"OrriVsli
+  | pron gl"O-ri-Vs-li
 > grandly
-  | pron gr"{ndli
+  | pron gr"{nd-li
 > gravely
-  | pron gr"eIvli
+  | pron gr"eIv-li
 > greatly
-  | pron gr"eItli
+  | pron gr"eIt-li
 > harmonically
-  | pron AH S IY AH S IY AH S IY AH S IY
 > hastily
-  | pron h"eIstVli
+  | pron h"eI-stV-li
 > hatefully
-  | pron AH S IY AH S IY AH S IY
 > heartily
-  | pron h"ArrtVli
+  | pron h"Arr-tV-li
 > heavily
-  | pron h"EvVli
+  | pron h"E-vV-li
 > honestly
-  | pron "AnVsli
+  | pron "A-nVs-li
 > hurriedly
-  | pron h"3`idli
+  | pron h"3`-id-li
 > illegally
-  | pron %Il"igVli
+  | pron I-l"i-gV-li
 > immediately
-  | pron %Im"id%iVtli
+  | pron I-m"i-di-Vt-li
 > imperfectly
-  | pron %Imp"3`fIktli
+  | pron Im-p"3`-fIkt-li
 > inappropriately
-  | pron %InVpr"ApriVtli
+  | pron In-V-pr"A-pri-Vt-li
 > indubitably
-  | pron AH L AH S IY AH S IY AH S IY
 > intensely
-  | pron %Int"Ensli
+  | pron In-t"Ens-li
 > intensively
-  | pron %Int"EnsIvli
+  | pron In-t"En-sIv-li
 > intentionally
-  | pron %Int"EnSVnVli
+  | pron In-t"En-SVn-V-li
 > intently
-  | pron %Int"Entli
+  | pron In-t"Ent-li
 > intuitively
-  | pron %Int"uItIvli
+  | pron In-t"u-I-tIv-li
 > joyfully
-  | pron dZ"OIfVli
+  | pron dZ"OI-fV-li
 > justly
-  | pron dZ"Vstli
+  | pron dZ"Vst-li
 > keenly
-  | pron k"inli
+  | pron k"in-li
 > kindly
-  | pron k"aIndli
+  | pron k"aInd-li
 > laboriously
-  | pron lVb"OrriVsli
+  | pron lV-b"O-ri-Vs-li
 > lightly
-  | pron l"aItli
+  | pron l"aIt-li
 > loudly
-  | pron l"aUdli
+  | pron l"aUd-li
 > magestically
-  | pron AH S IY AH S IY AH S IY AH S IY
 > magically
-  | pron m"{dZIkli
+  | pron m"{-dZIk-li
 > majestically
-  | pron mVdZ"EstIkli
+  | pron mV-dZ"E-stIk-li
 > meekly
-  | pron m"ikli
+  | pron m"ik-li
 > mercifully
-  | pron m"3`sIfVl%i
+  | pron m"3`-sIf-li
 > merrily
-  | pron m"errVli
+  | pron m"E-rV-li
 > methodically
-  | pron mVT"AdIkli
+  | pron mV-T"A-dIk-li
 > mildly
-  | pron m"aIldli
+  | pron m"aIld-li
 > modestly
-  | pron m"AdVstli
+  | pron m"A-dVst-li
 > mortally
-  | pron m"OrrtVli
+  | pron m"Orr-tV-li
 > musically
-  | pron mj"uzIkli
+  | pron mj"u-zIk-li
 > mysteriously
-  | pron m%Ist"IrrjVsli
+  | pron m%I-st"I-rjVs-li
 > naturally
-  | pron n"{tSrVli
+  | pron n"{-tSrV-li
 > neatly
-  | pron n"itli
+  | pron n"it-li
 > necessarily
-  | pron n%EsVs"errVli
+  | pron n%E-sV-s"E-rV-li
 > nimbly
-  | pron n"Imbli
+  | pron n"Im-bli
 > noisily
-  | pron n"OIzVli
+  | pron n"OI-zV-li
 > nonchalantly
-  | pron n"AnSVl"Antli
+  | pron n"An-SV-l"Ant-li
 > objectively
-  | pron AbdZ"EktIvli
+  | pron Ab-dZ"Ek-tIv-li
 > obscenely
-  | pron Abs"inli
+  | pron Ab-s"in-li
 > partially
-  | pron p"ArrSli
+  | pron p"ArrS-li
 > peacefully
-  | pron p"isfVli
+  | pron p"is-fV-li
 > perfectly
-  | pron p"3`fVkli
+  | pron p"3`-fVk-li
 > persistently
-  | pron p3`s"IstVntli
+  | pron p3`-s"I-stVnt-li
 > pointedly
-  | pron p"OIntIdl%i
+  | pron p"OI-nVd-li
 > professionally
-  | pron prVf"ESVnVli
+  | pron prV-f"ES-nV-li
 > promptly
-  | pron pr"Ampli
+  | pron pr"Am-pli
 > proudly
-  | pron pr"aUdli
+  | pron pr"aUd-li
 > purposefully
-  | pron p"3`pVsfVli
+  | pron p"3`-pVs-fV-li
 > quickly
-  | pron kw"Ikli
+  | pron kw"Ik-li
 > quietly
-  | pron kw"aIVtli
+  | pron kw"aI-Vt-li
 > rapidly
-  | pron r"{pVdli
+  | pron r"{-pVd-li
 > rashly
-  | pron AH S IY AH S IY
 > readily
-  | pron r"EdVli
+  | pron r"E-dV-li
 > rebelliously
-  | pron AH S IY AH S IY AH S IY AH S IY
 > recklessly
-  | pron r"EklVsli
+  | pron r"Ek-lVs-li
 > restlessly
-  | pron r"EstlVsli
+  | pron r"Est-lVs-li
 > richly
-  | pron r"ItSli
+  | pron r"ItS-li
 > royally
-  | pron r"OIVli
+  | pron r"OI-V-li
 > saggingly
-  | pron AH S IY AH S IY AH S IY
 > sarcastically
-  | pron sArrk"{stIkli
+  | pron sArr-k"{-stIk-li
 > secretly
-  | pron s"ikrItli
+  | pron s"i-krIt-li
 > sharply
-  | pron S"Arrpli
+  | pron S"Arrp-li
 > silently
-  | pron s"aIlVntli
+  | pron s"aI-lVnt-li
 > single-handedly
-  | pron s"INgVl h"{ndIdli
 > slickly
-  | pron sl"Ikli
+  | pron sl"Ik-li
 > slimily
-  | pron IY AH S IY AH S IY
 > sloppily
-  | pron sl"ApVli
+  | pron sl"A-pV-li
 > sluggishly
-  | pron sl"VgISli
+  | pron sl"V-gIS-li
 > smartly
-  | pron sm"Arrtli
+  | pron sm"Arrt-li
 > snugly
-  | pron sn"Vgli
+  | pron sn"Vg-li
 > solemnly
-  | pron s"OlVmli
+  | pron s"O-lVm-li
 > speedily
-  | pron sp"idVli
+  | pron sp"i-dV-li
 > spiritedly
-  | pron IY AH S IY AH S IY AH S IY
 > spontaneously
-  | pron spAnt"eIniVsli
+  | pron spAn-t"eI-ni-Vs-li
 > stealthily
-  | pron IY AH S IY AH S IY AH S IY
 > strenuously
-  | pron str"EnjuVsli
+  | pron str"E-nju-Vs-li
 > strictly
-  | pron str"Iktli
+  | pron str"Ikt-li
 > strongly
-  | pron str"ONli
+  | pron str"ON-li
 > stubbornly
-  | pron st"Vb3`nli
+  | pron st"V-b3`n-li
 > suspiciously
-  | pron sVsp"ISVsli
+  | pron sV-sp"I-SVs-li
 > sympathetically
-  | pron s%ImpVT"EtIkli
+  | pron s%Im-pV-T"E-tIk-li
 > systematically
-  | pron s%IstVm"{tIkli
+  | pron s%I-stV-m"{-tIk-li
 > terribly
-  | pron t"errVbli
+  | pron t"E-rV-bli
 > thickly
-  | pron T"Ikli
+  | pron T"Ik-li
 > thirstily
-  | pron D"aI AH S IY
 > thoroughly
-  | pron T"3`oUli
+  | pron T"3`-oU-li
 > thoughtlessly
-  | pron IY AH S IY AH S IY AH S IY AH S IY
 > ticklishly
-  | pron IY AH S IY AH S IY AH S IY
 > to kingdom come
-  | pron tV k"INdVm k"Vm
+  | pron tV k"IN-dVm k"Vm
 > torturously
-  | pron AH L AH S IY AH S IY AH S IY
 > truly
-  | pron tr"uli
+  | pron tr"u-li
 > unbelievably
-  | pron %VnbVl"ivVbli
+  | pron %Vn-bV-l"i-vV-bli
 > unnecessarily
-  | pron Vnn"EsVs%errVli
+  | pron Vn-n"E-sV-s%E-rV-li
 > urgently
-  | pron "3`dZVntli
+  | pron "3`-dZVnt-li
 > victoriously
-  | pron AH S IY AH S IY AH S IY AH S IY
 > vigilantly
-  | pron IY AH S IY AH S IY AH S IY
 > vigorously
-  | pron v"Ig3`Vsli
+  | pron v"I-g3`-Vs-li
 > violently
-  | pron v"aIVlVntli
+  | pron v"aI-lVnt-li
 > weakly
-  | pron w"ikli
+  | pron w"ik-li
 > wetly
-  | pron AH L AH S IY
 > wholeheartedly
-  | pron h"oUlhArrtIdli
+  | pron h"oUl-hArr-tId-li
 > wildly
-  | pron w"aIldli
+  | pron w"aIld-li
 > wisely
-  | pron w"aIzli
+  | pron w"aIz-li
 > with haste
   | pron wID h"eIst

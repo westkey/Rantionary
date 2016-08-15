@@ -1,35 +1,27 @@
-#version 3
 #name unit
 #subs singular s abbr
+#hidden nsfw
 
 #class add factor
   #class add energy
     #class add large
       > kilojoule/kilojoules/kJ
-        | pron AH S IY AH S IY AH S IY/IY AH S IY AH S IY AH S IY/AH L
       > kilovolt/kilovolts/kV
-        | pron k"E AH S IY/AH S IY AH S IY AH S IY/AH L
         | class potential
       > kilowatt/kilowatts/kW
-        | pron k"IlVw%At/k"IlVw%Ats/AH L
         | class power
       > megawatt/megawatts/MW
-        | pron m"EgVw%At/m"EgVw%Ats/AH L
         | class power
     #class remove large
 
     #class add small
       > microfarad/microfarads/μF
-        | pron IY AH S IY AH S IY AH S IY/m"aI AH S IY AH S IY/AH L
         | class capacitance
       > milliampere/milliamperes/mA
-        | pron m"Ili AH S IY/AH S IY AH S IY AH S IY AH S IY/m"A
         | class current
       > millivolt/millivolts/mV
-        | pron AH S IY AH S IY AH S IY/IY AH S IY AH S IY AH S IY/AH L
         | class potential
       > milliwatt/milliwatts/mW
-        | pron AH S IY AH S IY AH S IY/IY AH S IY AH S IY AH S IY/AH L
         | class power
     #class remove small
 
@@ -39,72 +31,57 @@
 
 #class add length
   > centimeter/centimeters/cm
-    | pron s"EntVm%it3`/s"EntVm%it3`z/AH L
     | class factor small
   > foot/feet/ft
-    | pron f"Ut/f"it/AH L
   > inch/inches/in
-    | pron "IntS/"IntSIz/"In
+    | pron "IntS/"In-tSIz/"In
   > kilometer/kilometers/km
-    | pron k"IlVm%it3`/k"IlVm%it3`z/AH L
     | class factor large
   > light-year/light-years/ly
-    | pron l"aIt j"Irr/l"aIt j"Irrz/l"aI
   > meter/meters/m
-    | pron m"it3`/m"it3`z/"Em
+    | pron m"i-t3`/m"i-t3`z/"Em
   > mile/miles/mi
-    | pron m"aIl/m"aIVlz/m"i
+    | pron m"aIl/m"aI-Vlz/m"i
   > yard/yards/y
     | pron j"Arrd/j"Arrdz/w"aI
 #class remove length
 
 #class add volume
   > bucket/buckets/bucket
-    | pron b"VkIt/b"VkVts/b"VkIt
+    | pron b"V-kIt/b"V-kVts/b"V-kIt
   > cubic centimeter/cubic centimeters/cc
-    | pron kj"ubIk s"EntVm%it3`/kj"ubIk s"EntVm%it3`z/s"is"i
+    | pron kj"u-bIk s"En-tV-m%i-t3`/kj"u-bIk s"En-tV-m%i-t3`z/s"i-s"i
   > cup/cups/c
     | pron k"Vp/k"Vps/s"i
   > gallon/gallons/gal
-    | pron g"{lVn/g"{lVnz/g"{l
-  > handful/handfuls/hfl
-    | pron h"{ndf%Ul/h"{ndf%Ulz/AH S IY
-    | class rough
+    | pron g"{-lVn/g"{-lVnz/g"{l
   > liter/liters/L
-    | pron l"it3`/l"it3`z/"El
   > milliliter/milliliters/mL
-    | pron m"IlVl%it3`/m"IlVl%it3`z/AH L
     | class factor small
-  > mouthful/mouthfuls/mfl
-    | pron m"aUTf%Ul/AH S IY AH S IY AH S IY/AH S IY
-    | class rough
   > pint/pints/pt
-    | pron p"aInt/p"aInts/AH L
   > quart/quarts/qt
-    | pron kw"Orrt/kw"Orrts/AH L
   > tablespoon/tablespoons/tbsp
-    | pron t"eIbVlsp%un/t"eIbVlsp%unz/IY AH S IY
   > teaspoon/teaspoons/tsp
-    | pron t"isp%un/t"isp%unz/AH S IY
 #class remove volume
 
 #class add weight
   > gram/grams/g
     | pron gr"{m/gr"{mz/dZ"i
   > kilogram/kilograms/kg
-    | pron k"IlVgr%{m/k"IlVgr%{mz/AH L
     | class factor large
   > megaton/megatons/Mt
-    | pron m"EgVt%Vn/m"EgVt%Vnz/"Emt"i
     | class factor large
   > ounce/ounces/oz
-    | pron "aUns/"aUnsIz/"Az
+    | pron "aUns/"aUn-sIz/"Az
   > pound/pounds/lb
-    | pron p"aUnd/p"aUnz/p"aUnd
   > ton/tons/t
     | pron t"Vn/t"Vnz/t"i
 #class remove weight
 
 > joule/joules/J
-  | pron dZ"ul/dZ"ulz/dZ"eI
   | class energy
+
+> mouthful/mouthfuls/mfl
+  | class volume rough
+> handful/handfuls/hfl
+  | class volume rough

@@ -1,45 +1,39 @@
-#version 3
 #name color
 #subs default ish
 
-> black/blackish
-  | pron bl"{k/AH L AH S IY AH S IY
-> blue/bluish
-  | pron bl"u/bl"uIS
-> brown/brownish
-  | pron br"aUn/br"aUnIS
-> crimson/crimsonish
-  | pron kr"ImzVn/IY AH S IY AH S IY AH S IY
-> cyan/cyaish
-  | pron saI"{n/AH S IY AH S IY
+#type kind "primary secondary" ""
+
+>> black/ish
+>> blue/-ish
+  | pron bl"u/bl"u-IS
+  | kind primary
+>> brown/ish
+  | pron br"aUn/br"aU-nIS
+>> crimson/ish
+>> cyan/-ish
   | class secondary
-> gold/goldish
-  | pron g"oUld/IY AH S IY AH S IY
-> green/greenish
-  | pron gr"in/gr"inIS
-> grey/greyish
-  | pron gr"eI/IY AH S IY AH S IY
-> lavender/lavenderish
-  | pron l"{vVnd3`/AH L AH S IY AH S IY AH S IY
-> lime green/limgreen-ish
-  | pron l"aIm gr"in/l"aI AH S IY "IS
-> magenta/magentish
-  | pron mVdZ"EntV/AH S IY AH S IY AH S IY
-> maroon/maroonish
-  | pron m3`"un/AH S IY AH S IY AH S IY
-> orange/orangish
-  | pron "OrrIndZ/AH L AH S IY AH S IY
-> pink/pinkish
-  | pron p"INk/p"INkIS
-> purple/purplish
-  | pron p"3`pVl/p"3`plIS
-> red/reddish
-  | pron r"Ed/r"EdIS
-> silver/silverish
-  | pron s"Ilv3`/AH S IY AH S IY AH S IY
-> turquoise/turquoisish
-  | pron t"3`kwOIz/AH L AH S IY AH S IY AH S IY
-> white/whitish
-  | pron hw"aIt/hw"aItIS
-> yellow/yellowish
-  | pron j"EloU/j"EloUIS
+>> gold/ish
+>> green/ish
+  | pron gr"in/gr"i-nIS
+  | kind primary
+>> grey/ish
+>> lavender/ish
+>> lime green/-------green-ish
+>> magenta/-ish
+  | kind secondary
+>> maroon/ish
+>> orange/-ish
+>> pink/ish
+  | pron p"INk/p"IN-kIS
+>> purple/-ish
+  | pron p"3`-pVl/p"3`-plIS
+>> red/dish
+  | pron r"Ed/r"E-dIS
+  | kind primary
+>> silver/ish
+>> turquoise/-ish
+>> white/-ish
+  | pron hw"aIt/hw"aI-tIS
+>> yellow/ish
+  | pron j"E-loU/j"E-loU-IS
+  | kind secondary

@@ -1,9 +1,9 @@
-#version 3
 #name conj
 #subs default
+#hidden nsfw
 
 > and
-  | pron "{nd
+  | pron Vnd
 > but
   | pron b"Vt
 > for

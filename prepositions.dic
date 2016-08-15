@@ -1,56 +1,56 @@
-#version 3
 #name prepos
 #subs default
+#hidden nsfw
 
 #class add space
   > aboard
-    | pron Vb"Orrd
+    | pron V-b"Orrd
   > about
-    | pron Vb"aUt
+    | pron V-b"aUt
   > above
-    | pron Vb"Vv
+    | pron V-b"Vv
   > across
-    | pron Vkr"Os
+    | pron V-kr"Os
   > against
-    | pron Vg"eInst
+    | pron V-g"Enst
   > along
-    | pron Vl"ON
+    | pron V-l"ON
   > amid
-    | pron Vm"Id
+    | pron V-m"Id
   > among
-    | pron Vm"VN
+    | pron V-m"VN
   > around
-    | pron 3`"aUn
+    | pron 3`-"aUn
   > as
     | pron "Ez
   > at
     | pron "{t
   > behind
-    | pron bIh"aInd
+    | pron bI-h"aInd
   > below
-    | pron bil"oU
+    | pron bi-l"oU
   > beneath
-    | pron bIn"iT
+    | pron bI-n"iT
   > beside
-    | pron b%is"aId
+    | pron bI-s"aId
   > besides
-    | pron b%is"aIdz
+    | pron bI-s"aIdz
   > between
-    | pron bitw"in
+    | pron bi-tw"in
   > beyond
-    | pron bI"Ond
+    | pron bI-"Ond
   > by
     | pron b"aI
   > down
     | pron d"aUn
   > from
-    | pron fr"Vm
+    | pron f3`m
   > in
     | pron "In
   > inside
-    | pron "Ins%aId
+    | pron "In-s%aId
   > into
-    | pron IntV
+    | pron In-tV
   > near
     | pron n"Irr
   > of
@@ -60,13 +60,13 @@
   > on
     | pron "On
   > onto
-    | pron "Ontu
+    | pron "On-tu
   > opposite
-    | pron "ApVzIt
+    | pron "Ap-zVt
   > outside
-    | pron "aUts"aId
+    | pron "aUt-s"aId
   > over
-    | pron "oUv3`
+    | pron "oU-v3`
   > past
     | pron p"{st
   > round
@@ -80,43 +80,43 @@
   > towards
     | pron t"Orrdz
   > under
-    | pron "Vnd3`
+    | pron "Vn-d3`
   > underneath
-    | pron %Vnd3`n"iT
+    | pron %Vn-d3`-n"iT
   > up
     | pron "Vp
   > upon
-    | pron Vp"An
+    | pron V-p"An
   > versus
-    | pron v"3`sVz
+    | pron v"3`-sVz
   > via
-    | pron v"iV
+    | pron v"i-V
   > with
     | pron wID
   > within
-    | pron wIT"In
+    | pron wI-T"In
   > without
-    | pron wID"aUt
+    | pron wID-"aUt
 #class remove space
 
 #class add time
   > after
-    | pron "{ft3`
+    | pron "{f-t3`
   > before
-    | pron b%if"Orr
+    | pron b%i-f"Orr
   > despite
-    | pron dIsp"aIt
+    | pron dI-sp"aIt
   > during
-    | pron d"3`IN
+    | pron d"3`-IN
   > following
-    | pron f"AloUIN
+    | pron f"A-loU-IN
   > for
     | pron fr3`
   > regarding
-    | pron rIg"ArrdIN
+    | pron rI-g"Arr-dIN
   > since
     | pron s"Ins
   > until
-    | pron Vnt"Il
+    | pron Vn-t"Il
 #class remove time
 

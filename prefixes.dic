@@ -1,35 +1,34 @@
-#version 3
 #name prefix
 #subs default
+#hidden nsfw
 
 #class add position
   > endo
-    | pron "EndoU
+    | pron "En-doU
   > extra
-    | pron "EkstrV
+    | pron "Ek-strV
   > intra
-    | pron "IntrV
+    | pron "In-trV
   > mid
     | pron m"Id
   > over
-    | pron "oUv3`
+    | pron "oU-v3`
   > post
     | pron p"oUst
   > pre
     | pron pr"i
   > under
-    | pron "Vnd3`
+    | pron "Vn-d3`
 #class remove position
 
 #class add quantity
   > bi
     | pron b"aI
   > mono
-    | pron m"oUnoU
+    | pron m"oU-noU
   > octo
-    | pron IY AH S IY
   > penta
-    | pron p"EntV
+    | pron p"En-tV
   > quad
     | pron kw"Ad
   > tri
@@ -39,48 +38,46 @@
 > a
   | pron "eI
 > anti
-  | pron "{nt%aI
+  | pron "{n-taI
 > auto
-  | pron "OtoU
+  | pron "O-toU
 > circum
-  | pron AH S IY AH S IY
 > contra
-  | pron k"AntrV
+  | pron k"An-trV
 > exo
-  | pron AH S IY
 > fore
   | pron f"Orr
 > homo
-  | pron h"oUmoU
+  | pron h"oU-moU
 > hyper
-  | pron h"aIp3`
+  | pron h"aI-p3`
 > in
   | pron "In
 > mega
-  | pron m"EgV
+  | pron m"E-gV
 > mini
-  | pron m"Ini
+  | pron m"I-ni
 > mis
   | pron m"Is
 > non
   | pron n"An
 > omni
-  | pron "Amni
+  | pron "Am-ni
 > pseudo
-  | pron s"udoU
+  | pron s"u-doU
 > psycho
-  | pron s"aIkoU
+  | pron s"aI-koU
 > pyro
-  | pron p"aIroU
+  | pron p"aI-roU
 > semi
-  | pron s"EmaI
+  | pron s"E-maI
 > sub
   | pron s"Vb
 > super
-  | pron s"up3`
+  | pron s"u-p3`
 > trans
   | pron tr"{nz
 > un
-  | pron j"u"En
+  | pron j"u-"En
 > uni
-  | pron j"uni
+  | pron j"u-ni

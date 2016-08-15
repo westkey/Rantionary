@@ -1,21 +1,15 @@
-#version 3
 #name activity
 #subs default
+#hidden nsfw
 
 #class add game
   #class add sport
     > Baseball
-      | pron b"eIsb"Ol
     > Basketball
-      | pron b"{skVtb%Ol
     > Football
-      | pron f"Utb%Ol
     > Golf
-      | pron g"Olf
     > Soccer
-      | pron s"Ak3`
     > Tennis
-      | pron t"EnIs
   #class remove sport
 
 #class remove game
