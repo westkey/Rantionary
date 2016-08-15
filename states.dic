@@ -1,45 +1,97 @@
+#version 3
 #name state
 #subs name abbr
 
+#class add germany
+  > Baden-Württemberg/BW
+  > Bavaria/BY
+    | pron bVv"erriV/b"aI
+  > Berlin/BE
+    | pron b3`l"In/bi
+  > Brandenburg/BB
+  > Bremen/HB
+  > Hamburg/HH
+  > Hesse/HE
+    | pron h"Es/h"i
+  > Lower Saxony/NI
+    | pron l"oU3` s"{ksVni/n"i
+  > Mecklenburg-Vorpommern/MV
+  > North Rhine-Westphalia/NW
+  > Rhineland-Palatinate/RP
+  > Saarland/SL
+  > Saxony/SN
+  > Saxony-Anhalt/ST
+  > Schleswig-Holstein/SH
+  > Thuringia/TH
+    | pron t"aIIf3`VsVti/t"i"eItS
+#class remove germany
+
 #class add usa
   > Alabama/AL
+    | pron %{lVb"{mV/"{l
   > Alaska/AK
   > Arizona/AZ
   > Arkansas/AR
+    | pron "ArrkVns%A/"Arr
   > California/CA
+    | pron k%{lVf"OrrnjV/k"A
   > Colorado/CO
+    | pron k%Al3`"{doU/k"oU
   > Connecticut/CT
+    | pron kVn"EtVkVt/k"Orrt
   > Delaware/DE
+    | pron d"ElVw%err/dV
   > Florida/FL
   > Georgia/GA
+    | pron dZ"OrrdZV/dZ"OrrdZV
   > Hawaii/HI
+    | pron hVw"aI%i/h"aI
   > Idaho/ID
+    | pron "aIdVh%oU/"aId"i
   > Illinois/IL
+    | pron %IlVn"OIz/"Il
   > Indiana/IN
+    | pron %Indi"{nV/"In
   > Iowa/IA
+    | pron "aIoUV/"iV
   > Kansas/KS
   > Kentucky/KY
+    | pron kVnt"Vki/k"eIi
   > Louisiana/LA
+    | pron lu%izi"{nV/l"A
   > Maine/ME
+    | pron m"eIn/m"i
   > Maryland/MD
   > Massachusetts/MA
+    | pron m%{sVtS"usVts/m"A
   > Michigan/MI
+    | pron m"ISIgVn/m"i
   > Minnesota/MN
   > Mississippi/MS
+    | pron m%IsIs"Ipi/m"Iz
   > Missouri/MO
+    | pron mVz"3`V/m"oU
   > Montana/MT
+    | pron mAnt"{nV/"Emt"i
   > Nebraska/NE
+    | pron nVbr"{skV/n"eI
   > Nevada/NV
   > New Hampshire/MH
+    | pron nj"u h"{mSaI3`/"Em"eItS
   > New Jersey/NJ
   > New Mexico/NM
   > New York/NY
+    | pron nj"u j"Orrk/"Eni
   > North Carolina/NC
   > North Dakota/ND
   > Ohio/OH
+    | pron oUh"aIoU/"oU
   > Oklahoma/OK
+    | pron %oUklVh"oUmV/"oUk"eI
   > Oregon/OR
+    | pron "OrrVg%An/3`
   > Pennsylvania/PA
+    | pron p%EnsVlv"eInjV/p"A
   > Rhode Island/RI
   > South Carolina/SC
   > South Dakota/SD
@@ -49,26 +101,10 @@
   > Vermont/VT
   > Virginia/VA
   > Washington/WA
+    | pron w"OSINtVn/w"A
   > West Virginia/WV
   > Wisconsin/WI
   > Wyoming/WY
+    | pron w%aI"oUmIN/w"eI
 #class remove usa
 
-#class add germany
-  > Baden-Württemberg/BW
-  > Bavaria/BY
-  > Berlin/BE
-  > Brandenburg/BB
-  > Bremen/HB
-  > Hamburg/HH
-  > Hesse/HE
-  > Lower Saxony/NI
-  > Mecklenburg-Vorpommern/MV
-  > North Rhine-Westphalia/NW
-  > Rhineland-Palatinate/RP
-  > Saarland/SL
-  > Saxony/SN
-  > Saxony-Anhalt/ST
-  > Schleswig-Holstein/SH
-  > Thuringia/TH
-#class remove germany

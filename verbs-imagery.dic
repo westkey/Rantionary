@@ -1,61 +1,85 @@
+#version 3
 #name verbimg
 #subs normal ing ed s er
-#hidden nsfw
 
->> blacken/ing/ed/s/er
->> bleed/ing/--d/s/er
->> bloat/ing/ed/s/er
->> bloom/ing/ed/s/er
-  | pron bl"um/bl"u-mIN/bl"umd/bl"umz/bl"u-m3`
->> blossom/ing/ed/s/er
->> bubble/-ing/d/s/r
->> burn/ing/ed/s/er
-  | pron b"3`n/b"3`-nIN/b"3`nd/b"3`nz/b"3`-n3`
->> churn/ing/ed/s/er
->> crack/ing/ed/s/er
-  | pron kr"{k/kr"{-kIN/kr"{kt/kr"{ks/kr"{-k3`
->> crumple/-ing/d/s/r
->> darken/ing/ed/s/er
->> fester/ing/ed/s/er
->> fizz/ing/ed/es/er
->> flap/ping/ped/s/per
-  | pron fl"{p/fl"{-pIN/fl"{pt/fl"{ps/fl"{-p3`
->> flash/ing/ed/es/er
-  | pron fl"{S/fl"{-SIN/fl"{St/fl"{-SIz/fl"{-S3`
->> flutter/ing/ed/s/er
->> froth/ing/ed/s/er
->> gleam/ing/ed/s/er
->> glow/ing/ed/s/er
-  | pron gl"oU/gl"oU-IN/gl"oUd/gl"oUz/gl"aU-3`
->> grow/ing/--ew/s/er
-  | pron gr"oU/gr"oU-IN/gr"u/gr"oUz/gr"oU-3`
->> harden/ing/ed/s/er
-  | pron h"Arr-dVn/h"Arrd-nIN/h"Arr-dVnd/h"Arr-dVnz/h"Arr-dVn-3`
->> lighten/ing/ed/s/er
->> radiate/-ing/d/s/-or
-  | pron r"eI-di-%eIt/r"eI-di-%eI-tIN/r"eI-di-%eI-tId/r"eI-di-%eIts/r"eI-di-%eI-t3`
->> ripple/-ing/d/s/r
->> rise/-ing/---ose/s/r
-  | pron r"aIz/r"aI-zIN/r"oUz/r"aI-zIz/r"aI-z3`
->> shake/-ing/---ook/s/r
-  | pron S"eIk/S"eI-kIN/S"Uk/S"eIks/S"eI-k3`
->> shimmer/ing/ed/s/er
->> shine/-ing/---one/s/r
-  | pron S"aIn/S"aI-nIN/S"oUn/S"aInz/S"aI-n3`
->> shiver/ing/ed/s/er
->> shrink/ing/---unk/s/er
->> shudder/ing/ed/s/er
->> smolder/ing/ed/s/er
->> soften/ing/ed/s/er
-  | pron s"O-fVn/s"Of-nIN/s"O-fVnd/s"O-fVnz/s"O-fVn-3`
->> sparkle/-ing/d/s/r
->> steam/ing/ed/s/er
-  | pron st"im/st"i-mIN/st"imd/st"imz/st"i-m3`
->> twinkle/-ing/d/s/r
->> twist/ing/ed/s/er
-  | pron tw"Ist/tw"I-stIN/tw"I-stId/tw"Ists/tw"I-st3`
->> wave/-ing/d/s/r
-  | pron w"eIv/w"eI-vIN/w"eIvd/w"eIvz/w"eI-v3`
->> whiten/ing/ed/s/er
->> wiggle/-ing/d/s/r
->> wilt/ing/ed/s/er
+> blacken/blackening/blackened/blackens/blackener
+  | pron bl"{kVn/bl"{knIN/bl"{kVnd/bl"{kVnz/bl"{keInVl
+> bleed/bleeding/bled/bleeds/bleeder
+  | pron bl"id/bl"idIN/bl"Ed/bl"idz/bl"id3`
+> bloat/bloating/bloated/bloats/bloater
+  | pron bl"oUt/bl"oUtIN/bl"oUtId/bl"oUts/bl"oUt3`
+> bloom/blooming/bloomed/blooms/bloomer
+  | pron bl"um/bl"umIN/bl"umd/bl"umz/bl"um3`
+> blossom/blossoming/blossomed/blossoms/blossomer
+  | pron bl"AsVm/bl"AsVmIN/bl"AsVmd/bl"AsVmz/bl"AsVm3`
+> bubble/bubbling/bubbled/bubbles/bubbler
+> burn/burning/burned/burns/burner
+  | pron b"3`n/b"3`nIN/b"3`nd/b"3`nz/b"3`n3`
+> churn/churning/churned/churns/churner
+  | pron tS"3`n/tS"3`nIN/tS"3`nd/tS"3`nz/tS"3`n3`
+> crack/cracking/cracked/cracks/cracker
+  | pron kr"{k/kr"{kIN/kr"{kt/kr"{ks/kr"{k3`
+> crumple/crumpling/crumpled/crumples/crumpler
+  | pron kr"VmpVl/kr"VmpVl/kr"VmpVld/s"aIIf3`Vs/kr"Vmpl3`
+> darken/darkening/darkened/darkens/darkener
+  | pron d"ArrkVn/d"ArrknIN/d"ArrkVnd/d"iVliVtiVl/d"iVliVtiVsi
+> fester/festering/festered/festers/festerer
+  | pron f"Est3`/f"Est3`IN/f"Est3`d/f"Est3`i/f"Est3`Vl
+> fizz/fizzing/fizzed/fizzes/fizzer
+  | pron f"Iz/f"eIVsi/f"eIVsi/f"eIVsi/f"eIVsi
+> flap/flapping/flapped/flaps/flapper
+  | pron fl"{p/fl"{pIN/fl"{pt/fl"{ps/fl"{p3`
+> flash/flashing/flashed/flashes/flasher
+  | pron fl"{S/fl"{SIN/fl"{St/fl"{SIz/fl"{S3`
+> flutter/fluttering/fluttered/flutters/flutterer
+  | pron fl"Vt3`/fl"Vt3`IN/fl"Vt3`d/fl"Vt3`z/fl"Vt3`3`
+> froth/frothing/frothed/froths/frother
+  | pron fr"OT/fr"OTi/fr"OTd/fr"OTs/fr"OT3`
+> gleam/gleaming/gleamed/gleams/gleamer
+  | pron gl"im/gl"imIN/gl"imd/gl"imz/gl"im3`
+> glow/glowing/glowed/glows/glower
+  | pron gl"oU/gl"oUIN/gl"oUd/gl"oUz/gl"aU3`
+> grow/growing/grew/grows/grower
+  | pron gr"oU/gr"oUIN/gr"u/gr"oUz/gr"oU3`
+> harden/hardening/hardened/hardens/hardener
+  | pron h"ArrdVn/h"ArrdnIN/h"ArrdVnd/h"ArrdVnz/h"ArrdVn3`
+> lighten/lightening/lightened/lightens/lightener
+  | pron l"aItVn/l"aItVnIN/l"aItVnd/l"aItVnz/l"aIVsiVsi
+> radiate/radiating/radiated/radiates/radiator
+  | pron r"eIdi%eIt/r"eIdi%eItIN/r"eIdi%eItId/r"eIdi%eIts/r"eIdi%eIt3`
+> ripple/rippling/rippled/ripples/rippler
+  | pron r"IpVl/r"IplIN/r"IpVld/r"IpVlz/r"iVsi
+> rise/rising/rose/rises/riser
+  | pron r"aIz/r"aIzIN/r"oUz/r"aIzIz/r"aIz3`
+> shake/shaking/shook/shakes/shaker
+  | pron S"eIk/S"eIkIN/S"Uk/S"eIks/S"eIk3`
+> shimmer/shimmering/shimmered/shimmers/shimmerer
+  | pron S"Im3`/S"Im3`IN/S"Im3`d/S"Im3`z/S"aIVsi
+> shine/shining/shone/shines/shiner
+  | pron S"aIn/S"aInIN/S"oUn/S"aInz/S"aIn3`
+> shiver/shivering/shivered/shivers/shiverer
+  | pron S"Iv3`/S"Iv3`IN/S"Iv3`d/S"Iv3`z/S"aIVsi
+> shrink/shrinking/shrunk/shrinks/shrinker
+  | pron Sr"INk/Sr"INkIN/Sr"VNk/Sr"INks/Sr"INk3`
+> shudder/shuddering/shuddered/shudders/shudderer
+  | pron S"Vd3`/S"Vd3`IN/S"Vd3`d/S"Vd3`z/S"Vd3`3`
+> smolder/smoldering/smoldered/smolders/smolderer
+  | pron sm"oUld3`/sm"oUld3`IN/s"aIIf3`VsVti/s"aIIf3`Vs/sm"oUld3`3`
+> soften/softening/softened/softens/softener
+  | pron s"OfVn/s"OfnIN/s"OfVnd/s"OfVnz/s"OfVn3`
+> sparkle/sparkling/sparkled/sparkles/sparkler
+  | pron sp"ArrkVl/sp"ArrkVlIN/sp"ArrkVld/sp"ArrkVlz/s"aIIf3`Vs
+> steam/steaming/steamed/steams/steamer
+  | pron st"im/st"imIN/st"imd/st"imz/st"im3`
+> twinkle/twinkling/twinkled/twinkles/twinkler
+  | pron tw"INkVl/tw"INklIN/tw"INkVld/tw"INkVlz/t"aIIf3`Vs
+> twist/twisting/twisted/twists/twister
+  | pron tw"Ist/tw"IstIN/tw"IstId/tw"Ists/tw"Ist3`
+> wave/waving/waved/waves/waver
+  | pron w"eIv/w"eIvIN/w"eIvd/w"eIvz/w"eIv3`
+> whiten/whitening/whitened/whitens/whitener
+  | pron hw"aItVn/hw"aItnIN/hw"aIVsi/hw"aIVsi/hw"aItn3`
+> wiggle/wiggling/wiggled/wiggles/wiggler
+  | pron w"IgVl/w"IglIN/w"eIVsi/w"eIVsi/w"eIVsi
+> wilt/wilting/wilted/wilts/wilter
+  | pron w"Ilt/w"IltIN/w"IltId/w"Ilts/w"eIVsi

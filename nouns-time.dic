@@ -1,85 +1,120 @@
+#version 3
 #name timenoun
 #subs singular s
-#hidden nsfw
 
 #class add dayofweek
-  >> Friday/s
-  >> Monday/s
-  >> Saturday/s
-  >> Sunday/s
-  >> Thursday/s
-  >> Tuesday/s
-  >> Wednesday/s
+  > Friday/Fridays
+    | pron fr"aId%eI/fr"aId%eIz
+  > Monday/Mondays
+    | pron m"Vnd%eI/m"Vnd%eIz
+  > Saturday/Saturdays
+    | pron s"{t%Id%eI/s"{t3`deIz
+  > Sunday/Sundays
+    | pron s"Vnd%i/s"Vnd%iz
+  > Thursday/Thursdays
+    | pron T"3`zdi/T"3`zdiz
+  > Tuesday/Tuesdays
+    | pron tj"uzd%eI/tj"uzd%eIz
+  > Wednesday/Wednesdays
+    | pron w"Enzd%eI/w"Enzdiz
 #class remove dayofweek
 
 #class add holiday
-  >> Black Friday/s
-  >> Boxing Day/s
-  >> Christmas/ses
-  >> Easter/s
-  >> Father's Day/s
-  >> Groundhog Day/s
-  >> Halloween/s
-  >> Hanukkah/s
-  >> Kwanzaa/s
-  >> Labor Day/s
-  >> Labor Day/s
-  >> Mother's Day/s
-  >> New Year's Day/s
-  >> New Year's Eve/s
-  >> Thanksgiving/s
-  >> Valentine's Day/s
+  > Black Friday/Black Fridays
+    | pron bl"{k fr"aId%eI/bl"{k fr"aId%eIz
+  > Boxing Day/Boxing Days
+    | pron b"AksIN d"eI/b"AksIN d"eIz
+  > Christmas/Christmasses
+    | pron kr"IsmVs/s"aIIf3`VsVtiVsi
+  > Easter/Easters
+    | pron "ist3`/"iVliVtiVl
+  > Father's Day/Father's Days
+    | pron f"AD3`z d"eI/f"AD3`z d"eIz
+  > Groundhog Day/Groundhog Days
+    | pron gr"aUndh%Ag d"eI/gr"aUndh%Ag d"eIz
+  > Halloween/Halloweens
+    | pron h%{lVw"in/"eItSVliVsiVsi
+  > Hanukkah/Hanukkahs
+    | pron h"AnVkV/h"AnVkVz
+  > Kwanzaa/Kwanzaas
+    | pron kw"AnzV/k"EIf3`Vs
+  > Labor Day/Labor Days
+    | pron l"eIb3` d"eI/l"eIb3` d"eIz
+  > Labor Day/Labor Days
+    | pron l"eIb3` d"eI/l"eIb3` d"eIz
+  > Mother's Day/Mother's Days
+    | pron m"VD3`z d"eI/m"VD3`z d"eIz
+  > New Year's Day/New Year's Days
+    | pron nj"u j"Irrz d"eI/nj"u j"Irrz d"eIz
+  > New Year's Eve/New Year's Eves
+    | pron nj"u j"Irrz "iv/nj"u j"Irrz "ivz
+  > Thanksgiving/Thanksgivings
+    | pron T%{Nksg"IvIN/t"i"eItSVliVtiVtiVsiVsi
+  > Valentine's Day/Valentine's Days
+    | pron v"{lVnt%aInz d"eI/v"{lVnt%aInz d"eIz
 #class remove holiday
 
 #class add month
-  >> April/s
-  >> August/s
-  >> December/s
-  >> February/-ies
-  >> January/-ies
-  >> July/-ies
-  >> June/s
-  >> March/es
-  >> May/s
-  >> November/s
-  >> October/s
-  >> September/s
+  > April/Aprils
+  > August/Augusts
+  > December/Decembers
+    | pron dIs"Emb3`/dVIf3`VsVti
+  > February/Februaries
+    | pron f"Ebru%erri/f"Ebru%erri
+  > January/Januaries
+    | pron dZ"{nju%erri/dZ"eIVliVtiVtiVsi
+  > July/Julies
+    | pron dZVl"aI/dZVl"aI
+  > June/Junes
+    | pron dZ"un/dZ"unz
+  > March/Marches
+    | pron m"ArrtS/m"ArrtSIz
+  > May/Mays
+    | pron m"eI/m"eIz
+  > November/Novembers
+    | pron noUv"Emb3`/n"eIIf3`VsVti
+  > October/Octobers
+    | pron Akt"oUb3`/"OIIf3`Vs
+  > September/Septembers
+    | pron sEpt"Emb3`/s"aIIf3`VsVl
 #class remove month
 
 #class add timeofday
-  >> afternoon/s
-    | pron %{f-t3`-n"un/%{f-t3`-n"unz
-  >> dawn/s
+  > afternoon/afternoons
+    | pron %{ft3`n"un/%{ft3`n"unz
+  > dawn/dawns
     | pron d"On/d"Onz
-  >> day/s
+  > day/days
     | pron d"eI/d"eIz
-  >> dusk/s
-  >> evening/s
-    | pron "iv-nIN/"iv-nINz
-  >> midnight/s
-  >> morning/s
-    | pron m"Orr-nIN/m"Orr-nINz
-  >> night/s
+  > dusk/dusks
+  > evening/evenings
+    | pron "ivnIN/"ivnINz
+  > midnight/midnights
+    | pron m"Idn%aIt/m"aIVsiVsi
+  > morning/mornings
+    | pron m"OrrnIN/m"OrrnINz
+  > night/nights
     | pron n"aIt/n"aIts
-  >> noon/s
+  > noon/noons
     | pron n"un/n"unz
 #class remove timeofday
 
 #class add unit
-  >> century/-ies
-    | pron s"En-tS3`-i/s"En-tS3`-iz
-  >> day/s
+  > century/centuries
+    | pron s"EntS3`i/s"EntS3`iz
+  > day/days
     | pron d"eI/d"eIz
-  >> hour/s
+  > hour/hours
     | pron "^rr/"^rrz
-  >> millisecond/s
-    | pron m"I-lI-s%E-kVnd/m"I-lI-s%E-kVndz
-  >> minute/s
-    | pron maI-nj"ut/m"I-nVts
-  >> month/s
+  > millisecond/milliseconds
+    | pron m"IlIs%EkVnd/m"IlIs%EkVndz
+  > minute/minutes
+    | pron maInj"ut/m"InVts
+  > month/months
     | pron m"VnT/m"VnTs
-  >> second/s
-    | pron s"E-kVn/s"E-kVnz
-  >> year/s
-    | pron j"Irr/j3`z
+  > second/seconds
+    | pron s"EkVnd/s"EkVndz
+  > year/years
+    | pron j"Irr/j"Irrz
 #class remove unit
+

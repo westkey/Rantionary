@@ -1,1038 +1,1442 @@
+#version 3
 #name adj
 #subs normal ness
-#hidden nsfw
 
 #class add appearance
   #class add cn2
     > battered/batteredness
+      | pron b"{t3`d/b"{t3`VsiVsi
     > dirty/dirt
-      | pron d"3`-ti/d"3`t
+      | pron d"3`ti/d"3`t
     > filthy/filth
-      | pron f"Il-Ti/f"IlT
+      | pron f"IlTi/f"IlT
     > grimy/griminess
+      | pron gr"aImi/gr"aImiVsi
     > ugly/ugliness
-      | pron "Vg-li/"Vg-li-nVs
+      | pron "Vgli/"VglinVs
   #class remove cn2
 
   > ancient/ancience
+    | pron "eInSVnt/"aIIf3`Vs
   > attractive/attractiveness
-    | pron V-tr"{k-tIv/V-tr"{k-tIv-nVs
+    | pron Vtr"{ktIv/Vtr"{ktIvnVs
     | class cp1
   > bearded/beardedness
+    | pron b"IrrdVd/biVliVtiVlVsi
   > beautiful/beauty
-    | pron bj"u-tV-fVl/bj"u-ti
+    | pron bj"utVfVl/bj"uti
     | class cp1
   > bent/deformation
-    | pron b"Ent/d%i-fOrr-m"eI-SVn
+    | pron b"Ent/d%ifOrrm"eISVn
   > black/blackness
-    | pron bl"{k/bl"{k-nVs
+    | pron bl"{k/bl"{knVs
   > blinding/brightness
-    | pron bl"aIn-dIN/br"aIt-nVs
+    | pron bl"aIndIN/br"aItnVs
     | class cn1
   > brown/brownness
+    | pron br"aUn/b"aIIf3`VsVti
   > bubbly/bubbliness
+    | pron b"VbVli/b"VbVliVsi
     | class c0
   > colorful/color
-    | pron k"V-l3`-fVl/k"O-l3`
+    | pron k"Vl3`fVl/k"Ol3`
     | class c0
   > colossal/colossality
+    | pron kVl"AsVl/s"aIIf3`VsVsi
   > corrugated/corrugation
+    | pron k"OrrVg%eItId/s"i3`VlVsiVsi
     | class c0
   > crooked/crookedness
-    | pron kr"U-kVd/kr"U-kVd-nVs
+    | pron kr"UkVd/kr"UkVdnVs
   > crusty/crustiness
+    | pron kr"Vsti/kr"VstiVsi
   > cubic/cubicshape
-    | pron kj"u-bIk/kj"u-bIk S"eIp
+    | pron kj"ubIk/kj"ubVsi
   > dazzling/sparkle
-    | pron d"{z-lIN/sp"Arr-kVl
+    | pron d"{zlIN/sp"ArrkVl
   > delicate/delicateness
+    | pron d"ElVkVt/d"ElIkiVsiVsi
   > dry/dryness
-    | pron dr"aI/dr"aI-nVs
+    | pron dr"aI/dr"aInVs
   > dusty/dustiness
+    | pron d"Vsti/d"VstiVsi
   > emaciated/emaciation
+    | pron Im"eISi%eItId/"EmVliVtiVtiVsi
   > enormous/enormousness
+    | pron in"OrrmIs/"En3`VlVsiVsi
   > exposed/exposure
-    | pron Ik-sp"oUzd/Ik-sp"oU-Z3`
+    | pron Iksp"oUzd/Iksp"oUZ3`
   > floppy/floppiness
+    | pron fl"Api/fl"ApiVsi
   > fluffy/fluffiness
+    | pron fl"Vfi/fl"VfiVsi
   > foamy/foaminess
+    | pron f"oUmi/f"oUmiVsi
   > funny-looking/funnylooks
+    | pron f"Vni l"UkIN/f"eIIf3`VsVl
   > furrowed/furrowedness
+    | pron f"3`oUd/f"eIIf3`VsVtiVsi
   > furry/furriness
+    | pron f"3`i/f"3`iVsi
   > fuzzy/fuzziness
+    | pron f"Vzi/f"VziVsi
   > gigantic/impressive size
-    | pron dZaI-g"{-nIk/Im-pr"E-sIv s"aIz
+    | pron dZaIg"{nIk/%Impr"EsIv s"aIz
   > glamourous/glamour
+    | pron gl"{m3`Vs/gl"{m3`
     | class cp1
   > glittery/glitter
-    | pron gl"I-t3`-i/gl"I-t3`
+    | pron gl"It3`i/gl"It3`
   > glossy/glossiness
+    | pron gl"Osi/gl"OsiVsi
   > golden/goldenluster
-    | pron g"oUl-dVn/g"oUl-dVn l"V-st3`
+    | pron g"oUldVn/g"oUldeInVsiVsi
   > green/greenness
-    | pron gr"in/gr"in-nVs
+    | pron gr"in/gr"innVs
   > grey/greyness
+    | pron gr"eI/gr"eInVs
   > hulking/hulkingness
+    | pron h"VlkIN/h"aIIf3`VsVsi
   > humongous/humongousness
+    | pron hjum"ONgVs/h"aIIf3`VsVlVsi
   > invisible/invisibility
-    | pron In-v"I-zV-bVl/In-v%I-zV-b"I-lV-ti
+    | pron %Inv"IzVbVl/%Inv%IzVb"IlVti
   > iridescent/iridescence
+    | pron %IrrVd"EsVnt/w"aIVsiVsiVsi
   > jagged/jaggedness
+    | pron dZ"{gd/dZ"eIVliVtiVlVsi
   > lickable/lickability
+    | pron l"aIVsi/l"aIVsiVsi
   > limp/limpness
+    | pron l"Imp/l"aIVsi
   > mammoth/mammothness
+    | pron m"{mVT/"EmVliVtiVsiVsi
   > menthol/mentholgoodness
-    | pron m"En-TOl/m"En-TOl g"Ud-nIs
+    | pron m"EnTOl/"EmeInVsiVsiVsiVsi
   > microscopic/microscopicness
+    | pron m%aIkrVsk"ApIk/"EmIkVsiVsiVsiVsi
   > moldy/moldiness
+    | pron m"oUldi/m"oUldiVsi
   > monochromatic/monochromaticness
+    | pron m%AnVkroUm"{tIk/m"aIIf3`VsVsiVsiVsi
   > mossy/mossiness
+    | pron m"Osi/m"aIIf3`VsVti
   > muscular/beefiness
+    | pron m"VskjVl3`/b"ifiVsi
   > naked/nakedness
+    | pron n"eIkVd/"EnVliVtiVtiVsi
   > narrow/narrowness
-    | pron n"{-roU/n"E-roU-nVs
+    | pron n"{roU/n"erroUnVs
   > nude/nudity
-    | pron n"ud/n"u-dI-ti
+    | pron n"ud/n"udIti
   > orbital/roundness
+    | pron "OrrbVtVl/"ArrVsiSVnVl
   > papery/paperiness
+    | pron p"eIp3`i/p"{p3`VlVsi
   > petite/petiteness
+    | pron pVt"it/p"itVsi
   > plump/plumpness
+    | pron pl"Vmp/pl"VmpnVs
   > powdery/powderiness
+    | pron p"aUd3`i/p"aUd3`iVsi
   > pretty/prettiness
+    | pron pr"Iti/pr"ItiVsi
   > purple/purpleness
+    | pron p"3`pVl/p"3`pVlnVs
   > ragged/raggedness
+    | pron r"{gVd/"ArrVliVtiVlVsi
   > ratty/rattiness
+    | pron r"{ti/"ArrVliVtiVtiVsi
   > red/redness
-    | pron r"Ed/r"Ed-nVs
+    | pron r"Ed/r"EdnVs
   > red-hot/glowing-red heat
+    | pron r"Ed h"At/gl"oUIN r"Ed h"it
   > revealing/nakedness
+    | pron riv"ilIN/"EnVliVtiVtiVsi
   > shady/shadiness
+    | pron S"eIdi/S"eIdiVsi
   > short/shortness
-    | pron S"Orrt/S"Orrt-nVs
+    | pron S"Orrt/S"OrrtnVs
   > shriveled/raisins
-    | pron Sr"I-vVld/r"eI-zInz
+    | pron Sr"IvVld/r"eIzInz
   > slender/slenderness
+    | pron sl"End3`/s"aIIf3`VsVsi
   > slippery/slipperiness
+    | pron sl"Ipri/sl"aIVsiVsi
   > sloppy/sloppiness
-    | pron sl"A-pi/sl"A-pi-nVs
+    | pron sl"Api/sl"ApinVs
   > smoggy/smogginess
+    | pron sm"Ogi/sm"OgiVsi
   > smoky/smokiness
+    | pron sm"oUki/sm"oUkiVsi
   > soapy/soapiness
+    | pron s"oUpi/s"oUVliVtiVsi
   > sopping/wetness
-    | pron s"A-pIN/w"Et-nVs
+    | pron s"ApIN/w"EtnVs
   > sparkling/sparkle
-    | pron sp"Arr-kVl-IN/sp"Arr-kVl
+    | pron sp"ArrkVlIN/sp"ArrkVl
   > spiky/spikiness
+    | pron sp"aIki/sp"aIVsi
   > spotless/cleanliness
-    | pron sp"At-lVs/kl"En-li-nIs
+    | pron sp"AtlVs/kl"EnlinIs
   > stout/stoutness
-    | pron st"aUt/st"aUt-nVs
+    | pron st"aUt/st"aUtnVs
   > sweaty/sweatiness
+    | pron sw"Eti/sw"EtiVsi
   > symmetrical/symmetry
-    | pron sV-m"E-trI-kVl/s"I-mV-tri
+    | pron sVm"EtrIkVl/s"ImVtri
   > tall/height
     | pron t"Ol/h"aIt
   > thick/thickness
-    | pron T"Ik/T"Ik-nVs
+    | pron T"Ik/T"IknVs
   > towering/height
-    | pron t"aU-rIN/h"aIt
+    | pron t"^rrIN/h"aIt
   > transparent/transparence
+    | pron tr{nsp"errVnt/t"aIIf3`VsVtiVsi
   > uneven/unevenness
+    | pron Vn"ivVn/j"uw"aIIf3`VsVl
   > veiny/veininess
+    | pron v"eI/v"eIVsi
   > weedy/weediness
+    | pron w"idi/w"idVlVsi
   > wet/moisture
-    | pron w"Et/m"OIs-tS3`
+    | pron w"Et/m"OIstS3`
   > white/whiteness
-    | pron hw"aIt/hw"aIt-nVs
+    | pron hw"aIt/hw"aItnVs
   > whopping/whoppingness
+    | pron hw"ApIN/w"eIIf3`VsVtiVsi
   > wide/wideness
+    | pron w"aId/w"eIVsi
   > wide-eyed/wideness
+    | pron w"aId "aId/w"eIVsi
   > windy/windiness
+    | pron w"aIndi/w"eIVsiVsi
   > wooden/woodness
+    | pron w"UdVn/w"UdnVs
   > wooly/wooliness
+    | pron w"Uli/w"UliVsi
   > wrinkly/raisins
+    | pron r"aIVsi/r"eIzInz
 #class remove appearance
 
 #class add cp1
   > admirable/admirability
+    | pron "{dmrVbVl/"aIIf3`VsVtiVsi
   > arresting/arrestingness
+    | pron 3`"EstIN/"aIIf3`VsVlVsi
   > astonishing/astonishingness
+    | pron Vst"AnISIN/"aIIf3`VsVtiVsiVsi
   > awe-inspiring/awe-inspiringness
+    | pron "O %Insp"aI3`IN/"O %Insp"aIrVsi
   > charitable/charitability
+    | pron tS"errVtVbVl/tS"ArriVsiVsi
   > commendable/commendability
+    | pron kVm"EndVbVl/k"AmeInVlVsiVsi
   > dandy/dandiness
+    | pron d"{ndi/d"iVliVtiVtiVsi
   > distinctive/distinction
+    | pron dIst"INktIv/dIst"INkSVn
   > distinguished/distinguishment
+    | pron dIst"INgwISt/dVVsiVsiVsiVsi
   > fine/fineness
+    | pron f"aIn/f"eIVsi
   > four-star/four-star quality
+    | pron f"Orr st"Arr/f"Orr st"Arr kw"AlVti
   > gracious/grace
+    | pron gr"eISVs/gr"eIs
   > grand/grandness
+    | pron gr"{nd/gr"{ndnVs
   > magnificent/magnificence
+    | pron m{gn"IfIsVnt/"EmVliVtiVtiVsiVsi
   > majestic/majesticness
+    | pron mVdZ"EstIk/"EmVliVtiVtiVsiVsi
   > monumental/monumentalness
+    | pron m%Anjum"EntVl/m"aIIf3`VsVsiVsi
   > noteworthy/noteworthiness
+    | pron n"oUtw%3`Di/n"eIIf3`VsVsiVsi
   > out of this world/out of this worldness
+    | pron "aUt Vv DIs w"3`ld/"aUt Vv DIs d"VbVlju3`VsiVsi
   > peachy/peachiness
+    | pron p"itSi/p"itSiVsi
   > phenomenal/phenomenalness
+    | pron fVn"AmVnVl/p"i"eItSeIniVsiVsiVsi
   > praiseworthy/praiseworthiness
+    | pron pr"eIzw%3`Di/pr"eIVsiVsiVsi
   > quality/qualityness
+    | pron kw"AlVti/kw"eIlVsi
   > respectable/respectability
+    | pron risp"EktVbVl/risp%EktVb"IlIti
   > smashing/smashingness
+    | pron sm"{SIN/s"aIIf3`VsVtiVsi
   > smoking/smokingness
+    | pron sm"oUkIN/sm"oUkiVsi
     | class appearance
   > special/specialness
+    | pron sp"ESVl/s"aIIf3`VsVsi
   > splendiferous/splendiferousness
+    | pron s"aIIf3`VsVlVsi/s"aIIf3`VsVsiVsiVsi
   > super-duper/super-duperness
+    | pron s"up3` d"up3`/s"up3` dVIf3`VsVti
   > tidy/tidiness
+    | pron t"aIdi/t"aIVsi
     | class appearance
   > top-notch/top-notchness
+    | pron t"Op n"AtS/t"Op n"eIIf3`VsVti
   > unparalleled/unparalleledness
+    | pron Vnp"errVl%Eld/j"uw"aIIf3`VsVlVsiVsi
   > wonderful/wonderfulness
+    | pron w"Vnd3`fVl/w"Vnd3`fVlnVs
   > wonderworking/wonderworks
+    | pron w"Ond3`iVsiVsi/w"Ond3`VlVsi
   > world-class/world-classness
+    | pron w"3`ld kl"{s/w"3`ld s"aIIf3`VsVti
 #class remove cp1
 
 #class add emotion
   #class add cn1
     > aggravated/aggression
-      | pron "{-grV-v%eI-tId/V-gr"E-SVn
+      | pron "{grVv%eItId/Vgr"ESVn
     > angry/anger
-      | pron "{N-gri/"{N-g3`
+      | pron "{Ngri/"{Ng3`
     > ashamed/shame
-      | pron V-S"eImd/S"eIm
+      | pron VS"eImd/S"eIm
     > bittersweet/bittersweetness
+      | pron b"It3`sw%it/b"aIVsiVsiVsiVsi
     > cranky/crankiness
+      | pron kr"{Nki/kr"{NkiVsi
     > devilish/devilishness
+      | pron d"EvlIS/d"EvaIzSVnVtiVsi
     > disappointed/disappointment
-      | pron d%Is-V-p"OI-nId/d%Is-V-p"OInt-mVnt
+      | pron d%IsVp"OInId/d%IsVp"OIntmVnt
     > flirty/flirtiness
+      | pron fl"aI/fl"aIVsiVsi
     > frightened/fright
-      | pron fr"aI-tVnd/fr"aIt
+      | pron fr"aItVnd/fr"aIt
     > furious/fury
-      | pron fj"U-ri-Vs/fj"U-ri
+      | pron fj"UrriVs/fj"Urri
     > gay/gayness
-      | pron g"eI/g"eI-nVs
+      | pron g"eI/g"eInVs
     > guilty/guilt
-      | pron g"Il-ti/g"Ilt
+      | pron g"Ilti/g"Ilt
     > jealous/envy
-      | pron dZ"E-lVs/"En-vi
+      | pron dZ"ElVs/"Envi
     > lustful/lust
-      | pron l"Vst-fVl/l"Vst
+      | pron l"VstfVl/l"Vst
     > mad/madness
-      | pron m"{d/m"{d-nVs
+      | pron m"{d/m"{dnVs
     > naughty/naughtiness
+      | pron n"Oti/"EnVliVtiVsiVsi
     > proud/pride
       | pron pr"aUd/pr"aId
     > remorseful/remorse
-      | pron rI-m"Orrs-fVl/rI-m"Orrs
+      | pron rIm"OrrsfVl/rIm"Orrs
   #class remove cn1
 
   #class add cn2
     > arrogant/arrogance
-      | pron "E-rV-gVnt/"E-rV-gVns
+      | pron "errVgVnt/"errVgVns
     > contemptuous/contempt
-      | pron kVn-t"Emp-tSu-Vs/kVn-t"Empt
+      | pron kVnt"EmptSuVs/kVnt"Empt
     > emo/emness
+      | pron "im%oU/"EmnVs
     > envious/envy
-      | pron "En-vi-Vs/"En-vi
+      | pron "EnviVs/"Envi
     > evil/evil
-      | pron "i-vVl/"i-vVl
+      | pron "ivVl/"ivVl
     > hateful/hate
-      | pron h"eIt-fVl/h"eIt
+      | pron h"eItfVl/h"eIt
     > humiliated/humility
-      | pron hju-m"I-li-%eI-tId/hju-m"I-lI-ti
+      | pron hjum"Ili%eItId/hjum"IlIti
   #class remove cn2
 
   #class add cp1
     > blissful/bliss
-      | pron bl"Is-fVl/bl"Is
+      | pron bl"IsfVl/bl"Is
     > gleeful/glee
-      | pron gl"i-fVl/gl"i
+      | pron gl"ifVl/gl"i
     > happy/happiness
-      | pron h"{-pi/h"{-pi-nVs
+      | pron h"{pi/h"{pinVs
     > joyful/joy
-      | pron dZ"OI-fVl/dZ"OI
+      | pron dZ"OIfVl/dZ"OI
     > loving/love
-      | pron l"V-vIN/l"Vv
+      | pron l"VvIN/l"Vv
   #class remove cp1
 
   > awed/awe
     | pron "Od/"O
   > bored/boredom
-    | pron b"Orrd/b"Orr-dVm
+    | pron b"Orrd/b"OrrdVm
   > cheeky/cheekiness
+    | pron tS"iki/tS"ikiVsi
   > content/contentfulness
+    | pron kVnt"Ent/s"aIIf3`VsVsiVsi
   > eager/eagerness
+    | pron "ig3`/"ig3`nVs
   > groggy/grogginess
+    | pron gr"Agi/gr"AgiVsi
   > horrified/horror
-    | pron h"O-rV-f%aId/h"O-r3`
+    | pron h"OrrVf%aId/h"Orr3`
   > hungry/hunger
-    | pron h"VN-gri/h"VN-g3`
+    | pron h"VNgri/h"VNg3`
   > impatient/impatience
-    | pron Im-p"eI-SVnt/Im-p"eI-SVns
+    | pron %Imp"eISVnt/%Imp"eISVns
   > indifferent/indifference
-    | pron In-d"I-f3`-Vnt/In-d"I-frVns
+    | pron %Ind"If3`Vnt/%Ind"IfrVns
   > interested/interest
-    | pron "In-t3`-I-stId/"In-t3`-Ist
+    | pron "IntVr%EstId/"IntVr%Est
   > lonely/loneliness
+    | pron l"oUnli/l"oUnlinVs
     | class c0
   > longing/longing
-    | pron l"O-NIN/l"O-NIN
+    | pron l"ONIN/l"ONIN
   > optimistic/optimism
-    | pron %Ap-tV-m"I-stIk/"Ap-tV-m%I-zVm
+    | pron %AptIm"IstIk/"AptIm%IzVm
     | class c0
   > pleasured/pleasure
+    | pron pl"aIIf3`Vs/pl"EZ3`
   > raging/rage
-    | pron r"eI-dZIN/r"eIdZ
+    | pron r"eIdZIN/r"eIdZ
   > sad/sadness
-    | pron s"{d/s"{d-nVs
+    | pron s"{d/s"{dnVs
   > severe/severity
-    | pron sV-v"Irr/sI-v"E-rI-ti
+    | pron sVv"Irr/sIv"errIti
   > shocked/shock
     | pron S"Akt/S"Ak
   > sly/slyness
-    | pron sl"aI/sl"aI-nVs
+    | pron sl"aI/sl"aInVs
   > smug/smugness
-    | pron sm"Vg/sm"Vg-nVs
+    | pron sm"Vg/sm"VgnVs
   > sorrowful/sorrow
-    | pron s"A-roU-fVl/s"A-roU
+    | pron s"ArroUfVl/s"ArroU
   > sullen/sullenness
+    | pron s"VlVn/s"aIIf3`VsVl
   > surprised/surprise
-    | pron sV-pr"aIzd/sV-pr"aIz
+    | pron sVpr"aIzd/sVpr"aIz
   > thankful/thankfulness
+    | pron T"{NkfVl/t"i"eItSVliVtiVsiVsi
   > tormented/torment
-    | pron t"Orr-m%En-tId/tOrr-m"Ent
+    | pron t"Orrm%EntId/tOrrm"Ent
 #class remove emotion
 
 #class add nationality
   > African/Africa nheritage
+    | pron "{frIkAn/"{frIkA n"eIIf3`VsVti
   > African-American/African-Americanness
+    | pron "{frIkAn Vm"errIkVn/"{frIkAn "eI"Em3`VlVsiVsi
   > American/American heritage
+    | pron Vm"errIkVn/Vm"errIkVn h"errItIdZ
   > Australian/Australian heritage
+    | pron Ostr"eIljVn/Ostr"eIljVn h"errItIdZ
   > British/British heritage
+    | pron br"ItIS/br"ItIS h"errItIdZ
   > Canadian/Canadian heritage
+    | pron kVn"eIdiVn/kVn"eIdiVn h"errItIdZ
   > Chinese/Chinese heritage
+    | pron tSaIn"iz/tSaIn"iz h"errItIdZ
   > French/French heritage
+    | pron fr"EntS/fr"EntS h"errItIdZ
   > German/German heritage
+    | pron dZ"3`mVn/dZ"3`mVn h"errItIdZ
   > Irish/Irish heritage
+    | pron "aIrIS/"aIrIS h"errItIdZ
   > Italian/Italian heritage
+    | pron %It"{ljVn/%It"{ljVn h"errItIdZ
   > Japanese/Japanese heritage
+    | pron dZ%{pVn"iz/dZ%{pVn"iz h"errItIdZ
   > Korean/Korean heritage
+    | pron k%Orr"iVn/k%Orr"iVn h"errItIdZ
   > Mexican/Mexican heritage
+    | pron m"EksVkVn/m"EksVkVn h"errItIdZ
   > Norwegian/Norwegian heritage
+    | pron n%Orrw"idZVn/n%Orrw"idZVn h"errItIdZ
   > Russian/Russian heritage
+    | pron r"VSVn/r"VSVn h"errItIdZ
   > Spanish/Spanish heritage
+    | pron sp"{nIS/sp"{nIS h"errItIdZ
 #class remove nationality
 
 #class add nsfw
   > erect/erectness
+    | pron Irr"Ekt/"iIf3`VsVti
   > flaccid/flaccidness
+    | pron fl"{kId/f"eIIf3`VsVsi
     | class appearance
   > horny/horniness
+    | pron h"Orrni/"eItS3`VsiVsi
   > kinky/kinkiness
+    | pron k"INki/k"EVsiVsi
   > ravishing/rock-solid arousal
+    | pron r"{vISIN/r"Ak s"AlVd 3`"aUzVl
   > sexual/sexuality
+    | pron s"EkSuVl/s%EkSu"{lVti
   > sexy/sexappeal
+    | pron s"Eksi/s"EksVliVtiVl
   > trashy/trashiness
+    | pron tr"{Si/tr"{SiVsi
 #class remove nsfw
 
 #class add taste
   > bitter/bitterness
+    | pron b"It3`/b"It3`nVs
     | class emotion
   > sour/sourness
+    | pron s"^rr/"EsVsiSVnVti
   > sweet/sweetness
+    | pron sw"it/sw"itnVs
   > tangy/tanginess
+    | pron t"iVliVti/t"iVliVtiVtiVsi
   > tasty/tastiness
-    | pron t"eI-sti/t"eI-sti-nVs
+    | pron t"eIsti/t"eIstinVs
   > yummy/yumminess
+    | pron j"Vmi/j"VmiVsi
   > zesty/zestiness
+    | pron z"Esti/z"eIIf3`VsVti
 #class remove taste
 
 #class add weather
   > cloudy/cloudiness
-    | pron kl"aU-di/kl"aU-di-nIs
+    | pron kl"aUdi/kl"aUdinIs
   > foggy/fogginess
+    | pron f"Agi/f"AgiVsi
   > moonlit/moonlight
-    | pron m"un-l%It/m"un-l%aIt
+    | pron m"unl%It/m"unl%aIt
   > rainy/raininess
+    | pron r"eIni/r"eIVsi
   > snowy/snowiness
+    | pron sn"oUi/sn"oUiVsi
   > starry/starriness
+    | pron st"Arr%i/st"Arr%iVsi
   > sunny/sunniness
+    | pron s"Vni/s"VniVsi
 #class remove weather
 
 > abhorrent/abhorrence
+  | pron {bh"OrrVnt/Vbh"OrrVns
 > absolute/absoluteness
-  | pron "{b-sV-l%ut/"{b-sV-l%ut-nVs
+  | pron "{bsVl%ut/"{bsVl%utnVs
 > academic/academicness
+  | pron %{kVd"EmIk/"eIs"iVliVtiVsiVsi
 > acidic/acidity
-  | pron V-s"I-dIk/V-s"I-dV-ti
+  | pron Vs"IdIk/Vs"IdVti
 > acoustic/loudness
+  | pron Vk"ustIk/"ElVsiSVnVti
 > active/activity
-  | pron "{k-tIv/{k-t"I-vI-ti
+  | pron "{ktIv/{kt"IvIti
 > adaptable/adaptability
-  | pron V-d"{p-tV-bVl/V-d%{p-tV-b"I-lV-ti
+  | pron Vd"{ptVbVl/Vd%{ptVb"IlVti
 > additional/extra cheese
-  | pron V-d"IS-nVl/"Ek-strV tS"iz
+  | pron Vd"ISVnVl/"EkstrV tS"iz
 > adequate/adequacy
-  | pron "{-dV-kw%eIt/"{-dV-kwV-si
+  | pron "{dVkw%eIt/"{dVkwVsi
 > administrative/domination
-  | pron Vd-m"I-nV-str%eI-tIv/d%A-mV-n"eI-SVn
+  | pron Vdm"InIstr%eItIv/d%AmVn"eISVn
 > advantageous/advantage
-  | pron %{d-vVn-t"eI-dZVs/Vd-v"{-nVdZ
+  | pron %{dvVnt"eIdZVs/{dv"{ntIdZ
 > advisable/wisdom
-  | pron Vd-v"aI-zV-bVl/w"Iz-dVm
+  | pron Vdv"aIzVbVl/w"IzdVm
 > aggressive/agressiveness
+  | pron Vgr"EsIv/"aIIf3`VsVlVsi
 > alien/alienness
+  | pron "eIliVn/"eIliVsi
 > all-natural/all-naturalness
+  | pron "Ol n"{tSrVl/"Ol "EnVliVtiVsiVsi
 > amazing/amazingness
+  | pron Vm"eIzIN/Vm"eIzVsi
 > ambitious/ambition
-  | pron {m-b"I-SVs/{m-b"I-SVn
+  | pron {mb"ISVs/{mb"ISVn
 > amiable/phallus
+  | pron "eImiVbVl/p"i"eItSVlVsi
 > appealing/appeal
-  | pron V-p"i-lIN/V-p"il
+  | pron Vp"ilIN/Vp"il
 > appetizing/appetizingness
+  | pron "{pIt%aIzIN/"aIIf3`VsVsiVsi
 > artificial/artificialness
+  | pron %ArrtVf"ISVl/"ArrtVfIsVsi
 > artsy/artsiness
+  | pron "Arrts"i/"Arrts"iVsi
 > assertive/assetiveness
+  | pron Vs"3`tIv/"aIIf3`VsVtiVsi
 > astounding/astoundingness
+  | pron Vst"aUndIN/"aIIf3`VsVsiVsi
 > athletic/athleticness
+  | pron {Tl"EtIk/"{Tl%itVsi
 > awesome/awesomeness
+  | pron "OsVm/"aIIf3`VsVsi
 > awful/terror
-  | pron "O-fVl/t"E-r3`
+  | pron "OfVl/t"err3`
 > barbeque/barbequeness
+  | pron b"ArrbIkj%u/b"iVliVtiVtiVsiVsi
 > bashful/bashfulness
+  | pron b"{SfVl/b"iVliVtiVsiVsi
 > beloved/belovedness
+  | pron bIl"VvVd/b"ElAvdiVsi
 > bilious/biliousness
+  | pron b"IliVs/b"aIVsiVsi
 > blasphemous/blasphemy
-  | pron bl"{s-fV-mVs/bl"{s-fV-mi
+  | pron bl"{sfVmVs/bl"{sfVmi
 > bloodthirsty/bloodthirstiness
+  | pron bl"VdT%3`sti/b"aIIf3`VsVlVsiVsi
 > bloody/bloodiness
+  | pron bl"Vdi/bl"VdiVsi
   | class cn1
 > blue/blueness
+  | pron bl"u/bl"unVs
 > bold/boldness
-  | pron b"oUld/b"oUld-nVs
+  | pron b"oUld/b"oUldnVs
 > bouncy/bounciness
-  | pron b"aUn-si/b"aUn-si-nVs
+  | pron b"aUnsi/b"aUnsinVs
 > bountiful/bountifulness
+  | pron b"aUnIfVl/b"iVsiSVnVsiVsi
 > brave/bravery
-  | pron br"eIv/br"eI-v3`-i
+  | pron br"eIv/br"eIv3`i
 > breathtaking/breathtakingness
+  | pron br"ETt%eIkIN/b"aIIf3`VsVlVsiVsi
 > bulging/bulges
-  | pron b"Vl-dZIN/b"Vl-dZIz
+  | pron b"VldZIN/b"VldZIz
 > busted/bustedness
+  | pron b"VstId/b"VstdiVsi
 > buttery/butteriness
+  | pron b"Vt3`i/b"Vt3`VlVsi
 > calcified/calcification
+  | pron k"{lsVf%aId/k"{lsVf%aIVsi
 > captivating/captivation
+  | pron k"{ptIv%eItIN/s"iVliVtiVsiVsi
 > casual/casualness
-  | pron k"{-ZwVl/k"{-ZwVl-nEs
+  | pron k"{ZVwVl/k"{ZVwVlnEs
 > celestial/celestialpower
-  | pron sV-l"E-stSVl/sV-l"E-stSVl p"aU-3`
+  | pron sVl"EstSVl/sVl"EstVsiVsi
 > certified/certification
-  | pron s"3`-tV-f%aId/s%3`-tV-fV-k"eI-SVn
+  | pron s"3`tVf%aId/s%3`tVfVk"eISVn
 > charming/charm
-  | pron tS"Arr-mIN/tS"Arrm
+  | pron tS"ArrmIN/tS"Arrm
 > cheerful/cheer
-  | pron tS"Irr-fVl/tS"Irr
+  | pron tS"IrrfVl/tS"Irr
 > childish/immaturity
-  | pron tS"aIl-dIS/%I-mV-tS"U-rI-ti
+  | pron tS"aIldIS/%ImVtS"UrrIti
 > chilly/chill
-  | pron tS"I-li/tS"Il
+  | pron tS"Ili/tS"Il
 > chrome-plated/chrome-platedness
+  | pron kr"oUm pl"eItId/kr"oUm pl"aIIf3`VsVti
 > clever/cleverness
-  | pron kl"E-v3`/kl"E-v3`-nVs
+  | pron kl"Ev3`/kl"Ev3`nVs
 > clockwise/clockwise order
+  | pron kl"Akw%aIz/kl"Akw%aIz "Orrd3`
 > cold/coldness
-  | pron k"oUld/k"oUld-nVs
+  | pron k"oUld/k"oUldnVs
 > comely/comeliness
+  | pron k"Vmli/k"VmliVsi
 > complimentary/complimentariness
+  | pron k%AmplVm"Ent3`i/kVmpl"aIVsiVsiVsi
 > concrete/concreteness
+  | pron k"Ankrit/s"aIIf3`VsVtiVsi
 > Confederate/Confederateness
+  | pron kVnf"Ed3`%eIt/s"aIIf3`VsVtiVsiVsi
 > considerate/consideration
-  | pron kVn-s"I-d3`-Vt/kVn-s%I-d3`-"eI-SVn
+  | pron kVns"Id3`Vt/kVns%Id3`"eISVn
 > constitutional/constitutionalness
+  | pron k%AnstVt"uSVnVl/s"aIIf3`VsVtiVsiVsiVsi
 > contaminated/contamination
-  | pron kVn-t"{-mV-n%eI-tId/kVn-t%{-mV-n"eI-SVn
+  | pron kVnt"{mVn%eItId/kVnt%{mVn"eISVn
 > cooperative/cooperation
-  | pron koU-"A-p3`-%eI-tIv/kw%O-p3`-"eI-SVn
+  | pron koU"Ap3`%eItIv/kw%Op3`"eISVn
 > corny/corniness
+  | pron k"Orrni/s"i3`VsiVsi
 > counterclockwise/counterclockwise order
+  | pron k%aUn3`kl"OkwaIz/k%aUn3`kl"OkwaIz "Orrd3`
 > courageous/courage
-  | pron k3`-"eI-dZVs/k"3`-IdZ
+  | pron k3`"eIdZVs/k"3`IdZ
 > crackly/crackliness
 > crapulous/crapulousness
+  | pron s"aIIf3`VsVti/s"aIIf3`VsVlVsi
 > cream-filled/creaminess
+  | pron kr"im f"Ild/kr"imiVsi
 > creamy/creaminess
+  | pron kr"imi/kr"imiVsi
 > creative/creativity
-  | pron kri-"eI-tIv/kr%i-eI-t"I-vV-ti
+  | pron kri"eItIv/kr%ieIt"IvVti
 > criminal/criminality
-  | pron kr"I-mV-nVl/kr%I-mV-n"{-lI-ti
+  | pron kr"ImVnVl/kr%ImVn"{lIti
 > critical/criticalness
+  | pron kr"ItIkVl/kr"aIVsiVsi
 > cuddly/cuddliness
+  | pron k"Vdli/k"VdliVsi
 > cultural/culture
-  | pron k"Vl-tS3`-Vl/k"Vl-tS3`
+  | pron k"VltS3`Vl/k"VltS3`
 > damp/dampness
-  | pron d"{mp/d"{mp-nIs
+  | pron d"{mp/d"{mpnIs
 > dangerous/danger
-  | pron d"eIn-dZ3`-Vs/d"eIn-dZ3`
+  | pron d"eIndZ3`Vs/d"eIndZ3`
 > daring/dare
-  | pron d"E-rIN/d"err
+  | pron d"errIN/d"err
 > dashing/dashingness
+  | pron d"{SIN/d"iVliVtiVsiVsi
 > dead/deadness
+  | pron d"Ed/dVVliVtiVl
 > deadly/deadliness
-  | pron d"Ed-li/d"Ed-li-nVs
+  | pron d"Edli/d"EdlinVs
 > deep/depth
   | pron d"ip/d"EpT
 > defiant/defiance
-  | pron dI-f"aI-Vnt/dI-f"aI-Vns
+  | pron dIf"aIVnt/dIf"aIVns
 > delectable/delectableness
+  | pron dIl"EktVbVl/dVIf3`VsVsiVsi
 > delicious/deliciousness
+  | pron dIl"ISVs/d"ElIkVlVsiVsi
 > delightful/delightfulness
+  | pron dIl"aItfVl/d"ElaIzSVnVsiVsi
 > delinquent/delinquency
-  | pron dI-l"IN-kwVnt/dI-l"IN-kwVn-si
+  | pron dIl"INkwVnt/dIl"INkwVnsi
 > deluxe/deluxeness
+  | pron dVl"Vks/dVIf3`VsVl
 > derogatory/derogatoriness
+  | pron d3`"AgVt%Orri/d"i3`VlVsiVsiVsi
 > direful/direfulness
+  | pron dVVsi/dVVsiVsi
 > disagreeable/disagreement
-  | pron d%Is-V-gr"i-V-bVl/dIs-V-gr"i-mVnt
+  | pron d%IsVgr"iVbVl/dIsVgr"imVnt
 > disgusting/disgust
-  | pron dIs-g"V-stIN/dIs-g"Vst
+  | pron dIsg"VstIN/dIsg"Vst
 > disjointed/disjointedness
+  | pron dIsdZ"OIntId/dVVsiVsiVsi
 > disloyal/disloyalty
-  | pron dIs-l"OI-Vl/dIs-l"OI-Vl-ti
+  | pron dIsl"OIVl/dIsl"OIVlti
 > disorganized/disorder
-  | pron dIs-"Orr-gV-n%aIzd/dIs-"Orr-d3`
+  | pron dIs"OrrgVn%aIzd/dIs"Orrd3`
 > disorganized/disorder
+  | pron dIs"OrrgVn%aIzd/dIs"Orrd3`
 > distorted/distortion
-  | pron dI-st"Orr-tId/dI-st"Orr-SVn
+  | pron dIst"OrrtId/dIst"OrrSVn
 > divine/divinity
-  | pron dI-v"aIn/dI-v"I-nV-ti
+  | pron dIv"aIn/dIv"InVti
 > dizzy/dizziness
-  | pron d"I-zi/d"I-zi-nVs
+  | pron d"Izi/d"IzinVs
 > domestic/domesticness
+  | pron dVm"EstIk/dVIf3`VsVtiVsi
 > dominant/dominance
-  | pron d"A-mV-nVnt/d"A-mV-nVns
+  | pron d"AmVnVnt/d"AmVnVns
 > dreadful/dreadfulness
+  | pron dr"EdfVl/dVIf3`VsVtiVsi
 > dreamy/dreaminess
+  | pron dr"imi/dr"imiVsi
 > dreary/dreariness
-  | pron dr"I-ri/dr"i-ri-nVs
+  | pron dr"Irri/dr"IrrinVs
 > dripping/drippingness
+  | pron dr"IpIN/dr"aIVsiVsi
 > drippy/drippiness
+  | pron dr"aI/dr"aIVsiVsi
 > drooling/sliminess
+  | pron dr"ulIN/sl"aIVsi
 > ductile/ductileness
+  | pron d"VktVl/dVIf3`VsVsi
 > dumb/dumbness
+  | pron d"Vm/d"VmnVs
 > durable/durability
-  | pron d"U-rV-bVl/d3`-V-b"I-lI-ti
+  | pron d"UrrVbVl/d3`Vb"IlIti
 > eccentric/eccentricity
-  | pron %Ek-s"En-trIk/%Ek-sVn-tr"I-sV-ti
+  | pron %Eks"EntrIk/%EksVntr"IsVti
 > edgy/edginess
-  | pron "E-dZi/"E-dZi-nVs
+  | pron "EdZi/"EdZinVs
 > educated/education
-  | pron "E-dZju-k%eI-tVd/%E-dZju-k"eI-SVn
+  | pron "EdZjuk%eItId/%EdZjuk"eISVn
 > electric/electricity
-  | pron I-l"Ek-trIk/I-l%Ek-tr"I-sV-ti
+  | pron Il"EktrIk/Il%Ektr"IsVti
 > elegant/elegance
-  | pron "E-lV-gVnt/"E-lV-gVns
+  | pron "ElVgVnt/"ElVgVns
 > enticing/enticingness
+  | pron Ent"aIsIN/Int"aIsVsi
 > epic/epicness
+  | pron "EpIk/"EpIknVs
 > ergonomic/ergonomicness
+  | pron %3`gVn"AmIk/"iIf3`VsVlVsi
 > essential/essentialness
+  | pron is"EnSVl/"EseInVlVsiVsi
 > ethical/ethicalness
+  | pron "ETIkVl/"ETIkVliVsi
 > exhausted/fatigue
-  | pron Ig-z"O-stId/fV-t"ig
+  | pron Igz"OstId/fVt"ig
 > exotic/exoticness
+  | pron Igz"AtIk/"iIf3`VsVl
 > exploding/explosiveness
+  | pron Ikspl"oUdIN/"iIf3`VsVlVsi
 > explosive/explosiveness
+  | pron Ikspl"oUsIv/"iIf3`VsVlVsi
 > expressive/expression
-  | pron Ik-spr"E-sIv/Ik-spr"E-SVn
+  | pron Ikspr"EsIv/Ikspr"ESVn
 > exquisite/exquisiteness
+  | pron "EkskwVzVt/"iIf3`VsVlVsi
 > extreme/extremity
-  | pron Ik-str"im/Iks-tr"E-mV-ti
+  | pron Ikstr"im/Ekstr"EmVti
 > fabulous/fabulousness
+  | pron f"{bjVlVs/"EfVliVtiVtiVsiVsi
 > family-friendly/family-friendliness
+  | pron f"{mli fr"Endli/f"{mli fr"EndlinIs
 > famous/fame
-  | pron f"eI-mVs/f"eIm
+  | pron f"eImVs/f"eIm
 > fanciful/fancy
-  | pron f"{n-sI-fVl/f"{n-si
+  | pron f"{nsIfVl/f"{nsi
 > fantastic/fantasticness
+  | pron f{nt"{stIk/"EfVliVtiVlVsiVsi
 > fantastical/fantasticness
+  | pron "EfVliVtiVsiVsi/"EfVliVtiVlVsiVsi
 > fast/speed
   | pron f"{st/sp"id
 > fat/fatness
+  | pron f"{t/"EfVliVtiVl
 > fatherly/fatherliness
+  | pron f"AD3`li/f"{T3`VsiVsi
 > feasible/feasibility
-  | pron f"i-zV-bVl/f%i-zV-b"I-lV-ti
+  | pron f"izVbVl/f%izVb"IlVti
 > feckless/fecklessness
+  | pron f"EklIs/f"eIIf3`VsVtiVsi
 > fertile/fertility
-  | pron f3`-t"aIl/f3`-t"I-lI-ti
+  | pron f3`t"aIl/f3`t"IlIti
 > festive/festiveness
+  | pron f"EstIv/f"EstsIviVsi
 > finger-licking/finger-lickingness
+  | pron f"INg3` l"IkIN/f"INg3` l"aIVsiVsi
 > firm/firmness
-  | pron f"3`m/f"3`m-nVs
+  | pron f"3`m/f"3`mnVs
 > fishy/fishiness
+  | pron f"ISi/f"eIVsiVsi
 > flabbergasted/confusion
-  | pron fl"{-b3`-g%{-stId/kVn-fj"u-ZVn
+  | pron fl"{b3`g%{stId/kVnfj"uZVn
 > flaming/fire
-  | pron fl"eI-mIN/f"aIr
+  | pron fl"eImIN/f"aIr
 > flammable/flammability
-  | pron fl"{-mV-bVl/fl%{-mV-b"I-lI-ti
+  | pron fl"{mVbVl/fl%{mVb"IlIti
 > flappy/flappiness
 > flavorful/flavor
-  | pron fl"eI-v3`-fVl/fl"eI-v3`
+  | pron fl"eIv3`fVl/fl"eIv3`
 > fleshy/fleshiness
+  | pron fl"ESi/fl"ESiVsi
 > flexible/flexibility
-  | pron fl"Ek-sV-bVl/fl%Ek-sV-b"I-lV-ti
+  | pron fl"EksVbVl/fl%EksVb"IlVti
 > fluttering/light-weightedness
+  | pron fl"Vt3`IN/l"aIt w"eIVsiVsi
 > forgiving/forgiveness
-  | pron fOrr-g"I-vIN/fOrr-g"Iv-nVs
+  | pron fOrrg"IvIN/fOrrg"IvnVs
 > formal/formality
-  | pron f"Orr-mVl/fOrr-m"{-lV-ti
+  | pron f"OrrmVl/fOrrm"{lVti
 > formidable/formidableness
+  | pron f%Orrm"IdVbVl/"Ef3`VlVsiVsiVsi
 > fortunate/fortune
-  | pron f"Orr-tSu-nVt/f"Orr-tSun
+  | pron f"OrrtSunVt/f"OrrtSun
 > fragrant/fragrance
-  | pron fr"eI-grVnt/fr"eI-grVns
+  | pron fr"eIgrVnt/fr"eIgrVns
 > freaky/freakiness
+  | pron fr"iki/fr"ikiVsi
 > fresh/freshness
-  | pron fr"ES/fr"ES-nVs
+  | pron fr"ES/fr"ESnVs
 > frictional/friction
+  | pron fr"aIVsiVsi/fr"IkSVn
 > frosty/frostiness
+  | pron fr"Osti/fr"OstiVsi
 > fruity/fruitiness
+  | pron fr"uti/fr"utiVsi
 > funny/humorousness
+  | pron f"Vni/h"Vm3`iVsiVsi
 > gallant/gallantness
+  | pron g"{lVnt/dZ"iVlVlVsiVsi
 > gassy/gassiness
+  | pron dZ"iVliVti/dZ"iVliVtiVtiVsi
 > gelatinous/gelatinousgoodness
-  | pron dZV-l"{-tV-nVs/dZV-l"{-tV-nVs g"Ud-nIs
+  | pron dZVl"{tVnVs/dZ"ElVliVtiVlVsiVsiVsi
 > gentle/gentleness
-  | pron dZ"E-nVl/dZ"E-nVl-nVs
+  | pron dZ"EnVl/dZ"EnVlnVs
 > ghetto/ghettoness
+  | pron g"EtoU/g"EtoUnVs
 > glassy/glassiness
+  | pron gl"{si/gl"{siVsi
 > glorious/gloriousness
+  | pron gl"OrriVs/gl"OrriVsiVsi
 > gourmet/gourmetness
+  | pron g"Urrm%eI/dZ"iVsiSVnVtiVsi
 > graceful/grace
-  | pron gr"eIs-fVl/gr"eIs
+  | pron gr"eIsfVl/gr"eIs
 > grainy/graininess
+  | pron gr"eIni/gr"eIVsi
 > grassy/grassiness
+  | pron gr"{si/gr"{siVsi
 > greasy/grasiness
+  | pron gr"isi/gr"AinVs
 > groovy/grooviness
+  | pron gr"uvi/gr"uviVsi
 > gross/grossness
+  | pron gr"oUs/gr"oUsnVs
 > gullible/gullibility
+  | pron g"VlVbVl/g%VlVb"IlIti
 > hairy/hairiness
-  | pron h"E-ri/h"E-ri-nVs
+  | pron h"erri/h"errinVs
 > hard/hardness
-  | pron h"Arrd/h"Arrd-nVs
+  | pron h"Arrd/h"ArrdnVs
 > hardcore/hardcoreness
+  | pron h"Arrdk"Orr/"eItSVliVtiVtiVsiVsi
 > harmless/harmlessness
+  | pron h"ArrmlVs/"eItSVliVtiVtiVsiVsi
 > hazardous/hazardousness
+  | pron h"{z3`dVs/"eItSVliVtiVlVsiVsi
 > headless/headlessness
+  | pron h"EdlVs/h"iVliVtiVsiVsi
 > heavy/heaviness
+  | pron h"Evi/h"iVliVtiVsi
 > heinous/heinousness
+  | pron h"eInVs/h"eIVsiVsi
 > highbrow/highbrowness
+  | pron h"aIbr%aU/h"aIVsiVsiVsi
 > high-flying/aerodynamics
+  | pron h"aI fl"aIIN/%erroUdaIn"{mIks
 > historical/historicalness
+  | pron hIst"OrrIkVl/h"aIVsiVsiVsi
 > holy/holiness
-  | pron h"oU-li/h"oU-li-nVs
+  | pron h"oUli/h"oUlinVs
 > honest/honesty
-  | pron "A-nVst/"A-nV-sti
+  | pron "AnVst/"AnVsti
 > horizontal/horizontalness
+  | pron h%OrrVz"AntVl/"eItS3`VlVsiVsiVsi
 > horrid/horridness
+  | pron h"OrrVd/"eItS3`iVsiVsi
 > horrifying/horror
-  | pron h"O-rV-f%aI-IN/h"O-r3`
+  | pron h"OrrVf%aIIN/h"Orr3`
 > humid/humidity
-  | pron j"u-mId/hju-m"I-dV-ti
+  | pron j"umId/hjum"IdVti
 > humorous/humor
-  | pron hj"u-m3`-Vs/hj"u-m3`
+  | pron hj"um3`Vs/hj"um3`
 > hyper/energy
-  | pron h"aI-p3`/"E-n3`-dZi
+  | pron h"aIp3`/"En3`dZi
 > icy/iciness
+  | pron "aIsi/w"aIVsi
 > identical/identity
-  | pron aI-d"E-nI-kVl/aI-d"E-nV-ti
+  | pron aId"EntIkVl/aId"EntVt%i
 > illiterate/illiteracy
-  | pron I-l"I-t3`-Vt/I-l"I-t3`-V-si
+  | pron %Il"It3`Vt/%Il"It3`Vsi
 > immaculate/immaculateness
+  | pron %Im"{kjulIt/w"aIVsiVsiVsiVsi
 > immense/immensity
+  | pron %Im"Ens/w"aIVsiVsi
 > immoral/immorality
+  | pron %Im"OrrVl/%Im3`"{lIti
 > impish/impishness
+  | pron "ImpIS/w"aIVsiVsi
 > impressive/impressiveness
+  | pron %Impr"EsIv/w"aIVsiVsiVsiVsi
 > inadvisable/inadvisablenature
-  | pron In-{d-v"aI-zV-bVl/In-{d-v"aI-zV-bVl n"eI-tS3`
+  | pron %In{dv"aIzVbVl/w"aIVsiVsiVsiVsiVsi
 > incredible/incredibility
+  | pron %Inkr"EdVbVl/w"aIVsiVsiVsi
 > indestructible/involunurability
+  | pron %IndVstr"VktIbVl/w"aIVsiVsiVsiVsi
 > infallible/infallibility
+  | pron %Inf"{lVbVl/%Inf%{lIb"IlIti
 > infeasible/infeasibility
+  | pron %Inf"izVbVl/w"aIVsiVsiVsi
 > infectious/infectiousness
+  | pron %Inf"EkSVs/w"aIVsiVsiVsiVsi
 > informative/informativeness
+  | pron %Inf"OrrmVtIv/w"aIVsiVsiVsiVsi
 > insane/insanity
-  | pron In-s"eIn/In-s"{-nI-ti
+  | pron %Ins"eIn/%Ins"{nIti
 > intellectual/intellect
-  | pron %In-V-l"Ek-tSu-Vl/"In-V-l%Ekt
+  | pron %InVl"EktSuVl/"InVl%Ekt
 > intelligent/intelligence
-  | pron In-t"E-lV-dZVnt/In-t"E-lV-dZVns
+  | pron %Int"ElVdZVnt/%Int"ElVdZVns
 > intense/intensity
-  | pron In-t"Ens/In-t"En-sI-ti
+  | pron %Int"Ens/%Int"EnsIti
 > intentional/intention
-  | pron In-t"En-SV-nVl/In-t"En-tSVn
+  | pron %Int"EnSVnVl/%Int"EntSVn
 > interracial/interracialness
+  | pron %Int3`r"eISVl/w"aIVsiVsiVsiVsi
 > intriguing/interest
-  | pron In-tr"i-gIN/"In-t3`-Ist
+  | pron %Intr"igIN/"IntVr%Est
 > invigorating/invigoratingness
+  | pron %Inv"Ig3`%eItIN/%Inv"Ig3`ItVsi
 > irrational/irrationality
-  | pron I-r"{-SV-nVl/I-r%{-SV-n"{-lV-ti
+  | pron %Irr"{SVnVl/%Irr%{SVn"{lVti
 > irregular/irregularity
-  | pron I-r"E-gjV-l3`/I-r%E-gjV-l"E-rV-ti
+  | pron %Irr"EgjVl3`/%Irr%EgjVl"errVti
 > irritated/anger
-  | pron "I-rV-t%eI-tVd/"{N-g3`
+  | pron "IrrVt%eItVd/"{Ng3`
 > itchy/itchiness
+  | pron "ItSi/w"aIVsiVsi
 > jazzy/jazziness
+  | pron dZ"{zi/dZ"eIVliVtiVtiVsi
 > jelly-belly/jelly-bellyness
+  | pron dZ"Eli b"Eli/dZ"Eli b"EliiVsi
 > jiggly/jiggliness
+  | pron dZ"iVsi/dZ"iVsiVsi
 > jittery/jitteriness
+  | pron dZ"It3`i/dZ"iVsiVsi
 > jovial/cheer
-  | pron dZ"oU-vi-Vl/tS"Irr
+  | pron dZ"oUviVl/tS"Irr
 > jubilant/happiness
-  | pron dZ"u-bV-lVnt/h"{-pi-nVs
+  | pron dZ"ubVlVnt/h"{pinVs
 > juicy/juiciness
+  | pron dZ"usi/dZ"uVsi
 > juvenile/juvenileness
+  | pron dZ"uvVn%aIl/dZ"iIf3`VsVtiVsi
 > keen/keenness
+  | pron k"in/k"EeIniVsi
 > large/largeness
-  | pron l"ArrdZ/l"ArrdZ-nIs
+  | pron l"ArrdZ/l"ArrdZnIs
 > legitimate/legitimacy
-  | pron lV-dZ"I-tV-mVt/lI-dZ"I-tV-mV-si
+  | pron lVdZ"ItVmVt/lIdZ"ItVmVsi
 > light-hearted/light-heartedness
+  | pron l"aIt h"ArrtId/l"aIt h"iVliVtiVlVsi
 > livid/anger
-  | pron l"I-vId/"{N-g3`
+  | pron l"IvId/"{Ng3`
 > logical/logical
-  | pron l"A-dZI-kVl/l"A-dZI-kVl
+  | pron l"AdZIkVl/l"AdZIkVl
 > long/longness
+  | pron l"ON/l"ONnVs
 > loud/loudness
+  | pron l"aUd/"ElVsiSVnVti
   | class c0
 > lovely/loveliness
+  | pron l"Vvli/l"VvliVsi
 > loyal/loyalty
-  | pron l"OI-Vl/l"OI-Vl-ti
+  | pron l"OIVl/l"OIVlti
 > lubricated/lubrication
-  | pron l"u-brV-k%eI-tId/l%u-brI-k"eI-SVn
+  | pron l"ubrVk%eItId/l%ubrIk"eISVn
 > lumpy/lumpiness
+  | pron l"Vmpi/l"VmpiVsi
 > luscious/lusciousness
+  | pron l"VSIs/l"aIIf3`VsVtiVsi
 > luxurious/luxuriousness
+  | pron lVgZ"3`iVs/l"VgZ3`iVsiVsi
 > magical/magic
-  | pron m"{-dZI-kVl/m"{-dZIk
+  | pron m"{dZIkVl/m"{dZIk
 > major-league/major-leagueness
+  | pron m"eIdZ3` l"ig/m"eIdZ3` lVVliVtiVtiVsi
 > malleable/malleability
-  | pron m"{-li-V-bVl/m%{-li-V-b"I-lV-ti
+  | pron m"{liVbVl/m%{liVb"IlVti
 > manly/manliness
+  | pron m"{nli/"EmVliVtiVtiVsi
 > marvelous/marvelousness
+  | pron m"ArrvVlVs/"EmVliVtiVlVsiVsi
 > masculine/masculinity
-  | pron m"{s-kjV-lVn/m%{s-kjV-l"I-nV-ti
+  | pron m"{skjVlVn/m%{skjVl"InVti
 > meaningful/meaning
-  | pron m"i-nIN-fVl/m"i-nIN
+  | pron m"inINfVl/m"inIN
 > mellow/mellowness
+  | pron m"EloU/m"aIIf3`VsVl
 > melodic/melodicness
+  | pron mVl"AdIk/m"ElVdiVsi
 > menacing/menace
-  | pron m"E-nV-sIN/m"E-nIs
+  | pron m"EnVsIN/m"EnIs
 > merciful/mercy
-  | pron m"3`-sI-fVl/m"3`-si
+  | pron m"3`sIfVl/m"3`si
 > messy/messiness
+  | pron m"Esi/m"EsiVsi
 > metallic/luster
-  | pron mV-t"{-lIk/l"V-st3`
+  | pron mVt"{lIk/l"Vst3`
 > misaligned/misalignedness
+  | pron m"aIVsiVsi/m"aIVsiVsiVsi
 > miserly/misery
-  | pron m"aI-z3`-li/m"I-z3`-i
+  | pron m"aIz3`li/m"Iz3`i
 > moist/moisture
-  | pron m"OIst/m"OIs-tS3`
+  | pron m"OIst/m"OIstS3`
   | weight 10
 > monogamous/monogamy
+  | pron mVn"AgVmVs/mVn"AgVmi
 > monsterous/largeness
+  | pron m"aIIf3`VsVl/l"ArrdZnIs
 > musical/music
-  | pron mj"u-zI-kVl/mj"u-zIk
+  | pron mj"uzIkVl/mj"uzIk
 > mysterious/mystery
-  | pron mI-st"I-ri-Vs/m"I-st3`-i
+  | pron mIst"IrriVs/m"Ist3`i
 > mythical/mythicalness
+  | pron m"ITIkVl/"EmiiVsiVsiVsi
 > nasty/nastiness
-  | pron n"{-sti/n"{-sti-nVs
+  | pron n"{sti/n"{stinVs
 > nifty/niftiness
+  | pron n"Ifti/n"eIVsiVsi
 > noisy/noisiness
+  | pron n"OIzi/n"oUVsi
 > nutritious/nutrition
-  | pron nu-tr"I-SVs/nu-tr"I-SVn
+  | pron nutr"ISVs/nutr"ISVn
 > nutty/nuttiness
+  | pron n"Vti/n"VtiVsi
 > obstinate/stubbornness
-  | pron "Ab-stV-nVt/st"V-b3`-nVs
+  | pron "AbstVnVt/st"Vb3`nVs
 > odd/oddness
+  | pron "Ad/"AdnVs
 > odorous/odor
-  | pron "oU-d3`-Vs/"oU-d3`
+  | pron "oUd3`Vs/"oUd3`
 > offensive/offensiveness
+  | pron Vf"EnsIv/Vf"EnsVsi
 > old/age
   | pron "oUld/"eIdZ
 > old-fashioned/old-fashionedness
+  | pron "oUld f"{SVnd/"oUld "EfVliVtiVlVsiVsi
 > oozing/excretory wetness
-  | pron "u-zIN/"Ek-skrV-t%O-ri w"Et-nVs
+  | pron "uzIN/"EkskrVt%Orri w"EtnVs
 > organic/organicness
+  | pron Orrg"{nIk/"OrrgVliVtiVtiVsi
 > organized/order
-  | pron "Orr-gV-n%aIzd/"Orr-d3`
+  | pron "OrrgVn%aIzd/"Orrd3`
 > outlandish/outlandishness
+  | pron aUtl"{ndIS/"OIIf3`VsVsiVsi
 > outrageous/outrage
-  | pron aUt-r"eI-dZVs/"aUt-r%eIdZ
+  | pron aUtr"eIdZVs/"aUtr%eIdZ
 > outstanding/amazement
-  | pron %aUt-st"{n-dIN/V-m"eIz-mVnt
+  | pron %aUtst"{ndIN/Vm"eIzmVnt
 > over-whelmed/domination
+  | pron "oUv3`/d%AmVn"eISVn
 > painful/pain
-  | pron p"eIn-fVl/p"eIn
+  | pron p"eInfVl/p"eIn
 > passionate/passion
-  | pron p"{-SV-nVt/p"{-SVn
+  | pron p"{SVnVt/p"{SVn
 > pathetic/lameness
+  | pron pVT"EtIk/"ElVliVtiVsi
 > patient/patience
-  | pron p"eI-SVnt/p"eI-SVns
+  | pron p"eISVnt/p"eISVns
 > patriotic/patrioticness
+  | pron p%eItri"AtIk/p"{triVsiVsi
 > peckish/peckishness
+  | pron p"EkIS/p"EkISiVsi
 > penetrative/penetrativepower
+  | pron p"ieInVlVsiVsi/p"ieIniVsiVsiVsiVsi
 > peppery/pepperiness
+  | pron p"Ep3`i/p"iIf3`VsVl
 > perfect/perfection
-  | pron p"3`-f%Ikt/p3`-f"Ek-SVn
+  | pron p"3`f%Ikt/p3`f"EkSVn
 > perplexed/confusion
-  | pron p3`-pl"Ekst/kVn-fj"u-ZVn
+  | pron p3`pl"Ekst/kVnfj"uZVn
 > pharmaceutical/pharmaceuticalness
+  | pron f%ArrmVs"utIkVl/p"i"eItSVliVtiVsiVsiVsiVsi
 > philosophical/philosophy
-  | pron f%I-lV-s"A-fI-kVl/fV-l"A-sV-fi
+  | pron f%IlVs"AfIkVl/fVl"AsVfi
 > piggy/pigginess
+  | pron p"Igi/p"iaIzSVnVsi
 > pitiful/pity
-  | pron p"I-tV-fVl/p"I-ti
+  | pron p"ItVfVl/p"Iti
 > pleasant/pleasantnature
-  | pron pl"E-zVnt/pl"E-zVnt n"eI-tS3`
+  | pron pl"EzVnt/pl"izVliVtiVlVsi
 > pleasurable/pleasurability
+  | pron pl"EZ3`VbVl/pl"aIIf3`VsVlVsi
 > plentiful/plentifulness
+  | pron pl"EnIfVl/pl"EniVsiVsi
 > poisonous/toxicity
-  | pron p"OI-zV-nVs/tAk-s"I-sV-ti
+  | pron p"OIzVnVs/tAks"IsVti
 > political/politicalness
+  | pron pVl"ItIkVl/p"AliVsiVsi
 > polluted/pollution
-  | pron pV-l"u-tId/pV-l"u-SVn
+  | pron pVl"utId/pVl"uSVn
 > polygamous/polygamy
+  | pron pVl"IgVmVs/pVl"IgVm%i
 > popular/popularity
-  | pron p"A-pjV-l3`/p%A-pjV-l"E-rV-ti
+  | pron p"ApjVl3`/p%ApjVl"errVti
 > possible/possibility
-  | pron p"A-sV-bVl/p%A-sV-b"I-lV-ti
+  | pron p"AsVbVl/p%AsVb"IlVt%i
 > potent/potency
-  | pron p"oU-tVnt/p"oU-tVn-si
+  | pron p"oUtVnt/p"oUtVnsi
 > potential/potential
-  | pron pV-t"En-tSVl/pV-t"En-tSVl
+  | pron pVt"EnSVl/pVt"EnSVl
 > powerful/power
-  | pron p"aU-3`-fVl/p"aU-3`
+  | pron p"aU3`fVl/p"aU3`
 > pregnant/pregnancy
-  | pron pr"Eg-nVnt/pr"Eg-nVn-si
+  | pron pr"EgnVnt/pr"EgnVnsi
 > professional/professionalism
-  | pron prV-f"E-SV-nVl/prV-f"E-SVn-V-l%I-zVm
+  | pron prVf"ESVnVl/prVf"ESVnVl%IzVm
 > profitable/proifitability
+  | pron pr"AfVtVbVl/pr"oUaIzSVnVsiVsi
 > proper/properness
+  | pron pr"Ap3`/pr"Ap3`iVsi
 > pulsating/pumpiness
+  | pron p"Vls%eItIN/p"VmpinVs
 > punctual/punctuality
+  | pron p"VNktSuVl/p%VNktSu"{lIti
 > puzzled/confusion
-  | pron p"V-zVld/kVn-fj"u-ZVn
+  | pron p"VzVld/kVnfj"uZVn
 > queer/queerness
+  | pron kw"Irr/kj"u3`iVsi
 > questionable/questionability
+  | pron kw"EstSVnVbVl/kw"EsSVniVsiVsi
 > quiet/quietness
+  | pron kw"aIVt/kw"aIVtnVs
   | class c0
 > radical/radishes
-  | pron r"{-dI-kVl/r"{-dI-SIz
+  | pron r"{dIkVl/r"{dISIz
 > radioactive/radioactivity
-  | pron r%eI-di-oU-"{k-tIv/r%eI-di-oU-{k-t"I-vV-ti
+  | pron r%eIdioU"{ktIv/r%eIdioU%{kt"IvVt%i
 > raging/rage
-  | pron r"eI-dZIN/r"eIdZ
+  | pron r"eIdZIN/r"eIdZ
 > rambunctious/wildness
-  | pron r{m-b"VNk-SVs/w"aIld-nVs
+  | pron r{mb"VNkSVs/w"aIldnVs
 > rational/rationality
-  | pron r"{S-nVl/r%{-SV-n"{-lI-ti
+  | pron r"{SnVl/r%{SVn"{lIti
 > raunchy/raunchiness
+  | pron r"OntSi/"ArrVliVtiVsiVsi
 > rebellious/rebelliousness
-  | pron rV-b"El-jVs/rV-b"E-li-Vs-nVs
+  | pron rVb"EljVs/rVb"EliVsnVs
 > refreshing/refreshingness
+  | pron rIfr"ESIN/r"iIf3`VsVsiVsi
 > regal/regalness
+  | pron r"igVl/r"EgVliVsi
 > religious/religiousness
+  | pron ril"IdZVs/ril"aIVsiVsi
 > resonant/resonance
-  | pron r"E-zV-nVnt/r"E-zV-nVns
+  | pron r"EzVnVnt/r"EzVnVns
 > retro/retroness
+  | pron r"EtroU/r"iIf3`VsVti
 > revolting/revoltingness
+  | pron riv"oUltIN/r"iIf3`VsVlVsi
 > righteous/righteousness
-  | pron r"aI-tSVs/r"aI-tSVs-nVs
+  | pron r"aItSVs/r"aItSVsnVs
 > ripped/wear
   | pron r"Ipt/w"err
 > rock-hard/rock-hardness
+  | pron r"Ak h"Arrd/r"Ak h"ArrdnVs
 > rocky/rockiness
+  | pron r"Aki/r"AkiVsi
 > romantic/romance
-  | pron roU-m"{n-tIk/r"oU-m{ns
+  | pron roUm"{ntIk/r"oUm{ns
 > rough/roughness
-  | pron r"Vf/r"Vf-nVs
+  | pron r"Vf/r"VfnVs
 > rowdy/rowdiness
-  | pron r"aU-di/r"aU-di-nVs
+  | pron r"aUdi/r"aUdinVs
 > royal/royalty
-  | pron r"OI-Vl/r"OI-Vl-ti
+  | pron r"OIVl/r"OIVlti
 > rude/rudeness
-  | pron r"ud/r"ud-nVs
+  | pron r"ud/r"udnVs
 > rustic/rusticness
+  | pron r"VstIk/r"VstiVsi
 > salty/saltiness
+  | pron s"Olti/"EsVlVsiVsi
 > sandy/sandiness
+  | pron s"{ndi/"EsVliVtiVtiVsi
 > satisfactory/satisfaction
-  | pron s%{-tIs-f"{k-t3`-i/s%{-tIs-f"{k-SVn
+  | pron s%{tIsf"{kt3`i/s%{tIsf"{kSVn
 > savage/savageness
+  | pron s"{vIdZ/"EsVliVtiVlVsi
 > savory/flavor
-  | pron s"eI-v3`-i/fl"eI-v3`
+  | pron s"eIv3`i/fl"eIv3`
 > scary/scariness
+  | pron sk"erri/sk"erriVsi
 > scholarly/scholarliness
+  | pron sk"Al3`li/s"aIIf3`VsVlVsi
 > scornful/scorn
-  | pron sk"Orrn-fVl/sk"Orrn
+  | pron sk"OrrnfVl/sk"Orrn
 > seductive/seductiveness
+  | pron sId"VktIv/"EsdiVsiVsiVsi
 > sensational/sensationalism
-  | pron sEn-s"eI-SV-nVl/sEn-s"eI-SVn-V-l%I-zVm
+  | pron sEns"eISVnVl/sEns"eISVnVl%IzVm
 > sensible/sensibility
-  | pron s"En-sV-bVl/s%En-sI-b"I-lI-ti
+  | pron s"EnsVbVl/s%EnsIb"IlIti
 > serene/serenity
-  | pron s3`-"in/s3`-"E-nV-ti
+  | pron s3`"in/s3`"EnVti
 > sharp/sharpness
-  | pron S"Arrp/S"Arrp-nVs
+  | pron S"Arrp/S"ArrpnVs
 > shiny/shininess
+  | pron S"aIni/S"aIVsi
 > shocking/shock
-  | pron S"A-kIN/S"Ak
+  | pron S"AkIN/S"Ak
 > sickening/sickness
-  | pron s"Ik-nIN/s"Ik-nVs
+  | pron s"IknIN/s"IknVs
 > significant/significance
-  | pron sIg-n"I-fI-kVnt/sIg-n"I-fI-kVns
+  | pron sIgn"IfIkVnt/sIgn"IfIkVns
 > silky/silkiness
+  | pron s"Ilki/s"aIVsiVsi
 > silly/silliness
-  | pron s"I-li/s"I-li-nVs
+  | pron s"Ili/s"IlinVs
 > sinful/sin
-  | pron s"In-fVl/s"In
+  | pron s"InfVl/s"In
 > sizzling/fizzly shizzliness
+  | pron s"IzlIN/f"eIVsi S"aIVsiVsi
 > skeptical/skepticism
-  | pron sk"Ep-tI-kVl/sk"Ep-tI-s%I-zVm
+  | pron sk"EptIkVl/sk"EptIs%IzVm
 > skinny/skininess
+  | pron sk"Ini/sk"aIVsi
 > slammin/worth
 > sleek/sleekness
+  | pron sl"ik/s"aIIf3`VsVti
 > slick/slickness
+  | pron sl"Ik/sl"aIVsi
 > slimy/sliminess
+  | pron sl"aImi/sl"aIVsi
 > slippy/slippiness
+  | pron sl"aI/sl"aIVsiVsi
 > slow/slowness
-  | pron sl"oU/sl"oU-nVs
+  | pron sl"oU/sl"oUnVs
 > slurpee/slurpiness
 > small/smallness
-  | pron sm"Ol/sm"Ol-nVs
+  | pron sm"Ol/sm"OlnVs
 > smart/smartness
+  | pron sm"Arrt/sm"ArrtnIs
 > smooth/smoothness
-  | pron sm"uD/sm"uD-nVs
+  | pron sm"uD/sm"uDnVs
 > snappy/snappiness
+  | pron sn"{pi/sn"{piVsi
 > sneaky/sneakiness
+  | pron sn"iki/sn"ikiVsi
 > snobbish/snobbishness
+  | pron sn"AbIS/sn"AbiVsi
 > sociopathic/sociopathicness
+  | pron s"aIIf3`VsVsi/s"aIIf3`VsVtiVsiVsi
 > soft/softness
-  | pron s"Oft/s"Of-nVs
+  | pron s"Oft/s"OfnVs
 > soothing/soothingness
+  | pron s"uDIN/s"uDVsi
 > sophisticated/sophistication
-  | pron sV-f"I-stI-k%eI-tVd/sV-f%I-stV-k"eI-SVn
+  | pron sVf"IstIk%eItVd/sVf%IstVk"eISVn
 > speculative/speculation
-  | pron sp"E-kjV-lV-tIv/sp%E-kjV-l"eI-SVn
+  | pron sp"EkjVlVtIv/sp%EkjVl"eISVn
 > speedy/speediness
+  | pron sp"id%i/sp"id%iVsi
 > spicy/spiciness
+  | pron sp"aIsi/sp"aIVsi
 > spidery/spideriness
+  | pron sp"aIVsi/sp"aIVsiVsi
 > spine-tingling/tingliness
+  | pron sp"aIn t"INglIN/t"aIVsiVsi
 > splendid/splendidness
+  | pron spl"EndId/s"aIIf3`VsVtiVsi
 > splintered/splinters
+  | pron spl"Int3`d/spl"Int3`z
 > spontaneous/spontaneity
-  | pron spAn-t"eI-ni-Vs/sp%An-tV-n"i-V-ti
+  | pron spAnt"eIniVs/sp%AntVn"iVti
 > squeamish/squeamishness
-  | pron skw"i-mIS/skw"i-mIS-nVs
+  | pron skw"imIS/skw"imISnVs
 > squirrely/furriness
+  | pron s"aIIf3`VsVti/f"3`iVsi
 > squishy/squishiness
+  | pron skw"ISi/skw"ISiVsi
 > standard/standardness
+  | pron st"{nd3`d/st"{ndVliVtiVsi
 > steamy/steaminess
+  | pron st"imi/st"imiVsi
 > stereotypical/stereotypicalness
+  | pron st%errioUt"IpIkVl/st"erri%oUtiVsiVsiVsi
 > sterile/sterility
-  | pron st"E-rVl/st3`-"I-lI-ti
+  | pron st"errVl/st3`"IlIti
 > sticky/stickiness
+  | pron st"Iki/st"aIVsiVsi
 > stimulating/stimulus
-  | pron st"I-mjV-l%eI-tIN/st"I-mjV-lVs
+  | pron st"ImjVl%eItIN/st"ImjVlVs
 > stinky/stinkiness
+  | pron st"INki/st"aIVsiVsi
 > stormy/storminess
+  | pron st"Orrmi/st"OrrminIs
 > strange/strangeness
-  | pron str"eIndZ/str"eIndZ-nVs
+  | pron str"eIndZ/str"eIndZnVs
 > stretchy/stretchiness
+  | pron str"EtSi/s"aIIf3`VsVtiVsi
 > strict/strictness
+  | pron str"Ikt/s"aIIf3`VsVl
 > sublime/sublimeness
+  | pron sVbl"aIm/s"aIIf3`VsVsi
 > submissive/submissiveness
+  | pron sVbm"IsIv/s"aIIf3`VsVsiVsi
 > succulant/deliciousness
+  | pron s"aIIf3`VsVti/d"ElIkVlVsiVsi
 > super/superness
+  | pron s"up3`/s"Vp3`iVsi
 > superb/superbness
+  | pron sUp"3`b/s"Vp3`VlVsi
 > superfluous/superfluousness
+  | pron s"up3`flw%Vs/s"Vp3`iVsiVsiVsi
 > supple/softness
-  | pron s"V-pVl/s"Of-nVs
+  | pron s"VpVl/s"OfnVs
 > supplementary/supplementariness
+  | pron s%VplVm"EntVr%i/s"aIIf3`VsVsiVsiVsi
 > sure/sureness
+  | pron S"Urr/s"3`eInVsi
 > surprising/surprise
-  | pron sV-pr"aI-zIN/sV-pr"aIz
+  | pron sVpr"aIzIN/sVpr"aIz
 > swift/lightning speed
-  | pron sw"Ift/l"aIt-nIN sp"id
+  | pron sw"Ift/l"aItnIN sp"id
 > tactical/tacticalness
+  | pron t"{ktIkVl/t"iVliVtiVtiVsiVsi
 > tattered/wear
-  | pron t"{-t3`d/w"err
+  | pron t"{t3`d/w"err
 > tender/tenderness
-  | pron t"En-d3`/t"En-d3`-nVs
+  | pron t"End3`/t"End3`nVs
 > terrible/terror
-  | pron t"E-rV-bVl/t"E-r3`
+  | pron t"errVbVl/t"err3`
 > terrifying/scariness
+  | pron t"errVf%aIIN/sk"erriVsi
 > threatening/intimidation
-  | pron Tr"Et-nIN/In-t%I-mI-d"eI-SVn
+  | pron Tr"EtnIN/%Int%ImId"eISVn
 > thrilling/thrill
-  | pron Tr"I-lIN/Tr"Il
+  | pron Tr"IlIN/Tr"Il
 > throbbing/throbbingpleasure
-  | pron Tr"A-bIN/Tr"A-bIN pl"E-Z3`
+  | pron Tr"AbIN/t"aIIf3`VsVsiVsiVsi
 > ticklish/ticklishness
+  | pron t"IkVlIS/t"IkVlVsi
 > tight-lipped/tightlips
+  | pron t"aIt l"Ipt/t"aIVsiVsi
 > toasty/toastiness
+  | pron tVVliVti/tVVliVtiVtiVsi
 > torturous/torturousness
+  | pron t"OrrtS%uVs/t"i3`iVsiVsiVsi
 > traditional/tradition
-  | pron trV-d"I-SV-nVl/trV-d"I-SVn
+  | pron trVd"ISVnVl/trVd"ISVn
 > treacherous/treachery
-  | pron tr"E-tS3`-Vs/tr"E-tS3`-i
+  | pron tr"EtS3`Vs/tr"EtS3`i
 > tropical/tropicalness
+  | pron tr"ApIkVl/t"aIIf3`VsVtiVsi
 > troubling/trouble
-  | pron tr"V-blIN/tr"V-bVl
+  | pron tr"VblIN/tr"VbVl
 > trustworthy/trustworthiness
-  | pron tr"Vst-w%3`-Di/tr"Vst-w%3`-Di-nVs
+  | pron tr"Vstw%3`Di/tr"Vstw%3`DinVs
 > unbelievable/falseness
+  | pron %VnbVl"ivVbVl/"EfVlVsiVsi
 > unconstitutional/unconstitutionalness
+  | pron %Vnk%AnstVt"uSVnVl/j"uw"aIIf3`VsVsiVsiVsiVsi
 > unethical/unethicalness
+  | pron Vn"ETIkVl/j"uw"aIIf3`VsVlVsi
 > unfortunate/misfortune
-  | pron Vn-f"Orr-tSu-nVt/mIs-f"Orr-tSVn
+  | pron Vnf"OrrtSunVt/mIsf"OrrtSVn
 > unlikely/unlikelihood
+  | pron Vnl"aIkli/j"uw"aIIf3`VsVtiVsi
 > unlimited/unlimitedness
+  | pron Vnl"ImItId/j"uw"aIIf3`VsVlVsi
 > unpleasant/unpleasantnature
-  | pron Vn-pl"E-zVnt/Vn-pl"E-zVnt n"eI-tS3`
+  | pron Vnpl"EzVnt/j"uw"aIIf3`VsVlVsiVsi
 > unstable/instability
-  | pron Vn-st"eI-bVl/%In-stV-b"I-lI-ti
+  | pron Vnst"eIbVl/%InstVb"IlIti
 > velvety/velvetygoodness
-  | pron v"El-vV-ti/v"El-vV-ti g"Ud-nIs
+  | pron v"ElvVti/v"ElvVtiVlVsiVsi
 > vertical/verticalness
+  | pron v"3`tIkVl/v"i3`VsiVsiVsi
 > vibrating/vibration
-  | pron v"aI-breI-tIN/vaI-br"eI-SVn
+  | pron v"aIbreItIN/vaIbr"eISVn
 > Victorian/Victorianness
+  | pron vIkt"OrriVn/v"IktVriVsi
 > victorious/victory
-  | pron vIk-t"O-ri-Vs/v"Ik-tri
+  | pron vIkt"OrriVs/v"IktVri
 > vulnerable/vulnerability
-  | pron v"Vl-n3`-V-bVl/v%Vl-n3`-V-b"I-lI-ti
+  | pron v"Vln3`VbVl/v%Vln3`Vb"IlIti
 > waddly/waddliness
+  | pron d"VbVljuVliVtiVti/d"VbVljuVliVtiVlVsi
 > warm/warmth
   | pron w"Orrm/w"OrrmT
 > wasted/wastedness
+  | pron w"eIstId/d"VbVljuVliVtiVlVsi
 > water-tight/virginity
+  | pron w"Ot3` t"aIt/v3`dZ"InIti
 > watery/wateriness
+  | pron w"Ot3`i/d"VbVljuVtVsiVsi
 > wavy/waviness
+  | pron w"eIvi/d"VbVljuVliVtiVsi
 > weightless/weightlessness
-  | pron w"eIt-lVs/w"eIt-lVs-nVs
+  | pron w"eItlVs/w"eItlVsnVs
 > well-loved/sweet love
+  | pron w"El l"Vvd/sw"it l"Vv
 > well-used/thoroughness
+  | pron w"El j"uzd/T"3`oUnVs
 > whole-grain/whole-graininess
+  | pron h"oUl gr"eIn/h"oUl gr"eIVsi
 > wholesome/wholesomeness
-  | pron h"oUl-sVm/h"oUl-sVm-nVs
+  | pron h"oUlsVm/h"oUlsVmnVs
 > wicked/wickedness
-  | pron w"I-kVd/w"I-kVd-nVs
+  | pron w"IkVd/w"IkVdnVs
 > wild/wildness
-  | pron w"aIld/w"aIld-nVs
+  | pron w"aIld/w"aIldnVs
 > wobbly/wobbliness
+  | pron w"AbVli/w"AbVliVsi
 > woody/woodiness
+  | pron w"Udi/w"UdiVsi
 > young/youth
   | pron j"VN/j"uT
 > zen/zenness
+  | pron z"En/z"ieIniVsi

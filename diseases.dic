@@ -1,86 +1,141 @@
+#version 3
 #name disease
 #subs name
-#hidden nsfw
 
 #class add infectious
   #class add viral
     > chicken pox
+      | pron tS"IkVn p"Aks
     > ebola
+      | pron ib"oUlV
     > Hepatitis A
+      | pron h%EpVt"aItVs "eI
     > Hepatitis B
+      | pron h%EpVt"aItVs b"i
     > herpes
+      | pron h"3`piz
       | class std
     > influenza
+      | pron %Influ"EnzV
     > smallpox
+      | pron sm"Olp%Aks
   #class remove viral
 
   > AIDS
+    | pron "eIdz
     | class std
   > pinkeye
+    | pron p"iaIzSVnVti
   > plague
+    | pron pl"eIg
   > strep throat
+    | pron str"Ep Tr"oUt
   > strep throat
+    | pron str"Ep Tr"oUt
     | class bacterial
   > typhoid fever
+    | pron t"aIfOId f"iv3`
     | class fever
 #class remove infectious
 
 #class add mental
   > Alzheimer's
+    | pron "Atszh%aIm3`z
   > amnesia
+    | pron {mn"iZV
   > autism
+    | pron "Ot%IzVm
   > bipolar disorder
+    | pron baIp"oUl3` dIs"Orrd3`
   > dementia
+    | pron dIm"EnSiV
   > depression
+    | pron dIpr"ESVn
   > dissociative identity disorder
+    | pron dVVsiVsiVsi aId"EntVt%i dIs"Orrd3`
   > Down syndrome
+    | pron d"aUn s"Indr%oUm
     | class genetic
   > mental retardation
+    | pron m"EntVl ritArrd"eISVn
   > schizophrenia
+    | pron sk%ItsVfr"iniV
 #class remove mental
 
 > acute inclusion body encephalitis
+  | pron Vkj"ut %Inkl"uZVn b"Adi Ens%EfVl"aItVs
 > albinism
+  | pron "{lbInIzVm
   | class genetic
 > alveolitis
+  | pron "aIIf3`VsVl
 > anal sacculitis
+  | pron "eInVl s"{kj%ul
 > anaphylaxis
+  | pron %{nVfVl"{ksIs
   | class inflammatory
 > appendicitis
+  | pron Vp%End%Is"aItIz
   | class gi
 > arsenic poisoning
+  | pron "ArrsVnIk p"OIzVnIN
   | class poisoning
 > arthritis
+  | pron ArrTr"aItIs
 > athlete's foot
+  | pron "{Tl%its f"Ut
   | class fungal
 > bronchitis
+  | pron brANk"aItVs
 > deep vein thrombosis
+  | pron d"ip v"eIn TrAmb"oUsVs
 > delirium
+  | pron dIl"IrriVm
 > diarrhea
+  | pron d%aI3`"iV
   | class gi
 > epilepsy
+  | pron "EpIl%Epsi
 > fibrosis
+  | pron faIbr"oUsIs
 > folliculitis
+  | pron f"AliVsiVsi
 > gastroenteritis
+  | pron dZ"iVliVtiVtiVsiVsiVsi
   | class gi
 > halitosis
+  | pron "eItSVlVsiVsi
 > hyperthyroidism
+  | pron "eItSiiVsiVsiVsiVsi
   | class endocrine
 > hypothyroidism
+  | pron "eItSiVsiVsiVsiVsi
   | class endocrine
 > laryngitis
+  | pron l%ArrIndZ"aItVs
 > lead poisoning
+  | pron l"id p"OIzVnIN
   | class poisoning
 > lupus
+  | pron l"upVs
 > meningitis
+  | pron m%EnVndZ"aItVs
 > mercury poisoning
+  | pron m"3`kj3`i p"OIzVnIN
   | class poisoning
 > osteoporosis
+  | pron %Osti%Ap3`"oUsIs
 > rheumatoid arthritis
+  | pron r"umVt%OId ArrTr"aItIs
 > sacculitis
+  | pron s"{kj%ul
 > tetanus
+  | pron t"EtVnVs
 > tonsilitis
+  | pron t"aIIf3`VsVl
 > type I diabetes
+  | pron t"aIp "aI d%aIVb"itiz
   | class autoimmune diabetes
 > type II diabetes
+  | pron t"aIp w"aI d%aIVb"itiz
   | class diabetes

@@ -1,18 +1,21 @@
+#version 3
 #name vocal
 #subs default
-#hidden nsfw
 
 > aargh
+  | pron "Arrg
 > ahem
 > ahhhh
 > boo hoo
   | pron b"u h"u
 > eeeeeeee
+  | pron "iIf3`Vs
 > eeek
 > ha ha ha
-  | pron "eI-tS"eI "eI-tS"eI "eI-tS"eI
+  | pron h"A h"A h"A
 > mmmmmm
 > muahahaha
+  | pron m"uVliVtiVsi
 > oof
 > oooh
   | pron "u
@@ -24,3 +27,4 @@
 > wow
   | pron w"aU
 > yikes
+  | pron j"aIks

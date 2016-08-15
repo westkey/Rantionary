@@ -1,41 +1,45 @@
+#version 3
 #name greet
 #subs default
-#hidden nsfw
 
 > ahoy
+  | pron Vh"OI
 > aloha
-  | pron V-l"oU-hA
+  | pron Vl"oUhA
 > good afternoon
-  | pron gId %{f-t3`-n"un
+  | pron gId %{ft3`n"un
 > good day
   | pron gId d"eI
 > good evening
-  | pron gId "iv-nIN
+  | pron gId "ivnIN
 > good morning
-  | pron gId m"Orr-nIN
+  | pron gId m"OrrnIN
 > good night
   | pron gId n"aIt
 > greetings
-  | pron gr"i-tINz
+  | pron gr"itINz
 > guten Tag
+  | pron g"VteIn t"{g
 > hello
-  | pron hE-l"oU
+  | pron hEl"oU
 > hey
   | pron h"eI
 > hey buddy
-  | pron h"eI b"V-di
+  | pron h"eI b"Vdi
 > hola
+  | pron h"oUlV
 > how's it going
-  | pron h"aUz It g"oU-In
+  | pron h"aUz It g"oUIn
 > how's it hanging
-  | pron h"aUz It h"{-NgIN
+  | pron h"aUz It h"{NgIN
 > konichi wa
-  | pron w"A
+  | pron k"AnIkVl w"A
 > salutations
+  | pron "EsVlVlVsiVsi
 > sup
   | pron s"Vp
 > what's happening
-  | pron hw"Vts h"{p-nIN
+  | pron hw"Vts h"{pnIN
 > what's new
   | pron hw"Vts nj"u
 > what's up

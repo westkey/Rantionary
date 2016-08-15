@@ -1,6 +1,6 @@
+#version 3
 #name unit
 #subs singular s abbr
-#hidden nsfw
 
 #class add factor
   #class add energy
@@ -18,6 +18,7 @@
       > microfarad/microfarads/μF
         | class capacitance
       > milliampere/milliamperes/mA
+        | pron m"IliVsi/m"aIVsiVsiVsi/m"A
         | class current
       > millivolt/millivolts/mV
         | class potential
@@ -34,30 +35,36 @@
     | class factor small
   > foot/feet/ft
   > inch/inches/in
-    | pron "IntS/"In-tSIz/"In
+    | pron "IntS/"IntSIz/"In
   > kilometer/kilometers/km
     | class factor large
   > light-year/light-years/ly
+    | pron l"aIt j"Irr/l"aIt j"Irrz/l"aI
   > meter/meters/m
-    | pron m"i-t3`/m"i-t3`z/"Em
+    | pron m"it3`/m"it3`z/"Em
   > mile/miles/mi
-    | pron m"aIl/m"aI-Vlz/m"i
+    | pron m"aIl/m"aIVlz/m"i
   > yard/yards/y
     | pron j"Arrd/j"Arrdz/w"aI
 #class remove length
 
 #class add volume
   > bucket/buckets/bucket
-    | pron b"V-kIt/b"V-kVts/b"V-kIt
+    | pron b"VkIt/b"VkVts/b"VkIt
   > cubic centimeter/cubic centimeters/cc
-    | pron kj"u-bIk s"En-tV-m%i-t3`/kj"u-bIk s"En-tV-m%i-t3`z/s"i-s"i
+    | pron kj"ubIk s"EntVm%it3`/kj"ubIk s"EntVm%it3`z/s"is"i
   > cup/cups/c
     | pron k"Vp/k"Vps/s"i
   > gallon/gallons/gal
-    | pron g"{-lVn/g"{-lVnz/g"{l
+    | pron g"{lVn/g"{lVnz/g"{l
+  > handful/handfuls/hfl
+    | class rough
   > liter/liters/L
+    | pron l"it3`/l"it3`z/"El
   > milliliter/milliliters/mL
     | class factor small
+  > mouthful/mouthfuls/mfl
+    | class rough
   > pint/pints/pt
   > quart/quarts/qt
   > tablespoon/tablespoons/tbsp
@@ -70,18 +77,16 @@
   > kilogram/kilograms/kg
     | class factor large
   > megaton/megatons/Mt
+    | pron m"EgVt%Vn/m"EgVt%Vnz/"Emt"i
     | class factor large
   > ounce/ounces/oz
-    | pron "aUns/"aUn-sIz/"Az
+    | pron "aUns/"aUnsIz/"Az
   > pound/pounds/lb
+    | pron p"aUnd/p"aUnz/p"aUnd
   > ton/tons/t
     | pron t"Vn/t"Vnz/t"i
 #class remove weight
 
 > joule/joules/J
+  | pron dZ"ul/dZ"ulz/dZ"eI
   | class energy
-
-> mouthful/mouthfuls/mfl
-  | class volume rough
-> handful/handfuls/hfl
-  | class volume rough

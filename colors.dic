@@ -1,39 +1,45 @@
+#version 3
 #name color
 #subs default ish
 
-#type kind "primary secondary" ""
-
->> black/ish
->> blue/-ish
-  | pron bl"u/bl"u-IS
-  | kind primary
->> brown/ish
-  | pron br"aUn/br"aU-nIS
->> crimson/ish
->> cyan/-ish
+> black/blackish
+  | pron bl"{k/bl"{kIS
+> blue/bluish
+  | pron bl"u/bl"uIS
+> brown/brownish
+  | pron br"aUn/br"aUnIS
+> crimson/crimsonish
+  | pron kr"ImzVn/kr"aIVsiVsi
+> cyan/cyaish
+  | pron saI"{n/s"iiiVsi
   | class secondary
->> gold/ish
->> green/ish
-  | pron gr"in/gr"i-nIS
-  | kind primary
->> grey/ish
->> lavender/ish
->> lime green/-------green-ish
->> magenta/-ish
-  | kind secondary
->> maroon/ish
->> orange/-ish
->> pink/ish
-  | pron p"INk/p"IN-kIS
->> purple/-ish
-  | pron p"3`-pVl/p"3`-plIS
->> red/dish
-  | pron r"Ed/r"E-dIS
-  | kind primary
->> silver/ish
->> turquoise/-ish
->> white/-ish
-  | pron hw"aIt/hw"aI-tIS
->> yellow/ish
-  | pron j"E-loU/j"E-loU-IS
-  | kind secondary
+> gold/goldish
+  | pron g"oUld/g"oUldi
+> green/greenish
+  | pron gr"in/gr"inIS
+> grey/greyish
+  | pron gr"eI/gr"eIIS
+> lavender/lavenderish
+  | pron l"{vVnd3`/"ElVliVtiVsiVsi
+> lime green/limgreen-ish
+  | pron l"aIm gr"in/l"aIVsi "IS
+> magenta/magentish
+  | pron mVdZ"EntV/"EmVliVtiVtiVsi
+> maroon/maroonish
+  | pron m3`"un/"EmVliVtiVtiVsi
+> orange/orangish
+  | pron "OrrIndZ/"OrrIndZ
+> pink/pinkish
+  | pron p"INk/p"INkIS
+> purple/purplish
+  | pron p"3`pVl/p"3`plIS
+> red/reddish
+  | pron r"Ed/r"EdIS
+> silver/silverish
+  | pron s"Ilv3`/s"aIVsiVsi
+> turquoise/turquoisish
+  | pron t"3`kwOIz/t"aIIf3`VsVsi
+> white/whitish
+  | pron hw"aIt/hw"aItIS
+> yellow/yellowish
+  | pron j"EloU/j"EloUIS

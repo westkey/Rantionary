@@ -1,6 +1,6 @@
+#version 3
 #name element
 #subs name symbol
-#hidden nsfw
 
 #class add metal
   #class add alkali
@@ -8,47 +8,67 @@
     > francium/Fr
       | class radioactive
     > lithium/Li
+      | pron l"ITiVm/l"i
     > potassium/K
+      | pron pVt"{siVm/k"eI
     > rubidium/Rb
     > sodium/Na
+      | pron s"oUdiVm/n"A
   #class remove alkali
 
   #class add alkaline_earth
     #class add earth
       > barium/Ba
+        | pron b"erriVm/b"A
       > beryllium/Be
+        | pron b3`"IliVm/bi
       > calcium/Ca
+        | pron k"{lsiVm/k"A
       > magnesium/Mg
       > radium/Ra
+        | pron r"eIdiVm/r"A
         | class radioactive
       > strontium/Sr
+        | pron str"AntiVm/s"Ist3`
     #class remove earth
 
   #class remove alkaline_earth
 
   #class add lanthanoid
     > cerium/Ce
+      | pron s"i3`Vsi/tis
     > dysprosium/Dy
+      | pron d"iiVlVsiVsi/d"ii
     > erbium/Er
+      | pron "3`bi/3`
     > europium/Eu
     > gadolinium/Gd
     > holmium/Ho
+      | pron h"oUlmiVm/h"oU
     > lanthanum/La
+      | pron l"{nTVnVm/l"A
     > lutetium/Lu
+      | pron l"aIIf3`Vs/l"u
     > neodymium/Nd
     > praseodymium/Pr
     > promethium/Pm
+      | pron prVm"iT%iVm/p"i"Em
     > samarium/Sm
     > terbium/Tb
+      | pron t"i3`iVsi/t"ib"i
     > thulium/Tm
     > ytterbium/Yb
   #class remove lanthanoid
 
   #class add post_transition
     > aluminum/Al
+      | pron Vl"umVnVm/"{l
     > bismusth/Bi
+      | pron b"aIVsi/b"aI
     > gallium/Ga
+      | pron g"{liVm/dZ"OrrdZV
     > indium/In
+      | pron "IndiVm/"In
     > lead/Pb
     > thallium/Tl
     > tin/Sn
@@ -57,53 +77,77 @@
   #class add radioactive
     #class add actinoid
       > actinium/Ac
+        | pron "{ktaIzSVn/"eIs"i
       > americium/Am
+        | pron "eI"Em3`VlVsi/"eI"Em
       > berkelium/Bk
       > californium/Cf
       > curium/Cm
       > einsteinium/Es
+        | pron "iVsiVsi/"Es
       > fermium/Fm
+        | pron f"errmiVm/"Ef"Em
       > lawrencium/Lr
       > mendelevium/Md
       > neptunium/Np
       > nobelium/No
+        | pron noUb"EliVm/n"oU
       > plutonium/Pu
+        | pron plut"oUniVm/p"u
       > protactinium/Pa
+        | pron pr"aIIf3`VsVsi/p"A
       > thorium/Th
+        | pron T"ArriVm/t"i"eItS
       > uranium/U
+        | pron j3`"eIniVm/j"u
     #class remove actinoid
 
   #class remove radioactive
 
   #class add transition
     > cadmium/Cd
+      | pron k"{dmiVm/s"id"i
     > chromium/Cr
     > cobalt/Co
+      | pron k"oUb%Olt/k"oU
     > copper/Cu
     > gold/Au
+      | pron g"oUld/"oU
     > hafnium/Hf
     > iridium/Ir
+      | pron %Irr"IdiVm/w"aI
     > iron/Fe
+      | pron "aI3`n/f"eI
     > manganese/Mn
     > mercury/Hg
       | class liquid
     > molybdenum/Mo
+      | pron mVl"IbdInVm/m"oU
     > nickel/Ni
+      | pron n"IkVl/n"i
     > niobium/Nb
     > osmium/Os
+      | pron "AzmiVm/"As
     > palladium/Pd
     > platinum/Pt
     > rhenium/Re
     > rhodium/Rh
     > ruthenium/Ru
+      | pron r"uTeInVsi/"Arrj"u
     > scandium/Sc
     > silver/Ag
+      | pron s"Ilv3`/"eIg"i
     > tantalum/Ta
+      | pron t"{ntVlVm/t"A
     > technetium/Tc
     > titanium/Ti
+      | pron taIt"eIniVm/t"i
     > tungsten/W
+      | pron t"VNstVn/d"VbVlju
     > vanadium/V
+      | pron vVn"eIdiVm/v"i
     > yttrium/Y
+      | pron "ItriVm/w"aI
     > zinc/Zn
     > zircomium/Zr
   #class remove transition
@@ -113,12 +157,17 @@
 #class add metalloid
   > antimony/Sb
   > arsenic/As
+    | pron "ArrsVnIk/"Ez
   > boron/B
+    | pron b"Orr%An/b"i
   > germanium/Ge
   > polonium/Po
+    | pron pVl"oUniVm/p"oU
     | class radioactive
   > silicon/Si
+    | pron s"IlVkVn/s"i
   > tellurium/Te
+    | pron tEl"UrriVm/t"i
 #class remove metalloid
 
 #class add nonmetal
@@ -127,17 +176,24 @@
       > chlorine/Cl
         | class halogen
       > fluorine/F
+        | pron fl"Orr%in/"Ef
         | class halogen
       > hydrogen/H
+        | pron h"aIdrVdZVn/"eItS
       > nitrogen/N
+        | pron n"aItrVdZVn/"En
       > oxygen/O
+        | pron "AksIdZVn/"oU
     #class remove diatomic
 
     #class add noble_gas
       > argon/Ar
+        | pron "Arrg%An/"Arr
       > helium/He
+        | pron h"iliVm/h"i
       > krypton/Kr
       > neon/Ne
+        | pron n"iAn/n"eI
       > radon/Rn
         | class radioactive
       > xenon/Xe
@@ -147,16 +203,22 @@
 
   #class add polyatomic
     > carbon/C
+      | pron k"ArrbVn/s"i
     > phosphorus/P
+      | pron f"Asf3`Vs/p"i
     > selenium/Se
+      | pron sVl"iniVm/s"eI
     > sulfur/S
+      | pron s"Vlf3`/"Es
   #class remove polyatomic
 
   > astatine/At
+    | pron "{stVliVtiVti/"{t
     | class diatomic halogen radioactive
   > bromine/Br
     | class diatomic halogen liquid
   > iodine/I
+    | pron "aIVd%aIn/"aI
     | class diatomic halogen
 #class remove nonmetal
 
