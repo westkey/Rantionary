@@ -1,41 +1,44 @@
+#version 3
 #name quality
 #subs property more less est
-#hidden nsfw
 
 #class add human
   > age/older/younger/oldest
-    | pron "eIdZ/"oUl-d3`/j"VN-g3`/"oUl-dVst
+    | pron "eIdZ/"oUld3`/j"VNg3`/"oUldVst
   > ethnicity/moreethnic/lessethnic/mostethnic
-    | pron ET-n"I-sI-ti/m"Orr "ET-nIk/l"Es "ET-nIk/m"oUs "ET-nIk
+    | pron ETn"IsIti/IY AH S IY AH S IY AH S IY/IY AH S IY AH S IY AH S IY/IY AH S IY AH S IY AH S IY
   > gender/sexier/moregenderneutral/sexiest
-    | pron dZ"En-d3`/s"Ek-si-3`/m"Orr dZ"En-d3` n"u-trVl/s"Ek-si-Vst
+    | pron dZ"End3`/s"Eksi3`/AH L AH S IY AH S IY AH S IY AH S IY AH S IY/s"EksiVst
   > honesty/more thuthful/less truthful/mosttruthful
-    | pron "A-nV-sti/m"Orr/l"Es tr"uT-fVl/m"oUs tr"uT-fVl
+    | pron "AnVsti/m"Orr  AH L AH S IY AH S IY/l"Es tr"uTfVl/AH S IY AH S IY AH S IY AH S IY
   > race/racier/lessracier/raciest
+    | pron r"eIs/r"eIsi3`/IY AH S IY AH S IY AH S IY/r"eIsiVst
 #class remove human
 
 #class add physical
   > color/morecolorful/duller/mostcolorful
-    | pron k"O-l3`/m"Orr k"V-l3`-fVl/d"V-l3`/m"oUs k"V-l3`-fVl
+    | pron k"Ol3`/AH S IY AH S IY AH S IY AH S IY/d"Vl3`/AH S IY AH S IY AH S IY AH S IY
   > force/harder/softer/hardest
-    | pron f"Orrs/h"Arr-d3`/s"Of-t3`/h"Arr-dVst
+    | pron f"Orrs/h"Arrd3`/s"Oft3`/h"ArrdVst
   > girth/girthier/lessgirthy/girthiest
+    | pron g"3`T/AH L AH S IY AH S IY/IY AH S IY AH S IY AH S IY/AH S IY AH S IY AH S IY
   > height/taller/shorter/tallest
-    | pron h"aIt/t"O-l3`/S"Orr-t3`/t"O-lIst
+    | pron h"aIt/t"Ol3`/S"Orrt3`/t"OlIst
   > length/longer/shorter/longest
-    | pron l"ENT/l"ON-g3`/S"Orr-t3`/l"ON-gIst
+    | pron l"ENT/l"ONg3`/S"Orrt3`/l"ONgIst
   > luminosity/brighter/darker/brightest
+    | pron IY AH S IY AH S IY AH S IY/br"aIt3`/d"Arrk3`/br"aItVst
   > power level/more powerful/weaker/most powerful
-    | pron p"aU-3` l"E-vVl/m"Orr p"aU-3`-fVl/w"i-k3`/m"oUs p"aU-3`-fVl
+    | pron p"aU3` l"EvVl/m"Orr p"aU3`fVl/w"ik3`/m"oUs p"aU3`fVl
   > size/bigger/smaller/biggest
-    | pron s"aIz/b"I-g3`/sm"O-l3`/b"I-gVst
+    | pron s"aIz/b"Ig3`/sm"Ol3`/b"IgVst
   > speed/faster/slower/fastest
-    | pron sp"id/f"{-st3`/sl"oU-3`/f"{-stVst
+    | pron sp"id/f"{st3`/sl"oU3`/f"{stVst
   > weight/heavier/lighter/heaviest
-    | pron w"eIt/h"E-vi-3`/l"aI-t3`/h"E-vi-Vst
+    | pron w"eIt/h"Evi3`/l"aIt3`/h"EviVst
   > wetness/wetter/drier/wettest
-    | pron w"Et-nVs/w"E-t3`/dr"aI-3`/w"E-tVst
+    | pron w"EtnVs/w"Et3`/dr"aI3`/w"EtVst
   > width/wider/skinnier/widest
-    | pron w"IdT/w"aI-d3`/sk"I-ni-3`/w"aI-dVst
+    | pron w"IdT/w"aId3`/sk"Ini3`/w"aIdVst
 #class remove physical
 

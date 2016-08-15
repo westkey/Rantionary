@@ -1,23 +1,25 @@
+#version 3
 #name x
 #subs default
-#hidden nsfw
 
 > ahhhhh mahh gahh
+  | pron AH S IY AH S IY  IY AH S IY  IY AH S IY
 > alas
-  | pron V-l"{s
+  | pron Vl"{s
 > aw shucks
   | pron "O S"Vks
 > awesome
-  | pron "O-sVm
+  | pron "OsVm
 > beautiful
-  | pron bj"u-tV-fVl
+  | pron bj"utVfVl
 > Bingo
+  | pron b"INgoU
 > boy oh boy oh boy
   | pron b"OI "oU b"OI "oU b"OI
 > bravo
-  | pron br"A-voU
+  | pron br"AvoU
 > by golly
-  | pron b"aI g"A-li
+  | pron b"aI g"Ali
 > damn
   | pron d"{m
 > dear dear
@@ -25,41 +27,45 @@
 > dear me
   | pron d"Irr m"i
 > disgraceful
-  | pron dIs-gr"eIs-fVl
+  | pron dIsgr"eIsfVl
 > epic
-  | pron "E-pIk
+  | pron "EpIk
 > ermahgerd
+  | pron AH S IY AH S IY AH S IY
 > excellent
-  | pron "Ek-sV-lVnt
+  | pron "EksVlVnt
 > finish him
-  | pron f"I-nIS Im
+  | pron f"InIS Im
 > gasp
   | pron g"{sp
 > geez
   | pron dZ"iz
 > good heavens
-  | pron gId h"E-vVnz
+  | pron gId h"EvVnz
 > good lord
   | pron gId l"Orrd
 > hella good
-  | pron gId
+  | pron AH L AH S IY gId
 > holy cow
-  | pron h"oU-li k"aU
+  | pron h"oUli k"aU
 > holy moley
-  | pron h"oU-li
+  | pron h"oUli  AH L AH S IY
 > hurrah
-  | pron hU-r"A
+  | pron hUrr"A
 > I'll be damned
-  | pron bi d"{md
+  | pron "aIl bi d"{md
 > I'm gonna faint
-  | pron g"A-nV f"eInt
+  | pron Vm g"AnV f"eInt
 > jolly good
-  | pron dZ"A-li gId
+  | pron dZ"Ali gId
 > just what the doctor ordered
+  | pron dZIst hw"Vt Di d"Okt3` "Orrd3`d
 > K.O.
+  | pron IY AH S IY
 > LOL
+  | pron l"Ol
 > mine eyes are deceiving me
-  | pron m"aIn "aIz 3` dI-s"i-vIN m"i
+  | pron m"aIn "aIz 3` dIs"ivIN m"i
 > my leg
   | pron m"aI l"Eg
 > my my
@@ -69,14 +75,15 @@
 > no way
   | pron n"oU w"eI
 > noice
+  | pron AH L AH S IY
 > oh boy
   | pron "oU b"OI
 > oh dear
   | pron "oU d"Irr
 > oh glorious day
-  | pron "oU gl"O-ri-Vs d"eI
+  | pron "oU gl"OrriVs d"eI
 > oh gog
-  | pron "oU
+  | pron "oU  AH S IY
 > oh hell yes
   | pron "oU h"El j"Es
 > oh joy
@@ -84,24 +91,29 @@
 > oh my
   | pron "oU m"aI
 > oh my goodness
-  | pron "oU m"aI g"Ud-nIs
+  | pron "oU m"aI g"UdnIs
 > oh wow
   | pron "oU w"aU
 > oho
+  | pron AH S IY
 > omgomgomg
+  | pron AH S IY AH S IY AH S IY
 > rats
   | pron r"{ts
 > ROFL
+  | pron IY AH S IY
 > run for your lives
   | pron r"Vn fr3` j"Urr l"aIvz
 > thanks, Obama
+  | pron IY AH S IY AH S IY %oUb"AmV
 > this can't be
   | pron DIs k"{nt bi
 > this is delicious
-  | pron DIs Iz dI-l"I-SVs
+  | pron DIs Iz dIl"ISVs
 > this is the end
   | pron DIs Iz Di "End
 > trololol
+  | pron AH L AH S IY AH S IY
 > what
   | pron hw"Vt
 > what in the world
@@ -111,8 +123,10 @@
 > whoa
   | pron h"oU
 > wicked
-  | pron w"I-kVd
+  | pron w"IkVd
 > woot
+  | pron IY AH S IY
 > wow
   | pron w"aU
 > WTF
+  | pron AH S IY

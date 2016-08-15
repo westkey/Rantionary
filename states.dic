@@ -1,74 +1,142 @@
+#version 3
 #name state
 #subs name abbr
 
-#class add usa
-  > Alabama/AL
-  > Alaska/AK
-  > Arizona/AZ
-  > Arkansas/AR
-  > California/CA
-  > Colorado/CO
-  > Connecticut/CT
-  > Delaware/DE
-  > Florida/FL
-  > Georgia/GA
-  > Hawaii/HI
-  > Idaho/ID
-  > Illinois/IL
-  > Indiana/IN
-  > Iowa/IA
-  > Kansas/KS
-  > Kentucky/KY
-  > Louisiana/LA
-  > Maine/ME
-  > Maryland/MD
-  > Massachusetts/MA
-  > Michigan/MI
-  > Minnesota/MN
-  > Mississippi/MS
-  > Missouri/MO
-  > Montana/MT
-  > Nebraska/NE
-  > Nevada/NV
-  > New Hampshire/MH
-  > New Jersey/NJ
-  > New Mexico/NM
-  > New York/NY
-  > North Carolina/NC
-  > North Dakota/ND
-  > Ohio/OH
-  > Oklahoma/OK
-  > Oregon/OR
-  > Pennsylvania/PA
-  > Rhode Island/RI
-  > South Carolina/SC
-  > South Dakota/SD
-  > Tennessee/TN
-  > Texas/TX
-  > Utah/UT
-  > Vermont/VT
-  > Virginia/VA
-  > Washington/WA
-  > West Virginia/WV
-  > Wisconsin/WI
-  > Wyoming/WY
-#class remove usa
-
 #class add germany
   > Baden-Württemberg/BW
+    | pron b"eIdVn  AH L AH S IY AH S IY AH S IY/AH L
   > Bavaria/BY
+    | pron bVv"erriV/b"aI
   > Berlin/BE
+    | pron b3`l"In/bi
   > Brandenburg/BB
+    | pron br"{ndVnb3`g/AH L
   > Bremen/HB
+    | pron br"EmVn/AH L
   > Hamburg/HH
+    | pron h"{mb3`g/AH L
   > Hesse/HE
+    | pron h"Es/h"i
   > Lower Saxony/NI
+    | pron l"oU3` s"{ksVni/n"i
   > Mecklenburg-Vorpommern/MV
+    | pron m"EklVnb3`g  IY AH S IY AH S IY AH S IY/AH L
   > North Rhine-Westphalia/NW
+    | pron n"OrrT r"aIn w"Estf%eIljV/AH L
   > Rhineland-Palatinate/RP
+    | pron r"aInl%{nd  IY AH S IY AH S IY AH S IY/AH L
   > Saarland/SL
+    | pron AH L AH S IY AH S IY/AH L
   > Saxony/SN
+    | pron s"{ksVni/AH L
   > Saxony-Anhalt/ST
+    | pron s"{ksVni "{nhVlt/AH L
   > Schleswig-Holstein/SH
+    | pron Sl"EswIg h"oUlst%in/AH L
   > Thuringia/TH
+    | pron AH S IY AH S IY AH S IY/t"i"eItS
 #class remove germany
+
+#class add usa
+  > Alabama/AL
+    | pron %{lVb"{mV/"{l
+  > Alaska/AK
+    | pron Vl"{skV/AH L
+  > Arizona/AZ
+    | pron %errIz"oUnV/AH L
+  > Arkansas/AR
+    | pron "ArrkVns%A/"Arr
+  > California/CA
+    | pron k%{lVf"OrrnjV/k"A
+  > Colorado/CO
+    | pron k%Al3`"{doU/k"oU
+  > Connecticut/CT
+    | pron kVn"EtVkVt/k"Orrt
+  > Delaware/DE
+    | pron d"ElVw%err/dV
+  > Florida/FL
+    | pron fl"ArrIdV/AH L
+  > Georgia/GA
+    | pron dZ"OrrdZV/dZ"OrrdZV
+  > Hawaii/HI
+    | pron hVw"aI%i/h"aI
+  > Idaho/ID
+    | pron "aIdVh%oU/"aId"i
+  > Illinois/IL
+    | pron %IlVn"OIz/"Il
+  > Indiana/IN
+    | pron %Indi"{nV/"In
+  > Iowa/IA
+    | pron "aIoUV/"iV
+  > Kansas/KS
+    | pron k"{nzVs/AH L
+  > Kentucky/KY
+    | pron kVnt"Vki/AH L
+  > Louisiana/LA
+    | pron lu%izi"{nV/l"A
+  > Maine/ME
+    | pron m"eIn/m"i
+  > Maryland/MD
+    | pron m"errVlVnd/AH L
+  > Massachusetts/MA
+    | pron m%{sVtS"usVts/m"A
+  > Michigan/MI
+    | pron m"ISIgVn/m"i
+  > Minnesota/MN
+    | pron m%InIs"oUtV/AH L
+  > Mississippi/MS
+    | pron m%IsIs"Ipi/m"Iz
+  > Missouri/MO
+    | pron mVz"3`V/m"oU
+  > Montana/MT
+    | pron mAnt"{nV/"Emt"i
+  > Nebraska/NE
+    | pron nVbr"{skV/n"eI
+  > Nevada/NV
+    | pron nVv"{dV/AH L
+  > New Hampshire/MH
+    | pron nj"u h"{mSaI3`/"Em"eItS
+  > New Jersey/NJ
+    | pron nj"u dZ"3`zi/AH L
+  > New Mexico/NM
+    | pron nj"u m"EksVk%oU/AH L
+  > New York/NY
+    | pron nj"u j"Orrk/AH L
+  > North Carolina/NC
+    | pron n"OrrT k%errVl"aInV/AH L
+  > North Dakota/ND
+    | pron n"OrrT dVk"oUtV/AH L
+  > Ohio/OH
+    | pron oUh"aIoU/"oU
+  > Oklahoma/OK
+    | pron %oUklVh"oUmV/"oUk"eI
+  > Oregon/OR
+    | pron "OrrVg%An/3`
+  > Pennsylvania/PA
+    | pron p%EnsVlv"eInjV/p"A
+  > Rhode Island/RI
+    | pron r"oUd "aIlVnd/AH L
+  > South Carolina/SC
+    | pron s"aUT k%errVl"aInV/AH L
+  > South Dakota/SD
+    | pron s"aUT dVk"oUtV/AH L
+  > Tennessee/TN
+    | pron t%EnVs"i/AH L
+  > Texas/TX
+    | pron t"EksVs/AH L
+  > Utah/UT
+    | pron j"ut%O/AH L
+  > Vermont/VT
+    | pron v3`m"Ant/AH L
+  > Virginia/VA
+    | pron v3`dZ"InjV/AH L
+  > Washington/WA
+    | pron w"OSINtVn/w"A
+  > West Virginia/WV
+    | pron w"Est v3`dZ"InjV/AH L
+  > Wisconsin/WI
+    | pron wIsk"AnsVn/AH L
+  > Wyoming/WY
+    | pron w%aI"oUmIN/w"eI
+#class remove usa
+

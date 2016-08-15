@@ -1,297 +1,526 @@
+#version 3
 #name country
 #subs default
-#hidden nsfw
 
 #class add africa
   > Democratic Republic of the Congo
-    | pron Vv Di
+    | pron d%EmVkr"{tIk rip"VblIk Vv Di k"ANgoU
   > Egypt
+    | pron "idZIpt
   > Ghana
+    | pron g"{nV
   > Kenya
+    | pron k"injV
   > Libya
+    | pron l"Ib%iV
   > Madagascar
+    | pron m%{dVg"{sk3`
   > Morocco
+    | pron m3`"AkoU
   > Niger
+    | pron n"aIdZ3`
   > Nigeria
+    | pron naIdZ"IrriV
   > Republic of the Congo
-    | pron Vv Di
+    | pron rip"VblIk Vv Di k"ANgoU
   > Rwanda
+    | pron r%u"AndV
   > Somalia
+    | pron sVm"AljV
   > South Africa
+    | pron s"aUT "{frIkA
   > Sudan
+    | pron sud"{n
 #class remove africa
 
 #class add asia
   > Afghanistan
+    | pron {fg"{nVst%{n
     | class middle-east
   > Cambodia
+    | pron k%{mb"oUdiV
   > China
+    | pron tS"aInV
   > Hong Kong
+    | pron h"ON k"ONg
   > India
+    | pron "IndiV
   > Indonesia
+    | pron %IndoUn"iZV
     | class oceania
   > Japan
+    | pron dZVp"{n
   > Kyrgyzstan
+    | pron k%Irrg"ist%An
   > Malaysia
+    | pron mVl"eIZV
   > Mongolia
+    | pron mANg"oUljV
   > Nepal
+    | pron nVp"Ol
   > North Korea
+    | pron n"OrrT k%Orr"iV
   > Singapore
+    | pron s"INVp%Orr
   > South Korea
+    | pron s"aUT k%Orr"iV
   > Taiwan
+    | pron t"aIw"An
   > Thailand
+    | pron t"aIl%{nd
 #class remove asia
 
 #class add central-america
   > Costa Rica
+    | pron k"OstA r"ikV
   > Guatemala
+    | pron gw%AtVm"AlV
   > Haiti
+    | pron h"eIti
   > Honduras
+    | pron hAnd"UrrVs
   > Nicaragua
+    | pron n%Ik3`"AgwV
   > Panama
+    | pron p"{nVm%A
 #class remove central-america
 
 #class add europe
   > Albania
+    | pron {lb"eIniV
   > Austria
+    | pron "OstriV
   > Belgium
+    | pron b"EldZVm
   > Bulgaria
+    | pron bVlg"erriV
   > Denmark
+    | pron d"Enm%Arrk
   > Finland
+    | pron f"InlVnd
   > France
+    | pron fr"{ns
   > Germany
+    | pron dZ"3`mVni
   > Greece
+    | pron gr"is
   > Hungary
+    | pron h"VNg3`i
   > Ireland
+    | pron "aIrlVnd
   > Italy
+    | pron "ItVli
   > Latvia
+    | pron l"{tviV
   > Lithuania
+    | pron l%ITVw"eIniV
   > Luxembourg
+    | pron l"VksVmb"3`g
   > Netherlands
+    | pron n"ED3`lVndz
   > Norway
+    | pron n"Orrw%eI
   > Poland
+    | pron p"oUlVnd
   > Portugal
+    | pron p"OrrtSVgVl
   > Romania
+    | pron roUm"eIniV
   > Russia
+    | pron r"VSV
     | class asia eurasia
   > Slovakia
+    | pron sl%oUv"Ak%iV
   > Slovenia
+    | pron sl%oUv"iniV
   > Spain
+    | pron sp"eIn
   > Sweden
+    | pron sw"idVn
   > Switzerland
+    | pron sw"Its3`lVnd
   > Turkey
+    | pron t"3`ki
   > United Kingdom
+    | pron jun"aItId k"INdVm
 #class remove europe
 
 #class add middle-east
   > Iran
+    | pron %aIr"{n
   > Iraq
+    | pron %aIr"Ak
   > Israel
+    | pron "IzreIl
   > Pakistan
+    | pron p"{kIst%{n
   > Saudi Arabia
+    | pron s"aUdi Vr"eIbiV
   > Syria
+    | pron s"IrriV
   > United Arab Emirates
+    | pron jun"aItId "eIrVb "Em3`%eIts
 #class remove middle-east
 
 #class add oceania
   > Australia
+    | pron Ostr"eIljV
   > Guam
+    | pron gw"Am
   > New Zealand
+    | pron nj"u z"ilVnd
   > Papua New Guinea
+    | pron p"{pjuV nj"u g"Ini
   > Philippines
+    | pron f"IlVp%inz
   > Samoa
+    | pron sVm"oUV
   > Solomon Islands
+    | pron s"AlVmVn "aIlVndz
 #class remove oceania
 
 #class add south-america
   > Argentina
+    | pron %ArrdZVnt"inV
   > Brazil
+    | pron brVz"Il
   > Chile
+    | pron tS"Ili
   > Colombia
+    | pron kVl"VmbiV
   > Peru
+    | pron p3`"u
 #class remove south-america
 
 > Algeria
+  | pron {ldZ"IrriV
 > American Samoa
+  | pron Vm"errIkVn sVm"oUV
 > Andorra
+  | pron {nd"OrrV
 > Angola
+  | pron {Ng"oUlV
 > Anguilla
+  | pron %{Nw"IlV
 > Antarctica
+  | pron %{n"ArrtIkV
 > Antigua and Barbuda
-  | pron Vnd
+  | pron {nt"igwV "{nd bArrb"udV
 > Armenia
+  | pron Arrm"iniV
 > Aruba
+  | pron 3`"ubV
 > Ashmore and Cartier Islands
-  | pron Vnd
+  | pron "{SmOrr "{nd k"Arrti3` "aIlVndz
 > Azerbaijan
+  | pron %{z3`baIdZ"An
 > Bahrain
+  | pron baIr"eIn
 > Bangladesh
+  | pron b"{NlVd%ES
 > Barbados
+  | pron bArrb"eIdoUs
 > Bassas da India
-  | pron d"i-"eI
+  | pron AH S IY AH S IY d"i"eI "IndiV
 > Belarus
+  | pron b%ElArr"Us
 > Belize
+  | pron bEl"iz
 > Benin
+  | pron b"inIn
 > Bermuda
+  | pron b3`mj"udV
 > Bhutan
+  | pron bVt"An
 > Bolivia
+  | pron boUl"IviV
 > Bosnia and Herzegovina
-  | pron Vnd
+  | pron b"AzniV "{nd h%3`tsVgoUv"inV
 > Botswana
+  | pron bAtsw"AnV
 > Bouvet Island
+  | pron AH S IY AH S IY "aIlVnd
 > British Indian Ocean Territory
+  | pron br"ItIS "IndiVn "oUSVn t"errIt%Orri
 > British Virgin Islands
+  | pron br"ItIS v"3`dZIn "aIlVndz
 > Brunei
+  | pron brun"aI
 > Burkina Faso
+  | pron b3`k"inV f"AsoU
 > Burma
+  | pron b"3`mV
 > Burundi
+  | pron b3`"Vndi
 > Cameroon
+  | pron k"{m3`%un
 > Cape Verde
+  | pron k"eIp v"3`di
 > Cayman Islands
+  | pron k"eImVn "aIlVndz
 > Central African Republic
+  | pron s"EntrVl "{frIkAn rip"VblIk
 > Chad
+  | pron tS"{d
 > Christmas Island
+  | pron kr"IsmVs "aIlVnd
 > Clipperton Island
+  | pron IY AH S IY AH S IY AH S IY "aIlVnd
 > Cocos Islands
+  | pron k"oUk%oUz "aIlVndz
 > Comoros
+  | pron kOm"Orr%oUs
 > Cook Islands
+  | pron k"Uk "aIlVndz
 > Coral Sea Islands
+  | pron k"OrrVl s"i "aIlVndz
 > Cote d'Ivoire
+  | pron k"oUt divw"Arr
 > Croatia
+  | pron kroU"eISV
 > Czech Republic
+  | pron tS"Ek rip"VblIk
 > Dhekelia
+  | pron AH L AH S IY AH S IY
 > Djibouti
+  | pron dZIb"ut%i
 > Dominican Republic
+  | pron dVm"InVkVn rip"VblIk
 > Ecuador
+  | pron "EkwVd%Orr
 > El Salvador
+  | pron "El s"{lvVd%Orr
 > Equatorial Guinea
+  | pron %ikwVt"OrriVl g"Ini
 > Eritrea
+  | pron %errItr"eIV
 > Estonia
+  | pron Est"oUniV
 > Ethiopia
+  | pron %iTi"oUpiV
 > Europa Island
+  | pron jUrr"oUpV "aIlVnd
 > Falkland Islands
+  | pron f"OklVnd "aIlVndz
 > Faroe Islands
+  | pron AH L AH S IY "aIlVndz
 > Federated States of Micronesia
-  | pron Vv
+  | pron f"Ed3`%eItId st"eIts Vv m%aIkroUn"iZV
 > Fiji
+  | pron f"idZi
 > French Guiana
+  | pron fr"EntS gi"AnV
 > French Polynesia
+  | pron fr"EntS p%Al%In"iZV
 > French Southern and Antarctic Lands
-  | pron Vnd
+  | pron fr"EntS s"VD3`n "{nd {n"ArrtIk l"{ndz
 > Gabon
+  | pron gVb"An
 > Gaza Strip
+  | pron g"AzV str"Ip
 > Georgia
+  | pron dZ"OrrdZV
 > Gibraltar
+  | pron dZIbr"Olt3`
 > Glorioso Islands
+  | pron glOrri"oUsoU "aIlVndz
 > Greenland
+  | pron gr"inl%{nd
 > Grenada
+  | pron grIn"AdV
 > Guadeloupe
+  | pron gw%AdVl"up
 > Guernsey
+  | pron g"3`nzi
 > Guinea
+  | pron g"Ini
 > Guinea-Bissau
+  | pron g"Ini  AH S IY AH S IY
 > Guyana
+  | pron g%aI"AnV
 > Heard Island and McDonald Islands
-  | pron Vnd
+  | pron h"3`d "aIlVnd "{nd mVkd"AnVld "aIlVndz
 > Holy See
+  | pron h"oUli s"i
 > Iceland
+  | pron "aIslVnd
 > Isle of Man
-  | pron Vv
+  | pron "aIl Vv m"{n
 > Jan Mayen
+  | pron dZ"{n  AH L AH S IY
 > Jersey
+  | pron dZ"3`zi
 > Jordan
+  | pron dZ"OrrdVn
 > Juan de Nova Island
-  | pron dV
+  | pron hw"An dV n"oUvV "aIlVnd
 > Kazakhstan
+  | pron kVz%{kst"{n
 > Kiribati
+  | pron k%Irr"Ib"Ati
 > Kuwait
+  | pron kuw"eIt
 > Laos
+  | pron l"eIoUs
 > Lebanon
+  | pron l"EbVnVn
 > Lesotho
+  | pron lEs"oUToU
 > Liberia
+  | pron l%aIb"Irr%iV
 > Liechtenstein
+  | pron l"IktVnst%aIn
 > Macau
+  | pron mVk"aU
 > Macedonia
+  | pron m%{kVd"oUniV
 > Malawi
+  | pron mVl"Awi
 > Maldives
+  | pron m"Old%aIvz
 > Mali
+  | pron m"Ali
 > Malta
+  | pron m"OltV
 > Marshall Islands
+  | pron m"ArrSVl "aIlVndz
 > Martinique
+  | pron mArrtIn"ik
 > Mauritania
+  | pron m%OrrIt"eInjV
 > Mauritius
+  | pron mOrr"ItiVs
 > Mayotte
+  | pron meI"Ot
 > Moldova
+  | pron m%oUld"oUvV
 > Monaco
+  | pron m"AnVk%oU
 > Montserrat
+  | pron mAns3`"At
 > Mozambique
+  | pron m%oUzVmb"ik
 > Namibia
+  | pron nVm"IbiV
 > Nauru
+  | pron AH L AH S IY
 > Navassa Island
+  | pron IY AH S IY AH S IY "aIlVnd
 > Netherlands Antilles
+  | pron n"ED3`lVndz {nt"Iliz
 > New Caledonia
+  | pron nj"u k%{lVd"oUniV
 > Niue
+  | pron IY AH S IY
 > Norfolk Island
+  | pron n"OrrfVk "aIlVnd
 > Northern Mariana Islands
+  | pron n"OrrD3`n m%Arri"{nV "aIlVndz
 > Oman
+  | pron oUm"An
 > Palau
+  | pron p"{laU
 > Paracel Islands
+  | pron IY AH S IY AH S IY "aIlVndz
 > Paraguay
+  | pron p"errVgw%eI
 > Pitcairn Islands
+  | pron AH L AH S IY AH S IY "aIlVndz
 > Puerto Rico
+  | pron p"Orrt3` r"ikoU
 > Qatar
+  | pron k%Vt"Arr
 > Reunion
+  | pron ri"unjVn
 > Saint Helena
+  | pron s"eInt h"ElVnV
 > Saint Kitts and Nevis
-  | pron Vnd
+  | pron s"eInt k"Its "{nd n"EvIs
 > Saint Lucia
+  | pron s"eInt l"uSV
 > Saint Pierre and Miquelon
-  | pron Vnd
+  | pron s"eInt pi"err "{nd m"aI AH S IY
 > Saint Vincent and the Grenadines
-  | pron Vnd Di
+  | pron s"eInt v"InsInt "{nd Di grVn"eId
 > San Marino
+  | pron s"{n m3`"inoU
 > Sao Tome and Principe
-  | pron Vnd
+  | pron s"aU t"oUm "{nd printS"ipi
 > Senegal
+  | pron s%EnVg"Ol
 > Serbia and Montenegro
-  | pron Vnd
+  | pron s"3`biV "{nd m%AntVn"eIgroU
 > Seychelles
+  | pron s"eISElz
 > Sierra Leone
+  | pron si"errV li"oUn
 > South Georgia and the South Sandwich Islands
-  | pron Vnd Di
+  | pron s"aUT dZ"OrrdZV "{nd Di s"aUT s"{mwItS "aIlVndz
 > Spratly Islands
+  | pron IY AH S IY AH S IY "aIlVndz
 > Sri Lanka
+  | pron sr"i l"{NkV
 > Suriname
+  | pron s"3`InAm
 > Svalbard
+  | pron AH L AH S IY AH S IY
 > Swaziland
+  | pron sw"AzIlVnd
 > Tajikistan
+  | pron t%AdZ"ikIst%{n
 > Tanzania
+  | pron t%{nz"eInjV
 > The Bahamas
+  | pron Di bVh"AmVz
 > The Gambia
+  | pron Di g"{mbiV
 > Timor-Leste
+  | pron tim"Orr  AH L AH S IY
 > Togo
+  | pron t"oUgoU
 > Tokelau
+  | pron IY AH S IY AH S IY
 > Tonga
+  | pron t"AngV
 > Trinidad and Tobago
-  | pron Vnd
+  | pron tr"InId%{d "{nd tVb"eIgoU
 > Tromelin Island
+  | pron AH L AH S IY AH S IY "aIlVnd
 > Tunisia
+  | pron t%un"iZV
 > Turkmenistan
+  | pron t%3`km"EnIst%{n
 > Turks and Caicos Islands
-  | pron Vnd
+  | pron t"3`ks "{nd k"eI "aIlVndz
 > Tuvalu
+  | pron t"uvAl%u
 > Uganda
+  | pron j%ug"AndA
 > Ukraine
+  | pron jukr"eIn
 > Uruguay
+  | pron j"3`Vgw%aI
 > Uzbekistan
+  | pron uzb"EkIst%{n
 > Vanuatu
+  | pron v{nu"Atu
 > Venezuela
+  | pron v%EnIzw"eIlV
 > Vietnam
+  | pron vi%Etn"Am
 > Virgin Islands
+  | pron v"3`dZIn "aIlVndz
 > Wake Island
+  | pron w"eIk "aIlVnd
 > Wallis and Futuna
-  | pron Vnd
+  | pron w"OlIs "{nd  AH S IY AH S IY
 > West Bank
+  | pron w"Est b"{Nk
 > Western Sahara
+  | pron hw"Est3`n sVh"errV
 > Yemen
+  | pron j"EmVn
 > Zambia
+  | pron z"{mbiV
 > Zimbabwe
+  | pron zImb"AbweI
