@@ -1,0 +1,16 @@
+@name activity
+
+@class game, sport
+    > baseball
+      - pron b\"eIsb\"Ol
+    > basketball
+      - pron b\"{skVtb%Ol
+    > football
+      - pron f\"Utb%Ol
+    > golf
+      - pron g\"Olf
+    > soccer
+      - pron s\"Ak3`
+    > tennis
+      - pron t\"EnIs
+@endclass
