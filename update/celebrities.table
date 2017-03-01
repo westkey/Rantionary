@@ -1,0 +1,144 @@
+@name celeb
+@sub full
+@sub first
+@sub last
+
+@class american
+  @class female
+    @class actor
+      @class producer
+        > Anne Hathaway, Anne, Hathaway
+          - class singer
+        > Julia Roberts, Julia, Roberts
+          - class hindu
+        > Laura Prepon, Laura, Prepon
+          - class jewish, model, scientologist
+        > Lena Dunham, Lena, Dunham
+          - class director, jewish, writer
+        > Natalie Portman, Natalie, Portman
+          - class director, jewish
+      @endclass producer
+
+      > Emma Stone, Emma, Stone
+      > Jessica Alba, Jessica, Alba
+        - class model
+      > Julia Garner, Julia, Garner
+        - class jewish
+      > Megan Fox, Megan, Fox
+        - class model
+      > Rihanna, Robyn, Fenty
+        - class singer, songwriter
+      > Scarlett Johansson, Scarlett, Johansson
+        - class model, singer
+    @endclass actor
+
+    > Hillary Clinton, Hillary, Clinton
+      - class politician
+  @endclass female
+
+@endclass american
+
+@class male
+  @class actor
+    > Adam Sandler, Adam, Sandler
+      - class american, comedian, jewish, musician, producer
+    > Alden Ehrenreich, Alden, Ehrenreich
+      - class american, jewish
+    > Arnold Schwarzenegger, Arnold, Schwarzenegger
+      - class austrian, governor, republican
+    > Ben Stein, Ben, Stein
+      - class american, author, comedian, jewish, lawyer, writer
+    > Ben Stiller, Ben, Stiller
+      - class american, comedian, jewish
+    > Bill Murray, Bill, Murray
+      - class american, comedian
+    > Brad Pitt, Brad, Pitt
+      - class american, producer
+    > Channing Tatum, Channing, Tatum
+      - class american, dancer, model, producer
+    > Christian Bale, Christian, Bale
+      - class british
+    > Daniel Radcliffe, Daniel, Radcliffe
+      - class british, jewish
+    > Danny Masterson, Daniel, Masterson
+      - class american, dj, scientologist
+    > Edward Norton, Edward, Norton
+      - class activist, american
+    > Eminem, Marshall, Mathers
+      - class american, musician, rapper, songwriter
+    > Geoffery Lewis, Geoffery, Lewis
+      - class american, scientologist
+    > Hugh Jackson, Hugh, Jackson
+      - class australian, producer, singer
+    > Jack Black, Jack, Black
+      - class american, comedian, jewish, musician, producer, singer
+    > Jake Epstein, Jake, Epstein
+      - class canadian, jewish, singer
+    > Jesse Eisenberg, Jesse, Eosenberg
+      - class american, author, jewish, playwright
+    > John Cena, John, Cena
+      - class american, meme, musician, rapper, wrestler
+    > John Travolta, John, Travolta
+      - class american, dancer, producer, scientologist, singer, writer
+    > Johnny Depp, Johnny, Depp
+      - class american, musician, producer
+    > Leonardo DiCaprio, Leonardo, DiCaprio
+      - class american, producer
+    > Marilyn Manson, Brian, Warner
+      - class american, artist, journalist, musician, painter, singer, songwriter
+    > Michael Cera, Michael, Cera
+      - class canadian, musician
+    > Morgan Freeman, Morgan, Freeman
+      - class american
+    > Nicolas Cage, Nicolas, Cage
+      - class american, producer
+    > Orlando Bloom, Orlando, Bloom
+      - class british, producer
+    > Robert Downey Jr., Robert, Downey
+      - class american
+    > Robin Willians, Robin, Williams
+      - class american, comedian
+    > Shia LaBeouf, Shia, LaBeouf
+      - class american, director, meme
+    > Tom Cruise, Tom, Cruise
+      - class american, scientologist
+    > Tom Hanks, Tom, Hanks
+      - class american
+    > Will Ferrell, Will, Ferrell
+      - class american, comedian, producer, writer
+    > Will Smith, Will, Smith
+      - class american, musician, producer, rapper, songwriter
+    > Woody Allen, Woody, Allen
+      - class american, comedian, director, jewish, playwright, writer
+    > Zac Effron, Zac, Effron
+      - class american, jewish, singer
+  @endclass actor
+
+  > 50 Cent, 50, Cent
+    - class american, musician, singer, songwriter
+  > Axl Rose, Axl, Rose
+    - class american, musician, producer, singer, songwriter
+  > Bernie Sanders, Bernie, Sanders
+    - class american, jewish, politician
+  > David Lee Roth, David, Roth
+    - class american, jewish, musician, singer, songwriter
+  > Donald Trump, Donald, Trump
+    - class american, businessman, politician, xenophobe, homophobe
+  > Duff McKagan, Duff, McKagan
+    - class american, author, columnist, musician, producer, songwriter
+  > Eddie Van Halen, Edward, Van Halen
+    - class american, guitarist, musician, producer, songwriter
+  > Justin Bieber, Justin, Bieber
+    - class canadian, musician, singer
+  > Ryan Seacrest, Ryan, Seacrest
+    - class american
+  > Serj Tankian, Serj, Tankian
+    - class activist, american, armenian, artist, composer, musician, painter, poet, producer, singer, songwriter
+  > Slash, Saul, Hudson
+    - class american, british, guitarist, musician, producer, songwriter
+  > Trent Reznor, Trent, Reznor
+    - class american, composer, producer, singer, songwriter
+@endclass male
+
+> Emma Watson, Emma, Watson
+  - class activist, actor, british, female, model

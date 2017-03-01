@@ -1,0 +1,216 @@
+@name adv
+
+@class emotion
+  > angrily
+  > anxiously
+  > arrogantly
+  > cautiously
+  > enviously
+  > evilly
+  > frantically
+  > gladly
+  > gleefully
+  > greedily
+  > grudgingly
+  > grumpily
+  > happily
+  > hollowly
+  > patiently
+  > regretfully
+  > sadly
+  > shamefully
+  > terrifyingly
+  > warily
+@endclass emotion
+
+> delightedly
+> forcibly
+> hungrily
+> lovingly
+> romantically
+> roughly
+> side to side
+> slowly
+> smoothly
+> sweetly
+> up and down
+> absentmindedly
+> accidentally
+> actively
+> adventurously
+> anally
+> animatedly
+> appreciatively
+> ardently
+> artfully
+> awkwardly
+> beautifully
+> bitterly
+> blissfully
+> boldly
+> bravely
+> brightly
+> briskly
+> buoyantly
+> busily
+> calmly
+> carefully
+> carelessly
+> casually
+> closely
+> coaxingly
+> coldly
+> comfortably
+> continually
+> cooly
+> correctly
+> courageously
+> crossly
+> crunchily
+> curiously
+> daintily
+> deeply
+> defiantly
+> deliberately
+> delicately
+> deliciously
+> densely
+> determinedly
+> diligently
+> discreetly
+> dreamily
+> eagerly
+> earnestly
+> efficiently
+> effortlessly
+> elegantly
+> energetically
+> enthusiastically
+> excitedly
+> expertly
+> explosively
+> faithfully
+> fearlessly
+> ferociously
+> fervently
+> fiercely
+> firmly
+> fleetingly
+> fluidly
+> forgivingly
+> formally
+> generously
+> genuinely
+> gloriously
+> grandly
+> gravely
+> greatly
+> harmonically
+> hastily
+> hatefully
+> heartily
+> heavily
+> honestly
+> hurriedly
+> illegally
+> immediately
+> imperfectly
+> inappropriately
+> indubitably
+> intensely
+> intensively
+> intentionally
+> intently
+> intuitively
+> joyfully
+> justly
+> keenly
+> kindly
+> laboriously
+> lightly
+> loudly
+> magestically
+> magically
+> majestically
+> meekly
+> mercifully
+> merrily
+> methodically
+> mildly
+> modestly
+> mortally
+> musically
+> mysteriously
+> naturally
+> neatly
+> necessarily
+> nimbly
+> noisily
+> nonchalantly
+> objectively
+> obscenely
+> partially
+> peacefully
+> perfectly
+> persistently
+> pointedly
+> professionally
+> promptly
+> proudly
+> purposefully
+> quickly
+> quietly
+> rapidly
+> rashly
+> readily
+> rebelliously
+> recklessly
+> restlessly
+> richly
+> royally
+> saggingly
+> sarcastically
+> secretly
+> sharply
+> silently
+> single-handedly
+> slickly
+> slimily
+> sloppily
+> sluggishly
+> smartly
+> snugly
+> solemnly
+> speedily
+> spiritedly
+> spontaneously
+> stealthily
+> strenuously
+> strictly
+> strongly
+> stubbornly
+> suspiciously
+> sympathetically
+> systematically
+> terribly
+> thickly
+> thirstily
+> thoroughly
+> thoughtlessly
+> ticklishly
+> to kingdom come
+> torturously
+> truly
+> unbelievably
+> unnecessarily
+> urgently
+> victoriously
+> vigilantly
+> vigorously
+> violently
+> weakly
+> wetly
+> wholeheartedly
+> wildly
+> wisely
+> with haste

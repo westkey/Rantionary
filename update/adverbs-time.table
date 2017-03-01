@@ -1,0 +1,74 @@
+@name timeadv
+
+@class frequency
+  > again
+  > all the time
+  > barely
+  > biweekly
+  > centenially
+  > daily
+  > every night
+  > every now and then
+  > every Tuesday
+  > for 10 weeks
+  > for 36 hours
+  > frequently
+  > from now on
+  > hardly
+  > instantly
+  > never
+  > never again
+  > occasionally
+  > often
+  > on Mondays
+  > once a month
+  > once a week
+  > once again
+  > once in a while
+  > perpetually
+  > profusely
+  > repeatedly
+  > several times
+  > sometimes
+  > this time
+  > until further notice
+  > usually
+  > yesterday
+@endclass frequency
+
+@class time
+  @class past
+    > a day ago
+    > a month ago
+    > a week ago
+    > a year ago
+    > an hour ago
+    > billions of years ago
+    > just 5 minutes ago
+    > millions of years ago
+    > trillions of years ago
+  @endclass past
+
+  @class present
+    > now
+    > presently
+    > today
+    > tonight
+  @endclass present
+
+  > a day later
+  > an hour later
+  > a month later
+  > a week later
+  > 10 years later
+  > five minutes later
+  > five years later
+  > six months later
+  > a year later
+  > at sunrise
+  > at sunset
+  > at the full moon
+  > later
+  > recently
+@endclass time
+
