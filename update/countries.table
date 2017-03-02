@@ -1,0 +1,283 @@
+@name country
+
+@class north_america
+	> United States
+		- class usa
+	> Canada
+		- class canada
+@endclass north_america
+
+@class africa
+  > Democratic Republic of the Congo
+  > Egypt
+  > Ghana
+  > Kenya
+  > Libya
+  > Madagascar
+  > Morocco
+  > Niger
+  > Nigeria
+  > Republic of the Congo
+  > Rwanda
+  > Somalia
+  > South Africa
+  > Sudan
+@endclass africa
+
+@class asia
+  > Afghanistan
+    - class middle_east
+  > Cambodia
+  > China
+  > Hong Kong
+  > India
+  > Indonesia
+    - class oceania
+  > Japan
+  > Kyrgyzstan
+  > Malaysia
+  > Mongolia
+  > Nepal
+  > North Korea
+  > Singapore
+  > South Korea
+  > Taiwan
+  > Thailand
+@endclass asia
+
+@class central_america
+  > Costa Rica
+  > Guatemala
+  > Haiti
+  > Honduras
+  > Nicaragua
+  > Panama
+@endclass central_america
+
+@class europe
+  > Albania
+  > Austria
+  > Belgium
+  > Bulgaria
+  > Denmark
+  > Finland
+  > France
+  > Germany
+  	- class germany
+  > Greece
+  > Hungary
+  > Ireland
+  > Italy
+  > Latvia
+  > Lithuania
+  > Luxembourg
+  > Netherlands
+  > Norway
+  > Poland
+  > Portugal
+  > Romania
+  > Russia
+    - class asia, eurasia
+  > Slovakia
+  > Slovenia
+  > Spain
+  > Sweden
+  > Switzerland
+  > Turkey
+  > United Kingdom
+@endclass europe
+
+@class middle_east
+  > Iran
+  > Iraq
+  > Israel
+  > Pakistan
+  > Saudi Arabia
+  > Syria
+  > United Arab Emirates
+@endclass middle_east
+
+@class oceania
+  > Australia
+  > Guam
+  > New Zealand
+  > Papua New Guinea
+  > Philippines
+  > Samoa
+  > Solomon Islands
+@endclass oceania
+
+@class south_america
+  > Argentina
+  > Brazil
+  > Chile
+  > Colombia
+  > Peru
+@endclass south_america
+
+> Algeria
+> American Samoa
+> Andorra
+> Angola
+> Anguilla
+> Antarctica
+> Antigua and Barbuda
+> Armenia
+> Aruba
+> Ashmore and Cartier Islands
+> Azerbaijan
+> Bahrain
+> Bangladesh
+> Barbados
+> Bassas da India
+> Belarus
+> Belize
+> Benin
+> Bermuda
+> Bhutan
+> Bolivia
+> Bosnia and Herzegovina
+> Botswana
+> Bouvet Island
+> British Indian Ocean Territory
+> British Virgin Islands
+> Brunei
+> Burkina Faso
+> Burma
+> Burundi
+> Cameroon
+> Cape Verde
+> Cayman Islands
+> Central African Republic
+> Chad
+> Christmas Island
+> Clipperton Island
+> Cocos Islands
+> Comoros
+> Cook Islands
+> Coral Sea Islands
+> Cote d'Ivoire
+> Croatia
+> Czech Republic
+> Dhekelia
+> Djibouti
+> Dominican Republic
+> Ecuador
+> El Salvador
+> Equatorial Guinea
+> Eritrea
+> Estonia
+> Ethiopia
+> Europa Island
+> Falkland Islands
+> Faroe Islands
+> Federated States of Micronesia
+> Fiji
+> French Guiana
+> French Polynesia
+> French Southern and Antarctic Lands
+> Gabon
+> Gaza Strip
+> Georgia
+> Gibraltar
+> Glorioso Islands
+> Greenland
+> Grenada
+> Guadeloupe
+> Guernsey
+> Guinea
+> Guinea_Bissau
+> Guyana
+> Heard Island and McDonald Islands
+> Holy See
+> Iceland
+> Isle of Man
+> Jan Mayen
+> Jersey
+> Jordan
+> Juan de Nova Island
+> Kazakhstan
+> Kiribati
+> Kuwait
+> Laos
+> Lebanon
+> Lesotho
+> Liberia
+> Liechtenstein
+> Macau
+> Macedonia
+> Malawi
+> Maldives
+> Mali
+> Malta
+> Marshall Islands
+> Martinique
+> Mauritania
+> Mauritius
+> Mayotte
+> Moldova
+> Monaco
+> Montserrat
+> Mozambique
+> Namibia
+> Nauru
+> Navassa Island
+> Netherlands Antilles
+> New Caledonia
+> Niue
+> Norfolk Island
+> Northern Mariana Islands
+> Oman
+> Palau
+> Paracel Islands
+> Paraguay
+> Pitcairn Islands
+> Puerto Rico
+> Qatar
+> Reunion
+> Saint Helena
+> Saint Kitts and Nevis
+> Saint Lucia
+> Saint Pierre and Miquelon
+> Saint Vincent and the Grenadines
+> San Marino
+> Sao Tome and Principe
+> Senegal
+> Serbia and Montenegro
+> Seychelles
+> Sierra Leone
+> South Georgia and the South Sandwich Islands
+> Spratly Islands
+> Sri Lanka
+> Suriname
+> Svalbard
+> Swaziland
+> Tajikistan
+> Tanzania
+> The Bahamas
+> The Gambia
+> Timor_Leste
+> Togo
+> Tokelau
+> Tonga
+> Trinidad and Tobago
+> Tromelin Island
+> Tunisia
+> Turkmenistan
+> Turks and Caicos Islands
+> Tuvalu
+> Uganda
+> Ukraine
+> Uruguay
+> Uzbekistan
+> Vanuatu
+> Venezuela
+> Vietnam
+> Virgin Islands
+> Wake Island
+> Wallis and Futuna
+> West Bank
+> Western Sahara
+> Yemen
+> Zambia
+> Zimbabwe
