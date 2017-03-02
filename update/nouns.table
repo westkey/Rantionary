@@ -1,0 +1,1162 @@
+@name noun
+@sub singular, sg
+@sub plural, pl
+
+@class ball
+  > baseball, baseballs
+  > basketball, basketballs
+  > beach ball, beach balls
+  > boulder, boulders
+  > golf ball, golf balls
+    - class round, white
+  > meatball, meatballs
+    - class food
+  > tennis ball, tennis balls
+    - class green
+@endclass ball
+
+@class body
+  @class head
+    @class face
+      > beak, beaks
+      > goatee, goatees
+        - class hair
+      > jowl, jowls
+      > lip, lips
+        - class mouth
+      > mustache, mustaches
+        - class hair
+      > nose, noses
+      > nostril, nostrils
+        - class nose
+      > snout, snouts
+      > unibrow, unibrows
+    @endclass face
+
+    > afro, afros
+    > chin, chins
+    > face, faces
+    > false teeth, false teeth
+    > head, heads
+    > horn, horns
+    > mandible, mandibles
+    > mouth, mouths
+      - class hole
+    > tongue, tongues
+      - class long, mouth
+    > uvula, uvulas
+      - class mouth
+  @endclass head
+
+  @class organ
+    > gallbladder, gallbladders
+    > heart, hearts
+    > kidney, kidneys
+      - class round
+    > lung, lungs
+    > pancreas, pancreases
+  @endclass organ
+
+  > armpit, armpits
+  > body, bodies
+  > bone, bones
+  > cornea, corneas
+  > dimple, dimples
+  > duodenum, duodenums
+  > elbow, elbows
+  > epidermis, epidermises
+  > esophagus, esophaguses
+  > fanny, fannies
+  > femur, femurs
+    - class bone
+  > fibula, fibulas
+    - class bone
+  > finger, fingers
+    - class hand, long
+  > fingernail, fingernails
+  > foot, feet
+  > kneecap, kneecaps
+  > knuckle, knuckles
+  > leg, legs
+    - class long
+  > loin, loins
+  > navel, navels
+  > neck, necks
+  > rump, rumps
+  > scapula, scapulas
+  > skin, skin
+  > stinger, stingers
+  > tentacle, tentacles
+    - class long
+  > throat, throats
+  > toe, toes
+    - class foot
+  > toenail, toenails
+    - class foot
+  > tooth, teeth
+  > umbilical cord, umbilical cords
+    - class long
+  > whisker, whiskers
+    - class face, hair
+@endclass body
+
+@class clothing
+  > Bavarian hat, Bavarian hats
+    - class hat
+  > belt, belts
+  > boot, boots
+  > boxers, boxers
+  > bra, bras
+  > dress, dresses
+  > fedora, fedoras
+    - class hat
+  > girdle, girdles
+  > hat, hats
+  > jacket, jackets
+  > kilt, kilts
+  > pantaloons, pantaloons
+  > pants, pants
+  > shirt, shirts
+  > shoe, shoes
+  > skirt, skirts
+  > slipper, slippers
+  > sock, socks
+  > suit, suits
+  > sweatshirt, sweatshirts
+  > top hat, top hats
+  > tuxedo, tuxedoes
+  > underwear, underwear
+  > vest, vests
+  > zipper, zippers
+@endclass clothing
+
+@class container
+  > teapot, teapots
+    - class household, kitchen
+  > bag, bags
+  > balloon, balloons
+  > barrel, barrels
+  > basket, baskets
+  > basket, baskets
+  > bong, bongs
+  > bottle, bottles
+    - class weapon
+  > bottle, bottles
+  > bowl, bowls
+  > box, boxes
+  > carton, cartons
+  > case, cases
+  > cell, cells
+  > cesspool, cesspools
+  > chest, chests
+  > coffin, coffins
+  > container, containers
+  > cup, cups
+  > drawer, drawers
+  > duffel bag, duffel bags
+  > fanny pack, fanny packs
+    - class accessory, wearable
+  > flask, flasks
+  > flowerpot, flowerpots
+  > footlocker, footlockers
+  > freezer, freezers
+  > garbage can, garbage cans
+  > glass, glasses
+  > jar, jars
+  > kettle, kettles
+    - class kitchen
+  > oven, ovens
+    - class kitchen
+  > package, packages
+  > packet, packets
+  > pencil case, pencil cases
+  > pickle jar, pickle jars
+  > pipe, pipes
+  > pitcher, pitchers
+  > pocket, pockets
+  > pot, pots
+  > pouch, pouches
+  > purse, purses
+  > sack, sacks
+  > shot glass, shot glasses
+  > skillet, skillets
+  > suitcase, suitcases
+  > test tube, test tubes
+  > toilet, toilets
+  > toolbox, toolboxes
+  > trashcan, trashcans
+  > trunk, trunks
+  > tub, tubs
+  > turkey baster, turkey basters
+  > vat, vats
+  > vial, vials
+  > wallet, wallets
+  > well, wells
+@endclass container
+
+@class currency
+  @class american
+    > dime, dimes
+      - class coin, tender
+    > dollar bill, dollar bills
+      - class green, tender
+    > penny, pennies
+      - class coin, tender
+    > quarter, quarters
+      - class coin, tender
+  @endclass american
+
+  > euro, euros
+    - class european
+  > dollar, dollars
+    - class american
+@endclass currency
+
+@class drug
+  > bath salts, bath salts
+  > cocaine, cocaine
+    - class white
+  > crack, crack
+  > extacy, extacy
+  > heroin, heroin
+  > LSD, LSD
+  > marijuana, marijuana
+  > mescaline, mescaline
+  > meth, meth
+  > PCP, PCP
+  > roofie, roofies
+  > shroom, shrooms
+  > smack, smack
+  > vaccine, vaccines
+    - class medical
+@endclass drug
+
+@class food
+  @class fruit
+    @class red
+      > apple, apples
+        - class green, yellow
+      > raspberry, raspberries
+      > strawberry, strawberries
+      > tomato, tomatoes
+      > watermelon, watermelons
+        - class green
+    @endclass red
+
+    > apricot, apricots
+    > blueberry, blueberries
+      - class blue
+    > coconut, coconuts
+    > grape, grapes
+    > grapefruit, grapefruits
+    > kiwi, kiwis
+    > kumquat, kumquats
+    > lemon, lemons
+      - class yellow
+    > lime, limes
+      - class green
+    > nectarine, nectarines
+      - class orange
+    > orange, oranges
+      - class orange
+    > pineapple, pineapples
+      - class yellow
+    > prune, prunes
+    > tangerine, tangerines
+      - class orange
+  @endclass fruit
+
+  @class sweet
+    @class confection
+      @class candy
+        > bonbon, bonbons
+        > butterscotch, butterscotches
+        > gumdrop, gumdrops
+        > peppermint, peppermints
+        > sugarplum, sugarplums
+        > taffy, taffies
+        > truffle, truffles
+          - class chocolate
+        > Turkish Delight, Turkish Delights
+      @endclass candy
+
+      > sweetmeat, sweetmeats
+    @endclass confection
+
+  @endclass sweet
+
+  @class vegetable
+    > avocado, avocados
+      - class green
+    > onion, onions
+    > potato, potatoes
+    > spinach, spinach
+      - class green
+    > turnip, turnips
+  @endclass vegetable
+
+  > almond, almonds
+  > biscuit, biscuits
+  > bread, bread
+  > bun, buns
+    - class hairstyle
+  > cabbage, cabbages
+    - class green
+  > cheeseburger, cheeseburgers
+  > chicken wing, chicken wings
+  > corn, corns
+  > cornflake, cornflakes
+  > fudge, fudge
+  > hazelnut, hazelnuts
+  > horseradish, horseradishes
+  > kidney bean, kidney beans
+  > marshmallow, marshmallows
+  > meat, meats
+    - weight 10
+  > meatloaf, meatloaves
+  > muffin, muffins
+    - class baked
+  > mushroom, mushrooms
+    - class fungus
+  > omelet, omelets
+    - class breakfast
+  > peanut, peanuts
+  > popsicle, popsicles
+    - class frozen
+  > pretzel, pretzels
+  > salad, salads
+  > sugar cube, sugar cubes
+  > waffle, waffles
+  > walnut, walnuts
+@endclass food
+
+@class furniture
+  > bed, beds
+    - class bed, surface
+  > bench, benches
+  > chair, chairs
+  > chair, chairs
+    - class surface
+  > coffee table, coffee tables
+  > couch, couches
+  > desk, desks
+    - class surface
+  > four-poster, four-posters
+    - class bed
+  > lawn chair, lawn chairs
+  > nightstand, nightstands
+  > recliner, recliners
+  > rocking chair, rocking chairs
+  > stool, stools
+  > table, tables
+    - class surface
+@endclass furniture
+
+@class household
+  @class appliance
+    @class kitchen
+      > broiler, broilers
+      > coffee maker, coffee makers
+        - class container
+      > dishwasher, dishwashers
+      > Dutch oven, Dutch ovens
+      > espresso maker, espresso makers
+      > food processor, food processors
+        - class container
+      > microwave, microwaves
+        - class container
+      > oven, ovens
+        - class container
+      > refrigerator, refrigerators
+      > stove, stoves
+      > toaster, toasters
+      > waffle iron, waffle irons
+    @endclass kitchen
+
+    > curling iron, curling irons
+    > flatiron, flatirons
+    > sewing machine, sewing machines
+  @endclass appliance
+
+  > butter dish, butter dishes
+  > doorknob, doorknobs
+@endclass household
+
+@class living
+  @class animal
+    @class bird
+      @class penguin
+        > adelie penguin, adelie penguins
+        > African penguin, African penguins
+        > chinstrap penguin, chinstrap penguins
+        > emperor penguin, emperor penguins
+        > erect-crested penguin, erect-crested penguins
+        > fairy penguin, fairy penguins
+        > gentoo penguin, gentoo penguins
+        > Humboldt penguin, Humboldt penguins
+        > king penguin, king penguins
+        > macaroni penguin, macaroni penguins
+        > Magellanic penguin, Magellanic penguins
+        > penguin, penguins
+        > rockhopper penguin, rockhopper penguins
+        > yellow-eyed penguin, yellow-eyed penguins
+      @endclass penguin
+
+      > bird, birds
+      > bluebird, bluebirds
+        - class blue
+      > chickadee, chickadees
+      > chicken, chickens
+      > crow, crows
+      > dove, doves
+      > eagle, eagles
+      > finch, finches
+      > flamingo, flamingos
+      > goldfinch, goldfinches
+      > goose, geese
+      > grouse, grouse
+      > hawk, hawks
+      > hummingbird, hummingbirds
+      > magpie, magpies
+      > owl, owls
+      > parrot, parrots
+      > peacock, peacocks
+      > pelican, pelicans
+      > pigeon, pigeons
+      > raven, ravens
+      > rooster, roosters
+      > seagull, seagulls
+      > swan, swans
+      > turkey, turkeys
+      > vulture, vultures
+      > woodpecker, woodpeckers
+    @endclass bird
+
+    @class dog
+      > basset hound, basset hounds
+      > beagle, beagles
+      > boarhound, boarhounds
+      > bulldog, bulldogs
+      > chihuahua, chihuahuas
+      > dachshund, dachshunds
+      > dog, dogs
+      > greyhound, greyhounds
+      > labrador, labradors
+      > pomeranian, pomeranians
+      > poodle, poodles
+      > pug, pugs
+      > Rhodesian ridgeback, Rhodesian ridgebacks
+      > rottweiler, rottweilers
+      > schnauzer, schnauzers
+      > scottie, scotties
+      > Shih-Tzu, Shih-Tzus
+      > terrier, terriers
+    @endclass dog
+
+    @class fish
+      > bass, basses
+      > blowfish, blowfish
+      > fish, fish
+      > octopus, octopi
+      > squid, squids
+      > whale, whales
+    @endclass fish
+
+    @class insect
+      > ant, ants
+      > beetle, beetles
+      > centipede, centipedes
+        - class long
+      > cockroach, cockroaches
+      > cricket, crickets
+      > earwig, earwigs
+      > grasshopper, grasshoppers
+      > ladybug, ladybugs
+      > locust, locusts
+      > scarab beetle, scarab beetles
+    @endclass insect
+
+    @class mammal
+      > baboon, baboons
+      > bat, bats
+      > bull, bulls
+      > cat, cats
+      > deer, deer
+      > donkey, donkeys
+      > goat, goats
+      > gorilla, gorillas
+      > hedgehog, hedgehogs
+        - class fast
+      > horse, horses
+      > hyena, hyenas
+      > jaguar, jaguars
+      > lemur, lemurs
+      > leopard, leopards
+        - class cat, wild
+      > liger, ligers
+        - class cat, wild
+      > lion, lions
+      > llama, llamas
+      > moose, moose
+      > pony, ponies
+      > porcupine, porcupines
+      > rat, rats
+      > skunk, skunks
+      > squirrel, squirrels
+      > tiger, tigers
+      > weasel, weasels
+      > yak, yaks
+      > zebra, zebras
+    @endclass mammal
+
+    @class mythical
+      > demon, demons
+      > devil, devils
+      > gargoyle, gargoyles
+      > ogre, ogres
+        - class green
+      > sphinx, sphinxes
+      > titan, titans
+    @endclass mythical
+
+    @class reptile
+      > anaconda, anacondas
+      > lizard, lizards
+      > turtle, turtles
+      > velociraptor, velociraptors
+    @endclass reptile
+
+    > butler, butlers
+    > frog, frogs
+      - class amphibian, green
+    > landlord, landlords
+    > leech, leeches
+    > mammoth, mammoths
+    > mayor, mayors
+    > mountain goat, mountain goats
+      - class goat
+    > mouse, mice
+      - class rodent
+    > newt, newts
+    > otter, otters
+    > quokka, quokkas
+    > tadpole, tadpoles
+    > toad, toads
+      - class amphibian, yellow
+    > tyrannosaurus rex, tyrannosaurus rexes
+    > viking, vikings
+    > wolf, wolves
+    > xerus, xeruses
+    > yeti, yetis
+  @endclass animal
+
+  @class job
+    > accountant, accountants
+    > actor, actors
+    > archaeologist, archaeologists
+    > armorer, armorers
+    > artist, artists
+    > assassin, assassins
+    > athlete, athletes
+    > babysitter, babysitters
+    > bachelor, bachelors
+    > banker, bankers
+    > bartender, bartenders
+    > biologist, biologists
+    > burglar, burglars
+    > busboy, busboys
+    > butler, butlers
+    > cake decorator, cake decorators
+    > carpenter, carpenters
+    > celebrity, celebrities
+    > chef, chefs
+    > circus performer, circus performers
+    > clown, clowns
+    > Communist, Communists
+    > constable, constables
+    > construction worker, construction workers
+    > cop, cops
+    > deliveryman, deliverymen
+    > dentist, dentists
+    > dispatcher, dispatchers
+    > doctor, doctors
+    > electrician, electricians
+    > executive producer, executive producers
+    > explorer, explorers
+    > FBI agent, FBI agents
+    > fireman, firemen
+    > fortune teller, fortune tellers
+    > foundation repair specialist, foundation repair specialists
+    > gambler, gamblers
+    > gangster, gangsters
+    > gardener, gardeners
+    > gasman, gasmen
+    > golfer, golfers
+    > guitarist, guitarists
+    > haberdasher, haberdashers
+    > hippie, hippies
+    > hobbit, hobbits
+    > hunter, hunters
+    > journalist, journalists
+    > juggler, jugglers
+    > lawyer, lawyers
+    > magician, magicians
+    > mailman, mailmen
+    > mechanic, mechanics
+    > movie star, movie stars
+    > ninja, ninjas
+    > nurse, nurses
+    > paramedic, paramedics
+    > pediatrician, pediatricians
+    > physician, physicians
+    > pianist, pianists
+    > pirate, pirates
+    > plumber, plumbers
+    > policeman, policemen
+    > politician, politicians
+    > pope, popes
+    > president, presidents
+    > president, presidents
+      - class political
+    > prince, princes
+    > princess, princesses
+    > principal, principals
+    > private military contractor, private military contractors
+    > professor, professors
+    > rapper, rappers
+    > registrar, registrars
+    > reporter, reporters
+    > sales representative, sales representatives
+    > salesman, salesmen
+    > sandwichman, sandwichmen
+    > scientist, scientists
+    > scribe, scribes
+    > senator, senators
+    > serial killer, serial killers
+    > server, servers
+    > singer, singers
+    > sky diver, sky divers
+    > snake charmer, snake charmers
+    > spelunker, spelunkers
+    > stagehand, stagehands
+    > stock broker, stock brokers
+    > stunt double, stunt doubles
+    > surgeon, surgeons
+    > sweeper, sweepers
+    > tanner, tanners
+    > taxi driver, taxi drivers
+    > taxidermist, taxidermists
+    > teacher, teachers
+    > turncock, turncocks
+    > urologist, urologists
+    > vampire, vampires
+    > waiter, waiters
+    > waitress, waitresses
+    > window washer, window washers
+    > wizard, wizards
+  @endclass job
+
+  @class person
+    @class adult
+      > dude, dudes
+        - class male
+      > lady, ladies
+        - class female
+      > man, men
+        - class male
+      > woman, women
+        - class female
+    @endclass adult
+
+    > baby, babies
+      - class fruit
+    > child, children
+    > elf, elves
+    > teen, teens
+  @endclass person
+
+  > Democrat, Democrats
+    - class blue, party, political
+  > Republican, Republicans
+    - class party, political, red
+  > zygote, zygotes
+@endclass living
+
+@class long
+  @class tool
+    @class drawing
+      @class writing
+        > ballpoint pen, ballpoint pens
+          - class pen
+        > charcoal pencil, charcoal pencils
+          - class pencil
+        > felt-tip pen, felt-tip pens
+          - class pen
+        > sharpie, sharpies
+          - class marker
+      @endclass writing
+
+      > oil pastel, oil pastels
+        - class pastel
+      > paintbrush, paintbrushes
+        - class brush, painting
+    @endclass drawing
+
+    > blowtorch, blowtorches
+    > bunsen burner, bunsen burners
+    > dry-erase marker, dry-erase markers
+    > fountain pen, fountain pens
+    > hammer, hammers
+    > jackhammer, jackhammers
+    > quill, quills
+      - class sharp
+    > screwdriver, screwdrivers
+    > spoon, spoons
+    > wand, wands
+    > wrench, wrenches
+  @endclass tool
+
+  @class weapon
+    > arrow, arrows
+      - class tool
+    > baton, batons
+    > bayonet, bayonets
+      - class metal, sharp
+    > broomstick, broomsticks
+    > dart, darts
+    > drill, drills
+      - class tool
+    > harpoon, harpoons
+    > leather horsewhip, leather horsewhips
+      - class flexible, leather, tool
+    > pencil, pencils
+      - class tool, yellow
+    > shovel, shovels
+      - class tool
+    > telephone pole, telephone poles
+    > torch, torches
+  @endclass weapon
+
+  > banana, bananas
+    - class food, fruit, yellow
+  > banister, banisters
+  > broom, brooms
+  > candle, candles
+  > cannon, cannons
+  > chain, chains
+  > cigarette, cigarettes
+  > clarinet, clarinets
+    - class instrument
+  > crack pipe, crack pipes
+  > cucumber, cucumbers
+    - class vegetable
+  > elephant tusk, elephant tusks
+    - class hard, tusk
+  > extension cord, extension cords
+  > French horn, French horns
+    - class instrument, music
+  > glowstick, glowsticks
+    - class light
+  > grandfather clock, grandfather clocks
+    - class clock, machine
+  > jalapeno, jalapenos
+    - class green, pepper
+  > kazoo, kazoos
+    - class instrument
+  > knife, knives
+  > lightbulb, lightbulbs
+  > panhandle, panhandles
+  > pickle, pickles
+    - class green
+  > plunger, plungers
+  > pole, poles
+  > ram horn, ram horns
+    - class hard, horn
+  > rhino horn, rhino horns
+    - class hard, horn
+  > rocket, rockets
+  > ruler, rulers
+  > sausage, sausages
+  > silo, silos
+  > spork, sporks
+  > spray nozzle
+    - class hole
+  > staple, staples
+  > toothbrush, toothbrushes
+  > toothpick, toothpicks
+  > tree, trees
+  > turd, turds
+  > umbrella, umbrellas
+@endclass long
+
+@class machine
+  > copy machine, copy machines
+    - class copying, office, printing
+  > gearshift, gearshifts
+  > mouse, mice
+    - class computer, office, pointing
+  > printer, printers
+    - class office, printing
+@endclass machine
+
+@class plant
+  > clover, clovers
+    - class green
+  > daisy, daisies
+  > dandelion, dandelions
+    - class yellow
+  > fern, ferns
+  > grass, grasses
+    - class green
+  > hedge, hedges
+  > maple tree, maple trees
+  > marigold, marigolds
+    - class orange
+  > pumpkin, pumpkins
+    - class orange
+  > stinging nettle, stinging nettles
+  > thistle, thistles
+  > tuber, tubers
+  > tulip, tulips
+@endclass plant
+
+@class shape
+  > circle, circles
+  > globe, globes
+  > great-stellated dodecahedron, great-stellated dodecahedrons
+  > oval, ovals
+  > square, squares
+  > triangle, triangles
+@endclass shape
+
+@class surface
+  > bedsheet, bedsheets
+  > carpet, carpets
+  > ceiling, ceilings
+  > door, doors
+  > facade, facades
+  > floor, floors
+  > patio, patios
+  > roof, roofs
+  > tabletop, tabletops
+  > wall, walls
+  > wall, walls
+    - class architecture, vertical
+  > window, windows
+@endclass surface
+
+@class tool
+  @class weapon
+    > bomb, bombs
+    > chainsaw, chainsaws
+    > crosscut saw, crosscut saws
+    > flamethrower, flamethrowers
+      - class long
+    > fork, forks
+      - class long
+    > lawn mower, lawn mowers
+    > machete, machetes
+      - class long
+    > pickaxe, pickaxes
+    > pike, pikes
+    > pistol, pistols
+    > pitchfork, pitchforks
+      - class long
+    > spear, spears
+      - class long
+    > stapler, staplers
+    > stun gun, stun guns
+    > sword, swords
+      - class long
+  @endclass weapon
+
+  > allen wrench, allen wrenches
+    - class long
+  > bicycle pump, bicycle pumps
+    - class long
+  > blender, blenders
+  > camera, cameras
+  > can opener, can openers
+  > cattle prod, cattle prods
+  > Chemnitzer concertina, Chemnitzer concertinas
+    - class instrument
+  > cosmotron, cosmotrons
+  > crucible, crucibles
+    - class container
+  > drug, drugs
+  > firecracker, firecrackers
+  > hacksaw, hacksaws
+  > hair dryer, hair driers
+    - class grooming, machine
+  > hairbrush, hairbrushes
+    - class grooming
+  > iron maiden, iron maidens
+  > jockstrap, jockstraps
+  > ladder, ladders
+  > leaf blower, leaf blowers
+  > loincloth, loincloths
+  > microscope, microscopes
+  > nutcracker, nutcrackers
+  > pan, pans
+  > phone, phones
+  > pot, pots
+  > robot, robots
+  > rumpus, rumpuses
+  > shopping cart, shopping carts
+  > sledgehammer, sledgehammers
+  > squeegee, squeegees
+  > thermometer, thermometers
+    - class long
+  > vacuum, vacuums
+@endclass tool
+
+@class uncountable
+  @class liquid
+    > acid, acids
+    > beer, beers
+      - class alcoholic
+    > bleach, bleaches
+    > cream, creams
+    > diarrhea, diarrhea
+    > earwax, earwax
+      - class yellow
+    > grease, greases
+    > lotion, lotions
+    > oil, oils
+    > olive oil, olive oil
+    > pudding, puddings
+    > rain, rains
+    > saliva, saliva
+    > sauce, sauces
+    > slime, slime
+    > snot, snots
+    > soap, soaps
+    > soup, soups
+    > sweat, sweats
+    > tar, tar
+    > toothpaste, toothpastes
+    > urine, urine
+      - class yellow
+    > vodka, vodka
+      - class alcoholic
+    > water, water
+    > wine, wines
+      - class alcoholic
+    > yogurt, yogurts
+  @endclass liquid
+
+  > lemonade, lemonades
+    - class beverage
+  > manure, manure
+@endclass uncountable
+
+@class vehicle
+  > aircraft carrier, aircraft carriers
+  > airplane, airplanes
+  > articulated bus, articulated buses
+    - class articulated, bus, flexible, long
+  > bicycle, bicycles
+  > blimp, blimps
+  > boat, boats
+  > car, cars
+  > fire engine, fire engines
+    - class red
+  > hot rod, hot rods
+  > minivan, minivans
+  > motorcycle, motorcycles
+  > semi, semis
+  > submarine, submarines
+  > train, trains
+  > truck, trucks
+@endclass vehicle
+
+@class weapon
+  > brick, bricks
+  > bullet, bullets
+  > cleat, cleats
+  > dagger, daggers
+  > dynamite, dynamites
+    - class bomb, explosive, long
+  > horsewhip, horsewhips
+    - class tool
+  > lampstand, lampstands
+  > musket, muskets
+  > nail, nails
+  > needle, needles
+  > pipe, pipes
+  > razor, razors
+    - class tool
+  > shotgun, shotguns
+    - class long
+  > wheelbarrow, wheelbarrows
+    - class tool
+@endclass weapon
+
+> aileron, ailerons
+  - class articulated, aviation
+> anthill, anthills
+> asymptote, asymptotes
+> bald eagle, bald eagles
+  - class bird, eagle
+> banjo, banjos
+  - class instrument, music
+> battery, batteries
+> bingo, bingos
+> booger, boogers
+  - class green
+> book, books
+> boxcar, boxcars
+  - class train
+> bulge, bulges
+> butt joint, butt joints
+> button, buttons
+> buttonhole, buttonholes
+> caboose, cabooses
+> candy cane, candy canes
+> canister, canisters
+> carcass, carcasses
+> card, cards
+> carpet, carpets
+> cassette tape, cassette tapes
+> cement, cement
+> cinder block, cinder blocks
+  - class hard
+> clock, clocks
+> coaster, coasters
+> cockade, cockades
+> cocktail, cocktails
+  - class alcoholic, beverage
+> constitution, constitutions
+> cork, corks
+> county, counties
+  - class geo
+> cramp, cramps
+> credit card, credit cards
+> cuckoo, cuckoos
+> delicacy, delicacies
+> diaper, diapers
+> dictionary, dictionaries
+> dingleberry, dingleberries
+> diode, diodes
+> disco ball, disco balls
+> dishrag, dishrags
+> doll, dolls
+  - class toy
+> doodle, doodles
+> duct tape, duct tape
+> earwax, earwax
+> enigma, enigmas
+> eraser, erasers
+> facet, facets
+> fan, fans
+> fart, farts
+> feces, feces
+> fetus, fetuses
+> fissure, fissures
+  - class feature, hole
+> flapjack, flapjacks
+> fog, fogs
+> football, footballs
+> frosting, frostings
+> fulcrum, fulcrums
+> garden, gardens
+> gas giant, gas giants
+  - class astronomy
+> ghost, ghosts
+> giblet, giblets
+> goiter, goiters
+  - class growth
+> hematoma, hematomas
+  - class growth
+> hemorroid, hemorroids
+> hole, holes
+> hubcap, hubcaps
+> jelly bean, jelly beans
+> joint, joints
+> kettle, kettles
+> keyboard, keyboards
+> kite, kites
+> laptop, laptops
+  - class tool
+> leaf, leaves
+> loaf, loaves
+> log, logs
+> lube, lubes
+> lump, lumps
+> magnifying glass, magnifying glasses
+> manhole, manholes
+  - class hole
+> mask, masks
+> meme, memes
+  - class culture, dank, internet
+> mirror, mirrors
+> mohawk, mohawks
+  - class hair, hairstyle
+> moist towelette, moist towelettes
+> money, money
+> monster, monsters
+> mortgage, mortgages
+  - class finance
+> nerd, nerds
+> nickel, nickels
+> notebook, notebooks
+  - class paper
+> ointment, ointments
+> papaya, papayas
+  - class fruit
+> pedestrian, pedestrians
+> peninsula, peninsulas
+  - class geographical
+> pizza, pizzas
+> plug, plugs
+> pope, popes
+> proxy, proxies
+> puppet, puppets
+  - class toy
+> pylon, pylons
+> rabies, rabies
+  - class disease
+> radish, radishes
+  - class red, vegetable
+> ragamuffin, ragamuffins
+> raisin, raisins
+> ridge, ridges
+> rock, rocks
+  - class natural
+> rotisserie, rotisseries
+> rubber, rubbers
+> scab, scabs
+> scuba, scubas
+> shrub, shrubs
+> shuttlecock, shuttlecocks
+> snorkel, snorkels
+  - class diving, equipment
+> sofa, sofas
+> sponge, sponges
+> stone, stones
+> stop sign, stop signs
+  - class regulatory, sign, traffic
+> swag, swag
+  - class culture
+> tampon, tampons
+> tea bag, tea bags
+> teddy bear, teddy bears
+  - class toy
+> tire, tires
+> towel, towels
+> towelette, towelettes
+> treasure, treasures
+> truth, truths
+  - class abstract
+> tuba, tubas
+  - class brass, instrument
+> urinal, urinals
+  - class white
+> ventricle, ventricles
+> wedgie, wedgies
+  - class act, violent
+> wig, wigs
+  - class artificial, hair
+> wool, wool
+> wrinkle, wrinkles
+  - class feature
