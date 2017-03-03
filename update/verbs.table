@@ -431,7 +431,7 @@
 	> sleepwalk, sleepwalking, sleepwalked, sleepwalks, sleepwalker, sleepwalked, sleepwalking, sleepwalkings
 	> slouch, slouching, slouched, slouches, sloucher, slouched, slouching, slouchings
 	> snoop, snooping, snooped, snoops, snooper, snooped, snooping, snoopongs
-	- class transitive
+		- class transitive
 	> sprint, sprinting, sprinted, sprints, sprinter, sprinted, sprinting, sprintongs
 	> stampede, stampeding, stampeded, stampedes, stampeder, stampeded, stampeding, stampedeings
 	> strut, strutting, strutted, struts, strutter, strutted, strutting, struttings
@@ -474,20 +474,26 @@
 > ride, riding, rode, rides, rider, ridden, riding, ridings
 	- class transitive
 > spelunk, spelunking, spelunked, spelunks, spelunker, spelunked, spelunking, spelunkings
+	- class intransitive
 > toast, toasting, toasted, toasts, toaster, toasted, toasting, toastings
 	- class transitive, heat
 > want, wanting, wanted, wants, wanter, wanted, want, wants
 	- class like
 > whisper, whispering, whispered, whispers, whisperer, whispered, whispering, whisperings
 	- class dative, speech
-> set [] on fire, setting [] on fire, set [] on fire, sets [] on fire, burner, ignited, burning, burnings
+> set + on fire, setting + on fire, set + on fire, sets + on fire, burner, ignited, burning, burnings
 	- class transitive, fire, heat, destructive
 > make fun of, making fun of, made fun of, makes fun of, ridiculer, ridiculed, ridiculing, ridiculings
+	- class transitive
 > fall apart, falling apart, fell apart, falls apart, fragile one, fallen apart, falling-apart, fallings-apart
 	- class intransitive, destructive, passive
-> knock [] out, knocking [] out, knocked [] out, knocks [] out, knocker-outer, knocked-out, knockout, knockouts
+> knock + out, knocking + out, knocked + out, knocks + out, knocker-outer, knocked-out, knockout, knockouts
 	- class transitive, violent
-> cut [] in half, cutting [] in half, cut [] in half, cuts [] in half, cutter, halved, cutting, cuttings
+> cut + in half, cutting + in half, cut + in half, cuts + in half, cutter, halved, cutting, cuttings
 	- class transitive, destructive, deadly
-> run [] over, running [] over, ran [] over, runs [] over, crusher, run-over, hit-and-run, hit-and-runs
+> run + over, running + over, ran + over, runs + over, crusher, run-over, hit-and-run, hit-and-runs
 	- class transitive, violent, destructive, deadly
+> put up with, putting up with, put up with, puts up with, tolerator, tolerated, toleration, tolerations
+	- class transitive, prep, tolerate
+> run after, running after, ran after, runs after, pursuer, pursued, pursuit, pursuits
+	- class transitive, prep, pursue, move
