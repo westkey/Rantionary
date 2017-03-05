@@ -2,15 +2,15 @@
 
 @class game, sport
     > baseball
-      - pron b\"eIsb\"Ol
+      - pron b\"eIs b\"Ol
     > basketball
-      - pron b\"{skVtb%Ol
+      - pron b\"{ skVt b%Ol
     > football
-      - pron f\"Utb%Ol
+      - pron f\"Ut b%Ol
     > golf
       - pron g\"Olf
     > soccer
-      - pron s\"Ak3`
+      - pron s\"A k3`
     > tennis
-      - pron t\"EnIs
+      - pron t\"E nIs
 @endclass

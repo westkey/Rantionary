@@ -1,0 +1,22 @@
+@name advattr
+
+> really
+    - class great
+> very
+    - class great
+> quite
+    - class great
+> extremely
+    - class great
+> considerably
+    - class great
+> certainly
+    - class normal
+> outstandingly
+    - class great
+> excessively
+    - class excess
+> too
+    - class excess
+> so 
+    - class great

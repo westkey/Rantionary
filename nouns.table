@@ -2,6 +2,8 @@
 @sub singular, sg
 @sub plural, pl
 
+@hide uc, proper
+
 @class ball
   > baseball, baseballs
   > basketball, basketballs
@@ -616,7 +618,6 @@
     > politician, politicians
     > pope, popes
     > president, presidents
-    > president, presidents
       - class political
     > prince, princes
     > princess, princesses
@@ -910,45 +911,99 @@
   > vacuum, vacuums
 @endclass tool
 
-@class uncountable
+@class uc
   @class liquid
-    > acid, acids
-    > beer, beers
+    > acid,
+    > beer,
       - class alcoholic
-    > bleach, bleaches
-    > cream, creams
-    > diarrhea, diarrhea
-    > earwax, earwax
+    > bleach,
+    > cream,
+    > diarrhea,
+    > earwax,
       - class yellow
-    > grease, greases
-    > lotion, lotions
-    > oil, oils
-    > olive oil, olive oil
-    > pudding, puddings
-    > rain, rains
-    > saliva, saliva
-    > sauce, sauces
-    > slime, slime
-    > snot, snots
-    > soap, soaps
-    > soup, soups
-    > sweat, sweats
-    > tar, tar
-    > toothpaste, toothpastes
-    > urine, urine
+    > grease,
+    > lotion,
+    > oil,
+    > olive oil,
+    > pudding,
+    > rain,
+    > saliva,
+    > sauce,
+    > slime,
+    > snot,
+    > soap,
+    > soup,
+    > sweat,
+    > tar,
+    > toothpaste,
+    > urine,
       - class yellow
-    > vodka, vodka
+    > vodka,
       - class alcoholic
-    > water, water
-    > wine, wines
+    > water,
+    > wine,
       - class alcoholic
-    > yogurt, yogurts
+    > yogurt,
+    > lemonade,
+      - class beverage
   @endclass liquid
+  
+  > manure,
+    - class poop
+  > money,
+    - class currency
 
-  > lemonade, lemonades
-    - class beverage
-  > manure, manure
-@endclass uncountable
+  @class emotion
+    > anger,
+    > anticipation,
+    > awe,
+    > bewilderment,
+    > bliss,
+    > boredom,
+    > confusion,
+    > contempt,
+    > contentment,
+    > despair,
+    > disappointment,
+    > ecstasy,
+    > envy,
+    > excitement,
+    > fright,
+    > fury,
+    > gratitude,
+    > guilt,
+    > happiness,
+    > hatred,
+    > horror,
+    > humility,
+    > hunger,
+    > interest,
+    > irritation,
+    > joy,
+    > longing,
+    > love,
+    > lust,
+    > madness,
+    > melancholy,
+    > optimism,
+    > pain,
+    > passion,
+    > pity,
+    > pleasure,
+    > pride,
+    > rage,
+    > remorse,
+    > sadness,
+    > satisfaction,
+    > shame,
+    > shock,
+    > smugness,
+    > sorrow,
+    > surprise,
+    > terror,
+    > torment,
+  @endclass
+@endclass
 
 @class vehicle
   > aircraft carrier, aircraft carriers
@@ -1051,6 +1106,7 @@
 > fan, fans
 > fart, farts
 > feces, feces
+  - class poop
 > fetus, fetuses
 > fissure, fissures
   - class feature, hole
@@ -1072,9 +1128,12 @@
 > hole, holes
 > hubcap, hubcaps
 > jelly bean, jelly beans
+  - class food
 > joint, joints
+  - class body
 > kettle, kettles
 > keyboard, keyboards
+  - class tool
 > kite, kites
 > laptop, laptops
   - class tool
@@ -1093,7 +1152,6 @@
 > mohawk, mohawks
   - class hair, hairstyle
 > moist towelette, moist towelettes
-> money, money
 > monster, monsters
 > mortgage, mortgages
   - class finance
@@ -1160,3 +1218,213 @@
 > wool, wool
 > wrinkle, wrinkles
   - class feature
+
+@class color
+  > red, reds
+  > orange, oranges
+  > yellow, yellows
+  > green, greens
+  > turquoise, turquoises
+  > teal, teals
+  > cyan, cyans
+  > aqua, aquas
+  > blue, blues
+  > pink, pinks
+  > violet, violets
+  > purple, purples
+  > puce, puces
+  > crimson, crimsons
+  > magenta, magentas
+  > brown, browns
+  > white, whites
+  > black, blacks
+  > gray, grays
+@endclass
+
+@class sound
+  > bang, bangs
+  > beep, beeps
+  > boom, booms
+  > clang, clangs
+  > crack, cracks
+  > crash, crashes
+  > flap, flaps
+  > flutter, flutters
+  > foom, fooms
+  > note, notes
+  > pop, pops
+  > pound, pounds
+  > rap, raps
+  > roar, roars
+  > rumble, rumbles
+  > scrape, scrapes
+  > screech, screeches
+  > shatter, shatters
+  > shudder, shudders
+  > slap, slaps
+  > squeal, squeals
+  > squelch, squelches
+  > swoosh, swooshes
+  > tap, taps
+  > thump, thumps
+  > tick, ticks
+  > toot, toots
+  > wail, wails
+@endclass
+
+@class faceexp
+  > blank face, blank faces
+  > cheeky grin, cheeky grins
+    - class grin
+  > evil grin, evil grins
+    - class grin
+  > frown, frowns
+  > grimace, grimaces
+  > grin, grins
+  > poker face, poker faces
+  > pout lip, pout lips
+  > pucker, puckers
+  > smile, smiles
+  > smirk, smirks
+  > snarl, snarls
+  > sneer, sneers
+  > snicker, snickers
+  > toothy grin, toothy grins
+    - class grin
+  > trollface, trollfaces
+  > visage, visages
+@endclass
+
+@class place
+  @class indoor
+    @class building
+      > asylum, asylums
+      > bar, bars
+      > barn, barns
+      > bomb shelter, bomb shelters
+      > castle, castles
+      > church, churches
+      > coffeeshop, coffeeshops
+      > conservatory, conservatories
+      > cottage, cottages
+      > courthouse, courthouses
+      > distillery, distilleries
+      > factory, factories
+      > firehouse, firehouses
+      > fort, forts
+      > funeral home, funeral homes
+      > greenhouse, greenhouses
+      > homeless shelter, homeless shelters
+      > hospital, hospitals
+      > hostel, hostels
+      > hotel, hostels
+      > jail, jails
+      > laboratory, laboratories
+      > library, libraries
+      > mall, malls
+      > mansion, mansions
+      > morgue, morgues
+      > nightclub, nightclubs
+      > nursery, nurseries
+      > outhouse, outhouses
+      > palace, palaces
+      > post office, post offices
+      > prison, prisons
+      > pub, pubs
+      > safehouse, safehouses
+      > school, schools
+      > shack, shacks
+      > shanty, shanties
+      > stable, stables
+      > stadium, stadiums
+      > store, stores
+      > studio, studios
+      > tent, tents
+      > theater, theaters
+      > tomb, tombs
+      > tower, towers
+      > warehouse, warehouses
+    @endclass building
+
+    @class natural
+      > cave, caves
+      > forest, forests
+      > land, lands
+      > meadow, meadows
+      > nest, nests
+    @endclass natural
+
+    > abyss, abysses
+    > alley, alleys
+    > ambulance, ambulances
+    > apartment, apartments
+    > arcade, arcades
+    > attic, attics
+    > bank, banks
+    > basement, basements
+    > bathroom, bathrooms
+    > bedroom, bedrooms
+    > boat, boats
+    > bus, buses
+    > cage, cages
+    > car, cars
+    > carnival, carnivals
+    > classroom, classrooms
+    > closet, closets
+    > company, companies
+    > dispensary, dispensaries
+    > dungeon, dungeons
+    > festival, festivals
+    > firetruck, firetrucks
+    > garage, garages
+    > garden, gardens
+    > house, houses
+    > kitchen, kitchens
+    > office, offices
+    > opera, operas
+    > port-a-potty, port-a-potties
+    > ring, rings
+    > sanctuary, sanctuaries
+    > sauna, saunas
+    > shop, shops
+    > skyway, skyways
+    > stand, stands
+    > station, stations
+    > town, towns
+    > trailer, trailers
+    > van, vans
+    > wonderland, wonderlands
+  @endclass indoor
+
+  @class outdoor
+    @class natural
+      > beach, beaches
+      > crater, craters
+      > ditch, ditches
+      > grassy plain, grassy plains
+      > hill, hills
+      > hilltop, hilltops
+      > island, islands
+      > lakeside, lakesides
+      > mountain, mountains
+      > valley, valleys
+      > volcano, volcanoes
+      > wasteland, wastelands
+    @endclass natural
+
+    > amusement park, amusement parks
+    > battlefield, battlefields
+    > cemetery, cemeteries
+    > dance floor, dance floors
+    > farm, farms
+    > field, fields
+    > graveyard, graveyards
+    > highway, highways
+    > park, parks
+    > playground, playgrounds
+    > railroad, railroads
+    > road, roads
+    > rooftop, rooftops
+    > street, streets
+  @endclass outdoor
+@endclass
