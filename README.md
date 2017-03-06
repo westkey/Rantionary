@@ -10,8 +10,6 @@ The latest .rantpkg build can be downloaded from [AppVeyor](https://ci.appveyor.
 
 To learn the Rant dictionary file format, see [the official Rant dictionary guide](https://github.com/RantLang/DictionaryGuide).
 
-Some tables use Diffmark to save space and make entries more readable. Read about Diffmark [here](https://github.com/TheBerkin/Diffmark/blob/master/README.md).
-
 ##Contribute
 
 **Contributions are welcome.** I love new words! If you want to add something, be it big or small, send a pull request and I'll get to it within a couple days at the most.
