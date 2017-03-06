@@ -497,3 +497,94 @@
 	- class transitive, prep, tolerate
 > run after, running after, ran after, runs after, pursuer, pursued, pursuit, pursuits
 	- class transitive, prep, pursue, move
+
+@class intransitive, visual
+	> blacken, blackening, blackened, blackens, blackener, blackened, blackening, blackenings
+	> bleed, bleeding, bled, bleeds, bleeder, bled, bleeding, bleedings
+	> bloat, bloating, bloated, bloats, bloater, bloated, bloating, bloatings
+	> bloom, blooming, bloomed, blooms, bloomer, bloomed, bloom, blooms
+	> blossom, blossoming, blossomed, blossoms, blossomer, blossomed, blossoming, blossomings
+	> bubble, bubbling, bubbled, bubbles, bubbler, bubbled, bubbling, bubblings
+	> burn, burning, burned, burns, burner, burnt, burning, burnings
+	> churn, churning, churned, churns, churner, churned, churn, churns
+	> crack, cracking, cracked, cracks, cracker, cracked, crack, cracks
+	> crumple, crumpling, crumpled, crumples, crumpler, crumpled, crumple, crumples
+	> darken, darkening, darkened, darkens, darkener, darkened, darkening, darkenings
+	> fester, festering, festered, festers, festerer, festered, festering, festerings
+	> fizz, fizzing, fizzed, fizzes, fizzer, fizzed, fizz, fizzes
+	> flap, flapping, flapped, flaps, flapper, flapped, flap, flaps
+	> flash, flashing, flashed, flashes, flasher, flashed, flash, flashes
+	> flutter, fluttering, fluttered, flutters, flutterer, fluttered, flutter, flutters
+	> froth, frothing, frothed, froths, frother, frothed, frothing, frothings
+	> gleam, gleaming, gleamed, gleams, gleamer, gleamed, gleam, gleams
+	> glow, glowing, glowed, glows, glower, glowed, glow, glows
+	> grow, growing, grew, grows, grower, grown, growth, growths
+	> harden, hardening, hardened, hardens, hardener, hardened, hardening, hardenings
+	> lighten, lightening, lightened, lightens, lightener, lightened, lightening, lightenings
+	> radiate, radiating, radiated, radiates, radiator, radiated, radiating, radiatings
+	> ripple, rippling, rippled, ripples, rippler, rippled, ripple, ripples
+	> rise, rising, rose, rises, riser, risen, rise, rises
+	> shake, shaking, shook, shakes, shaker, shaken, shake, shakes
+	> shimmer, shimmering, shimmered, shimmers, shimmerer, shimmered, shimmer, shimmers
+	> shine, shining, shone, shines, shiner, shined, shine, shines
+	> shiver, shivering, shivered, shivers, shiverer, shivered, shiver, shivers
+	> shrink, shrinking, shrunk, shrinks, shrinker, shrunken, shrinking, shrinkings
+	> shudder, shuddering, shuddered, shudders, shudderer, shuddered, shudder, shudders
+	> smolder, smoldering, smoldered, smolders, smolderer, smoldered, smoldering, smolderings
+	> soften, softening, softened, softens, softener, softened, softening, softenings
+	> sparkle, sparkling, sparkled, sparkles, sparkler, sparkled, sparkle, sparkles
+	> steam, steaming, steamed, steams, steamer, steamed, steaming, steamings
+	> twinkle, twinkling, twinkled, twinkles, twinkler, twinkled, twinkle, twinkles
+	> twist, twisting, twisted, twists, twister, twisted, twist, twists
+	> wave, waving, waved, waves, waver, waved, wave, waves
+	> whiten, whitening, whitened, whitens, whitener, whitened, whitening, whitenings
+	> wiggle, wiggling, wiggled, wiggles, wiggler, wiggled, wiggle, wiggles
+	> wilt, wilting, wilted, wilts, wilter, wilted, wilting, wiltings
+@endclass
+
+@class speech
+	@class loud
+	> bawl, bawling, bawled, bawls, bawler, bawled, bawling, bawlings
+	> cackle, cackling, cackled, cackles, cackler, cackled, cackling, cacklings
+	> cry, crying, cried, cries, cryer, cried, cry, cries
+	> hoot, hooting, hooted, hoots, hooter, hooted, hoot, hoots
+	> roar, roaring, roared, roars, roarer, roared, roar, roars
+	> scream, screaming, screamed, screams, screamer, screamed, scream, screams
+	> shout, shouting, shouted, shouts, shouter, shouted, shout, shouts
+	> shriek, shrieking, shrieked, shrieks, shrieker, shrieked, shriek, shrieks
+	> snap, snapping, snapped, snaps, snapper, snapped, snap, snaps
+	> squeal, squealing, squealed, squeals, squealer, squealed, squeal, squeals
+	> wail, wailing, wailed, wails, wailer, wailed, wail, wails
+	> yell, yelling, yelled, yells, yeller, yelled, yell, yells
+	@endclass loud
+
+	@class quiet
+	> breathe, breathing, breathed, breathes, breather, breathed, breath, breaths
+	> croak, croaking, croaked, croaks, croaker, croaked, croak, croaks
+	> hiss, hissing, hissed, hisses, hisser, hissed, hiss, hisses
+	> mumble, mumbling, mumbled, mumbles, mumbler, mumbled, mumble, mumbles
+	> mutter, muttering, muttered, mutters, mutterer, muttered, muttering, mutterings
+	> whimper, whimpering, whimpered, whimpers, whimperer, whimpered, whimper, whimpers
+	> whisper, whispering, whispered, whispers, whisperer, whispered, whisper, whispers
+	@endclass quiet
+
+	> announce, announcing, announced, announces, announcer, announced, announcement, accouncements
+	> beep, beeping, beeped, beeps, beeper, beeped, beep, beeps
+	> burp, burping, burped, burps, burper, burped, burp, burps
+	> call, calling, called, calls, caller, called, call, calls
+	> declare, declaring, declared, declares, declarer, declared, declaration, declarations
+	> ejaculate, ejaculating, ejaculated, ejaculates, ejaculator, ejaculated, ejaculation, ejaculations
+	> exclaim, exclaiming, exclaimed, exclaims, exclaimer, exclaimed, exclamation, exclamations
+	> grunt, grunting, grunted, grunts, grunter, grunted, grunt, grunts
+	> laugh, laughing, laughed, laughs, laugher, laughed, laugh, laughs
+	> moan, moaning, moaned, moans, moaner, moaned, moan, moans
+	> say, saying, said, says, sayer, said, saying, sayings
+	> screech, screeching, screeched, screeches, screecher, screeched, screech, screeches
+	> shoot, shooting, shot, shoots, shooter, shot, shot, shots
+	> snicker, snickering, snickered, snickers, snickerer, snickered, snicker, snickers
+	> snort, snorting, snorted, snorts, snorter, snorted, snort, snorts
+	> spit, spitting, spat, spits, spitter, spat, spitting, spittings
+	> squelch, squelching, squelched, squelches, squelcher, squelched, squelch, squelches
+	> swear, swearing, swore, swears, swearer, sworn, swearing, swearings
+	> whine, whining, whined, whines, whiner, whined, whine, whines
+@endclass

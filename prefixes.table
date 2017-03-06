@@ -1,0 +1,46 @@
+@name prefix
+
+@class position
+  > endo
+  > extra
+  > intra
+  > mid
+  > over
+  > post
+  > pre
+  > under
+@endclass
+
+@class quantity
+  > bi
+  > mono
+  > octo
+  > penta
+  > quad
+  > tri
+@endclass
+
+> a
+> anti
+> auto
+> circum
+> contra
+> exo
+> fore
+> homo
+> hyper
+> in
+> mega
+> mini
+> mis
+> non
+> omni
+> pseudo
+> psycho
+> pyro
+> semi
+> sub
+> super
+> trans
+> un
+> uni
