@@ -1,0 +1,17 @@
+@name pro
+@sub nominative, nom
+@sub accusative, acc, dative, dat
+@sub reflexive, ref, rx, self
+@sub dposs
+@sub iposs
+
+> he, him, himself, his, his
+  - class male, singular
+> she, her, herself, her, hers
+  - class female, singular
+> they, them, themselves, their, theirs
+  - class plural
+> they, them, themselves, their, theirs
+  - class singular, male?, female?, neutral
+> it, it, itself, its, its
+  - class singular, neuter

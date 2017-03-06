@@ -1428,3 +1428,128 @@
     > street, streets
   @endclass outdoor
 @endclass
+
+@class relationship
+  @class female
+    > aunt, aunts
+    > daddy, daddies
+    > daughter, daughters
+    > girl, girls
+    > girlfriend, girlfriends
+    > granddaughter, granddaughters
+    > grandma, grandmas
+    > mommy, mommies
+    > mother, mothers
+    > sister, sisters
+    > stepmother, stepmothers
+    > wife, wives
+    > woman, women
+  @endclass female
+
+  @class male
+    > boy, boys
+    > boyfriend, boyfriends
+    > brother, brothers
+    > father, fathers
+    > godfather, godfathers
+    > grandpa, grandpas
+    > grandson, grandsons
+    > husband, husbands
+    > man, men
+    > son, sons
+    > stepfather, stepfathers
+    > uncle, uncles
+  @endclass male
+
+  @class neutral
+    > baby, babies
+    > boss, bosses
+    > buddy, buddies
+    > child, children
+    > colleague, colleagues
+    > cousin, cousins
+    > fella, fellas
+    > friend, friends
+    > master, masters
+  @endclass neutral
+@endclass
+
+@class time
+  @class dayofweek
+    > Friday, Fridays
+    > Monday, Mondays
+    > Saturday, Saturdays
+    > Sunday, Sundays
+    > Thursday, Thursdays
+    > Tuesday, Tuesdays
+    > Wednesday, Wednesdays
+  @endclass dayofweek
+
+  @class holiday
+    > Black Friday, Black Fridays
+    > Boxing Day, Boxing Days
+    > Christmas, Christmasses
+    > Easter, Easters
+    > Father's Day, Father's Days
+    > Groundhog Day, Groundhog Days
+    > Halloween, Halloweens
+    > Hanukkah, Hanukkahs
+    > Kwanzaa, Kwanzaas
+    > Labor Day, Labor Days
+    > Labor Day, Labor Days
+    > Mother's Day, Mother's Days
+    > New Year's Day, New Year's Days
+    > New Year's Eve, New Year's Eves
+    > Thanksgiving, Thanksgivings
+    > Valentine's Day, Valentine's Days
+  @endclass holiday
+
+  @class month
+    > April, Aprils
+    > August, Augusts
+    > December, Decembers
+    > February, Februaries
+    > January, Januaries
+    > July, Julies
+    > June, Junes
+    > March, Marches
+    > May, Mays
+    > November, Novembers
+    > October, Octobers
+    > September, Septembers
+  @endclass month
+
+  @class timeofday
+    > afternoon, afternoons
+    > dawn, dawns
+    > day, days
+    > dusk, dusks
+    > evening, evenings
+    > midnight, midnights
+    > morning, mornings
+    > night, nights
+    > noon, noons
+  @endclass timeofday
+@endclass
+
+@class quality
+  @class human
+    > age, ages
+    > ethnicity, ethnicities
+    > gender, genders
+    > races, races
+  @endclass
+  
+  @class physical
+    > color, colors
+    > force, forces
+    > girth, girths
+    > height, heights
+    > width, widths
+    > length, lengths
+    > luminosity, luminosities
+    > size, sizes
+    > speed, speeds
+    > weight, weights
+  @endclass
+@endclass
