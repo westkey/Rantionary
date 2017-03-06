@@ -17,7 +17,7 @@
           - class director, jewish, writer
         > Natalie Portman, Natalie, Portman
           - class director, jewish
-      @endclass producer
+      @endclass
 
       > Emma Stone, Emma, Stone
       > Jessica Alba, Jessica, Alba
@@ -30,13 +30,13 @@
         - class singer, songwriter
       > Scarlett Johansson, Scarlett, Johansson
         - class model, singer
-    @endclass actor
+    @endclass
 
     > Hillary Clinton, Hillary, Clinton
       - class politician
-  @endclass female
+  @endclass
 
-@endclass american
+@endclass
 
 @class male
   @class actor
@@ -112,7 +112,7 @@
       - class american, comedian, director, jewish, playwright, writer
     > Zac Effron, Zac, Effron
       - class american, jewish, singer
-  @endclass actor
+  @endclass
 
   > 50 Cent, 50, Cent
     - class american, musician, singer, songwriter
@@ -138,7 +138,7 @@
     - class american, british, guitarist, musician, producer, songwriter
   > Trent Reznor, Trent, Reznor
     - class american, composer, producer, singer, songwriter
-@endclass male
+@endclass
 
 > Emma Watson, Emma, Watson
   - class activist, actor, british, female, model

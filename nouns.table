@@ -15,7 +15,7 @@
     - class food
   > tennis ball, tennis balls
     - class green
-@endclass ball
+@endclass
 
 @class body
   @class head
@@ -33,7 +33,7 @@
         - class nose
       > snout, snouts
       > unibrow, unibrows
-    @endclass face
+    @endclass
 
     > afro, afros
     > chin, chins
@@ -48,7 +48,7 @@
       - class long, mouth
     > uvula, uvulas
       - class mouth
-  @endclass head
+  @endclass
 
   @class organ
     > gallbladder, gallbladders
@@ -57,7 +57,7 @@
       - class round
     > lung, lungs
     > pancreas, pancreases
-  @endclass organ
+  @endclass
 
   > armpit, armpits
   > body, bodies
@@ -100,7 +100,7 @@
     - class long
   > whisker, whiskers
     - class face, hair
-@endclass body
+@endclass
 
 @class clothing
   > Bavarian hat, Bavarian hats
@@ -130,7 +130,7 @@
   > underwear, underwear
   > vest, vests
   > zipper, zippers
-@endclass clothing
+@endclass
 
 @class container
   > teapot, teapots
@@ -194,7 +194,7 @@
   > vial, vials
   > wallet, wallets
   > well, wells
-@endclass container
+@endclass
 
 @class currency
   @class american
@@ -206,13 +206,13 @@
       - class coin, tender
     > quarter, quarters
       - class coin, tender
-  @endclass american
+  @endclass
 
   > euro, euros
     - class european
   > dollar, dollars
     - class american
-@endclass currency
+@endclass
 
 @class drug
   > bath salts, bath salts
@@ -231,7 +231,7 @@
   > smack, smack
   > vaccine, vaccines
     - class medical
-@endclass drug
+@endclass
 
 @class food
   @class fruit
@@ -243,7 +243,7 @@
       > tomato, tomatoes
       > watermelon, watermelons
         - class green
-    @endclass red
+    @endclass
 
     > apricot, apricots
     > blueberry, blueberries
@@ -266,7 +266,7 @@
     > prune, prunes
     > tangerine, tangerines
       - class orange
-  @endclass fruit
+  @endclass
 
   @class sweet
     @class confection
@@ -280,12 +280,12 @@
         > truffle, truffles
           - class chocolate
         > Turkish Delight, Turkish Delights
-      @endclass candy
+      @endclass
 
       > sweetmeat, sweetmeats
-    @endclass confection
+    @endclass
 
-  @endclass sweet
+  @endclass
 
   @class vegetable
     > avocado, avocados
@@ -295,7 +295,7 @@
     > spinach, spinach
       - class green
     > turnip, turnips
-  @endclass vegetable
+  @endclass
 
   > almond, almonds
   > biscuit, biscuits
@@ -330,7 +330,7 @@
   > sugar cube, sugar cubes
   > waffle, waffles
   > walnut, walnuts
-@endclass food
+@endclass
 
 @class furniture
   > bed, beds
@@ -352,7 +352,7 @@
   > stool, stools
   > table, tables
     - class surface
-@endclass furniture
+@endclass
 
 @class household
   @class appliance
@@ -373,16 +373,16 @@
       > stove, stoves
       > toaster, toasters
       > waffle iron, waffle irons
-    @endclass kitchen
+    @endclass
 
     > curling iron, curling irons
     > flatiron, flatirons
     > sewing machine, sewing machines
-  @endclass appliance
+  @endclass
 
   > butter dish, butter dishes
   > doorknob, doorknobs
-@endclass household
+@endclass
 
 @class living
   @class animal
@@ -402,7 +402,7 @@
         > penguin, penguins
         > rockhopper penguin, rockhopper penguins
         > yellow-eyed penguin, yellow-eyed penguins
-      @endclass penguin
+      @endclass
 
       > bird, birds
       > bluebird, bluebirds
@@ -432,7 +432,7 @@
       > turkey, turkeys
       > vulture, vultures
       > woodpecker, woodpeckers
-    @endclass bird
+    @endclass
 
     @class dog
       > basset hound, basset hounds
@@ -453,7 +453,7 @@
       > scottie, scotties
       > Shih-Tzu, Shih-Tzus
       > terrier, terriers
-    @endclass dog
+    @endclass
 
     @class fish
       > bass, basses
@@ -462,7 +462,7 @@
       > octopus, octopi
       > squid, squids
       > whale, whales
-    @endclass fish
+    @endclass
 
     @class insect
       > ant, ants
@@ -476,7 +476,7 @@
       > ladybug, ladybugs
       > locust, locusts
       > scarab beetle, scarab beetles
-    @endclass insect
+    @endclass
 
     @class mammal
       > baboon, baboons
@@ -509,7 +509,7 @@
       > weasel, weasels
       > yak, yaks
       > zebra, zebras
-    @endclass mammal
+    @endclass
 
     @class mythical
       > demon, demons
@@ -519,14 +519,14 @@
         - class green
       > sphinx, sphinxes
       > titan, titans
-    @endclass mythical
+    @endclass
 
     @class reptile
       > anaconda, anacondas
       > lizard, lizards
       > turtle, turtles
       > velociraptor, velociraptors
-    @endclass reptile
+    @endclass
 
     > butler, butlers
     > frog, frogs
@@ -550,7 +550,7 @@
     > wolf, wolves
     > xerus, xeruses
     > yeti, yetis
-  @endclass animal
+  @endclass
 
   @class job
     > accountant, accountants
@@ -655,7 +655,7 @@
     > waitress, waitresses
     > window washer, window washers
     > wizard, wizards
-  @endclass job
+  @endclass
 
   @class person
     @class adult
@@ -667,21 +667,21 @@
         - class male
       > woman, women
         - class female
-    @endclass adult
+    @endclass
 
     > baby, babies
       - class fruit
     > child, children
     > elf, elves
     > teen, teens
-  @endclass person
+  @endclass
 
   > Democrat, Democrats
     - class blue, party, political
   > Republican, Republicans
     - class party, political, red
   > zygote, zygotes
-@endclass living
+@endclass
 
 @class long
   @class tool
@@ -695,13 +695,13 @@
           - class pen
         > sharpie, sharpies
           - class marker
-      @endclass writing
+      @endclass
 
       > oil pastel, oil pastels
         - class pastel
       > paintbrush, paintbrushes
         - class brush, painting
-    @endclass drawing
+    @endclass
 
     > blowtorch, blowtorches
     > bunsen burner, bunsen burners
@@ -715,7 +715,7 @@
     > spoon, spoons
     > wand, wands
     > wrench, wrenches
-  @endclass tool
+  @endclass
 
   @class weapon
     > arrow, arrows
@@ -736,7 +736,7 @@
       - class tool
     > telephone pole, telephone poles
     > torch, torches
-  @endclass weapon
+  @endclass
 
   > banana, bananas
     - class food, fruit, yellow
@@ -788,7 +788,7 @@
   > tree, trees
   > turd, turds
   > umbrella, umbrellas
-@endclass long
+@endclass
 
 @class machine
   > copy machine, copy machines
@@ -798,7 +798,7 @@
     - class computer, office, pointing
   > printer, printers
     - class office, printing
-@endclass machine
+@endclass
 
 @class plant
   > clover, clovers
@@ -819,7 +819,7 @@
   > thistle, thistles
   > tuber, tubers
   > tulip, tulips
-@endclass plant
+@endclass
 
 @class shape
   > circle, circles
@@ -828,7 +828,7 @@
   > oval, ovals
   > square, squares
   > triangle, triangles
-@endclass shape
+@endclass
 
 @class surface
   > bedsheet, bedsheets
@@ -844,7 +844,7 @@
   > wall, walls
     - class architecture, vertical
   > window, windows
-@endclass surface
+@endclass
 
 @class tool
   @class weapon
@@ -869,7 +869,7 @@
     > stun gun, stun guns
     > sword, swords
       - class long
-  @endclass weapon
+  @endclass
 
   > allen wrench, allen wrenches
     - class long
@@ -909,7 +909,7 @@
   > thermometer, thermometers
     - class long
   > vacuum, vacuums
-@endclass tool
+@endclass
 
 @class uc
   @class liquid
@@ -946,7 +946,7 @@
     > yogurt,
     > lemonade,
       - class beverage
-  @endclass liquid
+  @endclass
   
   > manure,
     - class poop
@@ -1023,7 +1023,7 @@
   > submarine, submarines
   > train, trains
   > truck, trucks
-@endclass vehicle
+@endclass
 
 @class weapon
   > brick, bricks
@@ -1045,7 +1045,7 @@
     - class long
   > wheelbarrow, wheelbarrows
     - class tool
-@endclass weapon
+@endclass
 
 > aileron, ailerons
   - class articulated, aviation
@@ -1344,7 +1344,7 @@
       > tomb, tombs
       > tower, towers
       > warehouse, warehouses
-    @endclass building
+    @endclass
 
     @class natural
       > cave, caves
@@ -1352,7 +1352,7 @@
       > land, lands
       > meadow, meadows
       > nest, nests
-    @endclass natural
+    @endclass
 
     > abyss, abysses
     > alley, alleys
@@ -1394,7 +1394,7 @@
     > trailer, trailers
     > van, vans
     > wonderland, wonderlands
-  @endclass indoor
+  @endclass
 
   @class outdoor
     @class natural
@@ -1410,7 +1410,7 @@
       > valley, valleys
       > volcano, volcanoes
       > wasteland, wastelands
-    @endclass natural
+    @endclass
 
     > amusement park, amusement parks
     > battlefield, battlefields
@@ -1426,7 +1426,7 @@
     > road, roads
     > rooftop, rooftops
     > street, streets
-  @endclass outdoor
+  @endclass
 @endclass
 
 @class relationship
@@ -1444,7 +1444,7 @@
     > stepmother, stepmothers
     > wife, wives
     > woman, women
-  @endclass female
+  @endclass
 
   @class male
     > boy, boys
@@ -1459,7 +1459,7 @@
     > son, sons
     > stepfather, stepfathers
     > uncle, uncles
-  @endclass male
+  @endclass
 
   @class neutral
     > baby, babies
@@ -1471,7 +1471,7 @@
     > fella, fellas
     > friend, friends
     > master, masters
-  @endclass neutral
+  @endclass
 @endclass
 
 @class time
@@ -1483,7 +1483,7 @@
     > Thursday, Thursdays
     > Tuesday, Tuesdays
     > Wednesday, Wednesdays
-  @endclass dayofweek
+  @endclass
 
   @class holiday
     > Black Friday, Black Fridays
@@ -1502,7 +1502,7 @@
     > New Year's Eve, New Year's Eves
     > Thanksgiving, Thanksgivings
     > Valentine's Day, Valentine's Days
-  @endclass holiday
+  @endclass
 
   @class month
     > April, Aprils
@@ -1517,7 +1517,7 @@
     > November, Novembers
     > October, Octobers
     > September, Septembers
-  @endclass month
+  @endclass
 
   @class timeofday
     > afternoon, afternoons
@@ -1529,7 +1529,7 @@
     > morning, mornings
     > night, nights
     > noon, noons
-  @endclass timeofday
+  @endclass
 @endclass
 
 @class quality

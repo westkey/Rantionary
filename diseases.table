@@ -11,7 +11,7 @@
       - class std
     > influenza
     > smallpox
-  @endclass viral
+  @endclass
 
   > AIDS
     - class std
@@ -22,7 +22,7 @@
     - class bacterial
   > typhoid fever
     - class fever
-@endclass infectious
+@endclass
 
 @class mental
   > Alzheimer's
@@ -36,7 +36,7 @@
     - class genetic
   > mental retardation
   > schizophrenia
-@endclass mental
+@endclass
 
 > acute inclusion body encephalitis
 > albinism

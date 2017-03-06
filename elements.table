@@ -11,7 +11,7 @@
     > potassium, K
     > rubidium, Rb
     > sodium, Na
-  @endclass alkali
+  @endclass
 
   @class alkaline_earth
     @class earth
@@ -22,9 +22,9 @@
       > radium, Ra
         - class radioactive
       > strontium, Sr
-    @endclass earth
+    @endclass
 
-  @endclass alkaline_earth
+  @endclass
 
   @class lanthanoid
     > cerium, Ce
@@ -42,7 +42,7 @@
     > terbium, Tb
     > thulium, Tm
     > ytterbium, Yb
-  @endclass lanthanoid
+  @endclass
 
   @class post_transition
     > aluminum, Al
@@ -52,7 +52,7 @@
     > lead, Pb
     > thallium, Tl
     > tin, Sn
-  @endclass post_transition
+  @endclass
 
   @class radioactive
     @class actinoid
@@ -71,9 +71,9 @@
       > protactinium, Pa
       > thorium, Th
       > uranium, U
-    @endclass actinoid
+    @endclass
 
-  @endclass radioactive
+  @endclass
 
   @class transition
     > cadmium, Cd
@@ -106,9 +106,9 @@
     > yttrium, Y
     > zinc, Zn
     > zircomium, Zr
-  @endclass transition
+  @endclass
 
-@endclass metal
+@endclass
 
 @class metalloid
   > antimony, Sb
@@ -119,7 +119,7 @@
     - class radioactive
   > silicon, Si
   > tellurium, Te
-@endclass metalloid
+@endclass
 
 @class nonmetal
   @class gas
@@ -131,7 +131,7 @@
       > hydrogen, H
       > nitrogen, N
       > oxygen, O
-    @endclass diatomic
+    @endclass
 
     @class noble_gas
       > argon, Ar
@@ -141,16 +141,16 @@
       > radon, Rn
         - class radioactive
       > xenon, Xe
-    @endclass noble_gas
+    @endclass
 
-  @endclass gas
+  @endclass
 
   @class polyatomic
     > carbon, C
     > phosphorus, P
     > selenium, Se
     > sulfur, S
-  @endclass polyatomic
+  @endclass
 
   > astatine, At
     - class diatomic, halogen, radioactive
@@ -158,5 +158,5 @@
     - class diatomic, halogen, liquid
   > iodine, I
     - class diatomic, halogen
-@endclass nonmetal
+@endclass
 

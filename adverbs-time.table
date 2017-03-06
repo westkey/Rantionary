@@ -34,7 +34,7 @@
   > until further notice
   > usually
   > yesterday
-@endclass frequency
+@endclass
 
 @class time
   @class past
@@ -47,14 +47,14 @@
     > just 5 minutes ago
     > millions of years ago
     > trillions of years ago
-  @endclass past
+  @endclass
 
   @class present
     > now
     > presently
     > today
     > tonight
-  @endclass present
+  @endclass
 
   > a day later
   > an hour later
@@ -70,5 +70,5 @@
   > at the full moon
   > later
   > recently
-@endclass time
+@endclass
 

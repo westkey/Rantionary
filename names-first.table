@@ -4019,7 +4019,7 @@
 	> Zona
 	> Zora
 	> Zula
-@endclass female
+@endclass
 
 @class male
 	> Aaden
@@ -7459,5 +7459,5 @@
 	> Zigmund
 	> Zion
 	> Zollie
-@endclass male
+@endclass
 

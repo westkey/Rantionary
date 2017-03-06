@@ -19,7 +19,7 @@
   > Saxony-Anhalt, ST
   > Schleswig-Holstein, SH
   > Thuringia, TH
-@endclass germany
+@endclass
 
 @class usa
   > Alabama, AL
@@ -72,5 +72,5 @@
   > West Virginia, WV
   > Wisconsin, WI
   > Wyoming, WY
-@endclass usa
+@endclass
 

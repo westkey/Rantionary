@@ -14,7 +14,7 @@
         - class power, thousand, watts
       > megawatt, megawatts, MW
         - class power, million, watts
-    @endclass large
+    @endclass
 
     @class small
       > microfarad, microfarads, μF
@@ -25,11 +25,11 @@
         - class potential, thousandth, volts
       > milliwatt, milliwatts, mW
         - class power, thousandth, watts
-    @endclass small
+    @endclass
 
-  @endclass energy
+  @endclass
 
-@endclass factor
+@endclass
 
 @class length
   > centimeter, centimeters, cm
@@ -42,7 +42,7 @@
   > meter, meters, m
   > mile, miles, mi
   > yard, yards, y
-@endclass length
+@endclass
 
 @class volume
   > bucket, buckets, bucket
@@ -60,7 +60,7 @@
   > quart, quarts, qt
   > tablespoon, tablespoons, tbsp
   > teaspoon, teaspoons, tsp
-@endclass volume
+@endclass
 
 @class weight
   > gram, grams, g
@@ -71,7 +71,7 @@
   > ounce, ounces, oz
   > pound, pounds, lb
   > ton, tons, t
-@endclass weight
+@endclass
 
 > joule, joules, J
   - class energy

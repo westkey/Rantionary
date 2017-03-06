@@ -115,7 +115,7 @@
   > wooden, woodness
   > wooly, wooliness
   > wrinkly, raisins
-@endclass appearance
+@endclass
 @class cp1
   > admirable, admirability
   > arresting, arrestingness
@@ -153,7 +153,7 @@
   > wonderful, wonderfulness
   > wonderworking, wonderworks
   > world-class, world-classness
-@endclass cp1
+@endclass
 @class emotion
   @class cn1
     > aggravated, aggression
@@ -174,7 +174,7 @@
     > naughty, naughtiness
     > proud, pride
     > remorseful, remorse
-  @endclass cn1
+  @endclass
   @class cn2
     > arrogant, arrogance
     > contemptuous, contempt
@@ -183,14 +183,14 @@
     > evil, evil
     > hateful, hate
     > humiliated, humility
-  @endclass cn2
+  @endclass
   @class cp1
     > blissful, bliss
     > gleeful, glee
     > happy, happiness
     > joyful, joy
     > loving, love
-  @endclass cp1
+  @endclass
   > awed, awe
   > bored, boredom
   > cheeky, cheekiness
@@ -219,7 +219,7 @@
   > surprised, surprise
   > thankful, thankfulness
   > tormented, torment
-@endclass emotion
+@endclass
 @class nationality
   > African, Africa nheritage
   > African-American, African-Americanness
@@ -238,7 +238,7 @@
   > Norwegian, Norwegian heritage
   > Russian, Russian heritage
   > Spanish, Spanish heritage
-@endclass nationality
+@endclass
 @class nsfw
   > erect, erectness
   > flaccid, flaccidness
@@ -249,7 +249,7 @@
   > sexual, sexuality
   > sexy, sexappeal
   > trashy, trashiness
-@endclass nsfw
+@endclass
 @class taste
   > bitter, bitterness
     - class emotion
@@ -259,7 +259,7 @@
   > tasty, tastiness
   > yummy, yumminess
   > zesty, zestiness
-@endclass taste
+@endclass
 @class weather
   > cloudy, cloudiness
   > foggy, fogginess
@@ -268,7 +268,7 @@
   > snowy, snowiness
   > starry, starriness
   > sunny, sunniness
-@endclass weather
+@endclass
 > abhorrent, abhorrence
 > absolute, absoluteness
 > academic, academicness

@@ -20,7 +20,7 @@
 		> slurp, slurping, slurped, slurps, slurper, slurped, slurping, slurpings
 		> snort, snorting, snorted, snorts, snorter, snorted, snorting, snortings
 		> snuffle, snuffling, snuffled, snuffles, snuffler, snuffled, snuffling, snufflings
-	@endclass eat
+	@endclass
 
 	@class pose
 		> crouch, crouching, crouched, crouches, croucher, crouched, crouching, crouchings
@@ -28,7 +28,7 @@
 		> sit, sitting, sat, sits, sitter, sat, sitting, sittings
 		> squat, squatting, squatted, squats, squatter, squatted, squatting, squattings
 		> stand, standing, stood, stands, stander, stood, standing, standings
-	@endclass pose
+	@endclass
 
 	> align, aligning, alignd, aligns, aligner, alignd, alignment, alignments
 		- class arrange, axial, dative, transitive
@@ -49,7 +49,7 @@
 		- class motion, nsfw
 	> urinate, urinating, urinated, urinates, urinator, urinated, urination, urinations
 		- class liquid, nsfw
-@endclass intransitive
+@endclass
 
 @class motion
 	@class insert
@@ -60,7 +60,7 @@
 		> screw, screwing, screwed, screws, screwer, screwed, screwing, screwings
 		> stick, sticking, stuck, sticks, sticker, stuck, sticking, stickings
 		> wedge, wedging, wedged, wedges, wedger, wedged, wedging, wedgings
-	@endclass insert
+	@endclass
 
 	@class intransitive
 		> square dance, square dancing, square danced, square dances, square dancer, square danced, square dancing, square dances
@@ -69,7 +69,7 @@
 		> undulate, undulating, undulated, undulates, undulater, undulated, undulation, undulations
 			- class smooth, transitive, wave
 		> waddle, waddling, waddled, woddles, woddler, waddled, waddling, waddlings
-	@endclass intransitive
+	@endclass
 
 	> bang, banging, banged, bangs, banger, banged, banging, bangings
 	> belly-flop, belly-flopping, belly-flopped, belly-flops, belly-flopper, belly-flopped, belly-flopping, belly-floppings
@@ -103,7 +103,7 @@
 	> twang, twanging, twanged, twangs, twanger, twanged, twanging, twangings
 	> twist, twisting, twisted, twists, twister, twisted, twisting, twists
 	> wiggle, wiggling, wiggled, wiggles, wiggler, wiggled, wiggling, wigglings
-@endclass motion
+@endclass
 
 @class political
 	> amend, amending, amended, amends, amender, amended, amendment, amendments
@@ -112,7 +112,7 @@
 	> inaugurate, inaugurating, inaugurated, inaugurates, inaugurater, inaugurated, inauguration, inaugurations
 	> ratify, ratifying, ratified, ratifies, ratifier, ratified, ratification, ratifications
 	> veto, vetoing, vetoed, vetoes, vetoer, vetoed, vetoing, vetoes
-@endclass political
+@endclass
 
 @class transitive
 	@class insert
@@ -121,7 +121,7 @@
 		> push, pushing, pushed, pushes, pusher, pushed, pushing, pushings
 			- class move
 		> ram, ramming, rammed, rams, rammer, rammed, ramming, rammings
-	@endclass insert
+	@endclass
 
 	@class intransitive
 		> align, aligning, aligned, aligns, aligner, aligned, aligning, alignings
@@ -171,14 +171,14 @@
 		> vibrate, vibrating, vibrated, vibrates, vibrator, vibrated, vibration, vibrations
 		> waste, wasting, wasted, wastes, waster, wasted, wasting, wastings
 		> yank, yanking, yanked, yanks, yanker, yanked, yanking, yankings
-	@endclass intransitive
+	@endclass
 
 	@class legal
 		> convict, convicting, convicted, convicts, convicter, convicted, conviction, convictions
 		> legalize, legalizing, legalized, legalizes, legalizer, legalized, legalization, legalizations
 		> prosecute, prosecuting, prosecuted, prosecutes, prosecuter, prosecuted, prosecution, prosecutions
 		> sue, suing, sued, sues, suer, sued, suing, suings
-	@endclass legal
+	@endclass
 
 	@class liquid
 		> drain, draining, drained, drains, drainer, drained, draining, drainings
@@ -205,7 +205,7 @@
 			- class intransitive
 		> squirt, squirting, squirted, squirts, squirter, squirted, squirting, squirtings
 			- class intransitive
-	@endclass liquid
+	@endclass
 
 	@class violent
 		> amputate, amputating, amputated, amputates, amputator, amputated, amputation, amputations
@@ -274,7 +274,7 @@
 		> vomit, vomiting, vomited, vomits, vomiter, vomited, vomiting, vomitings
 			- class intransitive
 		> whip, whipping, whipped, whips, whipper, whipped, whipping, whippings
-	@endclass violent
+	@endclass
 
 	> abolish, abolishing, abolished, abolishes, abolisher, abolished, abolishment, abolishments
 	> appreciate, appreciating, appreciated, appreciates, appreciater, appreciated, appreciation, appreciations
@@ -419,7 +419,7 @@
 	> withdraw, withdrawing, withdrew, withdraws, withdrawer, withdrawn, withdrawing, withdrawings
 	> wrinkle, wrinkling, wrinkled, wrinkles, wrinkler, wrinkled, wrinkling, wrinklings
 	> zip, zipping, zipped, zips, zipper, zipped, zipping, zippings
-@endclass transitive
+@endclass
 
 @class walk
 	> crawl, crawling, crawled, crawls, crawler, crawled, crawling, crawlings
@@ -438,7 +438,7 @@
 	> tiptoe, tiptoeing, tiptoed, tiptoes, tiptoer, tiptoed, tiptoeing, tiptoeings
 	> trot, trotting, trotted, trots, trotter, trotted, trotting, trottings
 	> walk, walking, walked, walks, walker, walked, walking, walkings
-@endclass walk
+@endclass
 
 > abduct, abducting, abducted, abducts, abductor, abducted, abduction, abductions
 > chill, chilling, chilled, chills, chiller, chilled, chilling, chillings
@@ -556,7 +556,7 @@
 	> squeal, squealing, squealed, squeals, squealer, squealed, squeal, squeals
 	> wail, wailing, wailed, wails, wailer, wailed, wail, wails
 	> yell, yelling, yelled, yells, yeller, yelled, yell, yells
-	@endclass loud
+	@endclass
 
 	@class quiet
 	> breathe, breathing, breathed, breathes, breather, breathed, breath, breaths
@@ -566,7 +566,7 @@
 	> mutter, muttering, muttered, mutters, mutterer, muttered, muttering, mutterings
 	> whimper, whimpering, whimpered, whimpers, whimperer, whimpered, whimper, whimpers
 	> whisper, whispering, whispered, whispers, whisperer, whispered, whisper, whispers
-	@endclass quiet
+	@endclass
 
 	> announce, announcing, announced, announces, announcer, announced, announcement, accouncements
 	> beep, beeping, beeped, beeps, beeper, beeped, beep, beeps

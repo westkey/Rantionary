@@ -5,7 +5,7 @@
 		- class usa
 	> Canada
 		- class canada
-@endclass north_america
+@endclass
 
 @class africa
   > Democratic Republic of the Congo
@@ -22,7 +22,7 @@
   > Somalia
   > South Africa
   > Sudan
-@endclass africa
+@endclass
 
 @class asia
   > Afghanistan
@@ -43,7 +43,7 @@
   > South Korea
   > Taiwan
   > Thailand
-@endclass asia
+@endclass
 
 @class central_america
   > Costa Rica
@@ -52,7 +52,7 @@
   > Honduras
   > Nicaragua
   > Panama
-@endclass central_america
+@endclass
 
 @class europe
   > Albania
@@ -85,7 +85,7 @@
   > Switzerland
   > Turkey
   > United Kingdom
-@endclass europe
+@endclass
 
 @class middle_east
   > Iran
@@ -95,7 +95,7 @@
   > Saudi Arabia
   > Syria
   > United Arab Emirates
-@endclass middle_east
+@endclass
 
 @class oceania
   > Australia
@@ -105,7 +105,7 @@
   > Philippines
   > Samoa
   > Solomon Islands
-@endclass oceania
+@endclass
 
 @class south_america
   > Argentina
@@ -113,7 +113,7 @@
   > Chile
   > Colombia
   > Peru
-@endclass south_america
+@endclass
 
 > Algeria
 > American Samoa
