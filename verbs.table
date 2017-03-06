@@ -1,7 +1,7 @@
 @name verb
 @sub 0,	present, imperative
-@sub 1,	simple_past, ed
-@sub 2,	gerund, ing
+@sub 1,	gerund, ing
+@sub 2,	simple_past, ed
 @sub 3,	third_person, third_person_present, s
 @sub 4,	agent, er
 @sub 5,	past_participle, pp
