@@ -1,740 +1,729 @@
 @name adj
 @sub normal
 @sub ness
-# TODO: Add comparative and superlative forms
+@sub comp, er
+@sub sup, est
 
 @class appearance
 	@class cn2
-		> battered, batteredness
-		> dirty, dirt
-		> filthy, filth
-		> grimy, griminess
-		> ugly, ugliness
+		> battered, batteredness, more battered, most battered
+		> dirty, dirt, dirtier, dirtiest
+		> filthy, filth, filthier, filthiest
+		> grimy, griminess, grimier, grimiest
+		> ugly, ugliness, uglier, ugliest
 	@endclass
-  > ancient, ancience
-  > attractive, attractiveness
+  > ancient, ancience, more ancient, most ancient
+  > attractive, attractiveness, more attractive, most attractive
     - class cp1
-  > bearded, beardedness
-  > beautiful, beauty
+  > bearded, beardedness, more bearded, most bearded
+  > beautiful, beauty, more beautiful, most beautiful
     - class cp1
-  > bent, deformation
-  > black, blackness
-  > blinding, brightness
+  > bent, bentness, more bent, most bent
+  > black, blackness, blacker, blackest
+  > blinding, brightness, brighter, brightest
     - class cn1
-  > brown, brownness
-  > bubbly, bubbliness
+  > brown, brownness, browner, brownest
+  > bubbly, bubbliness, bubblier, bubbliest
     - class c0
-  > colorful, color
+  > colorful, color, more colorful, most colorful
     - class c0
-  > colossal, colossality
-  > corrugated, corrugation
+  > colossal, colossality, more colossal, most colossal
+  > corrugated, corrugation, more corrugated, most corrugated
     - class c0
-  > crooked, crookedness
-  > crusty, crustiness
-  > cubic, cubic shape
-  > dazzling, sparkle
-  > delicate, delicateness
-  > dry, dryness
-  > dusty, dustiness
-  > emaciated, emaciation
-  > enormous, enormousness
-  > exposed, exposure
-  > floppy, floppiness
-  > fluffy, fluffiness
-  > foamy, foaminess
-  > funny-looking, funnylooks
-  > furrowed, furrowedness
-  > furry, furriness
-  > fuzzy, fuzziness
-  > gigantic, impressive size
-  > glamourous, glamour
+  > crooked, crookedness, more crooked, most crooked
+  > crusty, crustiness, crustier, crustiest
+  > cubic, cubicness, more cubic, most cubic
+  > dazzling, dazzlingness, more dazzling, most dazzling
+  > delicate, delicateness, more delicate, most delicate
+  > dry, dryness, drier, driest
+  > dusty, dustiness, dustier, dustiest
+  > emaciated, emaciation, more emaciated, most emaciated
+  > enormous, enormousness, more enormous, most enormous
+  > exposed, exposure, more exposed, most exposed
+  > floppy, floppiness, floppier, floppiest
+  > fluffy, fluffiness, fluffier, fluffiest
+  > foamy, foaminess, foamier, foamiest
+  > funny-looking, funny-looking-ness, funnier-looking, funniest-looking
+  > furrowed, furrowedness, more furrowed, most furrowed
+  > furry, furriness, furrier, furriest
+  > fuzzy, fuzziness, fuzzier, fuzziest
+  > gigantic, impressive size, more gigantic, most gigantic
+  > glamourous, glamour, more glamourous, most glamourous
     - class cp1
-  > glittery, glitter
-  > glossy, glossiness
-  > golden, goldenluster
-  > green, greenness
-  > grey, greyness
-  > hulking, hulkingness
-  > humongous, humongousness
-  > invisible, invisibility
-  > iridescent, iridescence
-  > jagged, jaggedness
-  > lickable, lickability
-  > limp, limpness
-  > mammoth, mammothness
-  > menthol, mentholgoodness
-  > microscopic, microscopicness
-  > moldy, moldiness
-  > monochromatic, monochromaticness
-  > mossy, mossiness
-  > muscular, beefiness
-  > naked, nakedness
-  > narrow, narrowness
-  > nude, nudity
-  > orbital, roundness
-  > papery, paperiness
-  > petite, petiteness
-  > plump, plumpness
-  > powdery, powderiness
-  > pretty, prettiness
-  > purple, purpleness
-  > ragged, raggedness
-  > ratty, rattiness
-  > red, redness
-  > red-hot, glowing-red heat
-  > revealing, nakedness
-  > shady, shadiness
-  > short, shortness
-  > shriveled, raisins
-  > slender, slenderness
-  > slippery, slipperiness
-  > sloppy, sloppiness
-  > smoggy, smogginess
-  > smoky, smokiness
-  > soapy, soapiness
-  > sopping, wetness
-  > sparkling, sparkle
-  > spiky, spikiness
-  > spotless, cleanliness
-  > stout, stoutness
-  > sweaty, sweatiness
-  > symmetrical, symmetry
-  > tall, height
-  > thick, thickness
-  > towering, height
-  > transparent, transparence
-  > uneven, unevenness
-  > veiny, veininess
-  > weedy, weediness
-  > wet, moisture
-  > white, whiteness
-  > whopping, whoppingness
-  > wide, wideness
-  > wide-eyed, wideness
-  > windy, windiness
-  > wooden, woodness
-  > wooly, wooliness
-  > wrinkly, raisins
+  > glittery, glitter, glitterier, glitteriest
+  > glossy, glossiness, glossier, glossiest
+  > golden, goldenness, golder, goldest
+  > green, greenness, greener, greenest
+  > grey, greyness, greyer, greyest
+  > hulking, hulkingness, more hulking, most hulking
+  > humongous, humongousness, more humongous, most humongous
+  > invisible, invisibility, more invisible, most invisible
+  > iridescent, iridescence, more iridescent, most iridescent
+  > jagged, jaggedness, more jagged, most jagged
+  > lickable, lickability, more lickable, most lickable
+  > limp, limpness, limper, limpest
+  > mammoth, mammothness, more mammoth, most mammoth
+  > menthol, mentholgoodness, more menthol, most menthol
+  > microscopic, microscopicness, more microscopic, most microscopic
+  > moldy, moldiness, moldier, moldiest
+  > monochromatic, monochromaticness, more monochromatic, most monochromatic
+  > mossy, mossiness, mossier, mossiest
+  > muscular, beefiness, more muscular, most muscular
+  > naked, nakedness, more naked, most naked
+  > narrow, narrowness, narrower, narrowness
+  > nude, nudity, more nude, most nude
+  > orbital, roundness, more orbital, most orbital
+  > papery, paperiness, paperier, paperiest
+  > petite, petiteness, more petite, most petite
+  > plump, plumpness, plumper, plumpest
+  > powdery, powderiness, powderier, powderiest
+  > pretty, prettiness, prettier, prettiest
+  > purple, purpleness, more purple, most purple
+  > ragged, raggedness, more ragged, most ragged
+  > ratty, rattiness, rattier, rattiest
+  > red, redness, redder, reddest
+  > red-hot, glowing-red heat, more red-hot, most red-hot
+  > revealing, nakedness, more revealing, most revealing
+  > shady, shadiness, shadier, shadiest
+  > short, shortness, shorter, shortest
+  > shriveled, raisins, more shriveled, most shriveled
+  > slender, slenderness, more slender, most slender
+  > slippery, slipperiness, slipperier, slipperiest
+  > sloppy, sloppiness, sloppier, sloppiest
+  > smoggy, smogginess, smoggier, smoggiest
+  > smoky, smokiness, smokier, smokiest
+  > soapy, soapiness, soapier, soapiest
+  > sopping, wetness, more sopping, most sopping
+  > sparkling, sparkle, more sparkling, most sparkling
+  > spiky, spikiness, spikier, spikiest
+  > spotless, spotlessness, more spotless, most spotless
+  > stout, stoutness, more stout, most stout
+  > sweaty, sweatiness, sweatier, sweatiest
+  > symmetrical, symmetry, more symmetrical, most symmetrical
+  > tall, tallness, taller, tallest
+  > thick, thickness, thicker, thickest
+  > towering, height, more towering, most towering
+  > transparent, transparence, more transparent, most transparent
+  > uneven, unevenness, more uneven, most uneven
+  > veiny, veininess, veinier, veiniest
+  > weedy, weediness, weedier, weediest
+  > wet, moisture, wetter, wettest
+  > white, whiteness, whiter, whitest
+  > whopping, whoppingness, more whopping, most whopping
+  > wide, wideness, wider, widest
+  > wide-eyed, wideness, more wide-eyed, most wide-eyed
+  > windy, windiness, windier, windiest
+  > wooden, woodness, more wooden, most wooden
+  > wooly, wooliness, woolier, wooliest
+  > wrinkly, raisins, wrinklier, wrinkliest
 @endclass
 @class cp1
-  > admirable, admirability
-  > arresting, arrestingness
-  > astonishing, astonishingness
-  > awe-inspiring, awe-inspiringness
-  > charitable, charitability
-  > commendable, commendability
-  > dandy, dandiness
-  > distinctive, distinction
-  > distinguished, distinguishment
-  > fine, fineness
-  > four-star, four-star quality
-  > gracious, grace
-  > grand, grandness
-  > magnificent, magnificence
-  > majestic, majesticness
-  > monumental, monumentalness
-  > noteworthy, noteworthiness
-  > out of this world, out of this worldness
-  > peachy, peachiness
-  > phenomenal, phenomenalness
-  > praiseworthy, praiseworthiness
-  > quality, qualityness
-  > respectable, respectability
-  > smashing, smashingness
-  > smoking, smokingness
-    - class appearance
-  > special, specialness
-  > splendiferous, splendiferousness
-  > super-duper, super-duperness
-  > tidy, tidiness
-    - class appearance
-  > top-notch, top-notchness
-  > unparalleled, unparalleledness
-  > wonderful, wonderfulness
-  > wonderworking, wonderworks
-  > world-class, world-classness
+  > admirable, admirability, more admirable, most admirable
+  > arresting, arrestingness, more arresting, most arresting  
+  > astonishing, astonishingness, more astonishing, most astonishing  
+  > awe-inspiring, awe-inspiringness, more awe-inspiring, most awe-inspiring  
+  > charitable, charitability, more charitable, most charitable
+  > commendable, commendability, more commendable, most commendable
+  > dandy, dandiness, dandier, dandiest
+  > distinctive, distinction, more distinctive, most distinctive
+  > distinguished, distinguishment, more distinguished, most distinguished
+  > fine, fineness, finer, finest
+  > four-star, four-star quality, more four-star, most four-star
+  > gracious, grace, more gracious, most gracious
+  > grand, grandness, grander, grandeset
+  > magnificent, magnificence, more magnificent, most magnificent
+  > majestic, majesticness, more majestic, most majestic
+  > monumental, monumentalness, more monumental, most monumental
+  > noteworthy, noteworthiness, noteworthier, noteworthiest
+  > out of this world, out of this worldness, more out of this world, most out of this world
+  > peachy, peachiness, peachier, peachiest
+  > phenomenal, phenomenalness, more phenomenal, most phenomenal
+  > praiseworthy, praiseworthiness, praiseworthier, praiseworthiest
+  > quality, qualityness, qualitier, qualitiest
+  > respectable, respectability, more respectable, most respectable
+  > smashing, smashingness, more smashing, most smashing
+  > smoking, smokingness, more smoking, most smoking
+    - class appearance, more smoking, most smoking
+  > special, specialness, more special, most special
+  > splendiferous, splendiferousness, more splendiferous, most splendiferous
+  > super-duper, super-duperness, more super-duper, most super-duper
+  > tidy, tidiness, tidier, tidiest
+    - class appearance, tidier, tidiest
+  > top-notch, top-notchness, more top-notch, most top-notch
+  > unparalleled, unparalleledness, more unparalleled, most unparalleled
+  > wonderful, wonderfulness, more wonderful, most wonderful
+  > wonderworking, wonderworks, more wonderworking, most wonderworking
+  > world-class, world-classness, more world-class, most world-class
 @endclass
 @class emotion
   @class cn1
-    > aggravated, aggression
-    > angry, anger
-    > ashamed, shame
-    > bittersweet, bittersweetness
-    > cranky, crankiness
-    > devilish, devilishness
-    > disappointed, disappointment
-    > flirty, flirtiness
-    > frightened, fright
-    > furious, fury
-    > gay, gayness
-    > guilty, guilt
-    > jealous, envy
-    > lustful, lust
-    > mad, madness
-    > naughty, naughtiness
-    > proud, pride
-    > remorseful, remorse
+    > aggravated, aggression, more aggravated, most aggravated
+    > angry, anger, angrier, angriest
+    > ashamed, shame, more ashamed, most ashamed
+    > bittersweet, bittersweetness, more bittersweet, most bittersweet
+    > cranky, crankiness, crankier, crankiest
+    > devilish, devilishness, more devilish, most devilish
+    > disappointed, disappointment, more disappointed, most disappointed
+    > flirty, flirtiness, flirtier, flirtiest
+    > frightened, fright, more frightened, most frightened
+    > furious, fury, more furious, most furious
+    > gay, gayness, gayer, gayest
+    > guilty, guilt, guiltier, guiltiest
+    > jealous, envy, more jealous, most jealous
+    > lustful, lust, more lustful, most lustful
+    > mad, madness, madder, maddest
+    > naughty, naughtiness, naughtier, naughtiest
+    > proud, pride, prouder, proudest
+    > remorseful, remorse, more remorseful, most remorseful
   @endclass
   @class cn2
-    > arrogant, arrogance
-    > contemptuous, contempt
-    > emo, emness
-    > envious, envy
-    > evil, evil
-    > hateful, hate
-    > humiliated, humility
+    > arrogant, arrogance, more arrogant, most arrogant
+    > contemptuous, contempt, more contemptuous, most contemptuous
+    > emo, emness, more emo, most emo
+    > envious, envy, more envious, most envious
+    > evil, evil, more evil, most evil
+    > hateful, hate, more hateful, most hateful
+    > humiliated, humility, more humiliated, most humiliated
   @endclass
   @class cp1
-    > blissful, bliss
-    > gleeful, glee
-    > happy, happiness
-    > joyful, joy
-    > loving, love
-  @endclass
-  > awed, awe
-  > bored, boredom
-  > cheeky, cheekiness
-  > content, contentfulness
-  > eager, eagerness
-  > groggy, grogginess
-  > horrified, horror
-  > hungry, hunger
-  > impatient, impatience
-  > indifferent, indifference
-  > interested, interest
-  > lonely, loneliness
+    > blissful, bliss, more blissful, most blissful
+    > gleeful, glee, more gleeful, most gleeful
+    > happy, happiness, happier, happiest
+    > joyful, joy, more joyful, most joyful
+    > loving, love, more loving, most loving  @endclass
+  > awed, awe, more awed, most awed
+  > bored, boredom, more bored, most bored
+  > cheeky, cheekiness, cheekier, cheekiest
+  > content, contentfulness, more content, most content
+  > eager, eagerness, more eager, most eager
+  > groggy, grogginess, groggier, groggiest
+  > horrified, horror, more horrified, most horrified
+  > hungry, hunger, hungrier, hungriest
+  > impatient, impatience, more impatient, most impatient
+  > indifferent, indifference, more indifferent, most indifferent
+  > interested, interest, more interested, most interested
+  > lonely, loneliness, lonelier, loneliest
     - class c0
-  > longing, longing
-  > optimistic, optimism
+  > longing, longing, more longing, most longing
+  > optimistic, optimism, more optimistic, most optimistic
     - class c0
-  > pleasured, pleasure
-  > raging, rage
-  > sad, sadness
-  > severe, severity
-  > shocked, shock
-  > sly, slyness
-  > smug, smugness
-  > sorrowful, sorrow
-  > sullen, sullenness
-  > surprised, surprise
-  > thankful, thankfulness
-  > tormented, torment
+  > pleasured, pleasure, more pleasured, most pleasured
+  > raging, rage, more raging, most raging
+  > sad, sadness, sadder, saddest
+  > severe, severity, more severe, most severe
+  > shocked, shock, more shocked, most shocked
+  > sly, slyness, slyer, slyest
+  > smug, smugness, smugger, smuggest
+  > sorrowful, sorrow, more sorrowful, most sorrowful
+  > sullen, sullenness, more sullen, most sullen
+  > surprised, surprise, more surprised, most surprised
+  > thankful, thankfulness, more thankful, most thankful
+  > tormented, torment, more tormented, most tormented
 @endclass
 @class nationality
-  > African, Africa nheritage
-  > African-American, African-Americanness
-  > American, American heritage
-  > Australian, Australian heritage
-  > British, British heritage
-  > Canadian, Canadian heritage
-  > Chinese, Chinese heritage
-  > French, French heritage
-  > German, German heritage
-  > Irish, Irish heritage
-  > Italian, Italian heritage
-  > Japanese, Japanese heritage
-  > Korean, Korean heritage
-  > Mexican, Mexican heritage
-  > Norwegian, Norwegian heritage
-  > Russian, Russian heritage
-  > Spanish, Spanish heritage
-@endclass
-@class nsfw
-  > erect, erectness
-  > flaccid, flaccidness
-    - class appearance
-  > horny, horniness
-  > kinky, kinkiness
-  > ravishing, rock-solid arousal
-  > sexual, sexuality
-  > sexy, sexappeal
-  > trashy, trashiness
+  > African, Africa nheritage, more African, most African
+  > African-American, African-Americanness, more African-American, most African-American
+  > American, American heritage, more American, most American
+  > Australian, Australian heritage, more Australian, most Australian
+  > British, British heritage, more British, most British
+  > Canadian, Canadian heritage, more Canadian, most Canadian
+  > Chinese, Chinese heritage, more Chinese, most Chinese
+  > French, French heritage, more French, most French
+  > German, German heritage, more German, most German
+  > Irish, Irish heritage, more Irish, most Irish
+  > Italian, Italian heritage, more Italian, most Italian
+  > Japanese, Japanese heritage, more Japanese, most Japanese
+  > Korean, Korean heritage, more Korean, most Korean
+  > Mexican, Mexican heritage, more Mexican, most Mexican
+  > Norwegian, Norwegian heritage, more Norwegian, most Norwegian
+  > Russian, Russian heritage, more Russian, most Russian
+  > Spanish, Spanish heritage, more Spanish, most Spanish
 @endclass
 @class taste
-  > bitter, bitterness
+  > bitter, bitterness, more bitter, most bitter
     - class emotion
-  > sour, sourness
-  > sweet, sweetness
-  > tangy, tanginess
-  > tasty, tastiness
-  > yummy, yumminess
-  > zesty, zestiness
+  > sour, sourness, more sour, most sour
+  > sweet, sweetness, sweeter, sweetest
+  > tangy, tanginess, tangier, tangiest
+  > tasty, tastiness, tastier, tastiest
+  > yummy, yumminess, yummier, yummiest
+  > zesty, zestiness, zestier, zestiest
 @endclass
 @class weather
-  > cloudy, cloudiness
-  > foggy, fogginess
-  > moonlit, moonlight
-  > rainy, raininess
-  > snowy, snowiness
-  > starry, starriness
-  > sunny, sunniness
+  > cloudy, cloudiness, cloudier, cloudiest
+  > foggy, fogginess, foggier, foggiest
+  > moonlit, moonlight, more moonlit, most moonlit
+  > rainy, raininess, rainier, rainiest
+  > snowy, snowiness, snowier, snowiest
+  > starry, starriness, starrier, starriest
+  > sunny, sunniness, sunnier, sunniest
 @endclass
-> abhorrent, abhorrence
-> absolute, absoluteness
-> academic, academicness
-> acidic, acidity
-> acoustic, loudness
-> active, activity
-> adaptable, adaptability
-> additional, extra cheese
-> adequate, adequacy
-> administrative, domination
-> advantageous, advantage
-> advisable, wisdom
-> aggressive, agressiveness
-> alien, alienness
-> all-natural, all-naturalness
-> amazing, amazingness
-> ambitious, ambition
-> amiable, phallus
-> appealing, appeal
-> appetizing, appetizingness
-> artificial, artificialness
-> artsy, artsiness
-> assertive, assetiveness
-> astounding, astoundingness
-> athletic, athleticness
-> awesome, awesomeness
-> awful, terror
-> barbeque, barbequeness
-> bashful, bashfulness
-> beloved, belovedness
-> bilious, biliousness
-> blasphemous, blasphemy
-> bloodthirsty, bloodthirstiness
-> bloody, bloodiness
+> abhorrent, abhorrence, more abhorrent, most abhorrent
+> absolute, absoluteness, more absolute, most absolute
+> academic, academicness, more academic, most academic
+> acidic, acidity, more acidic, most acidic
+> acoustic, loudness, more acoustic, most acoustic
+> active, activity, more active, most active
+> adaptable, adaptability, more adaptable, most adaptable
+> additional, extra cheese, more additional, most additional
+> adequate, adequacy, more adequate, most adequate
+> administrative, domination, more administrative, most administrative
+> advantageous, advantage, more advantageous, most advantageous
+> advisable, wisdom, more advisable, most advisable
+> aggressive, agressiveness, more aggressive, most aggressive
+> alien, alienness, more alien, most alien
+> all-natural, all-naturalness, more all-natural, most all-natural
+> amazing, amazingness, more amazing, most amazing
+> ambitious, ambition, more ambitious, most ambitious
+> amiable, phallus, more amiable, most amiable
+> appealing, appeal, more appealing, most appealing
+> appetizing, appetizingness, more appetizing, most appetizing
+> artificial, artificialness, more artificial, most artificial
+> artsy, artsiness, artsier, artsiest
+> assertive, assetiveness, more assertive, most assertive
+> astounding, astoundingness, more astounding, most astounding
+> athletic, athleticness, more athletic, most athletic
+> awesome, awesomeness, more awesome, most awesome
+> awful, terror, more awful, most awful
+> barbeque, barbequeness, more barbeque, most barbeque
+> bashful, bashfulness, more bashful, most bashful
+> beloved, belovedness, more beloved, most beloved
+> bilious, biliousness, more bilious, most bilious
+> blasphemous, blasphemy, more blasphemous, most blasphemous
+> bloodthirsty, bloodthirstiness, bloodthirstier, bloodthirstiest
+> bloody, bloodiness, bloodier, bloodiest
   - class cn1
-> blue, blueness
-> bold, boldness
-> bouncy, bounciness
-> bountiful, bountifulness
-> brave, bravery
-> breathtaking, breathtakingness
-> bulging, bulges
-> busted, bustedness
-> buttery, butteriness
-> calcified, calcification
-> captivating, captivation
-> casual, casualness
-> celestial, celestialpower
-> certified, certification
-> charming, charm
-> cheerful, cheer
-> childish, immaturity
-> chilly, chill
-> chrome-plated, chrome-platedness
-> clever, cleverness
-> clockwise, clockwise order
-> cold, coldness
-> comely, comeliness
-> complimentary, complimentariness
-> concrete, concreteness
-> Confederate, Confederateness
-> considerate, consideration
-> constitutional, constitutionalness
-> contaminated, contamination
-> cooperative, cooperation
-> corny, corniness
-> counterclockwise, counterclockwise order
-> courageous, courage
-> crackly, crackliness
-> crapulous, crapulousness
-> cream-filled, creaminess
-> creamy, creaminess
-> creative, creativity
-> criminal, criminality
-> critical, criticalness
-> cuddly, cuddliness
-> cultural, culture
-> damp, dampness
-> dangerous, danger
-> daring, dare
-> dashing, dashingness
-> dead, deadness
-> deadly, deadliness
-> deep, depth
-> defiant, defiance
-> delectable, delectableness
-> delicious, deliciousness
-> delightful, delightfulness
-> delinquent, delinquency
-> deluxe, deluxeness
-> derogatory, derogatoriness
-> direful, direfulness
-> disagreeable, disagreement
-> disgusting, disgust
-> disjointed, disjointedness
-> disloyal, disloyalty
-> disorganized, disorder
-> disorganized, disorder
-> distorted, distortion
-> divine, divinity
-> dizzy, dizziness
-> domestic, domesticness
-> dominant, dominance
-> dreadful, dreadfulness
-> dreamy, dreaminess
-> dreary, dreariness
-> dripping, drippingness
-> drippy, drippiness
-> drooling, sliminess
-> ductile, ductileness
-> dumb, dumbness
-> durable, durability
-> eccentric, eccentricity
-> edgy, edginess
-> educated, education
-> electric, electricity
-> elegant, elegance
-> enticing, enticingness
-> epic, epicness
-> ergonomic, ergonomicness
-> essential, essentialness
-> ethical, ethicalness
-> exhausted, fatigue
-> exotic, exoticness
-> exploding, explosiveness
-> explosive, explosiveness
-> expressive, expression
-> exquisite, exquisiteness
-> extreme, extremity
-> fabulous, fabulousness
-> family-friendly, family-friendliness
-> famous, fame
-> fanciful, fancy
-> fantastic, fantasticness
-> fantastical, fantasticness
-> fast, speed
-> fat, fatness
-> fatherly, fatherliness
-> feasible, feasibility
-> feckless, fecklessness
-> fertile, fertility
-> festive, festiveness
-> finger-licking, finger-lickingness
-> firm, firmness
-> fishy, fishiness
-> flabbergasted, confusion
-> flaming, fire
-> flammable, flammability
-> flappy, flappiness
-> flavorful, flavor
-> fleshy, fleshiness
-> flexible, flexibility
-> fluttering, light-weightedness
-> forgiving, forgiveness
-> formal, formality
-> formidable, formidableness
-> fortunate, fortune
-> fragrant, fragrance
-> freaky, freakiness
-> fresh, freshness
-> frictional, friction
-> frosty, frostiness
-> fruity, fruitiness
-> funny, humorousness
-> gallant, gallantness
-> gassy, gassiness
-> gelatinous, gelatinousgoodness
-> gentle, gentleness
-> ghetto, ghettoness
-> glassy, glassiness
-> glorious, gloriousness
-> gourmet, gourmetness
-> graceful, grace
-> grainy, graininess
-> grassy, grassiness
-> greasy, grasiness
-> groovy, grooviness
-> gross, grossness
-> gullible, gullibility
-> hairy, hairiness
-> hard, hardness
-> hardcore, hardcoreness
-> harmless, harmlessness
-> hazardous, hazardousness
-> headless, headlessness
-> heavy, heaviness
-> heinous, heinousness
-> highbrow, highbrowness
-> high-flying, aerodynamics
-> historical, historicalness
-> holy, holiness
-> honest, honesty
-> horizontal, horizontalness
-> horrid, horridness
-> horrifying, horror
-> humid, humidity
-> humorous, humor
-> hyper, energy
-> icy, iciness
-> identical, identity
-> illiterate, illiteracy
-> immaculate, immaculateness
-> immense, immensity
-> immoral, immorality
-> impish, impishness
-> impressive, impressiveness
-> inadvisable, inadvisablenature
-> incredible, incredibility
-> indestructible, involunurability
-> infallible, infallibility
-> infeasible, infeasibility
-> infectious, infectiousness
-> informative, informativeness
-> insane, insanity
-> intellectual, intellect
-> intelligent, intelligence
-> intense, intensity
-> intentional, intention
-> interracial, interracialness
-> intriguing, interest
-> invigorating, invigoratingness
-> irrational, irrationality
-> irregular, irregularity
-> irritated, anger
-> itchy, itchiness
-> jazzy, jazziness
-> jelly-belly, jelly-bellyness
-> jiggly, jiggliness
-> jittery, jitteriness
-> jovial, cheer
-> jubilant, happiness
-> juicy, juiciness
-> juvenile, juvenileness
-> keen, keenness
-> large, largeness
-> legitimate, legitimacy
-> light-hearted, light-heartedness
-> livid, anger
-> logical, logical
-> long, longness
-> loud, loudness
+> blue, blueness, bluer, bluest
+> bold, boldness, bolder, boldest
+> bouncy, bounciness, bouncier, bounciest
+> bountiful, bountifulness, more bountiful, most bountiful
+> brave, bravery, braver, bravest
+> breathtaking, breathtakingness, more breathtaking, most breathtaking
+> bulging, bulges, more bulging, most bulging
+> busted, bustedness, more busted, most busted
+> buttery, butteriness, butterier, butteriest
+> calcified, calcification, more calcified, most calcified
+> captivating, captivation, more captivating, most captivating
+> casual, casualness, more casual, most casual
+> celestial, celestialpower, more celestial, most celestial
+> certified, certification, more certified, most certified
+> charming, charm, more charming, most charming
+> cheerful, cheer, more cheerful, most cheerful
+> childish, immaturity, more childish, most childish
+> chilly, chill, chillier, chilliest
+> chrome-plated, chrome-platedness, more chrome-plated, most chrome-plated
+> clever, cleverness, cleverer, cleverest
+> clockwise, clockwise order, more clockwise, most clockwise
+> cold, coldness, colder, coldest
+> comely, comeliness, comelier, comeliest
+> complimentary, complimentariness, complimentarier, complimentariest
+> concrete, concreteness, more concrete, most concrete
+> Confederate, Confederateness, more Confederate, most Confederate
+> considerate, consideration, more considerate, most considerate
+> constitutional, constitutionalness, more constitutional, most constitutional
+> contaminated, contamination, more contaminated, most contaminated
+> cooperative, cooperation, more cooperative, most cooperative
+> corny, corniness, cornier, corniest
+> counterclockwise, counterclockwise order, more counterclockwise, most counterclockwise
+> courageous, courage, more courageous, most courageous
+> crackly, crackliness, cracklier, crackliest
+> crapulous, crapulousness, more crapulous, most crapulous
+> cream-filled, creaminess, more cream-filled, most cream-filled
+> creamy, creaminess, creamier, creamiest
+> creative, creativity, more creative, most creative
+> criminal, criminality, more criminal, most criminal
+> critical, criticalness, more critical, most critical
+> cuddly, cuddliness, cuddlier, cuddliest
+> cultural, culture, more cultural, most cultural
+> damp, dampness, damper, dampest
+> dangerous, danger, more dangerous, most dangerous
+> daring, dare, more daring, most daring
+> dashing, dashingness, more dashing, most dashing
+> dead, deadness, deader, deadest
+> deadly, deadliness, deadlier, deadliest
+> deep, depth, deeper, deepest
+> defiant, defiance, more defiant, most defiant
+> delectable, delectableness, more delectable, most delectable
+> delicious, deliciousness, more delicious, most delicious
+> delightful, delightfulness, more delightful, most delightful
+> delinquent, delinquency, more delinquent, most delinquent
+> deluxe, deluxeness, more deluxe, most deluxe
+> derogatory, derogatoriness, derogatorier, derogatoriest
+> direful, direfulness, more direful, most direful
+> disagreeable, disagreement, more disagreeable, most disagreeable
+> disgusting, disgust, more disgusting, most disgusting
+> disjointed, disjointedness, more disjointed, most disjointed
+> disloyal, disloyalty, more disloyal, most disloyal
+> disorganized, disorder, more disorganized, most disorganized
+> disorganized, disorder, more disorganized, most disorganized
+> distorted, distortion, more distorted, most distorted
+> divine, divinity, more divine, most divine
+> dizzy, dizziness, dizzier, dizziest
+> domestic, domesticness, more domestic, most domestic
+> dominant, dominance, more dominant, most dominant
+> dreadful, dreadfulness, more dreadful, most dreadful
+> dreamy, dreaminess, dreamier, dreamiest
+> dreary, dreariness, drearier, dreariest
+> dripping, drippingness, more dripping, most dripping
+> drippy, drippiness, drippier, drippiest
+> drooling, sliminess, more drooling, most drooling
+> ductile, ductileness, more ductile, most ductile
+> dumb, dumbness, dumber, dumbest
+> durable, durability, more durable, most durable
+> eccentric, eccentricity, more eccentric, most eccentric
+> edgy, edginess, edgier, edgiest
+> educated, education, more educated, most educated
+> electric, electricity, more electric, most electric
+> elegant, elegance, more elegant, most elegant
+> enticing, enticingness, more enticing, most enticing
+> epic, epicness, more epic, most epic
+> ergonomic, ergonomicness, more ergonomic, most ergonomic
+> essential, essentialness, more essential, most essential
+> ethical, ethicalness, more ethical, most ethical
+> exhausted, fatigue, more exhausted, most exhausted
+> exotic, exoticness, more exotic, most exotic
+> exploding, explosiveness, more exploding, most exploding
+> explosive, explosiveness, more explosive, most explosive
+> expressive, expression, more expressive, most expressive
+> exquisite, exquisiteness, more exquisite, most exquisite
+> extreme, extremity, more extreme, most extreme
+> fabulous, fabulousness, more fabulous, most fabulous
+> family-friendly, family-friendliness, family-friendlier, family-friendliest
+> famous, fame, more famous, most famous
+> fanciful, fancy, fancier, fanciest
+> fantastic, fantasticness, more fantastic, most fantastic
+> fantastical, fantasticness, more fantastical, most fantastical
+> fast, speed, faster, fastest
+> fat, fatness, fatter, fattest
+> fatherly, fatherliness, fatherlier, fatherliest
+> feasible, feasibility, more feasible, most feasible
+> feckless, fecklessness, more feckless, most feckless
+> fertile, fertility, more fertile, most fertile
+> festive, festiveness, more festive, most festive
+> finger-licking, finger-lickingness, more finger-licking, most finger-licking
+> firm, firmness, firmer, firmest
+> fishy, fishiness, fishier, fishiest
+> flabbergasted, confusion, more flabbergasted, most flabbergasted
+> flaming, fire, more flaming, most flaming
+> flammable, flammability, more flammable, most flammable
+> flappy, flappiness, flappier, flappiest
+> flavorful, flavor, more flavorful, most flavorful
+> fleshy, fleshiness, fleshier, fleshiest
+> flexible, flexibility, more flexible, most flexible
+> fluttering, light-weightedness, more fluttering, most fluttering
+> forgiving, forgiveness, more forgiving, most forgiving
+> formal, formality, more formal, most formal
+> formidable, formidableness, more formidable, most formidable
+> fortunate, fortune, more fortunate, most fortunate
+> fragrant, fragrance, more fragrant, most fragrant
+> freaky, freakiness, freakier, freakiest
+> fresh, freshness, fresher, freshest
+> frictional, friction, more frictional, most frictional
+> frosty, frostiness, frostier, frostiest
+> fruity, fruitiness, fruitier, fruitiest
+> funny, humorousness, funnier, funniest
+> gallant, gallantness, more gallant, most gallant
+> gassy, gassiness, gassier, gassiest
+> gelatinous, gelatinousgoodness, more gelatinous, most gelatinous
+> gentle, gentleness, gentler, gentlest
+> ghetto, ghettoness, more ghetto, most ghetto
+> glassy, glassiness, glassier, glassiest
+> glorious, gloriousness, more glorious, most glorious
+> gourmet, gourmetness, more gourmet, most gourmet
+> graceful, grace, more graceful, most graceful
+> grainy, graininess, grainier, grainiest
+> grassy, grassiness, grassier, grassiest
+> greasy, grasiness, greasier, greasiest
+> groovy, grooviness, groovier, grooviest
+> gross, grossness, grosser, grossest
+> gullible, gullibility, more gullible, most gullible
+> hairy, hairiness, hairier, hairiest
+> hard, hardness, harder, hardest
+> hardcore, hardcoreness, more hardcore, most hardcore
+> harmless, harmlessness, more harmless, most harmless
+> hazardous, hazardousness, more hazardous, most hazardous
+> headless, headlessness, more headless, most headless
+> heavy, heaviness, heavier, heaviest
+> heinous, heinousness, more heinous, most heinous
+> highbrow, highbrowness, more highbrow, most highbrow
+> high-flying, aerodynamics, more high-flying, most high-flying
+> historical, historicalness, more historical, most historical
+> holy, holiness, holier, holiest
+> honest, honesty, more honest, most honest
+> horizontal, horizontalness, more horizontal, most horizontal
+> horrid, horridness, more horrid, most horrid
+> horrifying, horror, more horrifying, most horrifying
+> humid, humidity, more humid, most humid
+> humorous, humor, more humorous, most humorous
+> hyper, hyperness, more hyper, most hyper
+> icy, iciness, icier, iciest
+> identical, identity, more identical, most identical
+> illiterate, illiteracy, more illiterate, most illiterate
+> immaculate, immaculateness, more immaculate, most immaculate
+> immense, immensity, more immense, most immense
+> immoral, immorality, more immoral, most immoral
+> impish, impishness, more impish, most impish
+> impressive, impressiveness, more impressive, most impressive
+> inadvisable, inadvisablenature, more inadvisable, most inadvisable
+> incredible, incredibility, more incredible, most incredible
+> indestructible, involunurability, more indestructible, most indestructible
+> infallible, infallibility, more infallible, most infallible
+> infeasible, infeasibility, more infeasible, most infeasible
+> infectious, infectiousness, more infectious, most infectious
+> informative, informativeness, more informative, most informative
+> insane, insanity, more insane, most insane
+> intellectual, intellect, more intellectual, most intellectual
+> intelligent, intelligence, more intelligent, most intelligent
+> intense, intensity, more intense, most intense
+> intentional, intention, more intentional, most intentional
+> interracial, interracialness, more interracial, most interracial
+> intriguing, interest, more intriguing, most intriguing
+> invigorating, invigoratingness, more invigorating, most invigorating
+> irrational, irrationality, more irrational, most irrational
+> irregular, irregularity, more irregular, most irregular
+> irritated, anger, more irritated, most irritated
+> itchy, itchiness, itchier, itchiest
+> jazzy, jazziness, jazzier, jazziest
+> jelly-belly, jelly-bellyness, jelly-bellier, jelly-belliest
+> jiggly, jiggliness, jigglier, jiggliest
+> jittery, jitteriness, jitterier, jitteriest
+> jovial, cheer, more jovial, most jovial
+> jubilant, happiness, more jubilant, most jubilant
+> juicy, juiciness, juicier, juiciest
+> juvenile, juvenileness, more juvenile, most juvenile
+> keen, keenness, keener, keenest
+> large, largeness, larger, largest
+> legitimate, legitimacy, more legitimate, most legitimate
+> light-hearted, light-heartedness, more light-hearted, most light-hearted
+> livid, anger, more livid, most livid
+> logical, logical, more logical, most logical
+> long, longness, longer, longest
+> loud, loudness, louder, loudest
   - class c0
-> lovely, loveliness
-> loyal, loyalty
-> lubricated, lubrication
-> lumpy, lumpiness
-> luscious, lusciousness
-> luxurious, luxuriousness
-> magical, magic
-> major-league, major-leagueness
-> malleable, malleability
-> manly, manliness
-> marvelous, marvelousness
-> masculine, masculinity
-> meaningful, meaning
-> mellow, mellowness
-> melodic, melodicness
-> menacing, menace
-> merciful, mercy
-> messy, messiness
-> metallic, luster
-> misaligned, misalignedness
-> miserly, misery
-> moist, moisture
+> lovely, loveliness, lovelier, loveliest
+> loyal, loyalty, more loyal, most loyal
+> lubricated, lubrication, more lubricated, most lubricated
+> lumpy, lumpiness, lumpier, lumpiest
+> luscious, lusciousness, more luscious, most luscious
+> luxurious, luxuriousness, more luxurious, most luxurious
+> magical, magic, more magical, most magical
+> major-league, major-leagueness, more major-league, most major-league
+> malleable, malleability, more malleable, most malleable
+> manly, manliness, manlier, manliest
+> marvelous, marvelousness, more marvelous, most marvelous
+> masculine, masculinity, more masculine, most masculine
+> meaningful, meaning, more meaningful, most meaningful
+> mellow, mellowness, mellower, mellowest
+> melodic, melodicness, more melodic, most melodic
+> menacing, menace, more menacing, most menacing
+> merciful, mercy, more merciful, most merciful
+> messy, messiness, messier, messiest
+> metallic, luster, more metallic, most metallic
+> misaligned, misalignedness, more misaligned, most misaligned
+> miserly, misery, miserlier, miserliest
+> moist, moisture, moister, moistest
   - weight 10
-> monogamous, monogamy
-> monsterous, largeness
-> musical, music
-> mysterious, mystery
-> mythical, mythicalness
-> nasty, nastiness
-> nifty, niftiness
-> noisy, noisiness
-> nutritious, nutrition
-> nutty, nuttiness
-> obstinate, stubbornness
-> odd, oddness
-> odorous, odor
-> offensive, offensiveness
-> old, age
-> old-fashioned, old-fashionedness
-> oozing, excretory wetness
-> organic, organicness
-> organized, order
-> outlandish, outlandishness
-> outrageous, outrage
-> outstanding, amazement
-> over-whelmed, domination
-> painful, pain
-> passionate, passion
-> pathetic, lameness
-> patient, patience
-> patriotic, patrioticness
-> peckish, peckishness
-> penetrative, penetrativepower
-> peppery, pepperiness
-> perfect, perfection
-> perplexed, confusion
-> pharmaceutical, pharmaceuticalness
-> philosophical, philosophy
-> piggy, pigginess
-> pitiful, pity
-> pleasant, pleasantnature
-> pleasurable, pleasurability
-> plentiful, plentifulness
-> poisonous, toxicity
-> political, politicalness
-> polluted, pollution
-> polygamous, polygamy
-> popular, popularity
-> possible, possibility
-> potent, potency
-> potential, potential
-> powerful, power
-> pregnant, pregnancy
-> professional, professionalism
-> profitable, proifitability
-> proper, properness
-> pulsating, pumpiness
-> punctual, punctuality
-> puzzled, confusion
-> queer, queerness
-> questionable, questionability
-> quiet, quietness
+> monogamous, monogamy, more monogamous, most monogamous
+> monsterous, largeness, more monsterous, most monsterous
+> musical, music, more musical, most musical
+> mysterious, mystery, more mysterious, most mysterious
+> mythical, mythicalness, more mythical, most mythical
+> nasty, nastiness, nastier, nastiest
+> nifty, niftiness, niftier, niftiest
+> noisy, noisiness, noisier, noisiest
+> nutritious, nutrition, more nutritious, most nutritious
+> nutty, nuttiness, nuttier, nuttiest
+> obstinate, stubbornness, more obstinate, most obstinate
+> odd, oddness, odder, oddest
+> odorous, odor, more odorous, most odorous
+> offensive, offensiveness, more offensive, most offensive
+> old, age, older, oldest
+> old-fashioned, old-fashionedness, more old-fashioned, most old-fashioned
+> oozing, excretory wetness, more oozing, most oozing
+> organic, organicness, more organic, most organic
+> organized, order, more organized, most organized
+> outlandish, outlandishness, more outlandish, most outlandish
+> outrageous, outrage, more outrageous, most outrageous
+> outstanding, amazement, more outstanding, most outstanding
+> over-whelmed, domination, more over-whelmed, most over-whelmed
+> painful, pain, more painful, most painful
+> passionate, passion, more passionate, most passionate
+> pathetic, lameness, more pathetic, most pathetic
+> patient, patience, more patient, most patient
+> patriotic, patrioticness, more patriotic, most patriotic
+> peckish, peckishness, more peckish, most peckish
+> penetrative, penetrativepower, more penetrative, most penetrative
+> peppery, pepperiness, pepperier, pepperiest
+> perfect, perfection, more perfect, most perfect
+> perplexed, confusion, more perplexed, most perplexed
+> pharmaceutical, pharmaceuticalness, more pharmaceutical, most pharmaceutical
+> philosophical, philosophy, more philosophical, most philosophical
+> piggy, pigginess, piggier, piggiest
+> pitiful, pity, more pitiful, most pitiful
+> pleasant, pleasantnature, more pleasant, most pleasant
+> pleasurable, pleasurability, more pleasurable, most pleasurable
+> plentiful, plentifulness, more plentiful, most plentiful
+> poisonous, toxicity, more poisonous, most poisonous
+> political, politicalness, more political, most political
+> polluted, pollution, more polluted, most polluted
+> polygamous, polygamy, more polygamous, most polygamous
+> popular, popularity, more popular, most popular
+> possible, possibility, more possible, most possible
+> potent, potency, more potent, most potent
+> potential, potential, more potential, most potential
+> powerful, power, more powerful, most powerful
+> pregnant, pregnancy, more pregnant, most pregnant
+> professional, professionalism, more professional, most professional
+> profitable, proifitability, more profitable, most profitable
+> proper, properness, more proper, most proper
+> pulsating, pumpiness, more pulsating, most pulsating
+> punctual, punctuality, more punctual, most punctual
+> puzzled, confusion, more puzzled, most puzzled
+> queer, queerness, more queer, most queer
+> questionable, questionability, more questionable, most questionable
+> quiet, quietness, quieter, quietest
   - class c0
-> radical, radishes
-> radioactive, radioactivity
-> raging, rage
-> rambunctious, wildness
-> rational, rationality
-> raunchy, raunchiness
-> rebellious, rebelliousness
-> refreshing, refreshingness
-> regal, regalness
-> religious, religiousness
-> resonant, resonance
-> retro, retroness
-> revolting, revoltingness
-> righteous, righteousness
-> ripped, wear
-> rock-hard, rock-hardness
-> rocky, rockiness
-> romantic, romance
-> rough, roughness
-> rowdy, rowdiness
-> royal, royalty
-> rude, rudeness
-> rustic, rusticness
-> salty, saltiness
-> sandy, sandiness
-> satisfactory, satisfaction
-> savage, savageness
-> savory, flavor
-> scary, scariness
-> scholarly, scholarliness
-> scornful, scorn
-> seductive, seductiveness
-> sensational, sensationalism
-> sensible, sensibility
-> serene, serenity
-> sharp, sharpness
-> shiny, shininess
-> shocking, shock
-> sickening, sickness
-> significant, significance
-> silky, silkiness
-> silly, silliness
-> sinful, sin
-> sizzling, fizzly shizzliness
-> skeptical, skepticism
-> skinny, skininess
-> slammin, worth
-> sleek, sleekness
-> slick, slickness
-> slimy, sliminess
-> slippy, slippiness
-> slow, slowness
-> slurpee, slurpiness
-> small, smallness
-> smart, smartness
-> smooth, smoothness
-> snappy, snappiness
-> sneaky, sneakiness
-> snobbish, snobbishness
-> sociopathic, sociopathicness
-> soft, softness
-> soothing, soothingness
-> sophisticated, sophistication
-> speculative, speculation
-> speedy, speediness
-> spicy, spiciness
-> spidery, spideriness
-> spine-tingling, tingliness
-> splendid, splendidness
-> splintered, splinters
-> spontaneous, spontaneity
-> squeamish, squeamishness
-> squirrely, furriness
-> squishy, squishiness
-> standard, standardness
-> steamy, steaminess
-> stereotypical, stereotypicalness
-> sterile, sterility
-> sticky, stickiness
-> stimulating, stimulus
-> stinky, stinkiness
-> stormy, storminess
-> strange, strangeness
-> stretchy, stretchiness
-> strict, strictness
-> sublime, sublimeness
-> submissive, submissiveness
-> succulant, deliciousness
-> super, superness
-> superb, superbness
-> superfluous, superfluousness
-> supple, softness
-> supplementary, supplementariness
-> sure, sureness
-> surprising, surprise
-> swift, lightning speed
-> tactical, tacticalness
-> tattered, wear
-> tender, tenderness
-> terrible, terror
-> terrifying, scariness
-> threatening, intimidation
-> thrilling, thrill
-> throbbing, throbbingpleasure
-> ticklish, ticklishness
-> tight-lipped, tightlips
-> toasty, toastiness
-> torturous, torturousness
-> traditional, tradition
-> treacherous, treachery
-> tropical, tropicalness
-> troubling, trouble
-> trustworthy, trustworthiness
-> unbelievable, falseness
-> unconstitutional, unconstitutionalness
-> unethical, unethicalness
-> unfortunate, misfortune
-> unlikely, unlikelihood
-> unlimited, unlimitedness
-> unpleasant, unpleasantnature
-> unstable, instability
-> velvety, velvetygoodness
-> vertical, verticalness
-> vibrating, vibration
-> Victorian, Victorianness
-> victorious, victory
-> vulnerable, vulnerability
-> waddly, waddliness
-> warm, warmth
-> wasted, wastedness
-> water-tight, virginity
-> watery, wateriness
-> wavy, waviness
-> weightless, weightlessness
-> well-loved, sweet love
-> well-used, thoroughness
-> whole-grain, whole-graininess
-> wholesome, wholesomeness
-> wicked, wickedness
-> wild, wildness
-> wobbly, wobbliness
-> woody, woodiness
-> young, youth
-> zen, zenness
+> radical, radishes, more radical, most radical
+> radioactive, radioactivity, more radioactive, most radioactive
+> raging, rage, more raging, most raging
+> rambunctious, wildness, more rambunctious, most rambunctious
+> rational, rationality, more rational, most rational
+> raunchy, raunchiness, raunchier, raunchiest
+> rebellious, rebelliousness, more rebellious, most rebellious
+> refreshing, refreshingness, more refreshing, most refreshing
+> regal, regalness, more regal, most regal
+> religious, religiousness, more religious, most religious
+> resonant, resonance, more resonant, most resonant
+> retro, retroness, more retro, most retro
+> revolting, revoltingness, more revolting, most revolting
+> righteous, righteousness, more righteous, most righteous
+> ripped, wear, more ripped, most ripped
+> rock-hard, rock-hardness, more rock-hard, most rock-hard
+> rocky, rockiness, rockier, rockiest
+> romantic, romance, more romantic, most romantic
+> rough, roughness, rougher, roughest
+> rowdy, rowdiness, rowdier, rowdiest
+> royal, royalty, more royal, most royal
+> rude, rudeness, ruder, rudest
+> rustic, rusticness, more rustic, more rustic
+> salty, saltiness, saltier, saltiest
+> sandy, sandiness, sandier, sandiest
+> satisfactory, satisfaction, more satisfactory, most satisfactory
+> savage, savageness, more savage, most savage
+> savory, flavor, savorier, savoriest
+> scary, scariness, scarier, scariest
+> scholarly, scholarliness, scholarlier, scholarliest
+> scornful, scorn, more scornful, most scornful
+> seductive, seductiveness, more seductive, most seductive
+> sensational, sensationalism, more sensational, most sensational
+> sensible, sensibility, more sensible, most sensible
+> serene, serenity, more serene, most serene
+> sharp, sharpness, sharper, sharpest
+> shiny, shininess, shinier, shiniest
+> shocking, shock, more shocking, most shocking
+> sickening, sickness, more sickening, most sickening
+> significant, significance, more significant, most significant
+> silky, silkiness, silkier, silkiest
+> silly, silliness, sillier, silliest
+> sinful, sin, more sinful, most sinful
+> sizzling, fizzly shizzliness, more sizzling, most sizzling
+> skeptical, skepticism, more skeptical, most skeptical
+> skinny, skininess, skinnier, skinniest
+> slammin, worth, more slammin, most slammin
+> sleek, sleekness, sleeker, sleekest
+> slick, slickness, slicker, slickest
+> slimy, sliminess, slimier, slimiest
+> slippy, slippiness, slippier, slippiest
+> slow, slowness, slower, slowest
+> slurpee, slurpiness, more slurpee, most slurpee
+> small, smallness, smaller, smallest
+> smart, smartness, smarter, smartest
+> smooth, smoothness, smoother, smoothest
+> snappy, snappiness, snappier, snappiest
+> sneaky, sneakiness, sneakier, sneakiest
+> snobbish, snobbishness, more snobbish, most snobbish
+> sociopathic, sociopathicness, more sociopathic, most sociopathic
+> soft, softness, softer, softest
+> soothing, soothingness, more soothing, most soothing
+> sophisticated, sophistication, more sophisticated, most sophisticated
+> speculative, speculation, more speculative, most speculative
+> speedy, speediness, speedier, speediest
+> spicy, spiciness, spicier, spiciest
+> spidery, spideriness, spiderier, spideriest
+> spine-tingling, tingliness, more spine-tingling, most spine-tingling
+> splendid, splendidness, more splendid, most splendid
+> splintered, splinters, more splintered, most splintered
+> spontaneous, spontaneity, more spontaneous, most spontaneous
+> squeamish, squeamishness, more squeamish, most squeamish
+> squirrely, furriness, squirrelier, squirreliest
+> squishy, squishiness, squishier, squishiest
+> standard, standardness, more standard, most standard
+> steamy, steaminess, steamier, steamiest
+> stereotypical, stereotypicalness, more stereotypical, most stereotypical
+> sterile, sterility, more sterile, most sterile
+> sticky, stickiness, stickier, stickiest
+> stimulating, stimulus, more stimulating, most stimulating
+> stinky, stinkiness, stinkier, stinkiest
+> stormy, storminess, stormier, stormiest
+> strange, strangeness, starnger, strangest
+> stretchy, stretchiness, stretchier, stretchiest
+> strict, strictness, stricter, strictest
+> sublime, sublimeness, more sublime, most sublime
+> submissive, submissiveness, more submissive, most submissive
+> succulant, deliciousness, more succulant, most succulant
+> super, superness, more super, most super
+> superb, superbness, more superb, most superb
+> superfluous, superfluousness, more superfluous, most superfluous
+> supple, softness, suppler, supplest
+> supplementary, supplementariness, supplementarier, supplementariest
+> sure, sureness, more sure, most sure
+> surprising, surprise, more surprising, most surprising
+> swift, lightning speed, swifter, swiftest
+> tactical, tacticalness, more tactical, most tactical
+> tattered, wear, more tattered, most tattered
+> tender, tenderness, more tender, most tender
+> terrible, terror, more terrible, most terrible
+> terrifying, scariness, more terrifying, most terrifying
+> threatening, intimidation, more threatening, most threatening
+> thrilling, thrill, more thrilling, most thrilling
+> throbbing, throbbingpleasure, more throbbing, most throbbing
+> ticklish, ticklishness, more ticklish, most ticklish
+> tight-lipped, tightlips, more tight-lipped, most tight-lipped
+> toasty, toastiness, toastier, toastiest
+> torturous, torturousness, more torturous, most torturous
+> traditional, tradition, more traditional, most traditional
+> treacherous, treachery, more treacherous, most treacherous
+> tropical, tropicalness, more tropical, most tropical
+> troubling, trouble, more troubling, most troubling
+> trustworthy, trustworthiness, trustworthier, trustworthiest
+> unbelievable, falseness, more unbelievable, most unbelievable
+> unconstitutional, unconstitutionalness, more unconstitutional, most unconstitutional
+> unethical, unethicalness, more unethical, most unethical
+> unfortunate, misfortune, more unfortunate, most unfortunate
+> unlikely, unlikelihood, unlikelier, unlikeliest
+> unlimited, unlimitedness, more unlimited, most unlimited
+> unpleasant, unpleasantness, less pleasant, least-pleasant
+> unstable, instability, more unstable, most unstable
+> velvety, velvetygoodness, velvetier, velvetiest
+> vertical, verticalness, more vertical, most vertical
+> vibrating, vibration, more vibrating, most vibrating
+> Victorian, Victorianness, more Victorian, most Victorian
+> victorious, victory, more victorious, most victorious
+> vulnerable, vulnerability, more vulnerable, most vulnerable
+> waddly, waddliness, waddlier, waddliest
+> warm, warmth, warmer, warmest
+> wasted, wastedness, more wasted, most wasted
+> water-tight, water-tightness, more water-tight, most water-tight
+> watery, wateriness, waterier, wateriest
+> wavy, waviness, wavier, waviest
+> weightless, weightlessness, more weightless, most weightless
+> well-loved, sweet love, more well-loved, most well-loved
+> well-used, thoroughness, more well-used, most well-used
+> whole-grain, whole-graininess, more whole-grain, most whole-grain
+> wholesome, wholesomeness, more wholesome, most wholesome
+> wicked, wickedness, more wicked, most wicked
+> wild, wildness, wilder, wildest
+> wobbly, wobbliness, wobblier, wobbliest
+> woody, woodiness, woodier, woodiest
+> young, youth, younger, youngest
+> zen, zenness, more zen, most zen
