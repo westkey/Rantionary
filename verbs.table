@@ -34,19 +34,11 @@
 		- class arrange, axial, dative, transitive
 	> defecate, defecating, defecated, defecates, defecator, defecated, defecation, defecations
 		- class liquid, nsfw, transitive
-	> ejaculate, ejaculating, ejaculated, ejaculates, ejaculator, ejaculated, ejaculation, ejaculations
-		- class liquid, nsfw, sex
-	> fantasize, fantasizing, fantasized, fantasizes, fantasizeer, fantasized, fantasizey, fantasizies
-		- class dative
 	> fume, fuming, fumed, fumes, fumer, fumed, fuming, fumings
 	> gyrate, gyrating, gyrated, gyrates, gyrator, gyrated, gyration, gyrations
 		- class motion, move, nsfw
 	> lather, lathering, lathered, lathers, latherer, lathered, lathering, latherings
-	> masturbate, masturbating, masturbated, masturbates, masturbator, masturbated, masturbation, masturbations
-		- class nsfw, sex
 	> pray, praying, prayed, prays, prayer, prayed, prayer, prayers
-	> twerk, twerking, twerked, twerks, twerker, twerked, twerking, twerkings
-		- class motion, nsfw
 	> urinate, urinating, urinated, urinates, urinator, urinated, urination, urinations
 		- class liquid, nsfw
 @endclass
