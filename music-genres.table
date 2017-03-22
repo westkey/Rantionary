@@ -95,7 +95,7 @@
   @endclass
 @endclass
 
-@class avant-garde
+@class avant_garde
   > aleatoric music
   > experimental music
   > free improvisation
@@ -120,32 +120,32 @@
 @endclass
 
 @class blues
-  > african blues
+  > African blues
   > blues rock
   > blues shouter
-  > british blues
-  > canadian blues
-  > chicago blues
+  > British blues
+  > Canadian blues
+  > Chicago blues
   > classic female blues
-  > contemporary r&b
+  > contemporary R&B
   > country blues
   > delta blues
-  > detroit blues
+  > Detroit blues
   > electric blues
   > gospel blues
   > hill country blues
   > hokum blues
   > jump blues
-  > kansas city blues
-  > louisiana blues
+  > Kansas City blues
+  > Louisiana blues
   > memphis blues
   > piedmont blues
   > punk blues
   > rhythm and blues
   > soul blues
-  > st. louis blues
+  > St. Louis blues
   > swamp blues
-  > texas blues
+  > Texas blues
   > west coast blues
 @endclass
 
@@ -218,7 +218,7 @@
   > reactionary bluegrass
   > cajun
   > cajun fiddle tunes
-  > christian country music
+  > Christian country music
   > classic country
   > close harmony
   > dansband music
@@ -362,7 +362,7 @@
   > moombahton
   > moombahcore
   > electro swing
-  > french house
+  > French house
   > funky house
   > garage house
   > ghetto house
@@ -375,7 +375,7 @@
   > italo house
   > jazz house
   > kwaito
-  > latin house
+  > Latin house
   > microhouse/minimal house
   > new beat
   > outsider house
@@ -488,7 +488,7 @@
   > bongo flava
   > british hip hop
   > chap hop
-  > christian hip hop
+  > Christian hip hop
   > conscious hip hop
   > crunk
   > crunkcore
@@ -519,8 +519,8 @@
   > ghetto house
   > detroit hip hop
   > ghettotech
-  > st. louis hip hop
-  > twin cities hip hop
+  > St. Louis hip hop
+  > Twin Cities hip hop
   > horrorcore
   > merenrap
   > motswako
@@ -544,11 +544,11 @@
   > rap metal
   > reggae español/spanish reggae
   > southern hip hop
-  > atlanta hip hop
+  > Atlanta hip hop
   > snap music
   > bounce music
   > crunk
-  > houston hip hop
+  > Houston hip hop
   > chopped and screwed
   > miami bass
   > songo-salsa
@@ -591,9 +591,9 @@
   > jazz fusion
   > jazz rap
   > jazz rock
-  > kansas city blues
-  > kansas city jazz
-  > latin jazz
+  > Kansas City blues
+  > Kansas City jazz
+  > Latin jazz
   > livetronica
   > m-base
   > mainstream jazz
@@ -619,7 +619,7 @@
   > west coast jazz
 @endclass
 
-@class latin
+@class Latin
   > brazilian
   > axé
   > brazilian rock
@@ -638,15 +638,15 @@
   > samba
   > pagode
   > samba rock
-  > latin christian
-  > latin jazz
+  > Latin Christian
+  > Latin jazz
   > afro-cuban jazz
   > bossa nova
-  > latin pop
-  > latin ballad
-  > latin swing
-  > latin rock
-  > latin alternative
+  > Latin pop
+  > Latin ballad
+  > Latin swing
+  > Latin rock
+  > Latin alternative
   > rock en español
   > reggaeton
   > regional mexican
@@ -696,7 +696,7 @@
   > canzone
   > chalga
   > chanson
-  > christian pop
+  > Christian pop
   > classical crossover
   > country pop
   > c-pop
@@ -707,21 +707,21 @@
   > europop
   > austropop
   > eurobeat
-  > french pop
+  > French pop
   > italo dance
   > italo disco
   > laïkó
-  > latin pop
+  > Latin pop
   > nederpop
-  > russian pop
+  > Russian pop
   > fado
   > folk pop
-  > iranian pop
+  > Iranian pop
   > indie pop
   > j-pop
   > jangle pop
   > k-pop
-  > latin ballad
+  > Latin ballad
   > louisiana swamp pop
   > mexican pop
   > new romanticism
@@ -748,8 +748,8 @@
   > worldbeat
 @endclass
 
-@class r&b, soul
-  > contemporary r&b
+@class rb, soul
+  > contemporary R&B
   > disco
   > funk
   > deep funk
@@ -781,8 +781,8 @@
   > shoegaze
   > slowcore
   > beat music
-  > chinese rock
-  > christian rock
+  > Chinese rock
+  > Christian rock
   > dark cabaret
   > electronicore
   > electronic rock
@@ -806,7 +806,7 @@
   > symphonic black metal
   > viking metal
   > war metal
-  > christian metal
+  > Christian metal
   > unblack metal
   > death metal
   > death 'n' roll
@@ -825,7 +825,7 @@
   > gothic metal
   > grindcore
   > industrial metal
-  > latin metal
+  > Latin metal
   > metalcore
   > melodic metalcore
   > deathcore
@@ -868,7 +868,7 @@
   > crust punk
   > d-beat
   > art punk
-  > christian punk
+  > Christian punk
   > deathrock
   > digital hardcore
   > folk punk
