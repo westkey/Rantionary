@@ -6,9 +6,13 @@
 
 @class ball
   > baseball, baseballs
+    - pron \"beIs bOl, beIs bOlz
   > basketball, basketballs
+    - pron \"b{s kIt bOl, \"b{s kIt bOlz
   > beach ball, beach balls
+    - pron \"bitS bOl, \"bitS bOlz
   > boulder, boulders
+    - pron \"boUl d@r\\, \"boUl d@r\\z
   > golf ball, golf balls
     - class round, white
   > meatball, meatballs
@@ -21,14 +25,17 @@
   @class head
     @class face
       > beak, beaks
+        - pron bik, biks
       > goatee, goatees
         - class hair
       > jowl, jowls
       > lip, lips
         - class mouth
+        - pron lIp, lIps
       > mustache, mustaches
         - class hair
       > nose, noses
+        - pron noUz, noUz1z
       > nostril, nostrils
         - class nose
       > snout, snouts
@@ -62,6 +69,7 @@
   > armpit, armpits
   > body, bodies
   > bone, bones
+    - pron boUn, boUnz
   > cornea, corneas
   > dimple, dimples
   > duodenum, duodenums
@@ -86,7 +94,7 @@
   > neck, necks
   > rump, rumps
   > scapula, scapulas
-  > skin, skin
+  > skin, skins
   > stinger, stingers
   > tentacle, tentacles
     - class long
@@ -96,6 +104,7 @@
   > toenail, toenails
     - class foot
   > tooth, teeth
+    - pron tuT, tiT
   > umbilical cord, umbilical cords
     - class long
   > whisker, whiskers
