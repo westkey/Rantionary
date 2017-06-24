@@ -1,0 +1,210 @@
+@name unoun
+
+@class liquid
+	> acid
+	> beer
+		- class alcoholic, drink
+	> bleach
+	> cream
+	> diarrhea
+	> earwax
+		- class yellow
+	> grease
+	> lotion
+	> oil
+	> olive oil
+	> pudding
+	> rain
+	> saliva
+	> sauce
+	> slime
+	> snot
+	> soap
+	> soup
+	> sweat
+	> tar
+	> toothpaste
+	> urine
+		- class yellow
+	> vodka
+		- class alcoholic, drink
+	> water
+		- class drink
+	> wine
+		- class alcoholic, drink
+	> yogurt
+	> lemonade
+		- class drink
+@endclass
+
+> manure
+	- class poop
+> money
+	- class currency
+
+@class emotion
+	> anger
+		- class negative, anger
+	> anticipation
+	> awe
+	> bewilderment
+	> bliss
+	> boredom
+	> confusion
+	> contempt
+	> contentment
+	> despair
+	> disappointment
+	> doubt
+	> ecstasy
+	> envy
+	> excitement
+	> fright
+	> fury
+		- class negative, anger, intense
+	> gratitude
+	> guilt
+	> happiness
+	> hatred
+	> horror
+	> humility
+	> hunger
+	> interest
+	> irritation
+	> joy
+	> longing
+	> love
+	> lust
+	> madness
+	> melancholy
+	> optimism
+	> pain
+	> passion
+	> patience
+	> pity
+	> pleasure
+	> pride
+	> rage
+	> remorse
+	> sadness
+	> satisfaction
+	> shame
+	> shock
+	> smugness
+	> sorrow
+	> surprise
+	> terror
+	> torment
+@endclass
+
+> surgery
+	- class act
+> brain surgery
+	- class act, surgery
+> open heart surgery
+	- class act, surgery
+> murder
+	- class act, homicide, violent
+> time
+	- class concept
+> gravity
+	- class force
+> electricity
+	- class physical, force, power
+> death
+	- class event
+> birth
+	- class event
+> truth
+	- class concept
+> danger
+	- class concept, negative, risk
+> safety
+	- class concept, positive, safe
+> air
+	- class physical, gas, general, breathable
+> breath
+	- class physical, gas, human, breath, pulmonary
+> culture
+	- class concept, humanity
+> light
+	- class physical, radiation
+> darkness
+	- class physical
+> dinner
+	- class event, food, evening
+> abstract art
+	- class art, art_type, abstract_art
+> accounting
+	- class profession, concept, humanity
+> adbuction
+	- class act, negative, kidnap, crime
+> agreement
+	- class abstract
+> art
+	- class art, general
+> Atheism
+	- class belief_system
+> biology
+	- class science, general, science_type
+> bioterrorism
+	 - class terrorism, act, negative, violent, murder, biological, terrorism_type
+> Buddhism
+	- class religion, belief_system
+> Christianity
+	- class religion, belief_system
+> evil
+	- class concept, negative, humanity
+> freeware
+	- class software, computer, computer_science, free
+> good
+	- class concept, abstract
+> hair
+	- class physical, body, hair, general, body_part
+> hardware
+> homophobia
+	- class negative, belief, belief_discrim
+> Hinduism
+	- class religion, belief_system
+> imagination
+	- class humanity, concept, mind, creative
+> Islam
+	- class religion, belief_system
+> Judaism
+	- class religion, belief_system
+> life
+	- class life, concept, biology
+> magic
+	- class concept, fictional, magic, general, force
+> misandry
+	- class belief, negative, gender, sex, humanity, discrim, belief_discrim
+> misanthropy
+	- class belief, negative, humanity
+> misogyny
+	- class negative, belief, gender, sex, humanity, discrim, belief_discrim
+> peace
+	- class concept, humanity, peace, nonviolent
+> plagiarism
+	- class act, negative
+> procedural generation
+	- class algorithm, computer, computer_science, math, programming
+> racism
+	- class belief, belief_discrim, race, humanity, negative
+> Satanism
+	- class religion, belief_system
+> science
+	- class concept, knowledge, humanity, science, general
+> sexism
+	- class belief, negative, belief_discrim, humanity, gender, sex
+> software
+	- class computer, computer_science, software, tangible
+> terrorism
+	- class act, crime, terror, terrorism, murder, violent
+> traffic
+	- class transportation, transport, cars, infrastructure, humanity, movement
+> war
+	- class act, violent, murder
+> wisdom
+	- concept, humanity, mind
+> xenophobia
+	- class belief, belief_discrim, negative, humanity, nationality

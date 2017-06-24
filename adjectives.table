@@ -175,6 +175,9 @@
     > naughty, naughtiness, naughtier, naughtiest
     > proud, pride, prouder, proudest
     > remorseful, remorse, more remorseful, most remorseful
+    > sorrowful, sorrow, more sorrowful, most sorrowful
+    > sad, sadness, sadder, saddest
+    > sullen, sullenness, more sullen, most sullen
   @endclass
   @class cn2
     > arrogant, arrogance, more arrogant, most arrogant
@@ -191,34 +194,31 @@
     > happy, happiness, happier, happiest
     > joyful, joy, more joyful, most joyful
     > loving, love, more loving, most loving  @endclass
-  > awed, awe, more awed, most awed
-  > bored, boredom, more bored, most bored
-  > cheeky, cheekiness, cheekier, cheekiest
-  > content, contentfulness, more content, most content
-  > eager, eagerness, more eager, most eager
-  > groggy, grogginess, groggier, groggiest
-  > horrified, horror, more horrified, most horrified
-  > hungry, hunger, hungrier, hungriest
-  > impatient, impatience, more impatient, most impatient
-  > indifferent, indifference, more indifferent, most indifferent
-  > interested, interest, more interested, most interested
-  > lonely, loneliness, lonelier, loneliest
-    - class c0
-  > longing, longing, more longing, most longing
-  > optimistic, optimism, more optimistic, most optimistic
-    - class c0
-  > pleasured, pleasure, more pleasured, most pleasured
-  > raging, rage, more raging, most raging
-  > sad, sadness, sadder, saddest
-  > severe, severity, more severe, most severe
-  > shocked, shock, more shocked, most shocked
-  > sly, slyness, slyer, slyest
-  > smug, smugness, smugger, smuggest
-  > sorrowful, sorrow, more sorrowful, most sorrowful
-  > sullen, sullenness, more sullen, most sullen
-  > surprised, surprise, more surprised, most surprised
-  > thankful, thankfulness, more thankful, most thankful
-  > tormented, torment, more tormented, most tormented
+    > awed, awe, more awed, most awed
+    > bored, boredom, more bored, most bored
+    > cheeky, cheekiness, cheekier, cheekiest
+    > content, contentfulness, more content, most content
+    > eager, eagerness, more eager, most eager
+    > groggy, grogginess, groggier, groggiest
+    > horrified, horror, more horrified, most horrified
+    > hungry, hunger, hungrier, hungriest
+    > impatient, impatience, more impatient, most impatient
+    > indifferent, indifference, more indifferent, most indifferent
+    > interested, interest, more interested, most interested
+    > lonely, loneliness, lonelier, loneliest
+      - class c0
+    > longing, longing, more longing, most longing
+    > optimistic, optimism, more optimistic, most optimistic
+      - class c0
+    > pleasured, pleasure, more pleasured, most pleasured
+    > raging, rage, more raging, most raging    
+    > severe, severity, more severe, most severe
+    > shocked, shock, more shocked, most shocked
+    > sly, slyness, slyer, slyest
+    > smug, smugness, smugger, smuggest  
+    > surprised, surprise, more surprised, most surprised
+    > thankful, thankfulness, more thankful, most thankful
+    > tormented, torment, more tormented, most tormented
 @endclass
 @class nationality
   > African, Africa nheritage, more African, most African

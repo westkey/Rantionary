@@ -920,100 +920,6 @@
   > vacuum, vacuums
 @endclass
 
-@class uc
-  @class liquid
-    > acid,
-    > beer,
-      - class alcoholic
-    > bleach,
-    > cream,
-    > diarrhea,
-    > earwax,
-      - class yellow
-    > grease,
-    > lotion,
-    > oil,
-    > olive oil,
-    > pudding,
-    > rain,
-    > saliva,
-    > sauce,
-    > slime,
-    > snot,
-    > soap,
-    > soup,
-    > sweat,
-    > tar,
-    > toothpaste,
-    > urine,
-      - class yellow
-    > vodka,
-      - class alcoholic
-    > water,
-    > wine,
-      - class alcoholic
-    > yogurt,
-    > lemonade,
-      - class beverage
-  @endclass
-  
-  > manure,
-    - class poop
-  > money,
-    - class currency
-
-  @class emotion
-    > anger,
-    > anticipation,
-    > awe,
-    > bewilderment,
-    > bliss,
-    > boredom,
-    > confusion,
-    > contempt,
-    > contentment,
-    > despair,
-    > disappointment,
-    > ecstasy,
-    > envy,
-    > excitement,
-    > fright,
-    > fury,
-    > gratitude,
-    > guilt,
-    > happiness,
-    > hatred,
-    > horror,
-    > humility,
-    > hunger,
-    > interest,
-    > irritation,
-    > joy,
-    > longing,
-    > love,
-    > lust,
-    > madness,
-    > melancholy,
-    > optimism,
-    > pain,
-    > passion,
-    > pity,
-    > pleasure,
-    > pride,
-    > rage,
-    > remorse,
-    > sadness,
-    > satisfaction,
-    > shame,
-    > shock,
-    > smugness,
-    > sorrow,
-    > surprise,
-    > terror,
-    > torment,
-  @endclass
-@endclass
-
 @class vehicle
   > aircraft carrier, aircraft carriers
   > airplane, airplanes
@@ -1547,7 +1453,7 @@
     > age, ages
     > ethnicity, ethnicities
     > gender, genders
-    > races, races
+    > race, races
   @endclass
   
   @class physical
